@@ -6,8 +6,8 @@ import { FILTER_PROPERTIES } from '../lib/mappings';
 import { SaveLoad } from '../components/SaveLoad';
 
 const AI_MODELS = [
-  { id: 'gpt-4o-mini', name: 'GPT-4O Mini' },
-  { id: 'gpt-4o', name: 'GPT-4O' }
+  { id: 'gpt-5-mini', name: 'GPT-5 Mini' },
+  { id: 'gpt-5.2', name: 'GPT-5.2' }
 ];
 
 const FILTER_OPTIONS = [
@@ -20,7 +20,7 @@ const FILTER_OPTIONS = [
 export function AIFilterAgent() {
   const state = useTemplateStore();
   const [apiKey, setApiKey] = useState('');
-  const [model, setModel] = useState('gpt-4o-mini');
+  const [model, setModel] = useState('gpt-5-mini');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);

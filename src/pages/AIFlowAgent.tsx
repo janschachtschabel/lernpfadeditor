@@ -28,7 +28,7 @@ export default function AIFlowAgent() {
 
   // Settings from localStorage
   const [apiKey, setApiKey] = useState('');
-  const [model, setModel] = useState('gpt-4o-mini');
+  const [model, setModel] = useState('gpt-5-mini');
 
   // Process options
   const [useKIFlow, setUseKIFlow] = useState(true);
@@ -166,7 +166,7 @@ export default function AIFlowAgent() {
   useEffect(() => {
     const envApiKey = import.meta.env.VITE_OPENAI_API_KEY || '';
     const storedApiKey = localStorage.getItem('openai_api_key') || '';
-    const storedModel = localStorage.getItem('openai_model') || 'gpt-4o-mini';
+    const storedModel = localStorage.getItem('openai_model') || 'gpt-5-mini';
     const storedWloFilterSubject = localStorage.getItem('wlo_filter_subject') === 'true';
     const storedWloFilterEducationalLevel = localStorage.getItem('wlo_filter_educational_level') === 'true';
     setApiKey(envApiKey || storedApiKey);

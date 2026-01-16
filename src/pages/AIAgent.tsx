@@ -5,16 +5,14 @@ import { Editor } from '../components/Editor';
 import { processTemplate } from '../lib/api';
 
 const AI_MODELS = [
-  { id: 'gpt-4o-mini', name: 'GPT-4O Mini' },
-  { id: 'gpt-4o', name: 'GPT-4O' },
-  { id: 'gpt-4-1106-preview', name: 'GPT-4 Turbo' },
-  { id: 'gpt-4', name: 'GPT-4' },
+  { id: 'gpt-5-mini', name: 'GPT-5 Mini' },
+  { id: 'gpt-5.2', name: 'GPT-5.2' },
 ];
 
 export function AIAgent() {
   const state = useTemplateStore();
   const [apiKey, setApiKey] = useState('');
-  const [model, setModel] = useState('gpt-4o-mini');
+  const [model, setModel] = useState('gpt-5-mini');
   const [userInput, setUserInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);

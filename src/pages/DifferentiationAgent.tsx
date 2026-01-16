@@ -3,8 +3,8 @@ import { useTemplateStore, DifferentiationOption, Actor } from '../store/templat
 import { SaveLoad } from '../components/SaveLoad';
 
 const AI_MODELS = [
-  { id: 'gpt-4o-mini', name: 'GPT-4O Mini (schnell)' },
-  { id: 'gpt-4o', name: 'GPT-4O (empfohlen)' },
+  { id: 'gpt-5-mini', name: 'GPT-5 Mini (schnell)' },
+  { id: 'gpt-5.2', name: 'GPT-5.2 (empfohlen)' },
 ];
 
 interface GeneratedDiff {
@@ -16,7 +16,7 @@ interface GeneratedDiff {
 export function DifferentiationAgent() {
   const state = useTemplateStore();
   const [apiKey, setApiKey] = useState('');
-  const [model, setModel] = useState('gpt-4o-mini');
+  const [model, setModel] = useState('gpt-5-mini');
   const [status, setStatus] = useState<string[]>([]);
   const [processing, setProcessing] = useState(false);
   const [generatedDiffs, setGeneratedDiffs] = useState<GeneratedDiff[]>([]);
