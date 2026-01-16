@@ -1,3 +1,6 @@
+// Template type alias for compatibility
+export type Template = any;
+
 // Update WLOMetadata interface to support arrays
 export interface Resource {
   id: string;

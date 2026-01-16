@@ -139,9 +139,14 @@ export function PatternElements() {
     });
   };
 
-  const handleUpdateFeedback = (index: number, updates: Partial<typeof feedback.comments[0]>) => {
+  const handleUpdateFeedback = (index: number, updates: Partial<{ date: string; name: string; comment: string }>) => {
     const newComments = [...feedback.comments];
-    newComments[index] = { ...newComments[index], ...updates };
+    const current = newComments[index];
+    if (typeof current === 'object') {
+      newComments[index] = { ...current, ...updates };
+    } else {
+      newComments[index] = { date: '', name: '', comment: current || '', ...updates };
+    }
     setFeedback({ comments: newComments });
   };
 
@@ -457,45 +462,48 @@ export function PatternElements() {
       <div className="bg-white p-6 rounded-lg shadow">
         <h2 className="text-xl font-semibold mb-4">Feedback</h2>
         <div className="space-y-4">
-          {feedback.comments.map((comment, index) => (
-            <div key={index} className="border p-4 rounded-lg">
-              <div className="grid grid-cols-2 gap-4 mb-2">
+          {feedback.comments.map((comment, index) => {
+            const commentObj = typeof comment === 'object' ? comment : { date: '', name: '', comment: comment };
+            return (
+              <div key={index} className="border p-4 rounded-lg">
+                <div className="grid grid-cols-2 gap-4 mb-2">
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700">Datum</label>
+                    <input
+                      type="date"
+                      value={commentObj.date}
+                      onChange={(e) => handleUpdateFeedback(index, { date: e.target.value })}
+                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700">Name</label>
+                    <input
+                      type="text"
+                      value={commentObj.name}
+                      onChange={(e) => handleUpdateFeedback(index, { name: e.target.value })}
+                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    />
+                  </div>
+                </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700">Datum</label>
-                  <input
-                    type="date"
-                    value={comment.date}
-                    onChange={(e) => handleUpdateFeedback(index, { date: e.target.value })}
+                  <label className="block text-sm font-medium text-gray-700">Kommentar</label>
+                  <textarea
+                    value={commentObj.comment}
+                    onChange={(e) => handleUpdateFeedback(index, { comment: e.target.value })}
+                    rows={2}
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   />
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">Name</label>
-                  <input
-                    type="text"
-                    value={comment.name}
-                    onChange={(e) => handleUpdateFeedback(index, { name: e.target.value })}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-                  />
-                </div>
+                <button
+                  onClick={() => handleRemoveFeedback(index)}
+                  className="mt-2 text-red-600 hover:text-red-800"
+                >
+                  Entfernen
+                </button>
               </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700">Kommentar</label>
-                <textarea
-                  value={comment.comment}
-                  onChange={(e) => handleUpdateFeedback(index, { comment: e.target.value })}
-                  rows={2}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-                />
-              </div>
-              <button
-                onClick={() => handleRemoveFeedback(index)}
-                className="mt-2 text-red-600 hover:text-red-800"
-              >
-                Entfernen
-              </button>
-            </div>
-          ))}
+            );
+          })}
           <button
             onClick={handleAddFeedback}
             className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"

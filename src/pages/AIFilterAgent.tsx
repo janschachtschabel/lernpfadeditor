@@ -25,7 +25,7 @@ export function AIFilterAgent() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
   const [status, setStatus] = useState<string[]>([]);
-  const [selectedFilters, setSelectedFilters] = useState([
+  const [selectedFilters, setSelectedFilters] = useState<string[]>([
     FILTER_PROPERTIES.TITLE,
     FILTER_PROPERTIES.CONTENT_TYPE,
     FILTER_PROPERTIES.DISCIPLINE

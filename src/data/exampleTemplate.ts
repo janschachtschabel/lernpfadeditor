@@ -1,3 +1,5 @@
+import { Actor, LearningEnvironment } from '../store/templateStore';
+
 export const exampleActors: Actor[] = [
   {
     id: "A1",

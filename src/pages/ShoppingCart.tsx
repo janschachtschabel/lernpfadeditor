@@ -198,34 +198,37 @@ export function ShoppingCart() {
     const existingResources = selectedType === 'material' ? env.materials : 
                               selectedType === 'tool' ? env.tools : env.services;
 
-    const newResources = cartItems.map((item, index) => {
-      const baseResource = {
-        id: `${selectedEnvironment}-${selectedType.charAt(0).toUpperCase()}${existingResources.length + index + 1}`,
+    if (selectedType === 'material') {
+      const newMaterials = cartItems.map((item, index) => ({
+        id: `${selectedEnvironment}-M${existingResources.length + index + 1}`,
         name: item.name,
+        material_type: item.wlo_metadata.subject || 'Allgemein',
         source: 'database' as const,
         access_link: item.wlo_metadata.wwwUrl || '',
         wlo_metadata: item.wlo_metadata
-      };
-
-      switch (selectedType) {
-        case 'material':
-          return { ...baseResource, material_type: item.wlo_metadata.subject || 'Allgemein' };
-        case 'tool':
-          return { ...baseResource, tool_type: 'Software' };
-        case 'service':
-          return { ...baseResource, service_type: 'Digital' };
-        default:
-          return baseResource;
-      }
-    });
-
-    const updateData = selectedType === 'material' 
-      ? { materials: [...env.materials, ...newResources] }
-      : selectedType === 'tool'
-      ? { tools: [...env.tools, ...newResources] }
-      : { services: [...env.services, ...newResources] };
-
-    state.updateEnvironment(selectedEnvironment, updateData);
+      }));
+      state.updateEnvironment(selectedEnvironment, { materials: [...env.materials, ...newMaterials] });
+    } else if (selectedType === 'tool') {
+      const newTools = cartItems.map((item, index) => ({
+        id: `${selectedEnvironment}-T${existingResources.length + index + 1}`,
+        name: item.name,
+        tool_type: 'Software' as const,
+        source: 'database' as const,
+        access_link: item.wlo_metadata.wwwUrl || '',
+        wlo_metadata: item.wlo_metadata
+      }));
+      state.updateEnvironment(selectedEnvironment, { tools: [...env.tools, ...newTools] });
+    } else {
+      const newServices = cartItems.map((item, index) => ({
+        id: `${selectedEnvironment}-S${existingResources.length + index + 1}`,
+        name: item.name,
+        service_type: 'Digital' as const,
+        source: 'database' as const,
+        access_link: item.wlo_metadata.wwwUrl || '',
+        wlo_metadata: item.wlo_metadata
+      }));
+      state.updateEnvironment(selectedEnvironment, { services: [...env.services, ...newServices] });
+    }
     setCartItems([]);
     setError('Ressourcen wurden erfolgreich zur Lernumgebung hinzugefügt');
   };

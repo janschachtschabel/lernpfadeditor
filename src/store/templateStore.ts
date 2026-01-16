@@ -84,6 +84,7 @@ export interface Tool {
   access_link: string;
   database_id?: string;
   filter_criteria?: FilterCriteria;
+  wlo_metadata?: any[];
 }
 
 export interface Service {
@@ -94,6 +95,7 @@ export interface Service {
   access_link: string;
   database_id?: string;
   filter_criteria?: FilterCriteria;
+  wlo_metadata?: any[];
 }
 
 export interface LearningEnvironment {
@@ -206,7 +208,7 @@ interface TemplateState {
   }>;
   related_patterns: string[];
   feedback: {
-    comments: string[];
+    comments: Array<string | { date: string; name: string; comment: string }>;
   };
   sources: Array<{
     source_id: string;
