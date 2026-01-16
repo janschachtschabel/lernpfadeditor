@@ -14,7 +14,7 @@ const AI_MODELS = [
 export function AIAgent() {
   const state = useTemplateStore();
   const [apiKey, setApiKey] = useState('');
-  const [model, setModel] = useState('gpt-4o');
+  const [model, setModel] = useState('gpt-4o-mini');
   const [userInput, setUserInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
