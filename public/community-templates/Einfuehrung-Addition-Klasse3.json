@@ -1,0 +1,2083 @@
+{
+  "metadata": {
+    "title": "Einführung in die Addition (Klasse 3)",
+    "description": "45-minütiger Lernpfad zur Einführung in die Addition für die 3. Klasse. Enthält bildgestützte Zugänge und sprachliche Differenzierung für eine Teilgruppe mit Sprachproblemen. Präsenzunterricht im Klassenzimmer mit optionaler Nutzung digitaler WLO-Ressourcen.",
+    "keywords": [
+      "Addition",
+      "Grundschule",
+      "Klasse 3",
+      "Sprachförderung",
+      "WLO"
+    ],
+    "author": "Didaktik-Experte",
+    "version": "1.0",
+    "created": "2026-01-16T12:00:00.000Z"
+  },
+  "problem": {
+    "problem_description": "Die Kinder der 3. Klasse sollen das Zusammenzählen im Zahlenraum bis 20 verstehen und einfache Additionsstrategien anwenden. Eine Teilgruppe hat Sprachprobleme und benötigt bildgestützte, sprachlich vereinfachte Zugänge.",
+    "description": "Ziel ist ein Grundverständnis der Addition als Zusammenzählen sowie erste sichere Fertigkeiten im Rechnen bis 20. Sprachlich schwächere Kinder sollen durch Visualisierungen und klare Sprachhilfen partizipieren können.",
+    "learning_goals": [
+      "Addition als Zusammenzählen im Zahlenraum bis 20 verstehen",
+      "Einfache Strategien anwenden (Zahlengerade, Zerlegen)",
+      "Selbstständiges Lösen einfacher Additionsaufgaben",
+      "Sprachliche Unterstützung nutzen, um Ergebnisse zu benennen"
+    ],
+    "didactic_keywords": [
+      "Einstieg–Erarbeitung–Sicherung",
+      "Bildgestützte Unterstützung",
+      "Differenzierung",
+      "Partnerarbeit",
+      "WLO-Ressourcen"
+    ],
+    "challenges": [
+      "Heterogene Rechen- und Sprachkompetenzen",
+      "Begrenzte Zeit (45 Minuten)",
+      "Technische Verfügbarkeit von Tablets/Beamer"
+    ]
+  },
+  "context": {
+    "target_group": "Schülerinnen und Schüler der 3. Klasse (Grundschule)",
+    "subject": "Mathematik",
+    "educational_level": "Grundschule - Klasse 3",
+    "prerequisites": "Sicheres Zählen bis 20; Verständnis von 'mehr' und 'weniger'; erste Erfahrungen mit Mengen",
+    "time_frame": "45 Minuten"
+  },
+  "influence_factors": [
+    "Anzahl der Lernenden und Verfügbarkeit von Helfern (z. B. Förderkräfte)",
+    "Technische Ausstattung (Beamer, Tablets)",
+    "Sprachliche Heterogenität",
+    "Materialvorbereitung (Stationen, Bildkarten)"
+  ],
+  "solution": {
+    "solution_description": "Strukturierter 45-minütiger Ablauf mit bildgestütztem Einstieg, entdeckender Erarbeitung an der Zahlengerade und in Partnerarbeit, differenzierten Übungsstationen und einer kurzen Sicherung. Sprachfördergruppe erhält vereinfachte Anweisungen, Bild-Text-Karten und Satzrahmen.",
+    "approach": "Einstieg mit Bildkarten (aktivierend), Erarbeitung über Zahlengerade und Materialarbeit (entdeckend), Übung in Stationen (differenziert), Sicherung im Plenum (Reflexion und Quiz).",
+    "didactic_approach": "Kombination aus whole-class-Moderation und kooperativen Lernformen; gezielte sprachliche Unterstützung und Materialdifferenzierung; Einsatz kurzer digitaler Übungen aus WLO zur Festigung.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "SEQ-ADD-003",
+          "sequence_name": "Einführung in die Addition",
+          "time_frame": "45 Minuten",
+          "learning_goal": "Kinder erkennen Addition als Zusammenzählen und wenden einfache Strategien im Zahlenraum bis 20 an",
+          "phases": [
+            {
+              "phase_id": "SEQ-ADD-003-P1",
+              "phase_name": "Einstieg",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Vorwissen aktivieren; Addition als Zusammenzählen sichtbar machen",
+              "activities": [
+                {
+                  "activity_id": "SEQ-ADD-003-P1-A1",
+                  "name": "Bildkarten Addition",
+                  "description": "Lehrperson zeigt Bildkarten mit kleinen Mengen (z. B. 3 Äpfel + 2 Äpfel). SuS nennen das Ergebnis mündlich oder zeigen die Antwort mit Handzeichen. Bildkarten und kurze Fragen unterstützen die Sprachfördergruppe.",
+                  "duration": 10,
+                  "roles": [
+                    {
+                      "role_id": "SEQ-ADD-003-P1-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Zeigt die Bildkarten, stellt gezielte Fragen und gibt Hilfestellungen; passt Fragen sprachlich für die Sprachfördergruppe an.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M4",
+                          "ENV1-M8",
+                          "ENV1-M1768563270231-n0py",
+                          "ENV1-M1768563268496-n68o"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P1-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Nimmt mündlich oder mit Handzeichen an der Bildkarten-Addition teil und nennt Ergebnisse; nutzt Wort-Bild-Karten bei Bedarf.",
+                      "selected_differentiation": [
+                        "diff_A2_1768563252507_0",
+                        "diff_A2_1768563252507_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M8",
+                          "ENV1-M7",
+                          "ENV1-M1768563269695-o7uf",
+                          "ENV1-M1768563269722-bvaf"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P1-A1-R3",
+                      "role_name": "Aktive Teilnahme (sprachfördernd)",
+                      "actor_id": "A3",
+                      "task_description": "Bearbeitet vereinfachte Bildkarten mit kurzen Fragen/Satzrahmen und nutzt sprachfördernde Übungen zur Unterstützung der Antwortbildung.",
+                      "selected_differentiation": [
+                        "diff_A3_1768563257149_0",
+                        "diff_A3_1768563257149_1",
+                        "diff_A3_1768563257149_2",
+                        "diff_A3_1768563257149_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M5",
+                          "ENV1-M8",
+                          "ENV1-M1768563267729-ff4n",
+                          "ENV1-M1768563269121-ywry"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Vorwissen aktivieren; erste Bedeutungen von Addition als Zusammenzählen erfahrbar machen",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung",
+                      "mündliche Rückmeldungen"
+                    ],
+                    "criteria": [
+                      "SuS können Ergebnis nennen",
+                      "SuS nutzen einfache sprachliche Formulierungen oder Bildkarten"
+                    ]
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "SEQ-ADD-003-P2"
+            },
+            {
+              "phase_id": "SEQ-ADD-003-P2",
+              "phase_name": "Erarbeitung",
+              "time_frame": "20 Minuten",
+              "learning_goal": "Additionsstrategien entdecken (Zahlengerade, Zerlegen) und anwenden",
+              "activities": [
+                {
+                  "activity_id": "SEQ-ADD-003-P2-A1",
+                  "name": "Zahlengerade-Entdeckung",
+                  "description": "Lehrperson demonstriert auf einer großen Zahlengerade Sprünge für Addition. SuS arbeiten in Partnerarbeit an eigenen Zahlengeraden bis 20 und üben Sprünge für Aufgaben.",
+                  "duration": 10,
+                  "roles": [
+                    {
+                      "role_id": "SEQ-ADD-003-P2-A1-R1",
+                      "role_name": "Demonstration & Anleitung",
+                      "actor_id": "A1",
+                      "task_description": "Demonstriert Sprünge auf der großen Zahlengerade, gibt Anleitungen für Partnerarbeit und beobachtet/unterstützt beim Transfer auf eigene Zahlengeraden.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2",
+                          "ENV1-M4",
+                          "ENV1-M1768563269105-dwcm",
+                          "ENV1-M1768563263649-abl6"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P2-A1-R2",
+                      "role_name": "Partnerarbeit - Anwender",
+                      "actor_id": "A2",
+                      "task_description": "Arbeitet in Partnerarbeit an eigener Zahlengerade bis 20, übt Sprünge für Additionsaufgaben und dokumentiert Ergebnisse.",
+                      "selected_differentiation": [
+                        "diff_A2_1768563252507_0",
+                        "diff_A2_1768563252507_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2",
+                          "ENV1-M7",
+                          "ENV1-M1768563262483-iyc2",
+                          "ENV1-M1768563267210-w0ad"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P2-A1-R3",
+                      "role_name": "Partnerarbeit - sprachunterstützt",
+                      "actor_id": "A3",
+                      "task_description": "Übt mit vereinfachten Zahlengeraden, verwendet Satzrahmen zum Beschreiben der Sprünge und erhält gezielte sprachliche Unterstützung.",
+                      "selected_differentiation": [
+                        "diff_A3_1768563257149_0",
+                        "diff_A3_1768563257149_1",
+                        "diff_A3_1768563257149_2",
+                        "diff_A3_1768563257149_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2",
+                          "ENV1-M5",
+                          "ENV1-M1768563268039-tnlz",
+                          "ENV1-M1768563268278-flqe"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Addition als 'Sprung auf der Zahlengerade' begreifen",
+                  "prerequisite_activity": "SEQ-ADD-003-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "SEQ-ADD-003-P2-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Gezielte Lehrbeobachtung",
+                      "Kurze Pausenfragen"
+                    ],
+                    "criteria": [
+                      "SuS zeigen richtige Sprünge",
+                      "SuS können Ergebnis benennen"
+                    ]
+                  }
+                },
+                {
+                  "activity_id": "SEQ-ADD-003-P2-A2",
+                  "name": "Regelentdeckung Partnerarbeit",
+                  "description": "SuS kombinieren Gruppen von Gegenständen (Zählmaterial) und notieren die Ergebnisse; sie formulieren in eigenen Worten die Beobachtung 'Zusammen ist mehr'.",
+                  "duration": 10,
+                  "roles": [
+                    {
+                      "role_id": "SEQ-ADD-003-P2-A2-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Partnerarbeit an, stellt Aufgabenstellungen bereit, beobachtet die Arbeitsprozesse und unterstützt beim Formulieren der Beobachtung 'Zusammen ist mehr'.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M7",
+                          "ENV1-M4",
+                          "ENV1-M1768563266664-2rje",
+                          "ENV1-M1768563262124-4lct"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P2-A2-R2",
+                      "role_name": "Partnerarbeit - Erforscher",
+                      "actor_id": "A2",
+                      "task_description": "Kombiniert Gruppen von Zählmaterial, notiert Ergebnisse auf dem Arbeitsblatt und formuliert gemeinsam die Regelentdeckung.",
+                      "selected_differentiation": [
+                        "diff_A2_1768563252507_0",
+                        "diff_A2_1768563252507_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M7",
+                          "ENV1-M3",
+                          "ENV1-M1768563267824-qjmz",
+                          "ENV1-M1768563263255-jumn"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P2-A2-R3",
+                      "role_name": "Partnerarbeit - sprachbegleitet",
+                      "actor_id": "A3",
+                      "task_description": "Arbeitet mit reduziertem Zählmaterial, verwendet Sprachhilfen zum Beschreiben der Beobachtung und trägt Ergebnisse in vereinfachter Form vor.",
+                      "selected_differentiation": [
+                        "diff_A3_1768563257149_0",
+                        "diff_A3_1768563257149_1",
+                        "diff_A3_1768563257149_2",
+                        "diff_A3_1768563257149_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M7",
+                          "ENV1-M5",
+                          "ENV1-M1768563267988-5e4d",
+                          "ENV1-M1768563269956-5ita"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "SuS ziehen grundlegende Beobachtungen zur Addition und benennen einfache Regeln",
+                  "prerequisite_activity": "SEQ-ADD-003-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Arbeitsblatt-Überprüfung",
+                      "Lehrnotizen"
+                    ],
+                    "criteria": [
+                      "Ergebnisse sind nachvollziehbar notiert",
+                      "SuS können Beobachtung benennen (ggf. mit Satzanfängen)"
+                    ]
+                  }
+                }
+              ],
+              "prerequisite_phase": "SEQ-ADD-003-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "SEQ-ADD-003-P3"
+            },
+            {
+              "phase_id": "SEQ-ADD-003-P3",
+              "phase_name": "Übung",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Festigung durch differenzierte Übungen und ein kurzes interaktives Spiel",
+              "activities": [
+                {
+                  "activity_id": "SEQ-ADD-003-P3-A1",
+                  "name": "Stationen Rechnen",
+                  "description": "Kurzrotation: Station A Arbeitsblatt mit Additionsaufgaben, Station B Tablets mit einfachem Additionsspiel, Station C Bildkarten + Satzrahmen für die Sprachfördergruppe. Ziel: selbstständiges Üben in Kleingruppen.",
+                  "duration": 10,
+                  "roles": [
+                    {
+                      "role_id": "SEQ-ADD-003-P3-A1-R1",
+                      "role_name": "Stationsleitung / Koordination",
+                      "actor_id": "A1",
+                      "task_description": "Organisiert die Kurzrotation, erklärt die drei Stationen kurz (Arbeitsblatt, Tablet-Spiel, Bildkarten mit Satzrahmen) und unterstützt bei Bedarf.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M9",
+                          "ENV1-M4",
+                          "ENV1-M1768563262449-t3kr"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P3-A1-R2",
+                      "role_name": "Stationsteilnehmer - Übung",
+                      "actor_id": "A2",
+                      "task_description": "Bearbeitet Station A (Arbeitsblatt), Station B (Addition Spiel auf Tablet) und Station C (Bildkarten) selbstständig in der Kleingruppe.",
+                      "selected_differentiation": [
+                        "diff_A2_1768563252507_0",
+                        "diff_A2_1768563252507_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M9",
+                          "ENV1-M7",
+                          "ENV1-M1768563267554-98g6",
+                          "ENV1-M1768563267557-ce63"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P3-A1-R3",
+                      "role_name": "Stationsteilnehmer - sprachfördernd",
+                      "actor_id": "A3",
+                      "task_description": "Bearbeitet die Stationen mit angepassten Aufgaben (Bildkarten + Satzrahmen, vereinfachte Arbeitsblätter) und nutzt sprachfördernde Übungen an Station C.",
+                      "selected_differentiation": [
+                        "diff_A3_1768563257149_0",
+                        "diff_A3_1768563257149_1",
+                        "diff_A3_1768563257149_2",
+                        "diff_A3_1768563257149_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M5",
+                          "ENV1-M8",
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Anwendung der Strategien in kurzen, motivierenden Übungen; Sicherung von Erfolgserlebnissen",
+                  "prerequisite_activity": "SEQ-ADD-003-P2-A2",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Sammlung von Ergebnissen an Stationen",
+                      "Kurzbeobachtungen"
+                    ],
+                    "criteria": [
+                      "Aufgaben korrekt gelöst oder Lösungswege nachvollziehbar",
+                      "Sprachfördergruppe nutzt Satzrahmen"
+                    ]
+                  }
+                }
+              ],
+              "prerequisite_phase": "SEQ-ADD-003-P2",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "SEQ-ADD-003-P4"
+            },
+            {
+              "phase_id": "SEQ-ADD-003-P4",
+              "phase_name": "Sicherung",
+              "time_frame": "5 Minuten",
+              "learning_goal": "Kurze Reflexion und Ergebnissicherung; Strategien benennen",
+              "activities": [
+                {
+                  "activity_id": "SEQ-ADD-003-P4-A1",
+                  "name": "Abschluss-Quiz",
+                  "description": "Schnelles 3-Fragen-Quiz im Plenum (mündlich oder Handzeichen). SuS nennen die Strategie, die sie genutzt haben. Lehrperson fasst die wichtigsten Erkenntnisse zusammen.",
+                  "duration": 5,
+                  "roles": [
+                    {
+                      "role_id": "SEQ-ADD-003-P4-A1-R1",
+                      "role_name": "Moderation & Reflexion",
+                      "actor_id": "A1",
+                      "task_description": "Führt das 3-Fragen-Quiz im Plenum durch, fordert SuS zur Nennung genutzter Strategie auf und fasst die wichtigsten Erkenntnisse zusammen.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M1",
+                          "ENV2-M2",
+                          "ENV2-M1768563269330-c1rq",
+                          "ENV2-M1768563268290-h21n"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T2",
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P4-A1-R2",
+                      "role_name": "Quiz-Teilnehmende",
+                      "actor_id": "A2",
+                      "task_description": "Beantwortet die Quizfragen mündlich oder per Handzeichen, benennt die angewandte Strategie kurz und überprüft Verständnis anhand des Videos/Spiels bei Bedarf.",
+                      "selected_differentiation": [
+                        "diff_A2_1768563252507_0",
+                        "diff_A2_1768563252507_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M1",
+                          "ENV2-M2",
+                          "ENV2-M1768563263499-pu0p",
+                          "ENV2-M1768563271320-xvyh"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1",
+                          "ENV2-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "SEQ-ADD-003-P4-A1-R3",
+                      "role_name": "Quiz-Teilnehmende (sprachbegleitet)",
+                      "actor_id": "A3",
+                      "task_description": "Nimmt vereinfacht am Quiz teil (vereinfachte Fragen oder Handzeichen), benennt mit Satzrahmen die genutzte Strategie und erhält ggf. zusätzliche Sprachunterstützung.",
+                      "selected_differentiation": [
+                        "diff_A3_1768563257149_0",
+                        "diff_A3_1768563257149_1",
+                        "diff_A3_1768563257149_2",
+                        "diff_A3_1768563257149_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M1"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Kurzüberprüfung des Lernerfolgs und Sicherung der Kernideen",
+                  "prerequisite_activity": "SEQ-ADD-003-P3-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summative",
+                    "methods": [
+                      "Kurzquiz mündlich",
+                      "Lehrerreflexion"
+                    ],
+                    "criteria": [
+                      "SuS können kurz Strategie nennen",
+                      "Grundlegende Additionsaufgaben gelöst"
+                    ]
+                  }
+                }
+              ],
+              "prerequisite_phase": "SEQ-ADD-003-P3",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_sequence": null,
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_sequence": null
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Klar strukturierter Ablauf (Einstieg–Erarbeitung–Übung–Sicherung)",
+      "Bildgestützte und sprachlich vereinfachte Zugänge für die Fördergruppe",
+      "Kombination aus analogem Material und kurzen digitalen Übungen",
+      "Differenzierung durch Stationen und Partnerarbeit"
+    ],
+    "disadvantages": [
+      "Vorbereitungszeit für Stationen und Materialien",
+      "Abhängigkeit von technischer Ausstattung für digitale Stationen",
+      "Zeitdruck bei heterogener Gruppe"
+    ]
+  },
+  "implementation_notes": [
+    "Materialien (Bildkarten, Zahlengeraden, Zählmaterial, Tablets) vorab bereitlegen und überprüfen.",
+    "Stationskarten und Zeitmesser vorbereiten; Rollen kurz erläutern.",
+    "Satzanfänge und Wort-Bild-Karten für Sprachfördergruppe ausdrucken und griffbereit legen.",
+    "Lehrerleitfaden mit Beispielaufgaben und Lösungen bereithalten."
+  ],
+  "related_patterns": [
+    "Kooperative Lernformen",
+    "Bildgestützte Sprachförderung",
+    "Stationenlernen"
+  ],
+  "feedback": {
+    "comments": [
+      "Bei sehr heterogener Lerngruppe: zusätzliche Hilfsblätter für schwächere SuS vorbereiten.",
+      "Optional: Kurze Folgeübungen in der nächsten Stunde zur Festigung einplanen."
+    ]
+  },
+  "sources": [
+    "wirlernenonline.de (WLO) – Ressourcenbeispiele",
+    "Didaktische Praxis Grundschule: Additionsmethoden"
+  ],
+  "actors": [
+    {
+      "id": "A1",
+      "name": "Lehrperson",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": "25-60",
+        "age_range": "25-60",
+        "gender": "",
+        "gender_distribution": "divers",
+        "ethnic_background": ""
+      },
+      "education": {
+        "education_level": "Lehrkraft Grundschule",
+        "class_level": "3. Klasse",
+        "subject_focus": "Mathematik"
+      },
+      "competencies": {
+        "subject_competencies": [],
+        "cognitive_competencies": [],
+        "methodical_competencies": [],
+        "affective_competencies": [],
+        "digital_competencies": "Einsatz von Videos, Lernspielen und Präsentationstechnik",
+        "language_skills": {
+          "languages": [],
+          "proficiency_levels": {}
+        },
+        "subject_": "Didaktik der Arithmetik, Zahlverständnis",
+        "cognitive_": "Diagnose von Lernständen, adaptive Unterstützung",
+        "methodical_": "Frontalunterricht, Gruppen- und Partnerarbeit, Stationenlernen",
+        "affective_": "Motivationsförderung, positives Feedback"
+      },
+      "social_form": "Plenum, Gruppen, Partnerarbeit",
+      "learning_requirements": {
+        "learning_preferences": "Klare Struktur, Visualisierungen",
+        "special_needs": [],
+        "technical_requirements": "Beamer, Tablets, Zählmaterial"
+      },
+      "interests_and_goals": {
+        "interests": "Inklusiver und motivierender Mathematikunterricht",
+        "goals": "Alle SuS erreichen grundlegende Additionskompetenz",
+        "motivation": {
+          "type": "mixed",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": "Einzelperson",
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "Lernende (Hauptgruppe)",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age": "8-9 Jahre",
+        "age_range": "8-9 Jahre",
+        "gender": "",
+        "gender_distribution": "gemischt",
+        "ethnic_background": ""
+      },
+      "education": {
+        "education_level": "Grundschule",
+        "class_level": "3. Klasse",
+        "subject_focus": "Mathematik"
+      },
+      "competencies": {
+        "subject_competencies": [],
+        "cognitive_competencies": [],
+        "methodical_competencies": [],
+        "affective_competencies": [],
+        "digital_competencies": "Basiskenntnisse bei Lernspielen",
+        "language_skills": {
+          "languages": [],
+          "proficiency_levels": {}
+        },
+        "subject_": "Zählen bis 20, erste Rechenstrategien",
+        "cognitive_": "Mengenverständnis, einfache Problemlösung",
+        "methodical_": "Partnerarbeit, Stationenarbeit",
+        "affective_": "Motiviert durch spielerische Aufgaben"
+      },
+      "social_form": "Plenum, Partnerarbeit, Kleingruppen",
+      "learning_requirements": {
+        "learning_preferences": "Konkrete Materialien, visuelle Unterstützung",
+        "special_needs": [],
+        "technical_requirements": "Zugriff auf Tablets/Beamer in Gruppen (optional)"
+      },
+      "interests_and_goals": {
+        "interests": "Spiele, Erfolgserlebnisse, Gruppenarbeit",
+        "goals": "Sichere Anwendung einfacher Additionsstrategien",
+        "motivation": {
+          "type": "mixed",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": "ca. 20-28",
+        "heterogeneity": "Leistungsheterogenität"
+      },
+      "differentiation_options": [
+        {
+          "id": "diff_A2_1768563252507_0",
+          "label": "Erweiterung & Vertiefung",
+          "description": "Angebote für leistungsstarke Lernende zur selbstständigen Vertiefung und Anwendung mathematischer Inhalte.",
+          "hints": [
+            "Stelle Wahlaufgaben mit offenem Ende bereit (z. B. Beweise, Verallgemeinerungen, reale Modellierungsaufgaben), die über die Standardaufgabe hinausgehen.",
+            "Vergib Expertenrollen: lass Lernende Erklärvideos oder Mini-Workshops für Peers erstellen und komplexe Problemstellungen in Kleingruppen anleiten.",
+            "Biete Projekt- oder Forschungsaufträge mit klaren Bewertungskriterien (z. B. Untersuchung, Präsentation, Vergleich mehrerer Lösungswege) zur selbstständigen Vertiefung an."
+          ]
+        },
+        {
+          "id": "diff_A2_1768563252507_1",
+          "label": "Basisunterstützung",
+          "description": "Gezielte, leistungsbezogene Hilfen für Lernende, die mehr Zeit oder strukturierte Anleitung zum Selbstlösen benötigen.",
+          "hints": [
+            "Zerlege Aufgaben in klare Teilschritte und gib zu jedem Schritt eine Leitfrage oder Checkliste, damit Lernende schrittweise arbeiten können.",
+            "Stelle worked examples und Teilansätze (Anfangshilfen) bereit, damit Lernende leichter in die Aufgabe einsteigen und anschließend selbst weiterrechnen können.",
+            "Organisiere Partnerarbeit mit einem stärkeren Mitschüler und kurze Lehrkraft-Check-ins für unmittelbares Feedback; ermögliche bei Bedarf verlängerte Bearbeitungszeit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "name": "Sprachfördergruppe",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age": "8-9 Jahre",
+        "age_range": "8-9 Jahre",
+        "gender": "",
+        "gender_distribution": "gemischt",
+        "ethnic_background": ""
+      },
+      "education": {
+        "education_level": "Grundschule",
+        "class_level": "3. Klasse (Teilgruppe)",
+        "subject_focus": "Mathematik mit Sprachförderbedarf"
+      },
+      "competencies": {
+        "subject_competencies": [],
+        "cognitive_competencies": [],
+        "methodical_competencies": [],
+        "affective_competencies": [],
+        "digital_competencies": "Einfache Nutzung von Tablets möglich",
+        "language_skills": {
+          "languages": [],
+          "proficiency_levels": {}
+        },
+        "subject_": "Grundlegendes Zählverständnis; Schwierigkeiten bei verbaler Formulierung",
+        "cognitive_": "Lernen mit konkreten Materialien leichter als abstraktes Formulieren",
+        "methodical_": "Benötigen Bildunterstützung, Satzrahmen, kurze Instruktionen",
+        "affective_": "Zusätzliche Ermutigung und Modellierung erforderlich"
+      },
+      "social_form": "Kleingruppe (4-6 Personen) innerhalb Klasse",
+      "learning_requirements": {
+        "learning_preferences": "Bildgestützte Aufgaben, kurze Anweisungen, Satzrahmen",
+        "special_needs": [
+          "Sprachförderung",
+          "vereinfachte Instruktionen"
+        ],
+        "technical_requirements": "Zugriff auf visuelle Materialien und ggf. Kopfhörer"
+      },
+      "interests_and_goals": {
+        "interests": "Bilder, Spiele, partnergestützte Aufgaben",
+        "goals": "Teilnahme am Unterricht und Erreichen einfacher Rechensicherheit",
+        "motivation": {
+          "type": "mixed",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": "ca. 4-6",
+        "heterogeneity": "homogene Sprachfördergruppe"
+      },
+      "differentiation_options": [
+        {
+          "id": "diff_A3_1768563257149_0",
+          "label": "Schritt-für-Schritt-Anweisungen",
+          "description": "Jede Mathematikaufgabe wird in kurze, nummerierte Einzelschritte mit maximal einem Arbeitsauftrag pro Satz aufgeteilt, damit Lernende die Abfolge einfach verfolgen können.",
+          "hints": [
+            "Nummeriere jeden Schritt und beginne mit einem klaren Verb (z. B. „Rechne“, „Zeichne“, „Kreuze an“).",
+            "Formuliere Sätze kurz (idealerweise 6–10 Wörter) und vermeide Nebensätze oder Fachjargon.",
+            "Lies die Schritte gemeinsam laut und lasse die Schüler nach jedem Schritt bestätigen, dass sie verstanden haben."
+          ]
+        },
+        {
+          "id": "diff_A3_1768563257149_1",
+          "label": "Visualisierte Anweisungen",
+          "description": "Unterstütze verbale Instruktionen durch Piktogramme, Farbcodierung, Ablaufbilder und kleine Skizzen, die die Handlung oder Rechnung visualisieren.",
+          "hints": [
+            "Plaziere neben jedem Arbeitsschritt ein passendes Icon oder Bild, das die Aktion symbolisiert (z. B. Taschenrechner für ‚rechnen‘).",
+            "Farbcode Operationen/Schritte (z. B. plus = grün, minus = rot) und nutze die Farben konsistent in Aufgabenblättern und Tafelbild.",
+            "Zeige ein durchgearbeitetes Beispiel mit Pfeilen und Markierungen, die jeden Rechenschritt erklären."
+          ]
+        },
+        {
+          "id": "diff_A3_1768563257149_2",
+          "label": "Wortschatz- und Satzrahmen",
+          "description": "Gebe ein kurzes Glossar mit Schlüsselwörtern und klaren Satzanfängen an die Hand, damit Schülerinnen und Schüler mathematische Aufgaben sprachlich bewältigen und ihre Lösung erklären können.",
+          "hints": [
+            "Stelle pro Stunde 6–8 wichtige Begriffe mit Bild und einfacher Definition bereit (z. B. ‚Summe = Ergebnis einer Addition‘).",
+            "Biete Satzanfänge wie ‚Zuerst..., dann..., am Ende...‚ oder ‚Die Rechnung zeigt, dass...‘ auf Karteikarten an.",
+            "Ermutige Lernende, Lösungen zuerst mündlich mit Satzrahmen zu formulieren, bevor sie sie schriftlich abgeben."
+          ]
+        },
+        {
+          "id": "diff_A3_1768563257149_3",
+          "label": "Reduzierte Textaufgaben mit Modelllösungen",
+          "description": "Vereinfache Textaufgaben sprachlich (kurze Sätze, wenige Fragen), markiere relevante Zahlen und stelle daneben ein gelöstes Beispiel mit erklärten Rechenschritten bereit.",
+          "hints": [
+            "Kürze Aufgaben auf eine Kernfrage, unterstreiche Zahlen und kreise das gesuchte Ergebnis ein, um die Informationsflut zu reduzieren.",
+            "Lege zu jeder Aufgabe ein Musterlösungsblatt mit nummerierten Rechenschritten und kurzer verbaler Begründung bereit.",
+            "Ermögliche die Nutzung von konkreten Materialien (Würfel, Perlen) oder Zeichnungen, damit Sprache durch Handlung ergänzt wird."
+          ]
+        }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Klassenzimmer",
+      "description": "Präsenzunterricht im Klassenraum mit Stationenmaterialien und Beamer.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Bildkarten Addition",
+          "material_type": "Bild",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Bildkarten Addition"
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Zahlengerade bis 20",
+          "material_type": "Bild",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Zahlengerade bis 20"
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Rechenaufgaben Klasse 1",
+          "material_type": "Arbeitsblatt",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Rechenaufgaben Klasse 1"
+        },
+        {
+          "id": "ENV1-M4",
+          "name": "Lehrerleitfaden",
+          "material_type": "Präsentation",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Lehrerleitfaden Addition"
+        },
+        {
+          "id": "ENV1-M5",
+          "name": "Sprachförder Übungen",
+          "material_type": "Übungsmaterial",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Sprachförder Übungen"
+        },
+        {
+          "id": "ENV1-M6",
+          "name": "Additionsvideo",
+          "material_type": "Video",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Additionsvideo"
+        },
+        {
+          "id": "ENV1-M7",
+          "name": "Zählsteine Pack",
+          "material_type": "Übungsmaterial",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Zählsteine"
+        },
+        {
+          "id": "ENV1-M8",
+          "name": "Wort-Bild-Karten",
+          "material_type": "Bild",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Wort-Bild-Karten"
+        },
+        {
+          "id": "ENV1-M9",
+          "name": "Addition Spiel",
+          "material_type": "Lernspiel",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Addition Spiel"
+        },
+        {
+          "id": "ENV1-M1768563270231-n0py",
+          "name": "Addition Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://learningapps.org/display?v=pqkx5mp1a15",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "4195f532-bcbd-4ce1-a4ca-f5cd27ffb705",
+              "title": "Rechnen bis 10",
+              "description": "Mit dieser App kann man bis 10 rechnen.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Elementarbereich",
+                "Primarstufe"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://learningapps.org/display?v=pqkx5mp1a15",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4195f532-bcbd-4ce1-a4ca-f5cd27ffb705&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "4c44d324-12e8-403f-9ebf-cc3749f2930f",
+              "title": "Addieren bis 20 - YouTube",
+              "description": "Addition bis 20",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=c4rZ33S6QBY",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4c44d324-12e8-403f-9ebf-cc3749f2930f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            },
+            {
+              "nodeId": "c9c56a79-a40a-427a-acee-29d995c841c6",
+              "title": "Zahlenmauern-Übungsheft | PIKAS",
+              "description": "Das vorliegende Übungsheft zum Aufgabenformat „Zahlenmauern\" ist eine vorstrukturierte Lernumgebung. In dieser sollen zielgerichtet bestimmte inhaltsbezogene (schnelles Kopfrechnen/Zahlenrechnen) und prozessbezogene Kompetenzen (Auffälligkeiten fokussieren, beschreiben und in Ansätzen begründen) trainiert werden.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe",
+                "Elementarbereich"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://pikas.dzlm.de/material-pik/themenbezogene-individualisierung/haus-6-unterrichts-material/zahlenmauern-%C3%BCbungsheft",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c9c56a79-a40a-427a-acee-29d995c841c6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 82
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563268496-n68o",
+          "name": "Sprachförderung Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/migration/kurzdossiers/252538/russlanddeutsches-verbandswesen",
+          "search_query": "Sprachförderung",
+          "wlo_metadata": [
+            {
+              "nodeId": "e7c6691e-f075-4ae1-bde1-bc886e9e47f3",
+              "title": "Russlanddeutsches Verbandswesen",
+              "description": "Welche gruppenspezifischen Interessen haben russlanddeutsche (Spät-)Aussiedler? Inwiefern werden diese Interessen durch zivilgesellschaftliche Organisationen vertreten? Dieser Beitrag gibt einen kurzen Überblick über das Spektrum an Verbänden, deren ",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/migration/kurzdossiers/252538/russlanddeutsches-verbandswesen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e7c6691e-f075-4ae1-bde1-bc886e9e47f3&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "a23a5d22-6f40-474c-8587-5da9780d38bd",
+              "title": "Nationales Präventionsprogramm gegen islamistischen Extremismus (NPP): Diese Schwerpunkte fördert der Bund",
+              "description": "Mit dem \"Nationalen Präventionsprogramm gegen islamistischen Extremismus\" (NPP) will die Bundesregierung bestimmte Bereiche der Prävention fördern – und stellt zusätzliche Mittel dafür bereit. Als Schwerpunkte sind die Bereiche \"Orte der Prävention\",",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/projekte/jamal/290968/nationales-praeventionsprogramm-gegen-islamistischen-extremismus",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a23a5d22-6f40-474c-8587-5da9780d38bd&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "36addfd8-eb9c-4f1b-8b38-3d681592a810",
+              "title": "Geflüchtete  in der Berufsausbildung ",
+              "description": "Mehr als die Hälfte der in den vergangenen Jahren zugewanderten Geflüchteten ist unter 25. Bei ihrer Integration kommt somit dem Bildungssystem eine zentrale Rolle zu. Dabei strebt ein Großteil der jungen Geflüchteten einen beruflichen Abschluss an. ",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/276439/interview-gefluechtete",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=36addfd8-eb9c-4f1b-8b38-3d681592a810&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563269695-o7uf",
+          "name": "Addition Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://apps.zum.de/apps/18250",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "b0797574-f9e4-4d3f-9397-6a612dbba71d",
+              "title": "Addition bis 10",
+              "description": "Interaktive App um die Addition im Zahlenraum bis 10 zu üben",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://apps.zum.de/apps/18250",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b0797574-f9e4-4d3f-9397-6a612dbba71d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "f963749b-412f-4642-a374-9b412fa64244",
+              "title": "Mach zehn draus",
+              "description": "Fügen Sie Zahlen hinzu, um auf den nächsten Zehner zu ergänzen. \nZerlegen und kombinieren Sie Zahlen. Verwenden Sie den Additionsbildschirm, um zwei beliebige Zahlen zu addieren. Verwenden Sie den Spielbildschirm, um Ihre Strategien für \"Mach's-zur-Zehn\" anzuwenden!\n\nLernziele:\n- Verbessern Sie das Verständnis des Stellenwertes einer Ziffer, indem Sie verschiedene Papiergrößen für Einsen, Zehner und Hunderter verwenden.\n- Entwickeln Sie mathematische Strategien, wenn Sie Zahlen zerlegen und zusammensetzen.\n- Verwenden Sie die \"Mach's-zur-Zehn\" Strategie beim Zählen und Addieren.\nEntwickeln Sie ein Modell der grundlegenden Eigenschaften von Zahlen, einschließlich Kommutativität und Assoziativität.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Schule",
+                "Primarstufe",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://phet.colorado.edu/de/simulations/make-a-ten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f963749b-412f-4642-a374-9b412fa64244&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "a0dab3f5-3694-4d4c-a34d-0b8832a08186",
+              "title": "Rechne Plus im Zahlenraum 10",
+              "description": "Interaktive Übung",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://apps.zum.de/apps/22519",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a0dab3f5-3694-4d4c-a34d-0b8832a08186&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563269722-bvaf",
+          "name": "Bildkarten Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/62dfa2b4-28c0-4150-9801-21ae5a0f0033",
+          "search_query": "Bildkarten",
+          "wlo_metadata": [
+            {
+              "nodeId": "62dfa2b4-28c0-4150-9801-21ae5a0f0033",
+              "title": "Ohne Titel",
+              "description": "",
+              "subject": "Open Educational Resources",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/62dfa2b4-28c0-4150-9801-21ae5a0f0033",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=62dfa2b4-28c0-4150-9801-21ae5a0f0033&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "245936d8-0796-4f65-8653-e34c16a6b54a",
+              "title": "Unterricht ohne Schule",
+              "description": "Die beschlossenen deutschlandweiten Schulschließungen stellen die Schulen vor die nicht zu unterschätzende Herausforderung, den Unterricht vorübergehend aus der Ferne zu gestalten. Aber vielleicht liegt hierin auch eine Chance: Die neuen weitreichend",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/politik/innenpolitik/coronavirus/307400/unterricht-ohne-schule",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=245936d8-0796-4f65-8653-e34c16a6b54a&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "3a7379bd-98e0-4d9f-a26d-60fb07215d50",
+              "title": "Unterricht ohne Schule",
+              "description": "Die beschlossenen deutschlandweiten Schulschließungen stellen die Schulen vor die nicht zu unterschätzende Herausforderung, den Unterricht vorübergehend aus der Ferne zu gestalten. Aber vielleicht liegt hierin auch eine Chance: Die neuen weitreichend",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/digitale-bildung/306654/unterricht-ohne-schule",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=3a7379bd-98e0-4d9f-a26d-60fb07215d50&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563267729-ff4n",
+          "name": "Addition Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/lernhilfe-rationale-zahlen",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "4f29c86d-a9a2-4fd0-a85c-45be8525eada",
+              "title": "Lernhilfe rationale Zahlen",
+              "description": "- Lernhilfe rationale Zahlen\n- anonym\n- 21.09.2020\n- Mathematik\n- 7\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nLernhilfe rationale Zahlen\n17.09.2020\nRationale Zahlen - Lernhilfen\nZahlendarstellungen\nZahlen können im Zahlenstrahl dargestellt werden. Umso weiter links sie stehen, desto kleiner sind sie. Negative Zahlen liegen links von der 0. Sie haben das Vorzeichen \"-\".\nIm Koordinatensystem werden Punkte eingetragen, die zwei Koordinaten haben. Zuerst wird die x-Koordinate und dann die y-Koordinate angegeben:\nP(x|y)\nRechnen mit rationalen Zahlen\nAddition:\n- gleiche Vorzeichen: Addiere die Beträge der Summanden. Das Ergebnis erhält das gemeinsame Vorzeichen.\n- verschiedene Vorzeichen: Subtrahiere den kleineren Betrag vom Größeren. Das Ergebnis erhält das Vorzeichen vom größeren Betrag.\n-5+(-2)=-(5+2)=-7\n-3+4=4-3=1\nSubtraktion:\n- Wandle die Subtraktionsaufgabe in eine Additionsaufgabe um: Addiere dazu die Gegenzahl des Subtrahenden.\n- Löse danach die Aufgabe mit den Regeln der Addition (siehe oben).\n-5-2=-5+(-2)=-7\nMultiplikation/Division:\n- Für Multiplikation und Division gelten dieselben Regeln:\n(-)*(-)=(+) ..... (-):(-)=(+)\n(-)*(+)=(-) ..... (-):(+)=(-)\n(+)*(-)=(-) ..... (+):(-)=(-)\n(+)*(+)=(+) ..... (+):(+)=(+)\n- Es gilt also: bei gleichen Vorzeichen ist das Ergebnis positiv. Bei verschiedenen Vorzeichen ist das Ergebnis negativ.\n-4*(-5)=20\n4:(-8)=-0,5\nVorteilhaft rechnen\n-25*19*(-4)\n=-25*(-4)*19\n=100*19\n=1900\n-17+59+(-33)\n=-17+(-33)+59\n=-50+59=9\nSummanden und Faktoren dürfen vertauscht werden. Du kannst dir damit Rechnungen vereinfachen.\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/lernhilfe-rationale-zahlen\nhttps://www.tutory.de/entdecken/dokument/lernhilfe-rationale-zahlen [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/lernhilfe-rationale-zahlen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4f29c86d-a9a2-4fd0-a85c-45be8525eada&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "a7d6cc04-0369-42cc-ac37-cf1fcea9827f",
+              "title": "Rechnen mit rationalen Zahlen",
+              "description": "- Rechnen mit rationalen Zahlen\n- anonym\n- 15.09.2020\n- Mathematik\n- 7\nRationale Zahlen sind Zahlen, die sich als Bruch zweier ganzer Zahlen darstellen lassen. Das Mengenzeichen ist ℚ.\nBeispiele:\nDer Betrag einer Zahl ist der Abstand dieser Zahl zu null. Gegenzahlen haben den gleichen Betrag.\nBeispiele:\n|-5|=\n|4|=\nAddition\nWir können bei der Addition rationaler Zahlen zwei Fälle unterscheiden:\nFall 1: Die Vorzeichen der Summanden sind gleich\nFall 2: Die Vorzeichen der Summanden sind verschieden\nDu addierst dann die der Zahlen. Das Ergebnis bekommt das Vorzeichen.\nVom größeren wird der kleinere abgezogen. Das Ergebnis bekommt das gleiche des Summanden mit dem größeren Betrag.\n-3 + (-4) = -(3+4)=-(7)=-7\n3 + (-4) = -(4-3)=-(1)=-1\n- -13 + (-3) =\n- 5 + (-2) =\n- 12 + ( ) = 15\n- 10 + (14) =\n- 2 + (-10) =\n- + (3) = 0\n- 14 + ( ) = 11\n- -12 + ( ) = -18\n- 10 + (13) =\n- 4,6 + ( ) = 18,9\n- -5,4 + (-13,6) =\n- 10,7 + (-12,3) =\n- 8,2 + ( ) = 12,7\nhttps://www.tutory.de/entdecken/dokument/rechnen-mit-rationalen-zahlen\nSubtraktion\nJede Subtraktion lässt sich als umschreiben. Dazu wird die des Subtrahenden addiert.\n-3 - (+4) = -3+(-4)=-(3+4)=-7\nErläuterung zur Beispielaufgabe:\nDer Subtrahend ist 4. Die Gegenzahl von 4 ist (-4). Du tauschst also das Minuszeichen der Rechnung mit einem Pluszeichen und tauschst die 4 mit ihrer Gegenzahl. Dann hast Du eine Addition, bei der beide Summanden das gleiche Vorzeichen haben. Dies entspricht dem 1. Fall (siehe Seite 1).\n- - (8) = 16\n- - (10) = -5\n- 0 - (13) =\n- -3 - (0) =\n- - (7) = 6\n- 12 - (-1) =\n- 7 - (-4) =\n- 6 - ( ) = 17\n- - (6) = 7\n- -2,2 - (8,3) =\n- 5,4 - ( ) = -9,5\n- - (3,2) = -9,4\n- -2,4 - (3,1) =\n- - (-4,3) = 7,1\n- -6,4 - (5,3) =\n4\n5\n-4\n-3\n-6\n-0,5\nhttps://www.tutory.de/entdecken/dokument/rechnen-mit-rationalen-zahlen\nMultiplikation\nBei der Multiplikation gehst Du in 2 Schritten vor:\nSchritt 1: Multipliziere beide Faktoren miteinander ohne die Vorzeichen zu beachten.\nSchritt 2: Bestimme das Vorzeichen. Hierbei gibt es wieder zwei Fälle:\nF [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/rechnen-mit-rationalen-zahlen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a7d6cc04-0369-42cc-ac37-cf1fcea9827f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "6e73a72f-888d-486e-b86c-f903aaddb313",
+              "title": "Addition & Subtraktion im ZR 100",
+              "description": "- Addition & Subtraktion im ZR 100\n- anonym\n- 16.09.2020\n- Grundschule\n- Mathematik\n- 2\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nAddition & Subtraktion im ZR 100\n10.02.2018\n1\nBerechne schrittweise!\n17+36 =\n36+15=\n19+27=\n42+19=\n54+18=\n55+25=\n39-17 =\n54-38=\n85-27=\n2\nIch suche eine Zahl. Meine Zahl ist um 8 kleiner als 35.\n- Rechnung:\n- Antwort:\n3\nWenn du zu meiner Zahl 25 dazuzählst erhältst du 70.\n- Rechnung:\n- Antwort:\n4\nIch suche eine Zahl. Meine Zahl ist um 55 größer als 35.\n- Rechnung:\n- Antwort:\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100 [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e73a72f-888d-486e-b86c-f903aaddb313&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563269121-ywry",
+          "name": "Kleine Mengen Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.grundschulkoenig.de/kopfrechnen/",
+          "search_query": "Kleine Mengen",
+          "wlo_metadata": [
+            {
+              "nodeId": "08ec78e9-8ddc-4276-acbc-f46964e3e746",
+              "title": "Kopfrechnen",
+              "description": "Kostenlose Arbeitsblätter und Übungen zum Thema Kopfrechnen für Mathe in der 2. Klasse an der Grundschule  - zum einfachen Herunterladen und Ausdrucken als PDF",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/kopfrechnen/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=08ec78e9-8ddc-4276-acbc-f46964e3e746&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "aaeeea75-d4af-4475-b48b-df48f5f9e256",
+              "title": "Domino zum 1x1",
+              "description": "Kostenlose Arbeitsblätter und Übungen mit einem Domino zum 1x1 für Mathe in der 2. Klasse an der Grundschule  - zum einfachen Herunterladen und Ausdrucken als PDF",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/mathe/2-klasse/domino-zum-1x1/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=aaeeea75-d4af-4475-b48b-df48f5f9e256&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "2115fccc-4c10-4ce2-8c2c-65c3ea707f55",
+              "title": "Sach- und Textaufgaben zum 1x1",
+              "description": "Kostenlose Arbeitsblätter und Übungen mit Sach- und Textaufgaben zum 1x1 für Mathe in der 2. Klasse an der Grundschule  - zum einfachen Herunterladen und Ausdrucken als PDF",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/mathe/2-klasse/sach-und-textaufgaben/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=2115fccc-4c10-4ce2-8c2c-65c3ea707f55&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563269105-dwcm",
+          "name": "Addition Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.geogebra.org/m/C9XEr9qH",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "2e64e3dd-79f6-4b39-a0ae-9814c60f0259",
+              "title": "Addition rationaler Zahlen",
+              "description": "",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.geogebra.org/m/C9XEr9qH",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=2e64e3dd-79f6-4b39-a0ae-9814c60f0259&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "4f29c86d-a9a2-4fd0-a85c-45be8525eada",
+              "title": "Lernhilfe rationale Zahlen",
+              "description": "- Lernhilfe rationale Zahlen\n- anonym\n- 21.09.2020\n- Mathematik\n- 7\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nLernhilfe rationale Zahlen\n17.09.2020\nRationale Zahlen - Lernhilfen\nZahlendarstellungen\nZahlen können im Zahlenstrahl dargestellt werden. Umso weiter links sie stehen, desto kleiner sind sie. Negative Zahlen liegen links von der 0. Sie haben das Vorzeichen \"-\".\nIm Koordinatensystem werden Punkte eingetragen, die zwei Koordinaten haben. Zuerst wird die x-Koordinate und dann die y-Koordinate angegeben:\nP(x|y)\nRechnen mit rationalen Zahlen\nAddition:\n- gleiche Vorzeichen: Addiere die Beträge der Summanden. Das Ergebnis erhält das gemeinsame Vorzeichen.\n- verschiedene Vorzeichen: Subtrahiere den kleineren Betrag vom Größeren. Das Ergebnis erhält das Vorzeichen vom größeren Betrag.\n-5+(-2)=-(5+2)=-7\n-3+4=4-3=1\nSubtraktion:\n- Wandle die Subtraktionsaufgabe in eine Additionsaufgabe um: Addiere dazu die Gegenzahl des Subtrahenden.\n- Löse danach die Aufgabe mit den Regeln der Addition (siehe oben).\n-5-2=-5+(-2)=-7\nMultiplikation/Division:\n- Für Multiplikation und Division gelten dieselben Regeln:\n(-)*(-)=(+) ..... (-):(-)=(+)\n(-)*(+)=(-) ..... (-):(+)=(-)\n(+)*(-)=(-) ..... (+):(-)=(-)\n(+)*(+)=(+) ..... (+):(+)=(+)\n- Es gilt also: bei gleichen Vorzeichen ist das Ergebnis positiv. Bei verschiedenen Vorzeichen ist das Ergebnis negativ.\n-4*(-5)=20\n4:(-8)=-0,5\nVorteilhaft rechnen\n-25*19*(-4)\n=-25*(-4)*19\n=100*19\n=1900\n-17+59+(-33)\n=-17+(-33)+59\n=-50+59=9\nSummanden und Faktoren dürfen vertauscht werden. Du kannst dir damit Rechnungen vereinfachen.\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/lernhilfe-rationale-zahlen\nhttps://www.tutory.de/entdecken/dokument/lernhilfe-rationale-zahlen [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/lernhilfe-rationale-zahlen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4f29c86d-a9a2-4fd0-a85c-45be8525eada&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            },
+            {
+              "nodeId": "8b2b9a92-4c55-469b-9fb2-0cdf4b0d122f",
+              "title": "Addition und Subtraktion im Zahlenraum 100 000",
+              "description": "kostenlose Arbeitsblätter für das Addieren und Subtrahieren im ZR 100000  für die 4. Klasse der Grundschule in Mathematik",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/mathe/4-klasse/zahlenraum-100-000/addition-und-subtraktion/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8b2b9a92-4c55-469b-9fb2-0cdf4b0d122f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563263649-abl6",
+          "name": "Zahlengerade Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/%22Rationale%20Zahlen%22%20mit%20Hilfe%20von%20H5P%20festigen",
+          "search_query": "Zahlengerade",
+          "wlo_metadata": [
+            {
+              "nodeId": "a3d801a5-a8b9-483d-9e88-8466f38de13f",
+              "title": "\"Rationale Zahlen\" mit Hilfe von H5P festigen",
+              "description": "Klasse: 7",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/%22Rationale%20Zahlen%22%20mit%20Hilfe%20von%20H5P%20festigen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a3d801a5-a8b9-483d-9e88-8466f38de13f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563262483-iyc2",
+          "name": "Zahlengerade Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://phet.colorado.edu/de/simulations/number-line-distance",
+          "search_query": "Zahlengerade",
+          "wlo_metadata": [
+            {
+              "nodeId": "52d18a66-f1fa-411b-918a-66f1fa011b14",
+              "title": "Zahlengerade: Abstand",
+              "description": "Die Subtraktion ist mehr als eine Operation - sie ist auch der Abstand zwischen zwei Zahlen! Erforschen Sie die Entfernung zwischen einer Person und einem Haus, einem Vogel und einem Fisch und den Temperaturunterschied zwischen zwei Orten. Vergleichen Sie die absolute Entfernung mit der gerichteten Entfernung und stärken Sie Ihre Muskeln auf dem Zahlenstrahl.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://phet.colorado.edu/de/simulations/number-line-distance",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=52d18a66-f1fa-411b-918a-66f1fa011b14&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563267210-w0ad",
+          "name": "Addition Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/bereitstellung/dokument/9b83e71c-40a0-4c8a-92c5-3b059feb718e",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "97739f63-153b-4d94-a113-3cf1a00cb7ac",
+              "title": "Mathematik - Addition - Level 1 - A",
+              "description": "1  / 5 Berechne! 7 + 4 =  4 + 5 =  8 + 1 =  1 + 5 =  3 + 9 =  2  / 5 Berechne! 9 -   = 7 6 -   = 3 9 -   = 5 8 -   = 4 8 -   = 2 3  / 5 Berechne!  - 2 = 5  - 3 = 5  - 4 = 5  - 5 = 1  - 4 = 6 Punkte :  / 15 >  14 Punkte: Super! Bereit für das nächste Level! > 10 Punkte: Gut! Versuch weiter dich zu verbessern! > 7 Punkte: Okay! Das kannst du noch besser! 0 - 7 Punkte: Du musst noch üben! Gib nicht auf! Mathematik Seite  1 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/mathematik-addition-level-1-a Name:  Mathematik - Addition - Level 1 - A 01.01.2020 Zusatzaufgaben für schnelle Schüler*innen 4 Bereit für mehr? 26 + 3=  81 + 10=  5 Bereit für mehr? 64 -  = 55 22 -  = 18 6 Bereit für mehr?  - 7= 24  - 6= 79 Mathematik Seite  2 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokumen",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/9b83e71c-40a0-4c8a-92c5-3b059feb718e",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=97739f63-153b-4d94-a113-3cf1a00cb7ac&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "6e73a72f-888d-486e-b86c-f903aaddb313",
+              "title": "Addition & Subtraktion im ZR 100",
+              "description": "- Addition & Subtraktion im ZR 100\n- anonym\n- 16.09.2020\n- Grundschule\n- Mathematik\n- 2\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nAddition & Subtraktion im ZR 100\n10.02.2018\n1\nBerechne schrittweise!\n17+36 =\n36+15=\n19+27=\n42+19=\n54+18=\n55+25=\n39-17 =\n54-38=\n85-27=\n2\nIch suche eine Zahl. Meine Zahl ist um 8 kleiner als 35.\n- Rechnung:\n- Antwort:\n3\nWenn du zu meiner Zahl 25 dazuzählst erhältst du 70.\n- Rechnung:\n- Antwort:\n4\nIch suche eine Zahl. Meine Zahl ist um 55 größer als 35.\n- Rechnung:\n- Antwort:\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100 [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e73a72f-888d-486e-b86c-f903aaddb313&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "45b7ff8a-4f4e-43dd-8188-b47a3c2ffe1c",
+              "title": "Addition, Multiplikation, Subraktion",
+              "description": "Addiere! 71 + 56 =  69 + 98 =  90 + 62 =  11 + 76 =  77 + 88 =  17 + 43 =  30 + 97 =  84 + 49 =  45 + 61 =  86 + 59 =  39 + 87 =  85 + 52 =  https://www.youtube.com/watch?v=Vn3D_xMLtDQ 2 Multipliziere! 13 * 46 =  28 * 50 =  29 * 27 =  11 * 42 =  19 * 28 =  17 * 46 =  19 * 50 =  26 * 24 =  27 * 36 =  https://www.youtube.com/watch?v=6PK9OE9DJhg 3 Wie lautet die fehlende Zahl? 39 +   = 57 47 +   = 51 5 +   = 86 44 +   = 62 49 +   = 59 33 +   = 76 39 +   = 90 28 +   = 76 30 +   = 70 https://www.youtube.com/watch?v=E3PwUDzSSIM 4 Wie lautete die fehlende Zahl? 79 -   = 47 75 -   = 48 79 -   = 45 59 -   = 43 62 -   = 46 98 -   = 41 51 -   = 32 61 -   = 5 85 -   = 23 Mathematik Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/c8031480",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/b5c07273-22ba-4921-a513-3f4ea603a49b",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=45b7ff8a-4f4e-43dd-8188-b47a3c2ffe1c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563268039-tnlz",
+          "name": "Zahlengerade Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/5afa96d0",
+          "search_query": "Zahlengerade",
+          "wlo_metadata": [
+            {
+              "nodeId": "8f984589-e096-480e-b016-aa0c26bbe0c5",
+              "title": "Menge Z der ganzen Zahlen",
+              "description": "- Menge Z der ganzen Zahlen\n- anonym\n- 30.06.2020\n- Mittlere Reife\n- Mathematik\n- 6, 7\nDie Zahlen +1; +2; +3; ... sind ganze Zahlen oder natürliche Zahlen.\nDie Zahlen -1; -2; -3; ... sind ganze Zahlen.\nDie ganzen Zahlen lassen sich auf der Zahlengeraden anordnen.\nZeichne eine Zahlengerade und trage die Werte von -4 bis +5 ein.\nJe weiter links eine Zahl auf der Zahlengeraden steht, desto ist die Zahl. Umgekehrt: Je weiter eine Zahl steht, desto ist die Zahl.\nDenke dir die Zahlen als Temperaturangaben. -20°C ist sicher kleiner als +5°C\nAddition und Subtraktion von ganzen Zahlen\na) gegebenenfalls Klammern auflösen.\nBeachte dazu:\nSteht nichts vor der Klammer denken wir uns ein +\ngleiches Rechen- und Vorzeichen: Plus\nverschiedene Rechen - und Vorzeichen: Minus\nb) Zahlen mit gleichen Rechen- und Vorzeichen:\nsteht nichts vor einer Zahl denken wir uns ein +\nGemeinsames Zeichen hinschreiben\nbeide Zahlen addieren\nc) Zahlen mit verschiedenen Rechen- und Vorzeichen:\nsteht nichts vor einer Zahl denken wir uns ein + größere Zahl suchen\nVorzeichen der größeren Zahl hinschreiben\nbeide Zahlen voneinander subtrahieren\nWende das Rezept an:\n(+18) + (-14) =\n(-9) - (-13) =\n(-15) + (-11) =\n24 + 35 =\n-41 - 28 =\n-15 - 11 =\n-24 + 35 =\n18 - 14 =\n-9 + 13 =\nhttps://www.tutory.de/entdecken/dokument/5afa96d0 [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/5afa96d0",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8f984589-e096-480e-b016-aa0c26bbe0c5&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "f9ebcfc9-ba09-4449-aa90-b6a0927f064f",
+              "title": "Aufgabe aus \"Aufgaben zu Zahlenstrahl und Zahlengerade\"",
+              "description": "Zeichne einen Zahlenstrahl bis 1200. Wähle 1 cm für je 100.Trage dann die Zahlen 350, 425, 504 und 1195 möglichst genau ein.ZahlenstrahlHätte …",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://serlo.org/276742",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f9ebcfc9-ba09-4449-aa90-b6a0927f064f&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "5ca9db4e-fcf5-4738-b1d8-f11db4f90760",
+              "title": "Rationale Zahlen",
+              "description": "Die rationalen Zahlen sind alle Zahlen, die als Bruch  geschrieben werden können, wie bspw. . Aber auch Dezimalzahlen, wie  gehören dazu. …",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Bild",
+              "wwwUrl": "https://serlo.org/56112",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=5ca9db4e-fcf5-4738-b1d8-f11db4f90760&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563268278-flqe",
+          "name": "Addition Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://phet.colorado.edu/de/simulations/number-line-operations",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "abc2a7fe-4e01-4020-82a7-fe4e01102021",
+              "title": "Zahlenstrahl: Operationen",
+              "description": "Erkunden Sie die Operationen mit ganzen Zahlen anhand eines authentischen Kontexts des Nettovermögens und verallgemeinern Sie dann mit einer Zahlenreihe. Experimentieren Sie mit der Addition und Subtraktion von positiven und negativen Zahlen und machen Sie Vorhersagen darüber, ob die Summe positiv oder negativ sein wird.\n\nLernziele\n- Addition und Subtraktion ganzer Zahlen auf einer horizontalen Zahlenreihe darstellen\n- Die Addition und Subtraktion ganzer Zahlen mit Hilfe von Zahlenstellen begründen\n- Die logische Notwendigkeit nutzen, um zu begründen, dass die Addition das Gegenteil der Subtraktion bewirkt oder dass die Addition (oder Subtraktion) einer negativen ganzen Zahl das Gegenteil der Addition (oder Subtraktion) einer positiven ganzen Zahl bewirkt.\n- Äquivalenzklassen von ganzzahligen Summen und Differenzen erkennen und bilden\n- Zeigen, dass eine Zahl und ihr additiver Kehrwert (Gegenteil) eine Summe von 0 haben\n- Situationen mit positiver Summe bzw. Differenz, negativer Summe bzw. Differenz und Nullsumme bzw. -differenz in einem Nettowertkontext beschreiben\n- Betrachten Sie die Addition eines Negativs als Äquivalent zur Subtraktion eines Positivs und erklären Sie, warum diese Beziehung in Kontexten wie z. B. dem Nettovermögen sinnvoll ist.\n- Betrachten Sie die Subtraktion eines Negativs als Äquivalent zur Addition eines Positivs und erklären Sie, warum diese Beziehung in Kontexten wie z. B. dem Reinvermögen sinnvoll ist.\n- Ein Zahlenstrahl für Addition und Subtraktion auf neue Zusammenhänge anwenden.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://phet.colorado.edu/de/simulations/number-line-operations",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=abc2a7fe-4e01-4020-82a7-fe4e01102021&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "68b2f4f7-9ab4-4796-b2f4-f79ab45796e4",
+              "title": "Vektor Addition: Gleichungen",
+              "description": "Experimentieren Sie mit Vektorgleichungen und vergleichen Sie Vektorsummen und -differenzen. Passen Sie die Basisvektoren an oder untersuchen Sie das Skalarprodukt, indem Sie die Koeffizienten in der Gleichung anpassen. Geben Sie Vektoren in kartesischen oder Polarkoordinaten an und ermitteln Sie Betrag, Orientierung und die Komponenten jedes Vektors.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://phet.colorado.edu/de/simulations/vector-addition-equations",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=68b2f4f7-9ab4-4796-b2f4-f79ab45796e4&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "d3d83e83-b34c-41c4-983e-83b34c91c448",
+              "title": "Vektor Addition",
+              "description": "Lernen Sie, Vektoren zu addieren. Ziehen Sie Vektoren in das Koordinatensystem, ändern Sie Länge und Winkel, und führen Sie die Addition durch. Betrag, Winkel und Komponenten jedes Vektors können in verschiedenster Weise angezeigt werden.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://phet.colorado.edu/de/simulations/vector-addition",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d3d83e83-b34c-41c4-983e-83b34c91c448&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563266664-2rje",
+          "name": "Addition Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://pikas.dzlm.de/material-pik/themenbezogene-individualisierung/haus-6-unterrichts-material/zahlenmauern-%C3%BCbungsheft",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "c9c56a79-a40a-427a-acee-29d995c841c6",
+              "title": "Zahlenmauern-Übungsheft | PIKAS",
+              "description": "Das vorliegende Übungsheft zum Aufgabenformat „Zahlenmauern\" ist eine vorstrukturierte Lernumgebung. In dieser sollen zielgerichtet bestimmte inhaltsbezogene (schnelles Kopfrechnen/Zahlenrechnen) und prozessbezogene Kompetenzen (Auffälligkeiten fokussieren, beschreiben und in Ansätzen begründen) trainiert werden.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe",
+                "Elementarbereich"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://pikas.dzlm.de/material-pik/themenbezogene-individualisierung/haus-6-unterrichts-material/zahlenmauern-%C3%BCbungsheft",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c9c56a79-a40a-427a-acee-29d995c841c6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "5fec4878-d3a0-4a90-b3f7-5a501bc082f5",
+              "title": "Online-Würfel — Würfelsimulator!",
+              "description": "Würfel-Simulator: Man kann mit einer unterschiedlichen Anzahl an Würfeln mit unterschiedlichen Zahlenwerten würfeln und die gewürfelten Augenzahlen addieren. Das Ergebnis wird angezeigt.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I",
+                "Elementarbereich"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://online-wuerfel.de/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=5fec4878-d3a0-4a90-b3f7-5a501bc082f5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            },
+            {
+              "nodeId": "643ec62b-97c8-44aa-bd41-1c41abe029fb",
+              "title": "Graspable Math",
+              "description": "Tool für mathematische Gleichungen bzw. Aufgaben",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://graspablemath.com/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=643ec62b-97c8-44aa-bd41-1c41abe029fb&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 75
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563262124-4lct",
+          "name": "Zählen Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.haus-der-kleinen-forscher.de/fileadmin/Redaktion/1_Forschen/Themen-Broschueren/Broschuere_Mathematik_Zahlen-Zaehlen-Rechnen_01.pdf",
+          "search_query": "Zählen",
+          "wlo_metadata": [
+            {
+              "nodeId": "33fd7d35-8c7e-4f53-bf3f-15f60329dfbb",
+              "title": "Zahlen, Zählen, Rechnen Mathematik entdecken",
+              "description": "Mit der vorliegenden Broschüre möchten wir Sie darin unterstützen, die zahlreichen \nForschungsanlässe in Ihrem pädagogischen Alltag mit den Kindern zu erkennen und \nspielerisch aufzugreifen. Sie gliedert sich in fünf Teile: Nach einem fachlichen Einblick in \ndie Themen „Zahlen“, „Zählen“ und „Rechnen“ und deren Bezüge zu den Inhalten der \nBildungs- und Rahmenlehrpläne wendet sich die Broschüre dem „Blick vom Kind aus“ \nzu. Wie entwickelt sich die Zahlvorstellung bei Kindern? Wie zählen sie z. B., wenn sie die \n„richtige“ Bezeichnung für Zahlen noch nicht kennen? Im Beitrag von Prof. Dr. Christoph \nSelter erfahren Sie an vielfältigen Beispielen, wie kreativ die Lösungswege der Mädchen \nund Jungen oftmals sind und dass die kindliche Logik in sich durchaus schlüssig ist, auch \nwenn wir sie erst mal nicht verstehen. Der dritte Teil widmet sich dem Mathematikkreis, \nder in Anlehnung an den Forschungskreis für das systematische Forschen mit Kindern im \nBereich der Mathematik von der Stiftung „Haus der kleinen Forscher“ und Experten aus der \nFachdidaktik und Fachwissenschaft entwickelt wurde. Die Phasen des kindlichen Forschens \nwerden an Beispielen aus der Praxis erläutert, ebenso orientieren sich die Praxisideen im \nanschließenden Praxiskapitel am Mathematikkreis. Die Broschüre endet mit wissenswerten \nHintergrundinformationen, einem Glossar und Literaturempfehlungen.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Elementarbereich",
+                "Primarstufe"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://www.haus-der-kleinen-forscher.de/fileadmin/Redaktion/1_Forschen/Themen-Broschueren/Broschuere_Mathematik_Zahlen-Zaehlen-Rechnen_01.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=33fd7d35-8c7e-4f53-bf3f-15f60329dfbb&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "51d814ff-af10-4e98-9a3a-c991cd0646ec",
+              "title": "Edu-Breakout Mathematik \"Laplace\"",
+              "description": "Edu-Breakout im Fach Mathematik zur Wiederholung der Bestimmung von Wahrscheinlichkeit und zum Kennenlernen von Laplace und der Laplace-Wahrscheinlichkeit. Förderung der Teamfähigkeit und Problemlösekompetenz; relative Häufigkeit, Zufallsexperiment ",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsidee",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/51d814ff-af10-4e98-9a3a-c991cd0646ec",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=51d814ff-af10-4e98-9a3a-c991cd0646ec&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563267824-qjmz",
+          "name": "Addition Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "6e73a72f-888d-486e-b86c-f903aaddb313",
+              "title": "Addition & Subtraktion im ZR 100",
+              "description": "- Addition & Subtraktion im ZR 100\n- anonym\n- 16.09.2020\n- Grundschule\n- Mathematik\n- 2\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nAddition & Subtraktion im ZR 100\n10.02.2018\n1\nBerechne schrittweise!\n17+36 =\n36+15=\n19+27=\n42+19=\n54+18=\n55+25=\n39-17 =\n54-38=\n85-27=\n2\nIch suche eine Zahl. Meine Zahl ist um 8 kleiner als 35.\n- Rechnung:\n- Antwort:\n3\nWenn du zu meiner Zahl 25 dazuzählst erhältst du 70.\n- Rechnung:\n- Antwort:\n4\nIch suche eine Zahl. Meine Zahl ist um 55 größer als 35.\n- Rechnung:\n- Antwort:\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100 [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e73a72f-888d-486e-b86c-f903aaddb313&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "69275e6a-148f-490d-bac8-803d4d4b91bf",
+              "title": "Assoziativgesetz der Addition (ganze Zahlen)",
+              "description": "",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.geogebra.org/m/Te2rYGeD",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=69275e6a-148f-490d-bac8-803d4d4b91bf&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "97739f63-153b-4d94-a113-3cf1a00cb7ac",
+              "title": "Mathematik - Addition - Level 1 - A",
+              "description": "1  / 5 Berechne! 7 + 4 =  4 + 5 =  8 + 1 =  1 + 5 =  3 + 9 =  2  / 5 Berechne! 9 -   = 7 6 -   = 3 9 -   = 5 8 -   = 4 8 -   = 2 3  / 5 Berechne!  - 2 = 5  - 3 = 5  - 4 = 5  - 5 = 1  - 4 = 6 Punkte :  / 15 >  14 Punkte: Super! Bereit für das nächste Level! > 10 Punkte: Gut! Versuch weiter dich zu verbessern! > 7 Punkte: Okay! Das kannst du noch besser! 0 - 7 Punkte: Du musst noch üben! Gib nicht auf! Mathematik Seite  1 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/mathematik-addition-level-1-a Name:  Mathematik - Addition - Level 1 - A 01.01.2020 Zusatzaufgaben für schnelle Schüler*innen 4 Bereit für mehr? 26 + 3=  81 + 10=  5 Bereit für mehr? 64 -  = 55 22 -  = 18 6 Bereit für mehr?  - 7= 24  - 6= 79 Mathematik Seite  2 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokumen",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/9b83e71c-40a0-4c8a-92c5-3b059feb718e",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=97739f63-153b-4d94-a113-3cf1a00cb7ac&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563263255-jumn",
+          "name": "Zahlenraum 20 Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://apps.zum.de/apps/22520",
+          "search_query": "Zahlenraum 20",
+          "wlo_metadata": [
+            {
+              "nodeId": "97a586ce-5383-4bdf-b980-61c99657a24c",
+              "title": "Rechne im Zahlenraum 20 mit Zehnerübergang | ZUM-Apps",
+              "description": "Interaktive Übung",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://apps.zum.de/apps/22520",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=97a586ce-5383-4bdf-b980-61c99657a24c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563267988-5e4d",
+          "name": "Addition Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "6e73a72f-888d-486e-b86c-f903aaddb313",
+              "title": "Addition & Subtraktion im ZR 100",
+              "description": "- Addition & Subtraktion im ZR 100\n- anonym\n- 16.09.2020\n- Grundschule\n- Mathematik\n- 2\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nAddition & Subtraktion im ZR 100\n10.02.2018\n1\nBerechne schrittweise!\n17+36 =\n36+15=\n19+27=\n42+19=\n54+18=\n55+25=\n39-17 =\n54-38=\n85-27=\n2\nIch suche eine Zahl. Meine Zahl ist um 8 kleiner als 35.\n- Rechnung:\n- Antwort:\n3\nWenn du zu meiner Zahl 25 dazuzählst erhältst du 70.\n- Rechnung:\n- Antwort:\n4\nIch suche eine Zahl. Meine Zahl ist um 55 größer als 35.\n- Rechnung:\n- Antwort:\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100 [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e73a72f-888d-486e-b86c-f903aaddb313&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "48d29898-95ec-41fa-b344-213906046d26",
+              "title": "Mathematik - Addition - Level 2 (1)",
+              "description": "Arbeitsblatt - Mathematik - Addition - Level 2 (1) - Mathematik - tutory.de [...]",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/f0522760",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=48d29898-95ec-41fa-b344-213906046d26&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "41121290-db6d-4998-8d84-a751de46ce3f",
+              "title": "Mathematik - Addition - Level 1 (1)",
+              "description": "- Mathematik - Addition - Level 1 (1)\n- anonym\n- 30.06.2020\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nMathematik - Addition - Level 1 (1)\n31.12.2019\nLernst du noch oder kannst du schon?\n1\nBerechne!\n5 / 5\n- 1 + 2 =\n- 7 + 8 =\n- 6 + 10 =\n- 5 + 5 =\n- 3 + 9 =\n2\nBerechne!\n5 / 5\n- 7 + = 14\n- 10 + = 16\n- 7 + = 11\n- 9 + = 10\n- 5 + = 9\n3\nBerechne!\n5 / 5\n- + 1 = 7\n- + 2 = 8\n- + 3 = 8\n- + 5 = 7\n- + 8 = 17\n/ 15\n- > 14 Punkte: Super! Bereit für das nächste Level!\n- > 10 Punkte: Gut! Versuch weiter dich zu verbessern!\n- > 7 Punkte: Okay! Das kannst du noch besser!\n- 0 - 7 Punkte: Du musst noch üben! Gib nicht auf!\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/96db96ea\nhttps://www.tutory.de/entdecken/dokument/96db96ea\nName:\nMathematik - Addition - Level 1 (1)\n31.12.2019\nZusatzaufgaben für schnelle Schüler*innen\n4\nBereit für mehr?\n- 2 + 94=\n- 9 + 48=\n5\nBereit für mehr?\n- 2 + = 82\n- 6 + = 54\n6\nBereit für mehr?\n- + 12= 14\n- + 85= 93\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/96db96ea\nhttps://www.tutory.de/entdecken/dokument/96db96ea [...]",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/96db96ea",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=41121290-db6d-4998-8d84-a751de46ce3f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563269956-5ita",
+          "name": "Zusammenzählen Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=c_S7ocTCyxU",
+          "search_query": "Zusammenzählen",
+          "wlo_metadata": [
+            {
+              "nodeId": "1f69b327-e306-4c9f-8bb8-d056b289c097",
+              "title": "Der größte Fehler beim Rechnen mit Variablen",
+              "description": "JETZT ERHÄLTLICH: \"Referate mit Stil. Von der Themenfindung bis zur Bewertung\" von Miriam Müller\nhttps://amzn.to/2rN75YH\n\neBook: https://amzn.to/2rLmRUV\n\nEs ist verlockend. 2 + 2 kann man so schnell zusammenrechnen und seit der Grundschule macht man fast nichts anderes. Wenn da dann ein x dazwischen steht, kann man das schon mal übersehen oder ignorieren. Aber 2x + 2 ist nicht 4. Auch nicht 4x. Das ist 2x + 2 und sonst gar nichts.\n\nDas ist der schlimmste Fehler, den du beim Rechnen mit Variablen machen kannst. Nicht nur, weil er einfach immer ganz fürchterlich falsch ist, sondern auch, weil er so unnötig ist. Das ist, als würdest du rechnen 1 + 1 = 3. Ein blöder Fehler, der vermeidbar ist.\n\nViel Spaß beim Lernen!\n\n***\n\nWillst du schoolseasy unterstützen?\n\nhttp://www.paypal.me/schoolseasy\n\n***\n\nDirekt zum Kanal: http://www.youtube.com/schoolseasy\n\nschoolseasy Podcast: http://www.schoolseasy.de/blog\n\nFacebook: http://www.facebook.com/schoolseasy\n\nWebsite: http://www.schoolseasy.de\n\n***\n\nNoch mehr Mathe gefällig? https://www.youtube.com/playlist?list=PLT9X9x5fyMJKroOqsz2becwKFAYHDU1H7",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=c_S7ocTCyxU",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1f69b327-e306-4c9f-8bb8-d056b289c097&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "a5de9ef2-2b1e-440f-8efd-b8730583000a",
+              "title": "Schriftliches Subtrahieren - Eine Auffrischung uralter Kenntnisse",
+              "description": "JETZT ERHÄLTLICH: \"Referate mit Stil. Von der Themenfindung bis zur Bewertung\" von Miriam Müller\nhttps://amzn.to/2rN75YH\n\neBook: https://amzn.to/2rLmRUV\n\nMan macht es im Alltag nicht ganz so oft wie das Addieren, aber auch das schriftliche Subtrahieren braucht man hin und wieder mal. Bloß vergisst man eben doch gerne, wie es ging. Also, wie war das gleich?\n\nViel Spaß beim Lernen!\n\n***\n\nWillst du schoolseasy unterstützen?\n\nhttp://www.paypal.me/schoolseasy\n\n***\n\nMehr Infos\n\nMathematik Wissen: http://www.mathematik-wissen.de/schriftliches_subtrahieren.htm [Stand: 09.09.2019]\n\n***\n\nDirekt zum Kanal: http://www.youtube.com/schoolseasy\n\nFacebook: http://www.facebook.com/schoolseasy\n\nWebsite: http://www.schoolseasy.de\n\n***\n\nNoch mehr Auffrischungskurse: https://www.youtube.com/playlist?list=PLT9X9x5fyMJKB2ejzVWx62XBY6oJgTjU6",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=j41yvZWzK68",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a5de9ef2-2b1e-440f-8efd-b8730583000a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "1e4b25f6-5a1b-4263-81ad-58b0690470cb",
+              "title": "Medienbildungskonzept/Informationsmanagement",
+              "description": "An Schulen sind unzählige Termine zu organisieren. Um Kollisionen zu vermeiden, ist eine sorgfältige Jahresplanung notwendig. Angesichts der Komplexität dieser Aufgabe - gerade an sehr großen Schulen - verwundert es mich als Berater immer wieder, warum eine solche Planung oft immer noch auf Papier oder wahlweise sehr fragmentiert in verschiedensten Systemen erfolgt. Wenn Koordinatoren an Gymnasien z.B. untereinander keine Zugriff auf die Terminplanungen der anderen Koordinatoren haben, sind bei Planungen sehr aufwändige und komplexe persönliche Abstimmungen notwendig.",
+              "subject": "Medienbildung",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Medienbildungskonzept/Informationsmanagement",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1e4b25f6-5a1b-4263-81ad-58b0690470cb&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563262449-t3kr",
+          "name": "Addition Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/mathematik/unterrichtseinheit/ue/ganze-zahlen-grundrechenarten-verbinden-und-anwenden/",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "90f08dfa-bba4-473d-9cd0-2e3c6140a867",
+              "title": "Ganze Zahlen - Grundrechenarten verbinden und anwenden",
+              "description": "Nach einer Unterrichtsphase, in der die Grundrechenarten Addition, Subtraktion, Multiplikation und Division mit ganzen Zahlen getrennt betrachtet wurden, um die einzelnen Rechenregeln zu stabilisieren, ist es notwendig, die Grundrechenarten miteinander zu verbinden. Dabei sollten die bisher erworbenen Kenntnisse vertieft und auf Aufgaben in neuem Kontext angewandt werden.\n\nIn dieser Unterrichtseinheit werden drei unterschiedliche Übungsmöglichkeiten vorgestellt, mithilfe derer das Rechnen mit ganzen Zahlen vertieft werden kann. Anhand von zwei Übungen soll dabei zuerst das Ausgangsniveau gesichert werden. Darin werden noch einmal die Kenntnisse zur Addition und Multiplikation von ganzen Zahlen auf einen aktuellen Stand gebracht. Durch die Verwendung von variablen Rechenbäumen werden in einem zweiten Schritt die Rechenarten miteinander verbunden. Abschließend wird das bereits im Bereich der Dezimalzahlen behandelte arithmetische Mittel in Verbindung mit dem Rechnen mit ganzen Zahlen aufgefrischt und in einen Anwendungskontext, der Ermittlung von Durchschnittstemperaturen, gestellt.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Entdeckendes Lernen",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/mathematik/unterrichtseinheit/ue/ganze-zahlen-grundrechenarten-verbinden-und-anwenden/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=90f08dfa-bba4-473d-9cd0-2e3c6140a867&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "7d6ef3ac-07d2-4593-8022-198791da98b6",
+              "title": "Subtraktion ganzer Zahlen mit GeoGebra",
+              "description": "Die mit der kostenlosen Mathematiksoftware GeoGebra erstellte dynamische Veranschaulichung ermöglicht es Schülerinnen und Schülern, den Zusammenhang zwischen der Addition und der Subtraktion ganzer Zahlen und somit die Regel für die Subtraktion ganzer Zahlen durch angeleitetes, systematisches Probieren selbstständig zu finden. Die direkten Rückmeldungen des interaktiven Arbeitsblattes begleiten die Lernenden auf ihrem individuellen Lernweg, auf dem sie das Lerntempo und den Grad der Veranschaulichung selbst bestimmen. Sie gelangen so durch Veranschaulichung zu der Einsicht, dass man die Subtraktion ganzer Zahlen auf die Addition der Gegenzahl zurückführen kann.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/mathematik/unterrichtseinheit/ue/subtraktion-ganzer-zahlen-mit-geogebra/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7d6ef3ac-07d2-4593-8022-198791da98b6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "8ffbeecc-7e9c-46f7-b9d2-a2b18556e9d2",
+              "title": "Addition ganzer Zahlen - dynamisch entdecken",
+              "description": "Die hier vorgestellte dynamische Veranschaulichung wurde mit der kostenlosen Mathematiksoftware GeoGebra erstellt und in eine interaktive Webseite eingebunden. Dies ermöglicht es den Schülerinnen und Schülern zu probieren, zu beobachten und ihre Vermutungen einer Prüfung zu unterziehen. Direkte Rückmeldungen unterstützen die Lernenden auf dem Weg, die Rechenregeln für die Addition ganzer Zahlen zu finden, sowie bei der Anwendung und Festigung der erworbenen Kenntnisse. Durch den Einsatz interaktiver dynamischer Arbeitsblätter erfährt das selbstverantwortete Lernen eine methodische Bereicherung.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/mathematik/unterrichtseinheit/ue/addition-ganzer-zahlen-dynamisch-entdecken/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8ffbeecc-7e9c-46f7-b9d2-a2b18556e9d2&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563267554-98g6",
+          "name": "Addition Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "6e73a72f-888d-486e-b86c-f903aaddb313",
+              "title": "Addition & Subtraktion im ZR 100",
+              "description": "- Addition & Subtraktion im ZR 100\n- anonym\n- 16.09.2020\n- Grundschule\n- Mathematik\n- 2\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nAddition & Subtraktion im ZR 100\n10.02.2018\n1\nBerechne schrittweise!\n17+36 =\n36+15=\n19+27=\n42+19=\n54+18=\n55+25=\n39-17 =\n54-38=\n85-27=\n2\nIch suche eine Zahl. Meine Zahl ist um 8 kleiner als 35.\n- Rechnung:\n- Antwort:\n3\nWenn du zu meiner Zahl 25 dazuzählst erhältst du 70.\n- Rechnung:\n- Antwort:\n4\nIch suche eine Zahl. Meine Zahl ist um 55 größer als 35.\n- Rechnung:\n- Antwort:\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100\nhttps://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100 [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/addition-subtraktion-im-zr-100",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e73a72f-888d-486e-b86c-f903aaddb313&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 100
+            },
+            {
+              "nodeId": "97739f63-153b-4d94-a113-3cf1a00cb7ac",
+              "title": "Mathematik - Addition - Level 1 - A",
+              "description": "1  / 5 Berechne! 7 + 4 =  4 + 5 =  8 + 1 =  1 + 5 =  3 + 9 =  2  / 5 Berechne! 9 -   = 7 6 -   = 3 9 -   = 5 8 -   = 4 8 -   = 2 3  / 5 Berechne!  - 2 = 5  - 3 = 5  - 4 = 5  - 5 = 1  - 4 = 6 Punkte :  / 15 >  14 Punkte: Super! Bereit für das nächste Level! > 10 Punkte: Gut! Versuch weiter dich zu verbessern! > 7 Punkte: Okay! Das kannst du noch besser! 0 - 7 Punkte: Du musst noch üben! Gib nicht auf! Mathematik Seite  1 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/mathematik-addition-level-1-a Name:  Mathematik - Addition - Level 1 - A 01.01.2020 Zusatzaufgaben für schnelle Schüler*innen 4 Bereit für mehr? 26 + 3=  81 + 10=  5 Bereit für mehr? 64 -  = 55 22 -  = 18 6 Bereit für mehr?  - 7= 24  - 6= 79 Mathematik Seite  2 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokumen",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/9b83e71c-40a0-4c8a-92c5-3b059feb718e",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=97739f63-153b-4d94-a113-3cf1a00cb7ac&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "45b7ff8a-4f4e-43dd-8188-b47a3c2ffe1c",
+              "title": "Addition, Multiplikation, Subraktion",
+              "description": "Addiere! 71 + 56 =  69 + 98 =  90 + 62 =  11 + 76 =  77 + 88 =  17 + 43 =  30 + 97 =  84 + 49 =  45 + 61 =  86 + 59 =  39 + 87 =  85 + 52 =  https://www.youtube.com/watch?v=Vn3D_xMLtDQ 2 Multipliziere! 13 * 46 =  28 * 50 =  29 * 27 =  11 * 42 =  19 * 28 =  17 * 46 =  19 * 50 =  26 * 24 =  27 * 36 =  https://www.youtube.com/watch?v=6PK9OE9DJhg 3 Wie lautet die fehlende Zahl? 39 +   = 57 47 +   = 51 5 +   = 86 44 +   = 62 49 +   = 59 33 +   = 76 39 +   = 90 28 +   = 76 30 +   = 70 https://www.youtube.com/watch?v=E3PwUDzSSIM 4 Wie lautete die fehlende Zahl? 79 -   = 47 75 -   = 48 79 -   = 45 59 -   = 43 62 -   = 46 98 -   = 41 51 -   = 32 61 -   = 5 85 -   = 23 Mathematik Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/c8031480",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/b5c07273-22ba-4921-a513-3f4ea603a49b",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=45b7ff8a-4f4e-43dd-8188-b47a3c2ffe1c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768563267557-ce63",
+          "name": "Addition Lernspiel",
+          "material_type": "Lernspiel",
+          "source": "database",
+          "access_link": "https://learningapps.org/7360108",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "b69867bf-20ac-4a55-a434-701b371ffb67",
+              "title": "Verliebte Zahlen! Rechnen bis 20 schwer",
+              "description": "\n\nInteraktive App: Im Zahlenraum bis 20 sind zu Additionsaufgaben die korrekten Ergebnisse zuzuordnen",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://learningapps.org/7360108",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b69867bf-20ac-4a55-a434-701b371ffb67&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "1ea05528-18fa-43cf-896d-0190cc043fe7",
+              "title": "Buchstabe,Zahl / Zahl,Buchstabe 13",
+              "description": "Memory-Spiel zur addition und Subtraktion im Zahlenraum 20\n\n",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://learningapps.org/9015663",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1ea05528-18fa-43cf-896d-0190cc043fe7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "6e953e36-97e2-411e-b45f-b0e82ae961f7",
+              "title": "ZR 100 Plus rechnen mit und ohne Zehnerübergang",
+              "description": "Interaktive App: Zu Additions-Aufgaben im Zahlenraum bis 100 sind die richtigen Ergebniss zuzuordnen.\n\n",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://learningapps.org/2872372",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e953e36-97e2-411e-b45f-b0e82ae961f7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Beamer",
+          "tool_type": "Präsentationstechnik",
+          "source": "Schule",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Zählmaterial",
+          "tool_type": "Manipulatives Material",
+          "source": "Schule",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-T3",
+          "name": "Tablets",
+          "tool_type": "Endgeräte",
+          "source": "Schule",
+          "access_link": ""
+        }
+      ],
+      "services": []
+    },
+    {
+      "id": "ENV2",
+      "name": "LMS-Kursraum",
+      "description": "Digitaler Kursraum / Tablets für Lernspiele und Videos (WLO-Ressourcen nutzbar).",
+      "materials": [
+        {
+          "id": "ENV2-M1",
+          "name": "Additionsvideo",
+          "material_type": "Video",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Additionsvideo"
+        },
+        {
+          "id": "ENV2-M2",
+          "name": "Addition Spiel",
+          "material_type": "Lernspiel",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Addition Spiel"
+        },
+        {
+          "id": "ENV2-M1768563269330-c1rq",
+          "name": "Rechenstrategien Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.grundschulkoenig.de/mathe/2-klasse/addition-und-subtraktion/",
+          "search_query": "Rechenstrategien",
+          "wlo_metadata": [
+            {
+              "nodeId": "af1d5c14-1c90-4b94-833d-e00da29a422e",
+              "title": "Addition und Subtraktion",
+              "description": "Kostenlose Arbeitsblätter und Übungen zum Thema Addition und Subtraktion für Mathe in der 2. Klasse an der Grundschule  - zum einfachen Herunterladen und Ausdrucken als PDF",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/mathe/2-klasse/addition-und-subtraktion/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=af1d5c14-1c90-4b94-833d-e00da29a422e&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "33cddc8d-2eed-41c1-84f6-647169cab7e0",
+              "title": "Gemischte Aufgaben: Addieren / Subtrahieren im Zahlenraum 1000",
+              "description": "Kostenlose Arbeitsblätter mit gemischten Aufgaben im Zahlenraum 1000 in der 3. Klasse für Mathematik in der Grundschule ",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/mathe/3-klasse/zahlenraum-1000/gemischte-aufgaben-addieren-subtrahieren-im-zahlenraum-1000/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=33cddc8d-2eed-41c1-84f6-647169cab7e0&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            },
+            {
+              "nodeId": "2586bd3a-e590-4ca5-8ba8-eb50a46b896a",
+              "title": "Addition mit Zehnerüberschreitung",
+              "description": "Kostenlose Arbeitsblätter zur Addition mit Zehnerübergang für die 2. Klasse Grundschule - zum einfachen Herunterladen und Ausdrucken als PDF",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/mathe/2-klasse/zahlenraum-100/addition-mit-zehnerueberschreitung/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=2586bd3a-e590-4ca5-8ba8-eb50a46b896a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768563268290-h21n",
+          "name": "Addition Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/%22Rationale%20Zahlen%22%20mit%20Hilfe%20von%20H5P%20festigen",
+          "search_query": "Addition",
+          "wlo_metadata": [
+            {
+              "nodeId": "a3d801a5-a8b9-483d-9e88-8466f38de13f",
+              "title": "\"Rationale Zahlen\" mit Hilfe von H5P festigen",
+              "description": "Klasse: 7",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/%22Rationale%20Zahlen%22%20mit%20Hilfe%20von%20H5P%20festigen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a3d801a5-a8b9-483d-9e88-8466f38de13f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "4c44d324-12e8-403f-9ebf-cc3749f2930f",
+              "title": "Addieren bis 20 - YouTube",
+              "description": "Addition bis 20",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=c4rZ33S6QBY",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4c44d324-12e8-403f-9ebf-cc3749f2930f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "c9c56a79-a40a-427a-acee-29d995c841c6",
+              "title": "Zahlenmauern-Übungsheft | PIKAS",
+              "description": "Das vorliegende Übungsheft zum Aufgabenformat „Zahlenmauern\" ist eine vorstrukturierte Lernumgebung. In dieser sollen zielgerichtet bestimmte inhaltsbezogene (schnelles Kopfrechnen/Zahlenrechnen) und prozessbezogene Kompetenzen (Auffälligkeiten fokussieren, beschreiben und in Ansätzen begründen) trainiert werden.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe",
+                "Elementarbereich"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://pikas.dzlm.de/material-pik/themenbezogene-individualisierung/haus-6-unterrichts-material/zahlenmauern-%C3%BCbungsheft",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c9c56a79-a40a-427a-acee-29d995c841c6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768563263499-pu0p",
+          "name": "Rechenstrategien Video",
+          "material_type": "Video",
+          "source": "database",
+          "access_link": "https://www.uni-muenster.de/Lernroboter/video/#DerOzobotimMathelabyrinth",
+          "search_query": "Rechenstrategien",
+          "wlo_metadata": [
+            {
+              "nodeId": "92ce2604-6296-41a0-b1b0-b9eeb1cb02f5",
+              "title": "Der Ozobot im Mathelabyrinth",
+              "description": "Verwendung des Lernroboters Ozobot Bit zur Förderung der Problemlösekompetenz am Beispiel der Vertiefung von Rechenstrategien | Kurzbeschreibung der geplanten Unterrichts­stunde: Die Unterrichtsstunde findet im Fach Mathematik einer dritten Klasse der Grundschule statt. Die Schüler*innen verwenden den Ozobot Bit, um ein mathematisches Labyrinth zu durchlaufen. Dazu müssen sie Mathematikaufgaben lösen, bei denen sie verschiedene Rechenstrategien anwenden müssen. Des Weiteren modellieren sie ein eigenes Labyrinth unter Berücksichtigung der algorithmischen Codierungen.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.uni-muenster.de/Lernroboter/video/#DerOzobotimMathelabyrinth",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=92ce2604-6296-41a0-b1b0-b9eeb1cb02f5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "b0aa46d5-c51d-47ed-9907-9ba24a4c45b2",
+              "title": "Rechentricks beim Rechnen im Oktalsystem",
+              "description": "Vorlesung von Prof. Christian Spannagel an der PH Heidelberg. Übersicht über alle Videos und Materialien unter http://wikis.zum.de/zum/PH_Heidelberg",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=k0idIUo8PHA",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b0aa46d5-c51d-47ed-9907-9ba24a4c45b2&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768563271320-xvyh",
+          "name": "Kopfrechnen Quiz Tests / Fragebögen",
+          "material_type": "Tests / Fragebögen",
+          "source": "database",
+          "access_link": "https://www.grundschulkoenig.de/religion/evangelische-religion/die-evangelische-kirche/",
+          "search_query": "Kopfrechnen Quiz",
+          "wlo_metadata": [
+            {
+              "nodeId": "910cf88b-63ca-4613-8ed2-c17889c04af9",
+              "title": "Die evangelische Kirche",
+              "description": "Kostenlose Arbeitsblätter und Lösungen zur evangelische Kirche für Religion in der Grundschule - zum einfachen Herunterladen und Ausdrucken als PDF",
+              "subject": "Religion",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/religion/evangelische-religion/die-evangelische-kirche/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=910cf88b-63ca-4613-8ed2-c17889c04af9&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "e971f09e-adce-4dbb-bf60-81b0ac609249",
+              "title": "Kalender",
+              "description": "Kostenlose Arbeitsblätter und Lösungen zum Thema \"Kalender\" für HSU in der Grundschule",
+              "subject": "Sachunterricht",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/hsu-sachkunde/zeit-und-wandel/kalender/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e971f09e-adce-4dbb-bf60-81b0ac609249&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "b85e02d9-991d-4090-953e-c51a55590a93",
+              "title": "Mose",
+              "description": "Kostenlose Arbeitsblätter und Lösungen zu Mose für Religion in der Grundschule - zum einfachen Herunterladen und Ausdrucken als PDF",
+              "subject": "Religion",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.grundschulkoenig.de/religion/personen/mose/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b85e02d9-991d-4090-953e-c51a55590a93&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV2-T1",
+          "name": "Tablets",
+          "tool_type": "Endgeräte",
+          "source": "Schule",
+          "access_link": ""
+        },
+        {
+          "id": "ENV2-T2",
+          "name": "Lernplattform",
+          "tool_type": "LMS",
+          "source": "Schule",
+          "access_link": ""
+        }
+      ],
+      "services": []
+    },
+    {
+      "id": "ENV-DEFAULT",
+      "name": "Standard-Lernumgebung",
+      "description": "Fallback-Umgebung für digitale Inhalte",
+      "materials": [],
+      "tools": [],
+      "services": []
+    }
+  ]
+}

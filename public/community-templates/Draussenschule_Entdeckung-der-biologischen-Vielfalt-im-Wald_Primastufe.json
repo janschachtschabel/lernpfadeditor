@@ -1,0 +1,601 @@
+{
+  "metadata": {
+    "title": "Entdeckung der biologischen Vielfalt im Wald",
+    "description": "Ein interaktives Lernkonzept zur Förderung des Verständnisses für biologische Vielfalt bei Grundschülern durch praktische Erfahrungen im Wald.",
+    "keywords": [
+      "Biologische Vielfalt",
+      "Naturerfahrung",
+      "Wald",
+      "Primarstufe",
+      "Umweltbildung"
+    ],
+    "author": "Anna Müller",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Schüler haben oft wenig Verständnis für die Bedeutung der biologischen Vielfalt und deren Erhaltung. Durch praktische Erfahrungen im Wald soll dieses Verständnis gefördert werden.",
+    "learning_goals": [
+      "Verständnis der biologischen Vielfalt und deren Bedeutung",
+      "Entwicklung von Beobachtungsfähigkeiten in der Natur",
+      "Förderung der Teamarbeit und sozialen Interaktionen",
+      "Bewusstsein für Umweltschutz und Nachhaltigkeit"
+    ],
+    "didactic_keywords": [
+      "Erfahrungslernen",
+      "Naturpädagogik",
+      "Kooperatives Lernen",
+      "Umweltbildung"
+    ]
+  },
+  "context": {
+    "target_group": "Schüler der 3. bis 4. Klasse",
+    "subject": "Biologie",
+    "educational_level": "Primarstufe",
+    "prerequisites": "Grundlegendes Interesse an Natur und Tieren",
+    "time_frame": "3 Stunden"
+  },
+  "influence_factors": [
+    {
+      "factor": "Wetterbedingungen",
+      "description": "Schlechtes Wetter kann die Durchführung der Aktivitäten beeinträchtigen"
+    },
+    {
+      "factor": "Gruppengröße",
+      "description": "Eine zu große Gruppe kann die individuelle Betreuung erschweren"
+    },
+    {
+      "factor": "Verfügbarkeit von Materialien",
+      "description": "Notwendige Materialien müssen im Vorfeld bereitgestellt werden"
+    }
+  ],
+  "solution": {
+    "solution_description": "Durchführung eines interaktiven Waldspaziergangs mit verschiedenen Stationen zur Entdeckung der biologischen Vielfalt.",
+    "didactic_approach": "Erfahrungsorientiertes Lernen mit einem Fokus auf aktives Entdecken und Forschen.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Waldexpedition zur biologischen Vielfalt",
+          "time_frame": "3 Stunden",
+          "learning_goal": "Erforschung und Verständnis der biologischen Vielfalt im Wald",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Einführung",
+              "time_frame": "30 Minuten",
+              "learning_goal": "Vorwissen aktivieren und Interesse wecken",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Waldgespräch",
+                  "description": "Einführung in das Thema durch Diskussion über den Wald und seine Bewohner",
+                  "duration": 30,
+                  "goal": "Aktivierung des Vorwissens und Schaffung von Neugier",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung",
+                      "Mündliche Rückmeldungen"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Interesse zeigen"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert das Gespräch und stellt gezielte Fragen",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Beteiligt sich aktiv am Gespräch",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Erkundung",
+              "time_frame": "120 Minuten",
+              "learning_goal": "Aktive Erkundung der Waldumgebung und Beobachtung von Pflanzen und Tieren",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Naturdetektive",
+                  "description": "Gruppen erkunden den Wald und dokumentieren ihre Funde",
+                  "duration": 60,
+                  "goal": "Beobachtung und Dokumentation der biologischen Vielfalt",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Präsentation der Funde"
+                    ],
+                    "criteria": [
+                      "Kreativität der Dokumentation",
+                      "Teamarbeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Begleitet und unterstützt die Gruppen während der Erkundung",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Naturdetektiv Gruppe",
+                      "actor_id": "A2",
+                      "task_description": "Erforscht den Wald und dokumentiert die Funde in einem Notizbuch",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "Fossilien- und Pflanzensuche",
+                  "description": "Suche nach Pflanzen und Fossilien im Wald",
+                  "duration": 60,
+                  "goal": "Vertiefung des Verständnisses für die biologische Vielfalt",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "branching",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P3-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung",
+                      "Diskussion"
+                    ],
+                    "criteria": [
+                      "Kreativität der Fundstücke",
+                      "Kooperationsfähigkeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Beobachtet die Gruppen und gibt Hilfestellungen",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A2-R2",
+                      "role_name": "Naturdetektiv Gruppe",
+                      "actor_id": "A2",
+                      "task_description": "Sammelt Pflanzen und Fossilien zur Dokumentation",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P3"
+            },
+            {
+              "phase_id": "LS1-P3",
+              "phase_name": "Reflexion und Sicherung",
+              "time_frame": "30 Minuten",
+              "learning_goal": "Reflexion der Erfahrungen und Sicherung des Gelernten",
+              "activities": [
+                {
+                  "activity_id": "LS1-P3-A1",
+                  "name": "Präsentation der Funde",
+                  "description": "Gruppen präsentieren ihre gesammelten Funde und Erkenntnisse",
+                  "duration": 30,
+                  "goal": "Gemeinsame Reflexion und Sicherung des Gelernten",
+                  "prerequisite_activity": "LS1-P2-A2",
+                  "transition_type": "feedback_loops",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summative",
+                    "methods": [
+                      "Präsentation",
+                      "Feedback-Runde"
+                    ],
+                    "criteria": [
+                      "Klarheit der Präsentation",
+                      "Verständnis der biologischen Vielfalt"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert die Präsentationen und gibt Feedback",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R2",
+                      "role_name": "Präsentierende Gruppe",
+                      "actor_id": "A2",
+                      "task_description": "Stellt die gesammelten Funde vor und erklärt deren Bedeutung",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P2",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Aktives und praktisches Lernen in der Natur",
+      "Förderung der Teamarbeit und sozialen Fähigkeiten",
+      "Stärkung des Bewusstseins für Umweltschutz",
+      "Direkte Erfahrungen mit der Natur"
+    ],
+    "disadvantages": [
+      "Abhängigkeit von Wetterbedingungen",
+      "Logistische Herausforderungen bei der Durchführung",
+      "Benötigung von zusätzlichem Personal zur Aufsicht"
+    ]
+  },
+  "implementation_notes": [
+    {
+      "note_id": "Note1",
+      "description": "Sicherstellen, dass alle Materialien vorab bereitgestellt werden"
+    },
+    {
+      "note_id": "Note2",
+      "description": "Wettervorhersage im Voraus überprüfen"
+    },
+    {
+      "note_id": "Note3",
+      "description": "Sicherheitsvorkehrungen für den Waldaufenthalt treffen"
+    }
+  ],
+  "related_patterns": [
+    "Erfahrungslernen",
+    "Naturpädagogik",
+    "Umweltbildung",
+    "Kooperatives Lernen"
+  ],
+  "feedback": {
+    "comments": [
+      {
+        "date": "2024-03-14",
+        "name": "Dr. Weber",
+        "comment": "Tolle Idee, die Schüler aktiv in die Natur einzubeziehen!"
+      },
+      {
+        "date": "2024-03-15",
+        "name": "Herr Schmidt",
+        "comment": "Das Konzept fördert das Verständnis für die Umwelt sehr gut."
+      }
+    ]
+  },
+  "sources": [],
+  "actors": [
+    {
+      "id": "A1",
+      "name": "Anna Müller",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 30,
+        "gender": "weiblich",
+        "ethnic_background": "deutsch"
+      },
+      "education": {
+        "education_level": "Master of Education",
+        "class_level": "Primarstufe",
+        "subject_focus": "Biologie, Umweltbildung"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Biologie",
+          "Umweltbildung"
+        ],
+        "cognitive_competencies": [
+          "Analytisches Denken",
+          "Kreativität"
+        ],
+        "methodical_competencies": [
+          "Erfahrungsorientierte Lehrmethoden",
+          "Gruppenleitung"
+        ],
+        "affective_competencies": [
+          "Empathie",
+          "Kommunikationsfähigkeit"
+        ],
+        "digital_competencies": [
+          "Digitale Mediennutzung",
+          "Präsentationstechnik"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch",
+            "Englisch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2",
+            "Englisch": "B2"
+          }
+        }
+      },
+      "social_form": "Lehrkraft",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praxisorientiert",
+          "Visuelle Unterstützung"
+        ],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Naturpädagogik",
+          "Umweltbildung"
+        ],
+        "goals": [
+          "Förderung des Umweltbewusstseins bei Kindern",
+          "Integration von Lernen im Freien"
+        ],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "Schülergruppe",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age_range": "8-10",
+        "gender_distribution": "gemischt",
+        "ethnic_background": "diverse"
+      },
+      "education": {
+        "education_level": "Primarstufe",
+        "class_level": "3. bis 4. Klasse",
+        "subject_focus": "Biologie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Grundlagen der Biologie",
+          "Erste Beobachtungen in der Natur"
+        ],
+        "cognitive_competencies": [
+          "Beobachtungsvermögen",
+          "Kreativität"
+        ],
+        "methodical_competencies": [
+          "Gruppenarbeit",
+          "Dokumentation"
+        ],
+        "affective_competencies": [
+          "Teamfähigkeit"
+        ],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C1"
+          }
+        }
+      },
+      "social_form": "Klassenverband",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Aktives Lernen",
+          "Visuelle Darstellungen"
+        ],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Natur",
+          "Entdecken"
+        ],
+        "goals": [
+          "Verstehen der biologischen Vielfalt",
+          "Förderung von Teamarbeit"
+        ],
+        "motivation": {
+          "type": "mixed",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 20,
+        "heterogeneity": "hoch"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Waldgebiet für praktische Erkundungen",
+      "description": "Ein Waldgebiet, das sich ideal für praktische Erkundungen der biologischen Vielfalt eignet.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Notizbuch und Stifte",
+          "material_type": "Schreibmaterial",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Notizbuch",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/57bfc743-4c94-4bdd-bdfa-c638a062d151",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Bestimmungskarten für Pflanzen und Tiere",
+          "material_type": "Hilfsmittel",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Pflanzen Tiere",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Fossilien- und Pflanzensammelbehälter",
+          "material_type": "Sammelbehälter",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Fossilien",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Lupe",
+          "tool_type": "Hilfsmittel",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Lupe",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/37a3ad9c-727f-4b74-bbab-27d59015c695",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Kamera",
+          "tool_type": "Technologie",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Kamera",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-T3",
+          "name": "Fernglas",
+          "tool_type": "",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": [
+        {
+          "id": "ENV1-S1",
+          "name": "Naturpädagogische Begleitung",
+          "service_type": "Förderung",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Naturpädagogik",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/6b6786df-9ce9-44bf-8a04-caebd4456fcf",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        }
+      ]
+    }
+  ]
+}

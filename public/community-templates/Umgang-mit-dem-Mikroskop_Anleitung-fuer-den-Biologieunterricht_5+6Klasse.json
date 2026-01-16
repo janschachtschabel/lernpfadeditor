@@ -1,0 +1,659 @@
+{
+  "metadata": {
+    "title": "Umgang mit dem Mikroskop – Einführung in die Mikroskopie",
+    "description": "Ein Lernkonzept zur Einführung in die Mikroskopie für Schüler der 5. und 6. Klasse.",
+    "keywords": [
+      "Mikroskop",
+      "Biologie",
+      "Köhlern",
+      "Präparate herstellen",
+      "Naturwissenschaften"
+    ],
+    "author": "Maximilian Müller",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Schüler der 5. und 6. Klasse haben Schwierigkeiten, das Mikroskop richtig einzustellen und eigene Präparate zu erstellen.",
+    "learning_goals": [
+      "Verständnis der Funktionsweise eines Mikroskops",
+      "Fähigkeit, das Mikroskop korrekt einzustellen (Köhlern)",
+      "Erstellung eigener Mikroskop-Präparate",
+      "Entwicklung der Beobachtungsfähigkeiten"
+    ],
+    "didactic_keywords": [
+      "Experimentelles Lernen",
+      "Handlungsorientierter Unterricht",
+      "Kooperatives Lernen"
+    ]
+  },
+  "context": {
+    "target_group": "Schüler der 5. und 6. Klasse",
+    "subject": "Biologie",
+    "educational_level": "Sekundarstufe I",
+    "prerequisites": "Grundkenntnisse in Biologie und Interesse an Naturwissenschaften",
+    "time_frame": "90 Minuten"
+  },
+  "influence_factors": [
+    {
+      "factor": "Vorwissen der Schüler",
+      "description": "Unterschiedliche Vorkenntnisse im Umgang mit Mikroskopen"
+    },
+    {
+      "factor": "Technische Ausstattung",
+      "description": "Verfügbarkeit von Mikroskopen und Materialien"
+    },
+    {
+      "factor": "Lernmotivation",
+      "description": "Interesse an biologischen Themen und Experimenten"
+    }
+  ],
+  "solution": {
+    "solution_description": "Einführung in die Mikroskopie durch praktische Übungen und gezielte Anleitung.",
+    "didactic_approach": "Handlungsorientiertes Lernen mit theoretischen und praktischen Phasen.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Einführung in das Mikroskop und Köhlern",
+          "time_frame": "45 Minuten",
+          "learning_goal": "Verständnis der Mikroskopfunktion und korrekte Einstellung",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Theoretische Einführung",
+              "time_frame": "15 Minuten",
+              "learning_goal": "Vorstellung des Mikroskops und der Köhlern-Technik",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Präsentation",
+                  "description": "Einführung in die verschiedenen Teile des Mikroskops",
+                  "duration": 15,
+                  "goal": "Verständnis für die Mikroskopstruktur und -funktion",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Fragen zur Präsentation"
+                    ],
+                    "criteria": [
+                      "Verständnis der Mikroskopteile"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Präsentiert die Mikroskopteile und deren Funktionen",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Praktische Anwendung",
+              "time_frame": "30 Minuten",
+              "learning_goal": "Korrektes Köhlern und Beobachtung der Präparate",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Mikroskopieren",
+                  "description": "Einstellen des Mikroskops und Beobachtung vorbereiteter Präparate",
+                  "duration": 30,
+                  "goal": "Erlernen der Köhlern-Technik",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung der Schüler bei der Arbeit"
+                    ],
+                    "criteria": [
+                      "Korrekte Einstellung des Mikroskops",
+                      "Erfolgreiche Beobachtung"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Lernbegleiter",
+                      "actor_id": "A1",
+                      "task_description": "Unterstützt die Schüler beim Mikroskopieren",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Mikroskopiert vorbereitete Präparate und wendet Köhlern an",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": [
+            "LS2"
+          ]
+        },
+        {
+          "sequence_id": "LS2",
+          "sequence_name": "Erstellung eigener Mikroskop-Präparate",
+          "time_frame": "45 Minuten",
+          "learning_goal": "Fähigkeit zur Erstellung einfacher Präparate",
+          "phases": [
+            {
+              "phase_id": "LS2-P1",
+              "phase_name": "Vorbereitung der Präparate",
+              "time_frame": "20 Minuten",
+              "learning_goal": "Erlernen der Schritte zur Herstellung einfacher Präparate",
+              "activities": [
+                {
+                  "activity_id": "LS2-P1-A1",
+                  "name": "Präparat herstellen",
+                  "description": "Herstellung eines Zwiebelschalen- oder Blattpräparats",
+                  "duration": 20,
+                  "goal": "Selbstständige Erstellung eines Mikroskop-Präparats",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS2-P1-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Korrekte Durchführung der Schritte",
+                      "Qualität des Präparats"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS2-P1-A1-R1",
+                      "role_name": "Lernbegleiter",
+                      "actor_id": "A1",
+                      "task_description": "Unterstützt die Schüler bei der Präparat-Herstellung",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M4"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P1-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Erstellt ein eigenes Mikroskop-Präparat",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M4"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS2-P1-A2",
+                  "name": "Präparat analysieren",
+                  "description": "Beobachtung des selbst hergestellten Präparats",
+                  "duration": 10,
+                  "goal": "Erlernen der Beobachtung und Analyse eigener Präparate",
+                  "prerequisite_activity": "LS2-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Peer-Feedback"
+                    ],
+                    "criteria": [
+                      "Selbstständige Analyse",
+                      "Präsentation der Ergebnisse"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS2-P1-A2-R1",
+                      "role_name": "Lernbegleiter",
+                      "actor_id": "A1",
+                      "task_description": "Unterstützt bei der Analyse des Präparats",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P1-A2-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Analysiert das Präparat und präsentiert die Ergebnisse",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [
+            "LS1"
+          ],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Praktische Erfahrungen im Umgang mit Mikroskopen",
+      "Förderung des selbstständigen Lernens",
+      "Entwicklung von Beobachtungs- und Analysefähigkeiten"
+    ],
+    "disadvantages": [
+      "Materialaufwand für Präparate",
+      "Mögliche technische Probleme mit Mikroskopen"
+    ]
+  },
+  "implementation_notes": [
+    {
+      "note_id": "Note1",
+      "description": "Sicherstellen, dass genügend Mikroskope für alle Schüler vorhanden sind."
+    },
+    {
+      "note_id": "Note2",
+      "description": "Vorbereitung der notwendigen Materialien für die Präparat-Herstellung."
+    },
+    {
+      "note_id": "Note3",
+      "description": "Technische Überprüfung der Mikroskope vor dem Unterricht."
+    }
+  ],
+  "related_patterns": [
+    "Experimentielles Lernen",
+    "Entdeckendes Lernen",
+    "Kooperatives Lernen"
+  ],
+  "feedback": {
+    "comments": [
+      {
+        "date": "2024-03-14",
+        "name": "Dr. Fischer",
+        "comment": "Sehr gute Einführung in die Mikroskopie für die unteren Klassen."
+      },
+      {
+        "date": "2024-03-15",
+        "name": "Prof. Schneider",
+        "comment": "Die praktischen Übungen motivieren die Schüler."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "Mikroskopie für Einsteiger",
+      "author": "Anna Becker",
+      "year": 2020,
+      "publisher": "Naturwissenschaften Verlag",
+      "url": "https://example.com/mikroskopie-einsteiger"
+    },
+    {
+      "source_id": "S2",
+      "title": "Der Umgang mit dem Mikroskop",
+      "author": "Thomas Braun",
+      "year": 2021,
+      "publisher": "Schulbuchverlag",
+      "url": "https://example.com/umgang-mit-mikroskop"
+    }
+  ],
+  "actors": [
+    {
+      "id": "A1",
+      "name": "Maximilian Müller",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 30,
+        "gender": "männlich",
+        "ethnic_background": "deutsch"
+      },
+      "education": {
+        "education_level": "Master of Education",
+        "class_level": "Sekundarstufe I",
+        "subject_focus": "Biologie, Chemie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Biologie",
+          "Chemie"
+        ],
+        "cognitive_competencies": [
+          "Analytisches Denken",
+          "Problemlösung"
+        ],
+        "methodical_competencies": [
+          "Experimentelles Lernen",
+          "Differenzierte Unterrichtsgestaltung"
+        ],
+        "affective_competencies": [
+          "Empathie",
+          "Geduld"
+        ],
+        "digital_competencies": [
+          "Lernplattformen",
+          "Digitale Werkzeuge"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch",
+            "Englisch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2",
+            "Englisch": "B2"
+          }
+        }
+      },
+      "social_form": "Lehrkraft",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praxisorientiert",
+          "Digital"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Computer",
+          "Präsentationssystem"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Experimentelle Biologie",
+          "Digitale Bildung"
+        ],
+        "goals": [
+          "Förderung praktischer Lernmethoden",
+          "Integration digitaler Medien in den Biologieunterricht"
+        ],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "Schülergruppe",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age_range": "10-12",
+        "gender_distribution": "gemischt",
+        "ethnic_background": "diverse"
+      },
+      "education": {
+        "education_level": "Sekundarstufe I",
+        "class_level": "5. und 6. Klasse",
+        "subject_focus": "Biologie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Grundlagen der Biologie"
+        ],
+        "cognitive_competencies": [
+          "Kreatives Denken",
+          "Teamarbeit"
+        ],
+        "methodical_competencies": [
+          "Experimentelles Arbeiten",
+          "Präsentationsfähigkeiten"
+        ],
+        "affective_competencies": [
+          "Teamfähigkeit"
+        ],
+        "digital_competencies": [
+          "Grundlegende PC-Kenntnisse"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "B2"
+          }
+        }
+      },
+      "social_form": "Klassenverband",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktische Übungen",
+          "Visuelle Darstellungen"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Mikroskope"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Naturwissenschaften",
+          "Experimente"
+        ],
+        "goals": [
+          "Verständnis biologischer Prozesse",
+          "Entwicklung praktischer Fähigkeiten"
+        ],
+        "motivation": {
+          "type": "mixed",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": 25,
+        "heterogeneity": "hoch"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Biologie-Lernlabor",
+      "description": "Labor ausgestattet mit Mikroskopen und Materialien für den Biologieunterricht.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Mikroskop-Bedienungsanleitung",
+          "material_type": "Dokumentation",
+          "source": "filter",
+          "access_link": "materials/mikroskop_anleitung.pdf",
+          "filter_criteria": {
+            "cclom:title": "Mikroskop",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/ac925aae-1f3c-4817-a9dd-b9b24c336b0d",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Vorbereitete Mikroskop-Präparate",
+          "material_type": "Präparat",
+          "source": "filter",
+          "access_link": "materials/vorbereitete_praeperate.pdf",
+          "filter_criteria": {
+            "cclom:title": "Mikroskopie",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Materialien zur Präparat-Herstellung",
+          "material_type": "Materialset",
+          "source": "filter",
+          "access_link": "materials/praeparate_set.pdf",
+          "filter_criteria": {
+            "cclom:title": "Präparat-Herstellung",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M4",
+          "name": "Mikroskop-Pass",
+          "material_type": "Arbeitsblatt",
+          "source": "filter",
+          "access_link": "materials/mikroskop_pass.pdf",
+          "filter_criteria": {
+            "cclom:title": "Mikroskop",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Mikroskop",
+          "tool_type": "Hardware",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Mikroskop",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Küchenmesser",
+          "tool_type": "Werkzeug",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Küchenmesser",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-T3",
+          "name": "Pipetten",
+          "tool_type": "",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-T4",
+          "name": "Objektträger und Deckgläschen",
+          "tool_type": "",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-T5",
+          "name": "Bechergläser",
+          "tool_type": "",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": [
+        {
+          "id": "ENV1-S1",
+          "name": "Technische Unterstützung",
+          "service_type": "Förderung",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Technische Unterstützung",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        }
+      ]
+    }
+  ]
+}

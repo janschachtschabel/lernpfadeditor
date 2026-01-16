@@ -1,0 +1,881 @@
+{
+  "metadata": {
+    "title": "Müllvermeidung und Nachhaltigkeit im Alltag",
+    "description": "Ein problembasiertes Lernkonzept zur Förderung von Müllvermeidung und Nachhaltigkeit für Schüler der 7. Klasse.",
+    "keywords": [
+      "Müllvermeidung",
+      "Nachhaltigkeit",
+      "Umweltschutz",
+      "Problembasiertes Lernen",
+      "Galerie-Methode"
+    ],
+    "author": "Jan Schachtschabel",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Schüler sollen erkennen, wie sie durch Müllvermeidung aktiv zum Umweltschutz beitragen können, und Lösungsstrategien für den Schulalltag entwickeln.",
+    "learning_goals": [
+      "Verständnis der Bedeutung von Müllvermeidung und Nachhaltigkeit",
+      "Entwicklung praktischer Strategien zur Müllvermeidung im Schulalltag",
+      "Förderung von Teamarbeit und Kommunikationsfähigkeiten",
+      "Sensibilisierung für globale Umweltprobleme"
+    ],
+    "didactic_keywords": [
+      "Problembasiertes Lernen",
+      "Galerie-Methode",
+      "Nachhaltigkeit",
+      "Umweltbildung",
+      "Inklusiver Unterricht"
+    ]
+  },
+  "context": {
+    "target_group": "Schüler der 7. Klasse",
+    "subject": "Sozialkunde/Umweltbildung",
+    "educational_level": "Sekundarstufe I",
+    "prerequisites": "Grundkenntnisse über Umweltschutz und Recycling",
+    "time_frame": "90 Minuten"
+  },
+  "influence_factors": [
+    {
+      "factor": "Sprachliche Heterogenität",
+      "description": "Fünf Schüler mit geringerem Deutsch-Sprachniveau erfordern visuelle und praktische Unterrichtselemente."
+    },
+    {
+      "factor": "Verschiedene Lernumgebungen",
+      "description": "Wechsel zwischen Klassenraum und praktischem Erkundungsbereich fördert das Lernen."
+    },
+    {
+      "factor": "Vorwissen der Schüler",
+      "description": "Unterschiedliche Vorkenntnisse über Müllvermeidung können das Lerntempo beeinflussen."
+    }
+  ],
+  "solution": {
+    "solution_description": "Durchführung einer interaktiven Unterrichtsstunde unter Verwendung der Galerie-Methode, unterstützt durch mediale Inputs und praktische Erkundungen.",
+    "didactic_approach": "Problembasiertes Lernen mit Fokus auf Teamarbeit, praktische Anwendung und visuelle Unterstützung.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Einführung und Problemanalyse",
+          "time_frame": "30 Minuten",
+          "learning_goal": "Schüler erkennen das Problem der Müllvermeidung und entwickeln erste Ideen.",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Gruppenbildung",
+              "time_frame": "5 Minuten",
+              "learning_goal": "Bildung heterogener Kleingruppen für die Zusammenarbeit.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Zufällige Gruppenbildung",
+                  "description": "Schüler werden in vier Gruppen à fünf bis sechs Personen eingeteilt.",
+                  "duration": 5,
+                  "goal": "Heterogene Gruppen schaffen",
+                  "prerequisite_activity": null,
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A1"
+                  ],
+                  "assessment": {
+                    "type": "keine",
+                    "methods": [],
+                    "criteria": []
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Organisiert die Gruppenbildung und stellt sicher, dass sprachliche Vielfalt in den Gruppen vorhanden ist.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Finden sich in den zugeteilten Gruppen zusammen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Input",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Einführung in das Thema Müllvermeidung durch mediale Unterstützung.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Video-Präsentation",
+                  "description": "Vorführung eines kurzen Videos über die Auswirkungen von Müll auf die Umwelt.",
+                  "duration": 5,
+                  "goal": "Bewusstsein für das Problem schaffen",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Fragen zum Video"
+                    ],
+                    "criteria": [
+                      "Aufmerksamkeit",
+                      "Verständnis des Inhalts"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Startet das Video und stellt anschließend Verständnisfragen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Schauen das Video aufmerksam an.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "Diskussion",
+                  "description": "Kurze Klassendiskussion über Eindrücke und Verständnis des Videos.",
+                  "duration": 5,
+                  "goal": "Gedankenaustausch und Vertiefung des Verständnisses",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Mündliche Beiträge"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Relevanz der Beiträge"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert die Diskussion und fasst Kernpunkte zusammen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A2-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Beteiligen sich aktiv an der Diskussion.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P3"
+            },
+            {
+              "phase_id": "LS1-P3",
+              "phase_name": "Aufgabenstellung",
+              "time_frame": "5 Minuten",
+              "learning_goal": "Klare Definition der Aufgabe für die Gruppenarbeit.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P3-A1",
+                  "name": "Aufgabenerklärung",
+                  "description": "Lehrkraft erläutert die Aufgabenstellung für die Gruppenarbeit.",
+                  "duration": 5,
+                  "goal": "Verständnis der Aufgabe sicherstellen",
+                  "prerequisite_activity": "LS1-P2-A2",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P4-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Rückfragen"
+                    ],
+                    "criteria": [
+                      "Klarheit über die Aufgabe"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Erläutert die Aufgabenstellung mithilfe von Visualisierungen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Hören aufmerksam zu und stellen bei Bedarf Fragen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P2",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P4"
+            },
+            {
+              "phase_id": "LS1-P4",
+              "phase_name": "Gruppenarbeit & Ausstellung",
+              "time_frame": "60 Minuten",
+              "learning_goal": "Erarbeitung von Lösungsansätzen zur Müllvermeidung und Präsentation dieser in Form einer Ausstellung.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P4-A1",
+                  "name": "Ideenentwicklung",
+                  "description": "Gruppen erarbeiten Konzepte zur Müllvermeidung in der Schule.",
+                  "duration": 30,
+                  "goal": "Kreative Lösungsfindung",
+                  "prerequisite_activity": "LS1-P3-A1",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P4-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung",
+                      "Gruppenfeedback"
+                    ],
+                    "criteria": [
+                      "Kreativität",
+                      "Zusammenarbeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P4-A1-R1",
+                      "role_name": "Coach",
+                      "actor_id": "A1",
+                      "task_description": "Unterstützt die Gruppen bei Bedarf und stellt Materialien bereit.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P4-A1-R2",
+                      "role_name": "Schülergruppen",
+                      "actor_id": "A2",
+                      "task_description": "Arbeiten gemeinsam an Lösungsansätzen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P4-A2",
+                  "name": "Erkundung im Schulhaus",
+                  "description": "Gruppen untersuchen Müllprobleme im Schulhaus oder Schulhof.",
+                  "duration": 15,
+                  "goal": "Praktische Analyse vor Ort",
+                  "prerequisite_activity": "LS1-P4-A1",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P4-A3"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung",
+                      "Dokumentation"
+                    ],
+                    "criteria": [
+                      "Engagement",
+                      "Aufmerksamkeit für Details"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P4-A2-R1",
+                      "role_name": "Begleitende Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Überwacht die Exkursion und unterstützt bei Fragen.",
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P4-A2-R2",
+                      "role_name": "Schülergruppen",
+                      "actor_id": "A2",
+                      "task_description": "Erfassen Müllprobleme und dokumentieren diese.",
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P4-A3",
+                  "name": "Erstellung der Ausstellung",
+                  "description": "Gruppen gestalten Poster oder Modelle, um ihre Lösungen darzustellen.",
+                  "duration": 15,
+                  "goal": "Visuelle Aufbereitung der Ergebnisse",
+                  "prerequisite_activity": "LS1-P4-A2",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summative",
+                    "methods": [
+                      "Bewertung der Ausstellung"
+                    ],
+                    "criteria": [
+                      "Kreativität",
+                      "Inhaltliche Tiefe",
+                      "Verständlichkeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P4-A3-R1",
+                      "role_name": "Coach",
+                      "actor_id": "A1",
+                      "task_description": "Unterstützt bei der Gestaltung und gibt Feedback.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P4-A3-R2",
+                      "role_name": "Schülergruppen",
+                      "actor_id": "A2",
+                      "task_description": "Erstellen die Ausstellungselemente.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P3",
+              "transition_type": "parallel",
+              "condition_description": null,
+              "next_phase": "LS1-P5"
+            },
+            {
+              "phase_id": "LS1-P5",
+              "phase_name": "Auswertung",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Reflexion der Ergebnisse und Festhalten von Handlungsschritten.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P5-A1",
+                  "name": "Galeriegang",
+                  "description": "Schüler betrachten die Ausstellung der anderen Gruppen und hinterlassen Feedback.",
+                  "duration": 5,
+                  "goal": "Austausch und Inspiration",
+                  "prerequisite_activity": "LS1-P4-A3",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P5-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Feedbackzettel"
+                    ],
+                    "criteria": [
+                      "Konstruktives Feedback"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P5-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert den Galeriegang und regt zum Feedback an.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P5-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Betrachten die Ausstellung und geben Feedback.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M5"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P5-A2",
+                  "name": "Abschlussdiskussion",
+                  "description": "Gemeinsame Reflexion über die Ergebnisse und Planung weiterer Schritte.",
+                  "duration": 5,
+                  "goal": "Festigung des Gelernten",
+                  "prerequisite_activity": "LS1-P5-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summative",
+                    "methods": [
+                      "Mündliche Beteiligung"
+                    ],
+                    "criteria": [
+                      "Verständnis",
+                      "Engagement"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P5-A2-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Diskussion und fasst Ergebnisse zusammen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P5-A2-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Beteiligen sich an der Diskussion und reflektieren das Gelernte.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P4",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Aktive Einbindung der Schüler fördert Motivation und Engagement.",
+      "Visuelle und praktische Elemente unterstützen Schüler mit Sprachschwierigkeiten.",
+      "Förderung von Teamarbeit und Kommunikationsfähigkeiten."
+    ],
+    "disadvantages": [
+      "Zeitintensive Vorbereitung und Durchführung.",
+      "Mögliche Herausforderungen bei der Koordination der Gruppenarbeit."
+    ]
+  },
+  "implementation_notes": [
+    {
+      "note_id": "Note1",
+      "description": "Vorbereitung der Materialien und Medien im Voraus sicherstellen."
+    },
+    {
+      "note_id": "Note2",
+      "description": "Besondere Aufmerksamkeit auf die Integration der sprachlich schwächeren Schüler legen."
+    },
+    {
+      "note_id": "Note3",
+      "description": "Sicherheitsaspekte bei der Erkundung des Schulgeländes beachten."
+    }
+  ],
+  "related_patterns": [
+    "Projektbasiertes Lernen",
+    "Inklusiver Unterricht",
+    "Umweltbildung"
+  ],
+  "feedback": {
+    "comments": [
+      {
+        "date": "2023-11-20",
+        "name": "Frau Schmidt",
+        "comment": "Die Galerie-Methode eignet sich hervorragend für dieses Thema. Die Schüler waren sehr engagiert."
+      },
+      {
+        "date": "2023-11-21",
+        "name": "Herr Weber",
+        "comment": "Die praktischen Elemente haben besonders den Schülern mit Sprachschwierigkeiten geholfen."
+      }
+    ]
+  },
+  "sources": [],
+  "actors": [
+    {
+      "id": "A1",
+      "name": "Herr Müller",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 45,
+        "gender": "männlich",
+        "ethnic_background": "deutsch"
+      },
+      "education": {
+        "education_level": "Lehramtsstudium",
+        "class_level": "Sekundarstufe I",
+        "subject_focus": "Sozialkunde, Geografie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Umweltbildung",
+          "Nachhaltigkeit"
+        ],
+        "cognitive_competencies": [
+          "Problemlösung",
+          "Analytisches Denken"
+        ],
+        "methodical_competencies": [
+          "Gruppenarbeit moderieren",
+          "Visualisierungstechniken"
+        ],
+        "affective_competencies": [
+          "Empathie",
+          "Geduld"
+        ],
+        "digital_competencies": [
+          "Medieneinsatz",
+          "Präsentationstechniken"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch",
+            "Englisch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2",
+            "Englisch": "B1"
+          }
+        }
+      },
+      "social_form": "Lehrkraft",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Interaktives Lernen",
+          "Visuelle Methoden"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Beamer",
+          "Computer"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Nachhaltigkeit",
+          "Projektarbeit"
+        ],
+        "goals": [
+          "Förderung von Umweltbewusstsein",
+          "Inklusion aller Schüler"
+        ],
+        "motivation": {
+          "type": "intrinsisch",
+          "level": "hoch"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "7. Klasse",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age_range": "12-13",
+        "gender_distribution": "gemischt",
+        "ethnic_background": "divers"
+      },
+      "education": {
+        "education_level": "Sekundarstufe I",
+        "class_level": "7. Klasse",
+        "subject_focus": "Allgemeinbildung"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Grundkenntnisse Umweltschutz",
+          "Teamarbeit"
+        ],
+        "cognitive_competencies": [
+          "Kreatives Denken",
+          "Problemlösung"
+        ],
+        "methodical_competencies": [
+          "Gruppenarbeit",
+          "Präsentation"
+        ],
+        "affective_competencies": [
+          "Interesse an Umwelt",
+          "Teamfähigkeit"
+        ],
+        "digital_competencies": [
+          "Grundlegende Mediennutzung"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "B1-B2 (mit Ausnahmen)"
+          }
+        }
+      },
+      "social_form": "Klassenverband",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktisch",
+          "Visuell"
+        ],
+        "special_needs": [
+          "Unterstützung für sprachlich schwächere Schüler"
+        ],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Umweltschutz",
+          "Gemeinschaftsprojekte"
+        ],
+        "goals": [
+          "Verständnis für Müllvermeidung",
+          "Gemeinsame Lösungsentwicklung"
+        ],
+        "motivation": {
+          "type": "gemischt",
+          "level": "mittel"
+        }
+      },
+      "social_structure": {
+        "group_size": 22,
+        "heterogeneity": "hoch"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Klassenzimmer",
+      "description": "Standard-Klassenraum mit Tafel, Beamer und Sitzgelegenheiten für Gruppenarbeit.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Einführungsvideo Müllvermeidung",
+          "material_type": "Video",
+          "source": "Intern",
+          "access_link": "media/einfuehrungsvideo.mp4",
+          "filter_criteria": {}
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Aufgabenblatt",
+          "material_type": "Handout",
+          "source": "Intern",
+          "access_link": "materials/aufgabenblatt.pdf",
+          "filter_criteria": {}
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Informationsmaterial Müllvermeidung",
+          "material_type": "Broschüre",
+          "source": "Externe Quelle",
+          "access_link": "materials/infobroschuere.pdf",
+          "filter_criteria": {}
+        },
+        {
+          "id": "ENV1-M4",
+          "name": "Bastelmaterialien",
+          "material_type": "Materialien",
+          "source": "Intern",
+          "access_link": "",
+          "filter_criteria": {}
+        },
+        {
+          "id": "ENV1-M5",
+          "name": "Feedbackzettel",
+          "material_type": "Papier",
+          "source": "Intern",
+          "access_link": "",
+          "filter_criteria": {}
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Beamer",
+          "tool_type": "Hardware",
+          "source": "Intern",
+          "access_link": "",
+          "filter_criteria": {}
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Flipchart",
+          "tool_type": "Hardware",
+          "source": "Intern",
+          "access_link": "",
+          "filter_criteria": {}
+        },
+        {
+          "id": "ENV1-T3",
+          "name": "Scheren, Kleber, Stifte",
+          "tool_type": "Werkzeuge",
+          "source": "Intern",
+          "access_link": "",
+          "filter_criteria": {}
+        }
+      ],
+      "services": []
+    },
+    {
+      "id": "ENV2",
+      "name": "Schulhaus und Schulhof",
+      "description": "Bereiche innerhalb des Schulgebäudes und des Schulhofs für praktische Erkundungen.",
+      "materials": [],
+      "tools": [
+        {
+          "id": "ENV2-T1",
+          "name": "Digitalkameras oder Tablets",
+          "tool_type": "Hardware",
+          "source": "Intern",
+          "access_link": "",
+          "filter_criteria": {}
+        }
+      ],
+      "services": []
+    }
+  ]
+}

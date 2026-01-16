@@ -1,0 +1,611 @@
+{
+  "metadata": {
+    "title": "1 gegen 1 Trainingseinheit für Kinder",
+    "description": "Eine interaktive Trainingseinheit zur Förderung von 1 gegen 1 Fähigkeiten bei Kindern im Alter von 6 Jahren.",
+    "keywords": [
+      "1 gegen 1",
+      "Kindertraining",
+      "Sport",
+      "Teamarbeit",
+      "Spiele"
+    ],
+    "author": "Max Mustermann",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Kinder im Alter von 6 Jahren benötigen gezielte Übungen, um ihre 1 gegen 1 Fähigkeiten im Spiel zu verbessern und Teamarbeit zu fördern.",
+    "learning_goals": [
+      "Verbesserung der individuellen Spieltechnik",
+      "Förderung der Teamarbeit und Kommunikation",
+      "Stärkung des Selbstbewusstseins im Spiel",
+      "Entwicklung von taktischem Verständnis"
+    ],
+    "didactic_keywords": [
+      "Spielformen",
+      "1 gegen 1",
+      "Kooperation",
+      "Bewegungsförderung"
+    ]
+  },
+  "context": {
+    "target_group": "Kinder im Alter von 6 Jahren",
+    "subject": "Sport",
+    "educational_level": "Vorschule/Grundschule",
+    "prerequisites": "Grundlegende Bewegungsfähigkeiten und Interesse am Spiel",
+    "time_frame": "60 Minuten"
+  },
+  "influence_factors": [
+    {
+      "factor": "Alter",
+      "description": "Die Übungen müssen altersgerecht und spielerisch gestaltet werden."
+    },
+    {
+      "factor": "Bewegungsniveau",
+      "description": "Unterschiedliche motorische Fähigkeiten benötigen differenzierte Übungen."
+    },
+    {
+      "factor": "Gruppendynamik",
+      "description": "Die Kinder müssen in der Lage sein, miteinander zu arbeiten und zu kommunizieren."
+    }
+  ],
+  "solution": {
+    "solution_description": "Ein strukturiertes Training, das verschiedene Spielformen kombiniert, um 1 gegen 1 Fähigkeiten zu fördern.",
+    "didactic_approach": "Spielerisches Lernen durch verschiedene Übungen, die den Kindern helfen, ihre Fähigkeiten zu verbessern.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "1 gegen 1 Trainingseinheit",
+          "time_frame": "60 Minuten",
+          "learning_goal": "Verbesserung der 1 gegen 1 Fähigkeiten und Teamarbeit",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Aufwärmen",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Aktivierung der Muskulatur und Vorbereitung auf die Übungen",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Aufwärmspiel",
+                  "description": "Ein einfaches Fangspiel, um die Kinder in Bewegung zu bringen.",
+                  "duration": 10,
+                  "goal": "Aktivierung und Spaß",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Spaß"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Trainer",
+                      "actor_id": "A1",
+                      "task_description": "Leitet das Aufwärmspiel und motiviert die Kinder.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Übung 1: 1 gegen 1 Duelle",
+              "time_frame": "20 Minuten",
+              "learning_goal": "Verbesserung der Technik im 1 gegen 1",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "1 gegen 1 Dribbling",
+                  "description": "Die Kinder treten in Paaren gegeneinander an und üben das Dribbling.",
+                  "duration": 10,
+                  "goal": "Technik und Selbstbewusstsein stärken",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Feedback"
+                    ],
+                    "criteria": [
+                      "Technik",
+                      "Selbstbewusstsein"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Trainer",
+                      "actor_id": "A1",
+                      "task_description": "Beobachtet die Übungen und gibt individuelles Feedback.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "1 gegen 1 im Tor",
+                  "description": "Die Kinder versuchen, den Ball ins Tor zu bringen.",
+                  "duration": 10,
+                  "goal": "Wettbewerb und Spaß fördern",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P3-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Zielgenauigkeit",
+                      "Kreativität"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Trainer",
+                      "actor_id": "A2",
+                      "task_description": "Leitet die Übung und motiviert die Kinder.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P3"
+            },
+            {
+              "phase_id": "LS1-P3",
+              "phase_name": "Übung 2: Teamwettbewerb",
+              "time_frame": "20 Minuten",
+              "learning_goal": "Teamarbeit fördern und 1 gegen 1 Fähigkeiten anwenden",
+              "activities": [
+                {
+                  "activity_id": "LS1-P3-A1",
+                  "name": "Team 1 gegen 1 Turnier",
+                  "description": "Die Kinder treten in kleinen Teams gegeneinander an.",
+                  "duration": 20,
+                  "goal": "Anwendung der 1 gegen 1 Techniken im Team",
+                  "prerequisite_activity": "LS1-P2-A2",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P4-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Teamarbeit",
+                      "Technik"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Trainer",
+                      "actor_id": "A1",
+                      "task_description": "Beobachtet und bewertet die Team-Performances.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P2",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P4"
+            },
+            {
+              "phase_id": "LS1-P4",
+              "phase_name": "Abschluss und Reflexion",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Reflexion der gelernten Inhalte und Feedback",
+              "activities": [
+                {
+                  "activity_id": "LS1-P4-A1",
+                  "name": "Reflexion",
+                  "description": "Die Kinder teilen ihre Erfahrungen und was sie gelernt haben.",
+                  "duration": 10,
+                  "goal": "Reflexion und Feedback zur Trainingseinheit",
+                  "prerequisite_activity": "LS1-P3-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Gespräch"
+                    ],
+                    "criteria": [
+                      "Teilnahme",
+                      "Ehrlichkeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P4-A1-R1",
+                      "role_name": "Trainer",
+                      "actor_id": "A2",
+                      "task_description": "Leitet die Reflexionsrunde.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P3",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Förderung der individuellen Fähigkeiten der Kinder",
+      "Verbesserung der Teamarbeit",
+      "Spaß und Bewegung in einem spielerischen Rahmen",
+      "Stärkung des Selbstbewusstseins"
+    ],
+    "disadvantages": [
+      "Herausforderung bei der Koordination der Übungen",
+      "Mögliche Überforderung einzelner Kinder"
+    ]
+  },
+  "implementation_notes": [
+    {
+      "note_id": "Note1",
+      "description": "Alle Materialien und Werkzeuge vor der Einheit bereitstellen."
+    },
+    {
+      "note_id": "Note2",
+      "description": "Die Kinder vor der Einheit über die Übungen informieren."
+    },
+    {
+      "note_id": "Note3",
+      "description": "Sicherstellen, dass genügend Platz für die Übungen vorhanden ist."
+    }
+  ],
+  "related_patterns": [
+    "Bewegungsförderung",
+    "Teamtraining",
+    "Kindersport",
+    "Spiele im Sportunterricht"
+  ],
+  "feedback": {
+    "comments": [
+      {
+        "date": "2024-03-14",
+        "name": "Trainer A",
+        "comment": "Die Kinder hatten viel Spaß und lernten viel über Teamarbeit."
+      },
+      {
+        "date": "2024-03-15",
+        "name": "Trainer B",
+        "comment": "Die Übungen waren gut strukturiert und einfach umzusetzen."
+      }
+    ]
+  },
+  "sources": [],
+  "actors": [
+    {
+      "id": "A1",
+      "name": "Trainer A",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 30,
+        "gender": "männlich",
+        "ethnic_background": "deutsch"
+      },
+      "education": {
+        "education_level": "Bachelor of Arts",
+        "class_level": "n/a",
+        "subject_focus": "Sportpädagogik"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Sport",
+          "Bewegungsförderung"
+        ],
+        "cognitive_competencies": [
+          "Didaktisches Denken",
+          "Planung"
+        ],
+        "methodical_competencies": [
+          "Gruppenleitung",
+          "Methodenvielfalt"
+        ],
+        "affective_competencies": [
+          "Motivation",
+          "Empathie"
+        ],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C1"
+          }
+        }
+      },
+      "social_form": "Trainer",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktische Übungen",
+          "Visuelle Hilfen"
+        ],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Teamtraining",
+          "Kindersport"
+        ],
+        "goals": [
+          "Förderung von Kindern im Sport",
+          "Spaß am Sport vermitteln"
+        ],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "Trainer B",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 28,
+        "gender": "weiblich",
+        "ethnic_background": "deutsch"
+      },
+      "education": {
+        "education_level": "Bachelor of Arts",
+        "class_level": "n/a",
+        "subject_focus": "Sportwissenschaft"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Sport",
+          "Bewegungsförderung"
+        ],
+        "cognitive_competencies": [
+          "Didaktisches Denken",
+          "Planung"
+        ],
+        "methodical_competencies": [
+          "Gruppenleitung",
+          "Kommunikation"
+        ],
+        "affective_competencies": [
+          "Motivation",
+          "Empathie"
+        ],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C1"
+          }
+        }
+      },
+      "social_form": "Trainer",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktische Übungen",
+          "Visuelle Hilfen"
+        ],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Teamtraining",
+          "Kindersport"
+        ],
+        "goals": [
+          "Förderung von Kindern im Sport",
+          "Spaß am Sport vermitteln"
+        ],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A3",
+      "name": "Trainingsteilnehmer",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age_range": "6-7",
+        "gender_distribution": "gemischt",
+        "ethnic_background": "diverse"
+      },
+      "education": {
+        "education_level": "Vorschule/Grundschule",
+        "class_level": "1. Klasse",
+        "subject_focus": "Sport"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Grundlagen der Bewegung"
+        ],
+        "cognitive_competencies": [
+          "Konzentration",
+          "Teamarbeit"
+        ],
+        "methodical_competencies": [
+          "Spielfähigkeit",
+          "Selbstorganisation"
+        ],
+        "affective_competencies": [
+          "Teamfähigkeit"
+        ],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "B1"
+          }
+        }
+      },
+      "social_form": "Gruppe",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Aktive Teilnahme",
+          "Visuelle Unterstützung"
+        ],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Bewegung",
+          "Spiele"
+        ],
+        "goals": [
+          "Spaß am Sport",
+          "Verbesserung der Bewegungsfähigkeiten"
+        ],
+        "motivation": {
+          "type": "mixed",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": 20,
+        "heterogeneity": "hoch"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Sporthalle",
+      "description": "Sporthalle mit ausreichend Platz für Bewegungsübungen und Spiele.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Bälle",
+          "material_type": "Sportgerät",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Hütchen",
+          "material_type": "Markierung",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Matten",
+          "material_type": "Sportgerät",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Pfeifen",
+          "tool_type": "Sportgerät",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Uhr",
+          "tool_type": "Zeitmessung",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": [
+        {
+          "id": "ENV1-S1",
+          "name": "Bewegungsanleitung",
+          "service_type": "Förderung",
+          "source": "manual",
+          "access_link": ""
+        }
+      ]
+    }
+  ]
+}

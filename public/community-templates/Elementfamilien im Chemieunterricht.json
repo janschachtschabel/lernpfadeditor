@@ -1,0 +1,523 @@
+{
+  "metadata": {
+    "title": "Elementfamilien im Chemieunterricht",
+    "description": "Ein umfassender Unterrichtsplan zur Erkundung der Eigenschaften und Reaktionen von Elementfamilien in der Chemie, inklusive Schüler- und Lehrerexperimente.",
+    "keywords": [
+      "Chemie",
+      "Elementfamilien",
+      "Alkalimetalle",
+      "Erdalkalimetalle",
+      "Halogene",
+      "Edelgase"
+    ],
+    "author": "Hannes Sander",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Schüler sollen die charakteristischen Eigenschaften der verschiedenen Elementfamilien im Periodensystem verstehen und durch Experimente erfahren.",
+    "learning_goals": [
+      "Verständnis der Eigenschaften von Alkalimetallen",
+      "Erkenntnisse über Erdalkalimetalle und deren Reaktionen",
+      "Erfahrung mit Halogenen und deren Eigenschaften",
+      "Sicherer Umgang mit Chemikalien im Experiment"
+    ],
+    "didactic_keywords": [
+      "Experimentelles Lernen",
+      "Sicherheit im Labor",
+      "Differenzierung",
+      "Entdeckendes Lernen"
+    ]
+  },
+  "context": {
+    "target_group": "Schüler der 8. Klasse",
+    "subject": "Chemie",
+    "educational_level": "Sekundarstufe I",
+    "prerequisites": "Grundlagen der Atomstruktur und chemischen Bindungen.",
+    "time_frame": "3 Unterrichtseinheiten à 45 Minuten"
+  },
+  "influence_factors": [
+    {
+      "factor": "Vorwissen",
+      "description": "Vorhandenes Wissen über Atome und chemische Bindungen."
+    },
+    {
+      "factor": "Experimentelle Fähigkeiten",
+      "description": "Sicherheitsbewusstsein und Erfahrung im Umgang mit Chemikalien."
+    },
+    {
+      "factor": "Interesse an Chemie",
+      "description": "Motivation und Interesse der Schüler an chemischen Experimenten."
+    }
+  ],
+  "solution": {
+    "solution_description": "Durchführung von Lehrerexperimenten und Schülerexperimenten, um das Verständnis der Elementfamilien zu fördern.",
+    "didactic_approach": "Handlungsorientiertes Lernen mit Schwerpunkt auf Experimenten und Sicherheitsbewusstsein.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Einführung in Elementfamilien",
+          "time_frame": "45 Minuten",
+          "learning_goal": "Einführung in die verschiedenen Elementfamilien und deren Eigenschaften.",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Aktivierung",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Vorwissen aktivieren und Interesse wecken.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Brainstorming",
+                  "description": "Gruppenbrainstorming zu Elementfamilien.",
+                  "duration": 10,
+                  "goal": "Aktivierung des Vorwissens über chemische Elemente.",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "next_activity": [
+                    "LS1-P2-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Kreativität"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Moderator",
+                      "actor_id": "actor-1",
+                      "task_description": "Leitet das Brainstorming und stellt Fragen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Teilnehmer",
+                      "actor_id": "actor-2",
+                      "task_description": "Nimmt aktiv am Brainstorming teil.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Erarbeitung",
+              "time_frame": "25 Minuten",
+              "learning_goal": "Verständnis der Eigenschaften von Alkalimetallen.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Demonstration Alkalimetalle",
+                  "description": "Lehrerexperiment zur Demonstration der Reaktivität von Natrium in Wasser.",
+                  "duration": 15,
+                  "goal": "Veranschaulichung der Reaktivität von Alkalimetallen.",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "sequential",
+                  "next_activity": [
+                    "LS1-P2-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Verständnis der Reaktion",
+                      "Aufmerksamkeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Lehrer",
+                      "actor_id": "actor-1",
+                      "task_description": "Durchführung der Demonstration.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "actor-2",
+                      "task_description": "Beobachtet die Reaktion.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "Schülerexperiment Alkalimetalle",
+                  "description": "Schüler führen ein sicheres Experiment mit Lithium durch.",
+                  "duration": 10,
+                  "goal": "Erfahrung mit der Reaktion von Alkalimetallen.",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "sequential",
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Sicherheitsbewusstsein",
+                      "Verständnis der Reaktion"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Lehrer",
+                      "actor_id": "actor-1",
+                      "task_description": "Begleitet die Schüler beim Experiment.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A2-R2",
+                      "role_name": "Schülergruppe",
+                      "actor_id": "actor-2",
+                      "task_description": "Führt das Experiment durch.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "next_phase": "LS1-P3"
+            },
+            {
+              "phase_id": "LS1-P3",
+              "phase_name": "Sicherung",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Reflexion über die beobachteten Reaktionen.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P3-A1",
+                  "name": "Diskussion",
+                  "description": "Gemeinsame Reflexion über die Experimente.",
+                  "duration": 10,
+                  "goal": "Sicherung des Gelernten.",
+                  "prerequisite_activity": "LS1-P2-A2",
+                  "transition_type": "sequential",
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summative",
+                    "methods": [
+                      "Diskussionsbeteiligung"
+                    ],
+                    "criteria": [
+                      "Verständnis",
+                      "Engagement"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Moderator",
+                      "actor_id": "actor-1",
+                      "task_description": "Moderiert die Diskussion.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R2",
+                      "role_name": "Teilnehmer",
+                      "actor_id": "actor-2",
+                      "task_description": "Beteiligt sich aktiv an der Diskussion.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P2",
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Praktisches Lernen durch Experimente.",
+      "Förderung des Sicherheitsbewusstseins im Chemielabor.",
+      "Aktive Beteiligung der Schüler."
+    ],
+    "disadvantages": [
+      "Hoher Zeitaufwand für die Durchführung von Experimenten.",
+      "Notwendigkeit einer sorgfältigen Sicherheitsunterweisung."
+    ]
+  },
+  "implementation_notes": [
+    {
+      "note_id": "Note1",
+      "description": "Sicherheitsunterweisung vor Experimenten durchführen."
+    },
+    {
+      "note_id": "Note2",
+      "description": "Materialien rechtzeitig vorbereiten und Sicherheitsvorkehrungen treffen."
+    }
+  ],
+  "related_patterns": [
+    "Experimentelles Lernen",
+    "Sicherheit im Chemieunterricht"
+  ],
+  "feedback": {
+    "comments": []
+  },
+  "sources": [],
+  "actors": [
+    {
+      "id": "actor-1",
+      "name": "Hannes Sander",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "ethnic_background": "deutsch",
+        "gender": "m"
+      },
+      "education": {
+        "education_level": "Master of Education",
+        "class_level": "Sekundarstufe I",
+        "subject_focus": "Chemie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Chemie"
+        ],
+        "cognitive_competencies": [
+          "Analytisches Denken",
+          "Problemlösung"
+        ],
+        "methodical_competencies": [
+          "Experimentelle Planung",
+          "Sicherheitsunterweisung"
+        ],
+        "affective_competencies": [],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [
+            "Deutsch",
+            "Englisch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2",
+            "Englisch": "B2"
+          }
+        }
+      },
+      "social_form": "Lehrkraft",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktisch",
+          "Visuell"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Chemikalien",
+          "Schutzausrüstung"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Chemie",
+          "Experimentieren"
+        ],
+        "goals": [
+          "Förderung von experimentellem Lernen",
+          "Sicherheitsbewusstsein"
+        ],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "actor-2",
+      "name": "Schülergruppe",
+      "type": "Gruppe",
+      "demographic_data": {
+        "ethnic_background": "diverse",
+        "gender_distribution": "gemischt",
+        "age_range": "13-15"
+      },
+      "education": {
+        "education_level": "Sekundarstufe I",
+        "class_level": "8. Klasse",
+        "subject_focus": "Chemie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Grundlagen der Chemie",
+          "Experimentelle Fähigkeiten"
+        ],
+        "cognitive_competencies": [
+          "Analytisches Denken",
+          "Problemlösung"
+        ],
+        "methodical_competencies": [
+          "Gruppenarbeit",
+          "Experimentelle Durchführung"
+        ],
+        "affective_competencies": [],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "B2"
+          }
+        }
+      },
+      "social_form": "Klassenverband",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktisches Lernen",
+          "Visuelle Unterstützung"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Schutzausrüstung"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Chemie",
+          "Naturwissenschaften"
+        ],
+        "goals": [
+          "Verständnis der chemischen Reaktionen",
+          "Sichere Durchführung von Experimenten"
+        ],
+        "motivation": {
+          "type": "mixed",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": 25,
+        "heterogeneity": "hoch"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Chemielabor",
+      "description": "Modernes Chemielabor ausgestattet mit Sicherheitsvorkehrungen und Experimentiermaterialien.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Natrium",
+          "material_type": "Chemikalie",
+          "source": "manual",
+          "access_link": "materials/sodium.pdf"
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Lithium",
+          "material_type": "Chemikalie",
+          "source": "manual",
+          "access_link": "materials/lithium.pdf"
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Reaktionsprodukte",
+          "material_type": "Chemikalie",
+          "source": "manual",
+          "access_link": "materials/products.pdf"
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Schutzhandschuhe",
+          "tool_type": "Sicherheitsausrüstung",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Chemikalienwaage",
+          "tool_type": "Laborgerät",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": [
+        {
+          "id": "ENV1-S1",
+          "name": "Sicherheitsunterweisung",
+          "service_type": "Schulung",
+          "source": "manual",
+          "access_link": ""
+        }
+      ]
+    }
+  ]
+}

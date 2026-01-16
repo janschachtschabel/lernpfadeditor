@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "title": "Stationenlernen: Salze und ihre Eigenschaften",
+    "description": "Ein interaktives Stationenlernen für die 10. Klasse, das die Eigenschaften von Salzen durch experimentelle und digitale Methoden vermittelt.",
+    "keywords": [
+      "Salze",
+      "Leitfähigkeit",
+      "Sprödigkeit",
+      "Kristallstruktur",
+      "Chemie"
+    ],
+    "author": "Max Müller",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Schüler sollen die Eigenschaften von Salzen verstehen und experimentell erfahren, wie Struktur und Eigenschaften zusammenhängen.",
+    "learning_goals": [
+      "Verständnis der Leitfähigkeit von Salzen",
+      "Erkennung der Sprödigkeit von Salzen",
+      "Einordnung der Struktur-Eigenschaftsbeziehungen",
+      "Erarbeitung des Aufbaus von Salzkristallen"
+    ],
+    "didactic_keywords": [
+      "Experimentelles Lernen",
+      "Schüleraktivierung",
+      "Interaktive Methoden",
+      "Differenzierung"
+    ]
+  },
+  "context": {
+    "target_group": "Schüler der 10. Klasse",
+    "subject": "Chemie",
+    "educational_level": "Sekundarstufe II",
+    "prerequisites": "Grundkenntnisse in Chemie und Kristallographie",
+    "time_frame": "90 Minuten"
+  },
+  "influence_factors": [
+    {
+      "factor": "Vorkenntnisse der Schüler",
+      "description": "Unterschiedliche Vorkenntnisse erfordern differenzierte Aufgabenstellungen."
+    },
+    {
+      "factor": "Materialverfügbarkeit",
+      "description": "Verfügbarkeit von Laborgeräten und Chemikalien beeinflusst die Durchführung der Experimente."
+    },
+    {
+      "factor": "Gruppendynamik",
+      "description": "Die Zusammenarbeit in den Gruppen kann den Lernerfolg beeinflussen."
+    }
+  ],
+  "solution": {
+    "solution_description": "Durchführung eines Stationenlernens, bei dem die Schüler verschiedene Aspekte der Eigenschaften von Salzen an unterschiedlichen Stationen erforschen.",
+    "didactic_approach": "Handlungsorientiertes Lernen in Gruppen mit Feedback- und Reflexionsphasen.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Stationenlernen zu Salzen",
+          "time_frame": "90 Minuten",
+          "learning_goal": "Verständnis der Eigenschaften von Salzen und ihrer Anwendungen",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Einführung",
+              "time_frame": "15 Minuten",
+              "learning_goal": "Einführung in das Thema Salze und deren Eigenschaften",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Präsentation der Grundlagen",
+                  "description": "Kurze Präsentation über Salze, ihre Eigenschaften und Anwendungen.",
+                  "duration": 15,
+                  "goal": "Vorwissen aktivieren und Interesse wecken",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Fragen zur Aktivierung"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Interesse"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Lehrer",
+                      "actor_id": "A1",
+                      "task_description": "Präsentiert die Informationen zu Salzen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Durchführung der Stationen",
+              "time_frame": "60 Minuten",
+              "learning_goal": "Erforschung der Eigenschaften von Salzen an verschiedenen Stationen",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Station 1: Leitfähigkeit",
+                  "description": "Messung der Leitfähigkeit von verschiedenen Salzlösungen.",
+                  "duration": 20,
+                  "goal": "Verständnis der Leitfähigkeit von Salzen",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Messgenauigkeit",
+                      "Zusammenarbeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Experimentator",
+                      "actor_id": "A2",
+                      "task_description": "Führt die Messungen durch und dokumentiert die Ergebnisse.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "Station 2: Sprödigkeit",
+                  "description": "Test der Sprödigkeit verschiedener Salzkristalle.",
+                  "duration": 20,
+                  "goal": "Verständnis der Sprödigkeit von Salzen",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A3"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Sorgfalt",
+                      "Dokumentation"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Experimentator",
+                      "actor_id": "A2",
+                      "task_description": "Führt den Sprödigkeitstest durch.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P2-A3",
+                  "name": "Station 3: Kristallaufbau",
+                  "description": "Bau von Salzkristallen aus Modellmaterial.",
+                  "duration": 20,
+                  "goal": "Verständnis des Aufbaus von Salzkristallen",
+                  "prerequisite_activity": "LS1-P2-A2",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P3"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Präsentation der Modelle"
+                    ],
+                    "criteria": [
+                      "Kreativität",
+                      "Wissenschaftliche Genauigkeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A3-R1",
+                      "role_name": "Modellbauer",
+                      "actor_id": "A2",
+                      "task_description": "Baut einen Salzkristall aus bereitgestellten Materialien.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P3"
+            },
+            {
+              "phase_id": "LS1-P3",
+              "phase_name": "Sicherung",
+              "time_frame": "15 Minuten",
+              "learning_goal": "Reflexion und Sicherung der Erkenntnisse",
+              "activities": [
+                {
+                  "activity_id": "LS1-P3-A1",
+                  "name": "Präsentation der Ergebnisse",
+                  "description": "Jede Gruppe präsentiert ihre Ergebnisse und lernt von den anderen.",
+                  "duration": 15,
+                  "goal": "Gemeinsame Reflexion der Lernergebnisse",
+                  "prerequisite_activity": null,
+                  "transition_type": "feedback_loops",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summative",
+                    "methods": [
+                      "Diskussionsbeteiligung",
+                      "Präsentation"
+                    ],
+                    "criteria": [
+                      "Verständnis",
+                      "Kommunikationsfähigkeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Präsentierender",
+                      "actor_id": "A2",
+                      "task_description": "Stellt die Ergebnisse der Gruppe vor.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P2",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Fördert aktives und selbstgesteuertes Lernen",
+      "Interdisziplinäre Betrachtung der Eigenschaften von Salzen",
+      "Stärkung der Teamarbeit und kommunikativen Fähigkeiten"
+    ],
+    "disadvantages": [
+      "Benötigt umfangreiche Materialien und Vorbereitungszeit",
+      "Heterogene Lerngruppen können zu unterschiedlichen Lernerfolgen führen"
+    ]
+  },
+  "implementation_notes": [
+    {
+      "note_id": "Note1",
+      "description": "Sicherheitsvorkehrungen für chemische Experimente beachten."
+    },
+    {
+      "note_id": "Note2",
+      "description": "Materialien und Geräte vorab bereitstellen."
+    },
+    {
+      "note_id": "Note3",
+      "description": "Klare Anweisungen für jede Station geben."
+    }
+  ],
+  "related_patterns": [
+    "Experimentelles Lernen",
+    "Kooperatives Lernen",
+    "Forschendes Lernen"
+  ],
+  "feedback": {
+    "comments": [
+      {
+        "date": "2024-03-10",
+        "name": "Dr. Müller",
+        "comment": "Innovatives Konzept mit starkem Fokus auf Schüleraktivierung."
+      },
+      {
+        "date": "2024-03-11",
+        "name": "Prof. Schmidt",
+        "comment": "Gute Balance zwischen Theorie und Praxis."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "Chemie für Schüler",
+      "author": "Anna Becker",
+      "year": 2021,
+      "publisher": "Schulbuchverlag",
+      "url": "https://example.com/chemie-fuer-schueler"
+    }
+  ],
+  "actors": [
+    {
+      "id": "A1",
+      "name": "Max Müller",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 30,
+        "gender": "männlich",
+        "ethnic_background": "deutsch"
+      },
+      "education": {
+        "education_level": "Master of Science",
+        "class_level": "Sekundarstufe II",
+        "subject_focus": "Chemie, Biologie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Chemie",
+          "Biologie"
+        ],
+        "cognitive_competencies": [
+          "Analytisches Denken",
+          "Problemlösung"
+        ],
+        "methodical_competencies": [
+          "Differenzierte Unterrichtsgestaltung",
+          "Experimentelle Methoden"
+        ],
+        "affective_competencies": [
+          "Empathie",
+          "Geduld"
+        ],
+        "digital_competencies": [
+          "Digitale Medien",
+          "Online-Lernplattformen"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch",
+            "Englisch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2",
+            "Englisch": "B2"
+          }
+        }
+      },
+      "social_form": "Lehrkraft",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praxisorientiert",
+          "Digital"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Computer",
+          "Laborgeräte"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Chemie",
+          "Digitale Bildung"
+        ],
+        "goals": [
+          "Förderung individueller Lernwege",
+          "Integration digitaler Medien"
+        ],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "Schülergruppe 10. Klasse",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age_range": "15-16",
+        "gender_distribution": "gemischt",
+        "ethnic_background": "diverse"
+      },
+      "education": {
+        "education_level": "Sekundarstufe II",
+        "class_level": "10. Klasse",
+        "subject_focus": "Chemie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Chemische Reaktionen",
+          "Kristallstruktur"
+        ],
+        "cognitive_competencies": [
+          "Logisches Denken",
+          "Experimentelles Arbeiten"
+        ],
+        "methodical_competencies": [
+          "Gruppenarbeit",
+          "Selbstorganisation"
+        ],
+        "affective_competencies": [
+          "Teamfähigkeit"
+        ],
+        "digital_competencies": [
+          "Grundlegende PC-Kenntnisse"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C1"
+          }
+        }
+      },
+      "social_form": "Klassenverband",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktische Übungen",
+          "Visuelle Darstellungen"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Laborgeräte"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Chemie",
+          "Experimentieren"
+        ],
+        "goals": [
+          "Verständnis der Salze",
+          "Experimentelle Fähigkeiten"
+        ],
+        "motivation": {
+          "type": "mixed",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": 25,
+        "heterogeneity": "hoch"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Chemielabor",
+      "description": "Labor für chemische Experimente mit verschiedenen Stationen zu Salzen.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Leitfähigkeitsmessgerät",
+          "material_type": "Gerät",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Salzlösungen",
+          "material_type": "Chemikalie",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Salzkristalle",
+          "material_type": "Proben",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-M4",
+          "name": "Modellmaterial für Kristalle",
+          "material_type": "Bastelmaterial",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Multimeter",
+          "tool_type": "Gerät",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Digitale Präsentationssoftware",
+          "tool_type": "Software",
+          "source": "manual",
+          "access_link": "https://example.com/praesentation-software"
+        }
+      ],
+      "services": [
+        {
+          "id": "ENV1-S1",
+          "name": "Laborunterstützung",
+          "service_type": "Förderung",
+          "source": "manual",
+          "access_link": ""
+        }
+      ]
+    }
+  ]
+}

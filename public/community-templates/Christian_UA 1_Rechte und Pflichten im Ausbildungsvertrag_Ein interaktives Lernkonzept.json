@@ -1,0 +1,455 @@
+{
+  "metadata": {
+    "title": "Rechte und Pflichten im Ausbildungsvertrag - Ein interaktives Lernkonzept",
+    "description": "Dieses Unterrichtsmaterial bietet einen interaktiven Zugang zu den Rechten und Pflichten, die im Ausbildungsvertrag verankert sind. Es unterstützt die Schüler dabei, die Inhalte eines Ausbildungsvertrags zu verstehen und die rechtlichen Rahmenbedingungen ihrer Ausbildung zu erkennen.",
+    "keywords": [
+      "Ausbildungsvertrag",
+      "Rechte und Pflichten",
+      "Berufsbildung",
+      "Rechtliche Grundlagen"
+    ],
+    "author": "Max Mustermann",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Schülerinnen und Schüler stehen vor der Herausforderung, die rechtlichen Aspekte ihres Ausbildungsvertrags zu verstehen. Oft sind sie unsicher, welche Rechte und Pflichten sie haben und was im Vertrag für sie wichtig ist. Dies führt zu Missverständnissen und Unsicherheiten im Ausbildungsalltag.",
+    "learning_goals": [
+      "Verständnis der Rechte und Pflichten gemäß Ausbildungsvertrag",
+      "Fähigkeit zur Analyse von Vertragsinhalten",
+      "Kompetenz zur kritischen Auseinandersetzung mit rechtlichen Fragestellungen"
+    ],
+    "didactic_keywords": [
+      "Interaktive Lernmethoden",
+      "Fallstudien",
+      "Gruppenarbeit",
+      "Kollaboratives Lernen"
+    ]
+  },
+  "context": {
+    "target_group": "Schülerinnen und Schüler der 9. und 10. Klasse",
+    "subject": "Wirtschaft/Recht",
+    "educational_level": "Sekundarstufe I",
+    "prerequisites": "Grundkenntnisse über Ausbildungsverträge und rechtliche Grundlagen",
+    "time_frame": "2 Unterrichtsstunden (90 Minuten)"
+  },
+  "influence_factors": [
+    {
+      "factor": "Heterogene Lernvoraussetzungen",
+      "description": "Unterschiedliche Vorkenntnisse und Lernstile der Schülerinnen und Schüler erfordern differenzierte Ansätze."
+    },
+    {
+      "factor": "Digitale Kompetenzen",
+      "description": "Schülerinnen und Schüler bringen unterschiedliche Erfahrungen im Umgang mit digitalen Tools mit."
+    }
+  ],
+  "solution": {
+    "solution_description": "Das Unterrichtskonzept beinhaltet interaktive Elemente wie Gruppenarbeiten, Fallstudien und digitale Tools, um den Schülerinnen und Schülern ein umfassendes Verständnis der Rechte und Pflichten im Ausbildungsvertrag zu vermitteln. Es bietet Raum für Diskussionen und Reflexionen über die Bedeutung der Inhalte für den Ausbildungsalltag.",
+    "didactic_approach": "Handlungsorientiertes Lernen mit interaktiven Elementen",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Einführung in den Ausbildungsvertrag",
+          "time_frame": "45 Minuten",
+          "learning_goal": "Die Schülerinnen und Schüler verstehen die grundlegenden Inhalte eines Ausbildungsvertrags und deren Bedeutung für die Ausbildung.",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Einstieg",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Motivation und Vorwissen aktivieren durch eine kurze Einführung in das Thema.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Brainstorming",
+                  "description": "Die Schüler sammeln in Kleingruppen, was sie bereits über Ausbildungsverträge wissen.",
+                  "duration": 10,
+                  "goal": "Aktivierung des Vorwissens und Interesse wecken",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Erarbeitung",
+              "time_frame": "25 Minuten",
+              "learning_goal": "Die Schülerinnen und Schüler erarbeiten die Rechte und Pflichten anhand von Fallbeispielen.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Fallstudienanalyse",
+                  "description": "In Gruppen analysieren die Schüler verschiedene Fallstudien zu Ausbildungsverträgen.",
+                  "duration": 25,
+                  "goal": "Verständnis für die Anwendung der Rechte und Pflichten im Alltag entwickeln",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P3"
+            },
+            {
+              "phase_id": "LS1-P3",
+              "phase_name": "Sicherung",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Die Schüler präsentieren ihre Ergebnisse und sichern das Gelernte.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P3-A1",
+                  "name": "Präsentation der Fallstudien",
+                  "description": "Die Gruppen präsentieren ihre Analyse der Fallstudien vor der Klasse.",
+                  "duration": 10,
+                  "goal": "Ergebnissicherung und gemeinsame Reflexion",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": "LS1-P2",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        },
+        {
+          "sequence_id": "LS2",
+          "sequence_name": "Vertiefung der Kenntnisse",
+          "time_frame": "45 Minuten",
+          "learning_goal": "Die Schülerinnen und Schüler vertiefen ihr Wissen über spezifische Rechte und Pflichten.",
+          "phases": [
+            {
+              "phase_id": "LS2-P1",
+              "phase_name": "Reflexion",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Die Schüler reflektieren über das Gelernte und stellen Fragen.",
+              "activities": [
+                {
+                  "activity_id": "LS2-P1-A1",
+                  "name": "Fragenrunde",
+                  "description": "Offene Fragerunde zur Klärung von Unklarheiten.",
+                  "duration": 10,
+                  "goal": "Klärung von Fragen und Unsicherheiten",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS2-P2"
+            },
+            {
+              "phase_id": "LS2-P2",
+              "phase_name": "Gruppenarbeit",
+              "time_frame": "25 Minuten",
+              "learning_goal": "Die Schüler erarbeiten spezifische Rechte und Pflichten in Gruppen.",
+              "activities": [
+                {
+                  "activity_id": "LS2-P2-A1",
+                  "name": "Rechte und Pflichten",
+                  "description": "Jede Gruppe recherchiert zu einem spezifischen Recht oder einer Pflicht und bereitet eine kurze Präsentation vor.",
+                  "duration": 25,
+                  "goal": "Vertiefung des Wissens über spezifische Aspekte des Ausbildungsvertrags",
+                  "prerequisite_activity": "LS2-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": "LS2-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS2-P3"
+            },
+            {
+              "phase_id": "LS2-P3",
+              "phase_name": "Präsentation und Sicherung",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Sicherung der Inhalte durch Präsentation der Gruppenergebnisse.",
+              "activities": [
+                {
+                  "activity_id": "LS2-P3-A1",
+                  "name": "Gruppenergebnisse präsentieren",
+                  "description": "Die Gruppen präsentieren ihre Ergebnisse und diskutieren diese mit der Klasse.",
+                  "duration": 10,
+                  "goal": "Ergebnissicherung und Diskussion",
+                  "prerequisite_activity": "LS2-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": "LS2-P2",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [],
+    "disadvantages": []
+  },
+  "implementation_notes": [],
+  "related_patterns": [],
+  "feedback": {
+    "comments": []
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "Rechtsratgeber für Auszubildende",
+      "author": "Anna Müller",
+      "year": 2022,
+      "publisher": "Bildungsverlag",
+      "url": "https://example.com/rechtsratgeber-ausbildung"
+    },
+    {
+      "source_id": "S2",
+      "title": "Der Ausbildungsvertrag - Rechte und Pflichten",
+      "author": "Peter Schmidt",
+      "year": 2021,
+      "publisher": "Wirtschaftsverlag",
+      "url": "https://example.com/ausbildungsvertrag"
+    }
+  ],
+  "actors": [
+    {
+      "id": "actor-1",
+      "name": "Lehrkraft",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "ethnic_background": "unbekannt",
+        "age": "40",
+        "gender": "Weiblich"
+      },
+      "education": {
+        "education_level": "Hochschulabschluss",
+        "class_level": "",
+        "subject_focus": "Wirtschaft, Recht"
+      },
+      "competencies": {
+        "subject_competencies": [],
+        "cognitive_competencies": [],
+        "methodical_competencies": [],
+        "affective_competencies": [],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [],
+          "proficiency_levels": {}
+        }
+      },
+      "social_form": "",
+      "learning_requirements": {
+        "learning_preferences": [],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [],
+        "goals": [],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "actor-2",
+      "name": "Schülerinnen und Schüler",
+      "type": "Gruppe",
+      "demographic_data": {
+        "ethnic_background": "unbekannt",
+        "age_range": "15-16",
+        "gender_distribution": "gemischt"
+      },
+      "education": {
+        "education_level": "Sekundarstufe I",
+        "class_level": "9/10",
+        "subject_focus": "Allgemeinbildung"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Verständnis der Rechte und Pflichten im Ausbildungsvertrag."
+        ],
+        "cognitive_competencies": [
+          "Fähigkeit zur Analyse von rechtlichen Texten."
+        ],
+        "methodical_competencies": [
+          "Teamarbeit und Präsentationsfähigkeiten."
+        ],
+        "affective_competencies": [],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [],
+          "proficiency_levels": {}
+        }
+      },
+      "social_form": "",
+      "learning_requirements": {
+        "learning_preferences": [],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [],
+        "goals": [
+          "Verständnis der rechtlichen Rahmenbedingungen."
+        ],
+        "motivation": {
+          "type": "mixed",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": "24-28",
+        "heterogeneity": "n/a"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Klassenzimmer für Wirtschaft und Recht",
+      "description": "Ein Klassenzimmer mit digitalen und analogen Lernmaterialien für den Unterricht zu Wirtschaft und Recht.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Beispielausbildungsvertrag",
+          "material_type": "Dokument",
+          "source": "filter",
+          "access_link": "https://example.com/beispielausbildungsvertrag.pdf",
+          "filter_criteria": {
+            "cclom:title": "Ausbildungsvertrag",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/f1341358-3f91-449b-b6eb-f58636f756a0",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
+          }
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Fallstudien zu Ausbildungsverträgen",
+          "material_type": "Schriftliches Material",
+          "source": "filter",
+          "access_link": "https://example.com/fallstudien.pdf",
+          "filter_criteria": {
+            "cclom:title": "Ausbildungsverträge",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/41eaccae-899b-4209-8a54-c793a3cdf538",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
+          }
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Präsentation zu Rechten und Pflichten",
+          "material_type": "Digitale Präsentation",
+          "source": "filter",
+          "access_link": "https://example.com/praesentation-rechte-pflichten",
+          "filter_criteria": {
+            "cclom:title": "Rechte Pflichten",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/1e300ea3-a687-45a3-b215-9c240c1666dc",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
+          }
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Beamer",
+          "tool_type": "Hardware",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Beamer",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/37a3ad9c-727f-4b74-bbab-27d59015c695",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
+          }
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Computer mit Internetzugang",
+          "tool_type": "Hardware",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Internetwirtschaft",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/55761ec6-0cd4-4677-86ee-6f395934dae7",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
+          }
+        }
+      ],
+      "services": [
+        {
+          "id": "ENV1-S1",
+          "name": "Digitale Lernplattform",
+          "service_type": "E-Learning",
+          "source": "filter",
+          "access_link": "https://example.com/digitale-lernplattform",
+          "filter_criteria": {
+            "cclom:title": "Wirtschaft",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/e10e9add-700e-4b57-a9c5-8f1088bb0545",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
+          }
+        }
+      ]
+    }
+  ]
+}

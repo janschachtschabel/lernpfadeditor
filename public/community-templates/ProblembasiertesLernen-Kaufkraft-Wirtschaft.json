@@ -1,0 +1,636 @@
+{
+  "metadata": {
+    "title": "Finanzen weltweit: Verständnis globaler Währungen und Kaufkraft",
+    "description": "Ein interaktives Lernkonzept zur Einführung in globale Finanzen und Kaufkraft für Schüler der 7. Klasse.",
+    "keywords": [
+      "Finanzen",
+      "Währungen",
+      "Kaufkraft",
+      "Globalisierung",
+      "Interaktives Lernen"
+    ],
+    "author": "Jan Schachtschabel",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Schüler sollen die Vielfalt globaler Währungen und deren Einfluss auf die Kaufkraft verstehen, um globale wirtschaftliche Zusammenhänge zu erkennen.",
+    "learning_goals": [
+      "Kenntnis verschiedener Währungen und deren Länder",
+      "Verständnis von Wechselkursen und deren Berechnung",
+      "Vergleich der Kaufkraft unterschiedlicher Länder",
+      "Anwendung von mathematischen Fähigkeiten in realen Kontexten",
+      "Entwicklung sozialer und kommunikativer Kompetenzen durch Partner- und Gruppenarbeit"
+    ],
+    "didactic_keywords": [
+      "Interaktives Lernen",
+      "Entdeckendes Lernen",
+      "Globales Lernen",
+      "Mathematische Kompetenzen",
+      "Sozialkompetenz"
+    ]
+  },
+  "context": {
+    "target_group": "Schüler der 7. Klasse",
+    "subject": "Mathematik/Sachkunde",
+    "educational_level": "Sekundarstufe I",
+    "prerequisites": "Grundkenntnisse in Mathematik (Grundrechenarten), Basiswissen über Geld",
+    "time_frame": "90 Minuten (Doppelstunde)"
+  },
+  "influence_factors": [
+    {
+      "factor": "Heterogene Lerngruppe",
+      "description": "Unterschiedliche mathematische Fähigkeiten und sprachliche Kompetenzen erfordern differenzierte Aufgabenstellungen und visuelle Unterstützung."
+    },
+    {
+      "factor": "Alltagsbezug",
+      "description": "Anknüpfung an die Lebenswelt der Schüler durch das Thema Taschengeld und Konsumgüter."
+    },
+    {
+      "factor": "Globalisierung",
+      "description": "Verständnis für globale wirtschaftliche Zusammenhänge fördern."
+    }
+  ],
+  "solution": {
+    "solution_description": "Durchführung einer interaktiven Unterrichtsstunde mit entdeckendem Lernen, bei der Schüler durch Partner- und Gruppenarbeit Wechselkurse berechnen und Kaufkraft vergleichen.",
+    "didactic_approach": "Entdeckendes Lernen mit interaktiven Elementen zur Förderung von Eigeninitiative und sozialer Interaktion.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Einführung in globale Währungen",
+          "time_frame": "30 Minuten",
+          "learning_goal": "Schüler lernen verschiedene Währungen und deren Länder kennen.",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Aktivierung des Vorwissens",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Vorhandenes Wissen über Geld und Währungen aktivieren.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Brainstorming",
+                  "description": "Schüler nennen Währungen, die sie kennen, und ordnen sie den entsprechenden Ländern zu.",
+                  "duration": 10,
+                  "goal": "Sammlung bekannter Währungen und Länder",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A1"
+                  ],
+                  "assessment": {
+                    "type": "formativ",
+                    "methods": [
+                      "Mündliche Beiträge"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Korrektheit der Zuordnungen"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert das Brainstorming und notiert die Beiträge an der Tafel.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Nennen Währungen und ordnen sie Ländern zu.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Erarbeitung der Wechselkurse",
+              "time_frame": "20 Minuten",
+              "learning_goal": "Schüler verstehen, wie man Wechselkurse berechnet und Geldbeträge umrechnet.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Partnerarbeit: Wechselkurse berechnen",
+                  "description": "Schüler arbeiten in Paaren und rechnen vorgegebene Geldbeträge in andere Währungen um.",
+                  "duration": 20,
+                  "goal": "Anwendung mathematischer Fähigkeiten in realen Kontexten",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS2-P1-A1"
+                  ],
+                  "assessment": {
+                    "type": "formativ",
+                    "methods": [
+                      "Arbeitsblätter überprüfen"
+                    ],
+                    "criteria": [
+                      "Richtigkeit der Berechnungen",
+                      "Zusammenarbeit im Team"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Erklärt die Aufgabe und steht für Fragen zur Verfügung.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Schülerpaare",
+                      "actor_id": "A2",
+                      "task_description": "Berechnen die Umrechnung von Geldbeträgen mithilfe der Wechselkurse.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": [
+            "LS2"
+          ]
+        },
+        {
+          "sequence_id": "LS2",
+          "sequence_name": "Vergleich der Kaufkraft",
+          "time_frame": "60 Minuten",
+          "learning_goal": "Schüler vergleichen die Kaufkraft verschiedener Länder anhand von Konsumgütern und Taschengeld.",
+          "phases": [
+            {
+              "phase_id": "LS2-P1",
+              "phase_name": "Analyse von Konsumgütern",
+              "time_frame": "30 Minuten",
+              "learning_goal": "Schüler setzen den Wert von Konsumgütern ins Verhältnis zum Taschengeld.",
+              "activities": [
+                {
+                  "activity_id": "LS2-P1-A1",
+                  "name": "Gruppenarbeit: Kaufkraftvergleich",
+                  "description": "In Gruppen analysieren die Schüler die Preise von Konsumgütern in verschiedenen Ländern.",
+                  "duration": 30,
+                  "goal": "Verständnis für globale Unterschiede in der Kaufkraft entwickeln",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS2-P2-A1"
+                  ],
+                  "assessment": {
+                    "type": "formativ",
+                    "methods": [
+                      "Beobachtung",
+                      "Gruppenpräsentation"
+                    ],
+                    "criteria": [
+                      "Korrekte Analysen",
+                      "Teamarbeit"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS2-P1-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Unterstützt die Gruppen und gibt Hilfestellungen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P1-A1-R2",
+                      "role_name": "Schülergruppen",
+                      "actor_id": "A2",
+                      "task_description": "Analysieren die Daten und bereiten eine kurze Präsentation vor.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS2-P2"
+            },
+            {
+              "phase_id": "LS2-P2",
+              "phase_name": "Präsentation und Diskussion",
+              "time_frame": "30 Minuten",
+              "learning_goal": "Schüler fassen ihre Ergebnisse zusammen und diskutieren globale finanzielle Zusammenhänge.",
+              "activities": [
+                {
+                  "activity_id": "LS2-P2-A1",
+                  "name": "Kugellagergespräch",
+                  "description": "Schüler präsentieren ihre Ergebnisse in wechselnden Partnergesprächen.",
+                  "duration": 15,
+                  "goal": "Förderung der Kommunikationsfähigkeiten",
+                  "prerequisite_activity": "LS2-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS2-P2-A2"
+                  ],
+                  "assessment": {
+                    "type": "formativ",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Verständliche Zusammenfassungen"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS2-P2-A1-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Organisiert das Kugellager und moderiert bei Bedarf.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P2-A1-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Präsentieren ihre Ergebnisse und tauschen sich aus.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS2-P2-A2",
+                  "name": "Abschlussdiskussion",
+                  "description": "Gemeinsame Reflexion über die globalen finanziellen Zusammenhänge und den eigenen Standort in der Welt.",
+                  "duration": 15,
+                  "goal": "Vertieftes Verständnis und persönliche Reflexion",
+                  "prerequisite_activity": "LS2-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summativ",
+                    "methods": [
+                      "Mündliche Beiträge"
+                    ],
+                    "criteria": [
+                      "Tiefe der Reflexion",
+                      "Engagement"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS2-P2-A2-R1",
+                      "role_name": "Lehrkraft",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert die Diskussion und fasst die Kernergebnisse zusammen.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P2-A2-R2",
+                      "role_name": "Schüler",
+                      "actor_id": "A2",
+                      "task_description": "Beteiligen sich an der Diskussion und teilen persönliche Eindrücke.",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS2-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [
+            "LS1"
+          ],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Fördert das Verständnis für globale wirtschaftliche Zusammenhänge.",
+      "Verbindet mathematische Fähigkeiten mit realen Anwendungen.",
+      "Stärkt soziale und kommunikative Kompetenzen durch Partner- und Gruppenarbeit."
+    ],
+    "disadvantages": [
+      "Erfordert sorgfältige Planung und Materialvorbereitung.",
+      "Unterschiedliche mathematische Fähigkeiten können das Lerntempo beeinflussen."
+    ]
+  },
+  "implementation_notes": [
+    {
+      "note_id": "Note1",
+      "description": "Arbeitsblätter und Materialien im Voraus vorbereiten und auf Verständlichkeit prüfen."
+    },
+    {
+      "note_id": "Note2",
+      "description": "Visuelle Hilfsmittel nutzen, um Schüler mit sprachlichen Schwierigkeiten zu unterstützen."
+    },
+    {
+      "note_id": "Note3",
+      "description": "Bei Bedarf Differenzierungsangebote für schnellere oder langsamere Lerner bereitstellen."
+    }
+  ],
+  "related_patterns": [
+    "Projektbasiertes Lernen",
+    "Kooperatives Lernen",
+    "Mathematische Modellierung"
+  ],
+  "feedback": {
+    "comments": [
+      {
+        "date": "2023-11-22",
+        "name": "Frau Lehmann",
+        "comment": "Die Verbindung von Mathematik und globalen Themen hat die Schüler sehr motiviert."
+      },
+      {
+        "date": "2023-11-23",
+        "name": "Herr Schmidt",
+        "comment": "Die interaktiven Elemente haben besonders den Schülern mit Aufmerksamkeitsschwierigkeiten geholfen."
+      }
+    ]
+  },
+  "sources": [],
+  "actors": [
+    {
+      "id": "A1",
+      "name": "Lehrkraft",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 35,
+        "gender": "weiblich",
+        "ethnic_background": "deutsch"
+      },
+      "education": {
+        "education_level": "Lehramtsstudium",
+        "class_level": "Sekundarstufe I",
+        "subject_focus": "Mathematik, Sachkunde"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Mathematikdidaktik",
+          "Globales Lernen"
+        ],
+        "cognitive_competencies": [
+          "Analytisches Denken",
+          "Didaktische Reduktion"
+        ],
+        "methodical_competencies": [
+          "Interaktive Methoden",
+          "Differenzierung"
+        ],
+        "affective_competencies": [
+          "Empathie",
+          "Motivation"
+        ],
+        "digital_competencies": [
+          "Einsatz digitaler Medien",
+          "Präsentationstechniken"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch",
+            "Englisch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2",
+            "Englisch": "B2"
+          }
+        }
+      },
+      "social_form": "Lehrkraft",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Interaktives Lernen",
+          "Visuelle Unterstützung"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Beamer",
+          "Computer"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Globalisierung",
+          "Mathematische Anwendungen"
+        ],
+        "goals": [
+          "Verknüpfung von Theorie und Praxis",
+          "Förderung sozialer Kompetenzen"
+        ],
+        "motivation": {
+          "type": "intrinsisch",
+          "level": "hoch"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "7. Klasse",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age_range": "12-13",
+        "gender_distribution": "gemischt",
+        "ethnic_background": "divers"
+      },
+      "education": {
+        "education_level": "Sekundarstufe I",
+        "class_level": "7. Klasse",
+        "subject_focus": "Allgemeinbildung"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Grundrechenarten",
+          "Basiswissen Geld"
+        ],
+        "cognitive_competencies": [
+          "Logisches Denken",
+          "Anwendung von Wissen"
+        ],
+        "methodical_competencies": [
+          "Partnerarbeit",
+          "Gruppenarbeit"
+        ],
+        "affective_competencies": [
+          "Neugier",
+          "Teamfähigkeit"
+        ],
+        "digital_competencies": [
+          "Grundlegende Mediennutzung"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "B1-B2 (mit Ausnahmen)"
+          }
+        }
+      },
+      "social_form": "Klassenverband",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktisch",
+          "Interaktiv"
+        ],
+        "special_needs": [
+          "Unterstützung für sprachlich schwächere Schüler"
+        ],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Taschengeld",
+          "Konsumgüter"
+        ],
+        "goals": [
+          "Verständnis globaler Zusammenhänge",
+          "Anwendung von Mathematik im Alltag"
+        ],
+        "motivation": {
+          "type": "gemischt",
+          "level": "mittel"
+        }
+      },
+      "social_structure": {
+        "group_size": 22,
+        "heterogeneity": "hoch"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Klassenzimmer",
+      "description": "Standard-Klassenraum mit Tafel, Beamer und Möglichkeit zur Gruppenarbeit.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Arbeitsblatt Wechselkurse",
+          "material_type": "Arbeitsblatt",
+          "source": "Intern",
+          "access_link": "materials/wechselkurse.pdf",
+          "filter_criteria": {}
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Datenblatt Konsumgüterpreise",
+          "material_type": "Datenblatt",
+          "source": "Intern",
+          "access_link": "materials/konsumgueter.pdf",
+          "filter_criteria": {}
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Tafel/Whiteboard",
+          "tool_type": "Hardware",
+          "source": "Intern",
+          "access_link": "",
+          "filter_criteria": {}
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Taschenrechner",
+          "tool_type": "Hardware",
+          "source": "Intern",
+          "access_link": "",
+          "filter_criteria": {}
+        }
+      ],
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "metadata": {
+    "title": "Projekttag: Ökosysteme entdecken",
+    "description": "Ein Projekttag zur Erforschung verschiedener Ökosysteme und deren Kreisläufe sowie der Auswirkungen des Klimawandels auf diese Systeme für Schüler*innen der Sekundarstufe I.",
+    "keywords": [
+      "Ökosysteme",
+      "Kreisläufe",
+      "Klimawandel",
+      "Umweltbildung",
+      "Naturwissenschaften"
+    ],
+    "author": "Max Mustermann",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Schüler*innen sollen ein Verständnis für die Vielfalt der Ökosysteme und die Auswirkungen des Klimawandels auf diese entwickeln.",
+    "learning_goals": [
+      "Kenntnis über verschiedene Ökosysteme",
+      "Verstehen der Kreisläufe in Ökosystemen",
+      "Erkennen der Auswirkungen des Klimawandels auf Ökosysteme",
+      "Präsentation der Forschungsergebnisse"
+    ],
+    "didactic_keywords": [
+      "Forschung",
+      "Gruppenarbeit",
+      "Stationenlernen",
+      "Präsentation"
+    ]
+  },
+  "context": {
+    "target_group": "Schüler*innen der Sekundarstufe I",
+    "subject": "Biologie",
+    "educational_level": "Sekundarstufe I",
+    "prerequisites": "Basiswissen über natürliche Ressourcen und Umwelt",
+    "time_frame": "6 Stunden"
+  },
+  "influence_factors": [
+    {
+      "factor": "Gruppendynamik",
+      "description": "Unterschiedliche Interaktionen in den Gruppen können das Lernen beeinflussen."
+    },
+    {
+      "factor": "Materialverfügbarkeit",
+      "description": "Zugänglichkeit zu Materialien kann das Lernen unterstützen oder behindern."
+    },
+    {
+      "factor": "Interesse an Umweltthemen",
+      "description": "Motivation der Schüler*innen kann von ihrem Interesse an ökologischen Themen abhängen."
+    }
+  ],
+  "solution": {
+    "solution_description": "Ein strukturierter Projekttag, der Gruppenarbeit, Stationenlernen und Präsentation umfasst, um das Thema Ökosysteme interaktiv zu erforschen.",
+    "didactic_approach": "Kooperatives Lernen mit einem Fokus auf selbstständiges Entdecken und Präsentieren von Wissen.",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Erforschung der Ökosysteme",
+          "time_frame": "6 Stunden (ein Schultag)",
+          "learning_goal": "Verständnis der Vielfalt der Ökosysteme und deren Kreisläufe",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Einführung in die Ökosysteme",
+              "time_frame": "90 Minuten",
+              "learning_goal": "Erforschung der verschiedenen Ökosysteme auf der Erde",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Gruppenarbeit: Ökosysteme recherchieren",
+                  "description": "Die Schüler*innen recherchieren in Gruppen über verschiedene Ökosysteme.",
+                  "duration": 60,
+                  "goal": "Identifikation und Beschreibung verschiedener Ökosysteme",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P1-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Vollständigkeit der Informationen"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Gruppenleiter",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Gruppenarbeit und koordiniert die Recherche",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2",
+                          "ENV1-M3",
+                          "ENV1-M4"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Gruppenmitglied",
+                      "actor_id": "A2",
+                      "task_description": "Recherchiert aktiv und unterstützt den Gruppenleiter",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2",
+                          "ENV1-M4",
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P1-A2",
+                  "name": "Präsentation der Ergebnisse",
+                  "description": "Die Gruppen tragen ihre Ergebnisse im Plenum vor.",
+                  "duration": 30,
+                  "goal": "Teilen der Forschungsergebnisse mit der Klasse",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summative",
+                    "methods": [
+                      "Präsentation"
+                    ],
+                    "criteria": [
+                      "Klarheit der Präsentation",
+                      "Verständnis des Themas"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A2-R1",
+                      "role_name": "Präsentierender",
+                      "actor_id": "A1",
+                      "task_description": "Stellt die Ergebnisse der Gruppe vor",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P2"
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Stationenlernen: Ökosysteme vertiefen",
+              "time_frame": "90 Minuten",
+              "learning_goal": "Vertiefte Auseinandersetzung mit einem ausgewählten Ökosystem",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Stationenarbeit",
+                  "description": "Die Gruppen arbeiten an verschiedenen Stationen zu ihrem gewählten Ökosystem.",
+                  "duration": 60,
+                  "goal": "Erforschung der Kreisläufe und der Auswirkungen des Klimawandels",
+                  "prerequisite_activity": "LS1-P1-A2",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Arbeitsblattkontrolle"
+                    ],
+                    "criteria": [
+                      "Vollständigkeit der Antworten",
+                      "Verständnis der Inhalte"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Gruppenleiter",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Stationenarbeit und stellt Materialien bereit",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2",
+                          "ENV1-M4",
+                          "ENV1-M5",
+                          "ENV1-M1"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "Dokumentation der Ergebnisse",
+                  "description": "Die Gruppen halten ihre Ergebnisse schriftlich fest.",
+                  "duration": 30,
+                  "goal": "Dokumentation der Erkenntnisse für die Präsentation",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Überprüfung der Dokumentation"
+                    ],
+                    "criteria": [
+                      "Vollständigkeit der Dokumentation",
+                      "Klarheit der Darstellung"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Dokumentator",
+                      "actor_id": "A1",
+                      "task_description": "Führt die Dokumentation der Ergebnisse durch",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P1",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": "LS1-P3"
+            },
+            {
+              "phase_id": "LS1-P3",
+              "phase_name": "Präsentation der Ergebnisse",
+              "time_frame": "90 Minuten",
+              "learning_goal": "Vorstellung der Ergebnisse und Reflexion über die Erkenntnisse",
+              "activities": [
+                {
+                  "activity_id": "LS1-P3-A1",
+                  "name": "Gruppenpräsentationen",
+                  "description": "Die Gruppen präsentieren nacheinander ihre Ergebnisse.",
+                  "duration": 90,
+                  "goal": "Teilen der Ergebnisse mit der gesamten Klasse",
+                  "prerequisite_activity": "LS1-P2-A2",
+                  "transition_type": "feedback_loops",
+                  "condition_description": "Fragen und Diskussionen nach jeder Präsentation",
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "summative",
+                    "methods": [
+                      "Präsentation",
+                      "Feedback durch Mitschüler"
+                    ],
+                    "criteria": [
+                      "Inhaltliche Richtigkeit",
+                      "Präsentationsstil"
+                    ]
+                  },
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Präsentierender",
+                      "actor_id": "A1",
+                      "task_description": "Präsentiert die Ergebnisse der Gruppe",
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [],
+                        "selected_tools": [
+                          "ENV1-T3",
+                          "ENV1-T2",
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prerequisite_phase": "LS1-P2",
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [
+      "Förderung der Teamarbeit und sozialen Interaktion",
+      "Praktisches und aktives Lernen",
+      "Vermittlung von Umweltbewusstsein und Klimawandel-Themen"
+    ],
+    "disadvantages": [
+      "Zeitintensiv",
+      "Herausforderung in der Gruppenkoordination",
+      "Mögliche Ungleichverteilung der Arbeitslast in Gruppen"
+    ]
+  },
+  "implementation_notes": [
+    {
+      "note_id": "Note1",
+      "description": "Sicherstellen, dass alle Materialien vor dem Projekttag bereitgestellt werden."
+    },
+    {
+      "note_id": "Note2",
+      "description": "Technische Geräte wie Beamer und Laptops vorab testen."
+    },
+    {
+      "note_id": "Note3",
+      "description": "Klare Regeln für die Gruppenarbeit und Präsentationen definieren."
+    }
+  ],
+  "related_patterns": [
+    "Kooperatives Lernen",
+    "Forschendes Lernen",
+    "Interaktive Präsentationen"
+  ],
+  "feedback": {
+    "comments": [
+      {
+        "date": "2024-03-14",
+        "name": "Dr. Schmidt",
+        "comment": "Eine sehr ansprechende und motivierende Unterrichtseinheit."
+      },
+      {
+        "date": "2024-03-15",
+        "name": "Prof. Meyer",
+        "comment": "Gut strukturiert und fördert das selbstständige Lernen der Schüler*innen."
+      }
+    ]
+  },
+  "sources": [],
+  "actors": [
+    {
+      "id": "A1",
+      "name": "Max Mustermann",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 30,
+        "gender": "männlich",
+        "ethnic_background": "deutsch"
+      },
+      "education": {
+        "education_level": "Master of Education",
+        "class_level": "Sekundarstufe I",
+        "subject_focus": "Biologie, Geografie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Biologie",
+          "Geografie"
+        ],
+        "cognitive_competencies": [
+          "Analytisches Denken",
+          "Problemlösung"
+        ],
+        "methodical_competencies": [
+          "Projektmanagement",
+          "Kooperatives Lernen"
+        ],
+        "affective_competencies": [
+          "Empathie",
+          "Motivation"
+        ],
+        "digital_competencies": [
+          "Digitale Medien",
+          "Präsentationstechniken"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch",
+            "Englisch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2",
+            "Englisch": "B2"
+          }
+        }
+      },
+      "social_form": "Lehrkraft",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praxisorientiert",
+          "Visuell"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Beamer",
+          "Laptops"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Umweltschutz",
+          "Naturwissenschaften"
+        ],
+        "goals": [
+          "Förderung des ökologischen Bewusstseins",
+          "Integration digitaler Medien im Unterricht"
+        ],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "A2",
+      "name": "Hauptlerngruppe",
+      "type": "Gruppe",
+      "demographic_data": {
+        "age_range": "12-16",
+        "gender_distribution": "gemischt",
+        "ethnic_background": "diverse"
+      },
+      "education": {
+        "education_level": "Sekundarstufe I",
+        "class_level": "7-9. Klasse",
+        "subject_focus": "Biologie"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Ökosysteme",
+          "Naturschutz"
+        ],
+        "cognitive_competencies": [
+          "Kritisches Denken",
+          "Zusammenarbeit"
+        ],
+        "methodical_competencies": [
+          "Recherche",
+          "Präsentation"
+        ],
+        "affective_competencies": [
+          "Teamfähigkeit"
+        ],
+        "digital_competencies": [
+          "Grundlegende PC-Kenntnisse"
+        ],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "B1"
+          }
+        }
+      },
+      "social_form": "Klassenverband",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Praktische Übungen",
+          "Visuelle Darstellungen"
+        ],
+        "special_needs": [],
+        "technical_requirements": [
+          "Laptops"
+        ]
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Natur",
+          "Umweltschutz"
+        ],
+        "goals": [
+          "Verständnis der Ökosysteme",
+          "Bewusstsein für den Klimawandel"
+        ],
+        "motivation": {
+          "type": "mixed",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": 20,
+        "heterogeneity": "hoch"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "Biologieraum",
+      "description": "Klassenzimmer, ausgestattet mit Materialien für den Biologieunterricht und digitalen Medien.",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Infoblätter zu Ökosystemen",
+          "material_type": "Infoblatt",
+          "source": "filter",
+          "access_link": "materials/oekosysteme_info.pdf",
+          "filter_criteria": {
+            "cclom:title": "Ökosysteme",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/c8e52242-361b-4a2a-b95d-25e516b28b45",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M2",
+          "name": "Schulbuch: Biologie für die Sekundarstufe",
+          "material_type": "Lehrbuch",
+          "source": "filter",
+          "access_link": "materials/biologie_schulbuch.pdf",
+          "filter_criteria": {
+            "cclom:title": "Biologie",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/3927fdb6-0477-422c-9f5a-6285948aeaf4",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "Poster über verschiedene Ökosysteme",
+          "material_type": "Poster",
+          "source": "filter",
+          "access_link": "materials/oekosysteme_poster.pdf",
+          "filter_criteria": {
+            "cclom:title": "Ökosysteme",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M4",
+          "name": "Kartenmaterial: Ökosysteme der Erde",
+          "material_type": "Karte",
+          "source": "filter",
+          "access_link": "materials/oekosysteme_karte.pdf",
+          "filter_criteria": {
+            "cclom:title": "Ökosysteme",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-M5",
+          "name": "Klimawandel und seine Auswirkungen",
+          "material_type": "Präsentation",
+          "source": "filter",
+          "access_link": "materials/klimawandel_praesentation.pdf",
+          "filter_criteria": {
+            "cclom:title": "Klimawandel",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/f1341358-3f91-449b-b6eb-f58636f756a0",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Beamer",
+          "tool_type": "Hardware",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Beamer",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/1e300ea3-a687-45a3-b215-9c240c1666dc",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-T2",
+          "name": "Laptops",
+          "tool_type": "Hardware",
+          "source": "filter",
+          "access_link": "",
+          "filter_criteria": {
+            "cclom:title": "Laptops",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/37a3ad9c-727f-4b74-bbab-27d59015c695",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        },
+        {
+          "id": "ENV1-T3",
+          "name": "Präsentationssoftware",
+          "tool_type": "Software",
+          "source": "filter",
+          "access_link": "software/praesentationssoftware",
+          "filter_criteria": {
+            "cclom:title": "Präsentation",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/1e300ea3-a687-45a3-b215-9c240c1666dc",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        }
+      ],
+      "services": [
+        {
+          "id": "ENV1-S1",
+          "name": "Digitale Lernplattform",
+          "service_type": "Digital",
+          "source": "filter",
+          "access_link": "https://example.com/digitale_lernplattform",
+          "filter_criteria": {
+            "cclom:title": "Biologie",
+            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/e10e9add-700e-4b57-a9c5-8f1088bb0545",
+            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
+          }
+        }
+      ]
+    }
+  ]
+}

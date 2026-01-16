@@ -1,0 +1,85 @@
+{
+  "templates": [
+    {
+      "id": "template-0",
+      "name": "Einführung in die Addition (Klasse 3)",
+      "description": "45-minütiger Lernpfad zur Einführung in die Addition mit Binnendifferenzierung für Schüler mit Sprachproblemen.",
+      "author": "Didaktik-Experte",
+      "date": "2026-01-16",
+      "file": "Einfuehrung-Addition-Klasse3.json",
+      "featured": true
+    },
+    {
+      "id": "template-1",
+      "name": "1 gegen 1 Trainingseinheit für Kinder",
+      "description": "Eine interaktive Trainingseinheit zur Förderung von 1 gegen 1 Fähigkeiten bei Kindern im Alter von 6 Jahren.",
+      "author": "Max Mustermann",
+      "date": "2024-03-14",
+      "file": "1 gegen 1 Trainingseinheit für Kinder.json"
+    },
+    {
+      "id": "template-2", 
+      "name": "Rechte und Pflichten im Ausbildungsvertrag",
+      "description": "Ein interaktives Lernkonzept zur Vermittlung von Rechten und Pflichten im Ausbildungsvertrag.",
+      "author": "Max Mustermann",
+      "date": "2024-03-15",
+      "file": "Christian_UA 1_Rechte und Pflichten im Ausbildungsvertrag_Ein interaktives Lernkonzept.json"
+    },
+    {
+      "id": "template-3",
+      "name": "Berufsorientierung für alle",
+      "description": "Ein Wegweiser in die berufliche Zukunft für Schülerinnen und Schüler.",
+      "author": "Christian",
+      "date": "2024-03-16",
+      "file": "Christian_UA2_Berufsorientierung für alle – ein Wegweiser in die Zukunft.json"
+    },
+    {
+      "id": "template-4",
+      "name": "Entdeckung der biologischen Vielfalt im Wald",
+      "description": "Ein interaktives Lernkonzept zur Förderung des Verständnisses für biologische Vielfalt bei Grundschülern.",
+      "author": "Anna Müller",
+      "date": "2024-03-17",
+      "file": "Draussenschule_Entdeckung-der-biologischen-Vielfalt-im-Wald_Primastufe.json"
+    },
+    {
+      "id": "template-5",
+      "name": "Galeriemethode: Müllvermeidung und Nachhaltigkeit",
+      "description": "Ein problembasiertes Lernkonzept zur Förderung von Müllvermeidung und Nachhaltigkeit.",
+      "author": "Jan Schachtschabel",
+      "date": "2024-03-18",
+      "file": "Galeriemethode-Muellvermeidung-Nachhaltigkeit.json"
+    },
+    {
+      "id": "template-6",
+      "name": "Finanzen weltweit: Verständnis globaler Währungen",
+      "description": "Ein interaktives Lernkonzept zur Einführung in globale Finanzen und Kaufkraft.",
+      "author": "Jan Schachtschabel",
+      "date": "2024-03-19",
+      "file": "ProblembasiertesLernen-Kaufkraft-Wirtschaft.json"
+    },
+    {
+      "id": "template-7",
+      "name": "Stationenlernen: Salze und ihre Eigenschaften",
+      "description": "Ein interaktives Stationenlernen für die 10. Klasse zu Salzen.",
+      "author": "Max Müller",
+      "date": "2024-03-20",
+      "file": "Stationenlernen_ Salze und ihre Eigenschaften.json"
+    },
+    {
+      "id": "template-8",
+      "name": "Stationenlernen: Ökosysteme entdecken",
+      "description": "Ein Stationenlernen zur Erforschung verschiedener Ökosysteme.",
+      "author": "Max Mustermann",
+      "date": "2024-03-21",
+      "file": "Stationenlernen-im-Biologieunterricht_Oekosysteme-entdecken_SekI.json"
+    },
+    {
+      "id": "template-9",
+      "name": "Umgang mit dem Mikroskop",
+      "description": "Eine Anleitung für den Biologieunterricht der 5. und 6. Klasse.",
+      "author": "Maximilian Müller", 
+      "date": "2024-03-22",
+      "file": "Umgang-mit-dem-Mikroskop_Anleitung-fuer-den-Biologieunterricht_5+6Klasse.json"
+    }
+  ]
+}

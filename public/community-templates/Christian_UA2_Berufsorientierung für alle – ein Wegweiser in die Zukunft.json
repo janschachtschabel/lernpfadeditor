@@ -1,0 +1,411 @@
+{
+  "metadata": {
+    "title": "Schule aus – und dann? Auf dem Weg in meine berufliche Zukunft",
+    "description": "\n„Schule aus – und dann?“ Diese Frage stellen sich viele Schülerinnen und Schüler häufig, ohne eine klare Antwort zu haben. Sie verlieren sich im Überfluss an scheinbar unendlichen Möglichkeiten und treffen oft aus zeitlichem Druck eine Entscheidung, die vor allem emotional geprägt ist. Die Folgen dieser Entscheidungen sind deutlich: Etwa 33 % der Schülerinnen, Schüler und Studierenden brechen ihre Ausbildung oder ihr Studium vorzeitig ab. Doch wie geht es nach einem solchen Abbruch weiter? Bei der Vielzahl von 330 Ausbildungsberufen und 19.000 Studiengängen fällt es schwer, die richtige Wahl zu treffen. Dieser Teufelskreis lässt sich jedoch durchbrechen, wenn Jugendliche sich frühzeitig mit der Berufsorientierung auseinandersetzen und die vorhandenen Angebote gezielt nutzen.\n\nDieses Modul unterstützt die Berufsorientierung, indem es den Schülerinnen und Schülern ermöglicht, mithilfe der interaktiven Anwendung „JobChecker“ ihre eigenen Stärken und Potenziale zu erkennen. Basierend auf diesen Ergebnissen schlägt der „JobChecker“ passende Ausbildungs- und Studiengänge vor und ergänzt diese Empfehlungen mit weiteren hilfreichen Informationen zur Berufswahl.",
+    "keywords": [
+      "Berufsorientierung",
+      "Berufs- und Arbeitswelt"
+    ],
+    "author": "Christian",
+    "version": "1.0"
+  },
+  "problem": {
+    "problem_description": "Problemstellung:\nViele Schülerinnen und Schüler stehen nach dem Schulabschluss vor der Frage „Schule aus – und dann?“, ohne eine klare Vorstellung von ihrem beruflichen Weg zu haben. In einem Überangebot an Ausbildungsberufen und Studiengängen fällt es schwer, eine fundierte Entscheidung zu treffen. Oft wird die Entscheidung aus Zeitdruck und emotionaler Belastung heraus getroffen, was in vielen Fällen zu Abbrüchen von Ausbildungen und Studiengängen führt. Rund 33 % der Schülerinnen und Schüler sowie Studierenden brechen ihre Ausbildung oder ihr Studium vorzeitig ab. Der Dschungel an Möglichkeiten bleibt somit unübersichtlich und die Wahl des richtigen Berufsweges bleibt eine große Herausforderung.\n\nProblemfrage:\nWie können Schülerinnen und Schüler frühzeitig die richtigen beruflichen Entscheidungen treffen und die verfügbaren Orientierungsmöglichkeiten effektiv nutzen, um spätere Abbrüche von Ausbildung oder Studium zu vermeiden?",
+    "learning_goals": [
+      "Die Schülerinnen und Schüler ...",
+      "- reflektieren ihre eigenen Stärken und Schwächen.",
+      "- Identifizieren, mithilfe eines Berufsorientierungstests, für sie geeignete Berufe. ",
+      "- hinterfragen die Aussagekraft des Testergebnisses kritisch. •\tbeschreiben und beurteilen den Beruf Assistentin/Assistent für Freizeitwirtschaft."
+    ],
+    "didactic_keywords": [
+      "ElevatorPitch"
+    ]
+  },
+  "context": {
+    "target_group": "Schülerinnen und Schüler des Gymnasiums",
+    "subject": "Arbeit-Wirtschaft-Technik",
+    "educational_level": "9/10",
+    "prerequisites": "Kenntnisse der Methode \"Elevator Pitch\"",
+    "time_frame": "2 Unterrichtsstunden"
+  },
+  "influence_factors": [],
+  "solution": {
+    "solution_description": "Der Lösungsansatz im Material zur beruflichen Zukunft bietet einen strukturierten Ansatz zur Berufsorientierung für Schülerinnen und Schüler. Die Schüler sollen ihre eigenen Stärken und Interessen erkennen und diese mit den verschiedenen Berufs- und Studienmöglichkeiten abgleichen. Dabei werden interaktive Tools wie der „JobChecker“ genutzt, um personalisierte Empfehlungen für passende Ausbildungs- und Studiengänge zu erhalten. Zusätzlich werden die Schüler in den richtigen Umgang mit Informationsquellen und Entscheidungshilfen eingeführt, um eine fundierte und reflektierte Entscheidung über ihre berufliche Zukunft treffen zu können. Der Fokus liegt auf der frühzeitigen Auseinandersetzung mit der Berufswahl, um die Gefahr von späteren Abbrüchen zu minimieren.\n\nDer Lösungsansatz ist im Detail hier abrufbar: https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Loesungen.pdf ",
+    "didactic_approach": "",
+    "didactic_template": {
+      "learning_sequences": [
+        {
+          "sequence_id": "LS1",
+          "sequence_name": "Schule aus – und dann? Auf dem Weg in meine berufliche Zukunft ",
+          "time_frame": "90",
+          "learning_goal": "Die Schülerinnen und Schüler ... \n- reflektieren ihre eigenen Stärken und Schwächen. \n- Identifizieren, mithilfe eines Berufsorientierungstests, für sie geeignete Berufe. \n- hinterfragen die Aussagekraft des Testergebnisses kritisch. \n- beschreiben und beurteilen den Beruf Assistentin/Assistent für Freizeitwirtschaft.",
+          "phases": [
+            {
+              "phase_id": "LS1-P1",
+              "phase_name": "Vorbereitung (optional)",
+              "time_frame": "15",
+              "learning_goal": "Die SuS schätzen ihre eigenen Stärken und Schwächen ein und führen auf Basis einer Fremdeinschätzung eine Reflektion dieser durch.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P1-A1",
+                  "name": "Arbeitsblatt: Selbst- und Fremdeinschätzung",
+                  "description": "Dieses Arbeitsblatt dient der inhaltlichen Vorbereitung auf das Modul und kann vorab als vorbereitende Hausaufgabe aufgegeben werden. ",
+                  "duration": 15,
+                  "roles": [],
+                  "goal": "",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            },
+            {
+              "phase_id": "LS1-P2",
+              "phase_name": "Einstieg",
+              "time_frame": "10",
+              "learning_goal": "Die SuS analysieren ein Zitat und leiten daraus Hinweise für das  Finden des eigenen Traumberufs ab. ",
+              "activities": [
+                {
+                  "activity_id": "LS1-P2-A1",
+                  "name": "Bearbeitung M1 Konfuzius sagt …",
+                  "description": "",
+                  "duration": 10,
+                  "roles": [],
+                  "goal": "",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            },
+            {
+              "phase_id": "LS1-P3",
+              "phase_name": "Erarbeitung I ",
+              "time_frame": "40",
+              "learning_goal": "Die SuS identifizieren, mithilfe eines Berufsorientierungstests,  eigene Interessen und Fähigkeiten sowie daraus resultierende Berufsvorschläge. \ninteraktive  Anwendung: JobChecker",
+              "activities": [
+                {
+                  "activity_id": "LS1-P3-A1",
+                  "name": "Einzelarbeit",
+                  "description": "Die Bearbeitung des JobCheckers erfolgt im Computerraum. Die Berufsvorschläge können kopiert, in einem separaten Ordner gesammelt und im Klassenzimmer für alle zugänglich aufgestellt werden.  ",
+                  "duration": 0,
+                  "roles": [],
+                  "goal": "",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            },
+            {
+              "phase_id": "LS1-P4",
+              "phase_name": "Vertiefung",
+              "time_frame": "10",
+              "learning_goal": "Die SuS hinterfragen die Aussagekraft des Testergebnisses kritisch.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P4-A1",
+                  "name": "Bearbeitung Arbeitsblatt: Testauswertung",
+                  "description": "",
+                  "duration": 10,
+                  "roles": [],
+                  "goal": "",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            },
+            {
+              "phase_id": "LS1-P5",
+              "phase_name": "Präsentation",
+              "time_frame": "20",
+              "learning_goal": "Die SuS präsentieren einzelne Berufsvorschläge und informieren sich so über  wei tere Berufe. ",
+              "activities": [
+                {
+                  "activity_id": "LS1-P5-A1",
+                  "name": "Vorbereitung und Durchführung des Elevator Pitch",
+                  "description": "Differenzierung: Anstelle des Elevator Pitchs kann auch ein Galeriegang durchgeführt und so die unterschiedlichen Berufe vorgestellt werden.",
+                  "duration": 0,
+                  "roles": [],
+                  "goal": "",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            },
+            {
+              "phase_id": "LS1-P6",
+              "phase_name": "Erarbeitung II",
+              "time_frame": "10",
+              "learning_goal": "Die SuS erstellen einen aussagekräftigen Steckbrief für den Beruf der Assistentin/des Assistenten für Freizeitwirtschaft.",
+              "activities": [
+                {
+                  "activity_id": "LS1-P6-A1",
+                  "name": "Bearbeitung M2  Beruf der Woche: Assistentin/Assistent für Freizeitwirtschaft",
+                  "description": "",
+                  "duration": 8,
+                  "roles": [],
+                  "goal": "",
+                  "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [],
+                    "criteria": []
+                  }
+                }
+              ],
+              "prerequisite_phase": null,
+              "transition_type": "sequential",
+              "condition_description": null,
+              "next_phase": null
+            }
+          ],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        },
+        {
+          "sequence_id": "LS2",
+          "sequence_name": "Einstieg",
+          "time_frame": "",
+          "learning_goal": "Die SuS analysieren ein Zitat und leiten daraus Hinweise für das  Finden des eigenen Traumberufs ab. ",
+          "phases": [],
+          "prerequisite_learningsequences": [],
+          "transition_type": "sequential",
+          "condition_description": null,
+          "next_learningsequence": []
+        }
+      ]
+    }
+  },
+  "consequences": {
+    "advantages": [],
+    "disadvantages": []
+  },
+  "implementation_notes": [],
+  "related_patterns": [],
+  "feedback": {
+    "comments": []
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "Schule aus – und dann? Auf dem Weg in meine berufliche Zukunft ",
+      "author": "Fenja Wißborn ",
+      "year": 2019,
+      "publisher": "C. C. Buchner Verlag",
+      "url": "https://www.teacheconomy.de/unterrichtsmaterial/berufs-und-arbeitswelt/berufliche-zukunft-gym1/"
+    }
+  ],
+  "actors": [
+    {
+      "id": "actor-1",
+      "name": "Lehrkraft",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "ethnic_background": "unbekannt",
+        "age": "42",
+        "gender": "männlich"
+      },
+      "education": {
+        "education_level": "Hochschulabschluss",
+        "class_level": "",
+        "subject_focus": "Wirtschaft, Recht, Bildungswissenschaften"
+      },
+      "competencies": {
+        "subject_competencies": [],
+        "cognitive_competencies": [],
+        "methodical_competencies": [],
+        "affective_competencies": [],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [],
+          "proficiency_levels": {}
+        }
+      },
+      "social_form": "",
+      "learning_requirements": {
+        "learning_preferences": [],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [],
+        "goals": [],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
+      }
+    },
+    {
+      "id": "actor-2",
+      "name": "Schülerinnen und Schüler des Gymnasiums",
+      "type": "Gruppe",
+      "demographic_data": {
+        "ethnic_background": "heterogen",
+        "age_range": "15-16",
+        "gender_distribution": "gemischt"
+      },
+      "education": {
+        "education_level": "Gymnasium",
+        "class_level": "9/10",
+        "subject_focus": "Arbeit - Wirtschaft- Recht"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Beschreiben und beurteilen den Beruf Assistentin/Assistent für Freizeitwirtschaft."
+        ],
+        "cognitive_competencies": [
+          "Die Schülerinnen und Schüler reflektieren ihre eigenen Stärken und Schwächen und hinterfragen kritisch die Aussagekraft des Testergebnisses."
+        ],
+        "methodical_competencies": [
+          "Identifizieren",
+          "mithilfe eines Berufsorientierungstests",
+          "für sie geeignete Berufe."
+        ],
+        "affective_competencies": [],
+        "digital_competencies": [
+          "Keine expliziten digitalen Kompetenzen in diesen Beispielen. (Die Nutzung des Berufsorientierungstests könnte jedoch als digitale Kompetenz betrachtet werden",
+          "wenn der Test online durchgeführt wird.)"
+        ],
+        "language_skills": {
+          "languages": [],
+          "proficiency_levels": {}
+        }
+      },
+      "social_form": "",
+      "learning_requirements": {
+        "learning_preferences": [],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [],
+        "goals": [],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "medium"
+        }
+      },
+      "social_structure": {
+        "group_size": "24-28",
+        "heterogeneity": "n/a"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV1",
+      "name": "",
+      "description": "",
+      "materials": [
+        {
+          "id": "ENV1-M1",
+          "name": "Selbst- und Fremdeinschätzung",
+          "material_type": "Arbeitsblatt",
+          "source": "manual",
+          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+        },
+        {
+          "id": "ENV1-M2",
+          "name": " M1: Konfuzius sagt …",
+          "material_type": "Übungsmaterial",
+          "source": "manual",
+          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+        },
+        {
+          "id": "ENV1-M3",
+          "name": "JobChecker",
+          "material_type": "Interaktives Medium",
+          "source": "manual",
+          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+        },
+        {
+          "id": "ENV1-M4",
+          "name": "Testauswertung",
+          "material_type": "Arbeitsblatt",
+          "source": "manual",
+          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+        },
+        {
+          "id": "ENV1-M5",
+          "name": "M2: Beruf der Woche: Assistentin/Assistent für Freizeitwirtschaft",
+          "material_type": "Arbeitsblatt",
+          "source": "manual",
+          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+        }
+      ],
+      "tools": [],
+      "services": [
+        {
+          "id": "ENV1-S1",
+          "name": "Jobchecker",
+          "service_type": "interaktiven Anwendung „ JobChecker“",
+          "source": "manual",
+          "access_link": " www.jobchecker21.de"
+        }
+      ]
+    }
+  ]
+}
