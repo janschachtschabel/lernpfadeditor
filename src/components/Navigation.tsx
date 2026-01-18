@@ -9,7 +9,8 @@ import {
   BoltIcon,
   EyeIcon,
   ShoppingCartIcon,
-  CheckCircleIcon
+  CheckCircleIcon,
+  DocumentTextIcon
 } from '@heroicons/react/24/outline';
 import { CheckCircleIcon as CheckCircleSolid } from '@heroicons/react/24/solid';
 import { useTemplateStore } from '../store/templateStore';
@@ -69,6 +70,13 @@ const navItems = [
     label: 'Vorschau',
     icon: EyeIcon,
     step: 7,
+    checkComplete: () => false
+  },
+  { 
+    path: '/material-generator', 
+    label: 'Material',
+    icon: DocumentTextIcon,
+    step: 8,
     checkComplete: () => false
   },
   ];

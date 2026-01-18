@@ -1,77 +1,225 @@
 {
   "metadata": {
-    "title": "Entdeckung der biologischen Vielfalt im Wald",
-    "description": "Ein interaktives Lernkonzept zur Förderung des Verständnisses für biologische Vielfalt bei Grundschülern durch praktische Erfahrungen im Wald.",
+    "title": "Entdeckung der biologischen Vielfalt im Wald (90 Minuten)",
+    "description": "Interaktive 90-minütige Lernsequenz zur Förderung von Beobachtungsfähigkeiten, Teamarbeit und Bewusstsein für biologische Vielfalt bei Grundschülern (3.-4. Klasse). Kombination aus Klassenzimmer-Einstieg, praktischer Erkundung im Wald und Sicherung im Klassenraum.",
     "keywords": [
       "Biologische Vielfalt",
-      "Naturerfahrung",
       "Wald",
+      "Erfahrungslernen",
       "Primarstufe",
       "Umweltbildung"
     ],
     "author": "Anna Müller",
-    "version": "1.0"
+    "version": "1.1",
+    "created": "2026-01-17T20:24:46.778Z"
   },
   "problem": {
-    "problem_description": "Schüler haben oft wenig Verständnis für die Bedeutung der biologischen Vielfalt und deren Erhaltung. Durch praktische Erfahrungen im Wald soll dieses Verständnis gefördert werden.",
+    "problem_description": "Schüler haben oft wenig Verständnis für die Bedeutung biologischer Vielfalt. Es fehlt an gelebter Beobachtungspraxis und an strukturierten Reflexionsphasen.",
+    "description": "Schüler haben oft wenig Verständnis für die Bedeutung biologischer Vielfalt. Es fehlt an gelebter Beobachtungspraxis und an strukturierten Reflexionsphasen.",
     "learning_goals": [
-      "Verständnis der biologischen Vielfalt und deren Bedeutung",
-      "Entwicklung von Beobachtungsfähigkeiten in der Natur",
-      "Förderung der Teamarbeit und sozialen Interaktionen",
-      "Bewusstsein für Umweltschutz und Nachhaltigkeit"
+      "Verständnis für biologische Vielfalt und deren Bedeutung entwickeln",
+      "Beobachtungs- und Dokumentationsfähigkeiten in der Natur stärken",
+      "Kooperative Arbeitsweisen und Kommunikation fördern",
+      "Bewusstsein für nachhaltiges Verhalten im Alltag schärfen"
     ],
     "didactic_keywords": [
       "Erfahrungslernen",
-      "Naturpädagogik",
+      "Handlungsorientierung",
       "Kooperatives Lernen",
-      "Umweltbildung"
-    ]
+      "Reflexion"
+    ],
+    "challenges": []
   },
   "context": {
     "target_group": "Schüler der 3. bis 4. Klasse",
-    "subject": "Biologie",
+    "subject": "Biologie/Umweltbildung",
     "educational_level": "Primarstufe",
-    "prerequisites": "Grundlegendes Interesse an Natur und Tieren",
-    "time_frame": "3 Stunden"
+    "prerequisites": "Interesse an Natur; grundlegende Arbeitsfähigkeiten (notieren, fotografieren)",
+    "time_frame": "90 Minuten"
   },
   "influence_factors": [
     {
       "factor": "Wetterbedingungen",
-      "description": "Schlechtes Wetter kann die Durchführung der Aktivitäten beeinträchtigen"
+      "description": "Schlechtes Wetter kann Aktivitäten im Wald einschränken; Alternativplan im Klassenzimmer notwendig."
     },
     {
       "factor": "Gruppengröße",
-      "description": "Eine zu große Gruppe kann die individuelle Betreuung erschweren"
+      "description": "Max. 20 Schüler für effektive Betreuung; bei größeren Gruppen zusätzliche Begleitpersonen einplanen."
     },
     {
-      "factor": "Verfügbarkeit von Materialien",
-      "description": "Notwendige Materialien müssen im Vorfeld bereitgestellt werden"
+      "factor": "Materialverfügbarkeit",
+      "description": "Lupe, Notizbuch, Kameras/Tablet und Bestimmungskarten müssen vorhanden sein."
     }
   ],
   "solution": {
-    "solution_description": "Durchführung eines interaktiven Waldspaziergangs mit verschiedenen Stationen zur Entdeckung der biologischen Vielfalt.",
-    "didactic_approach": "Erfahrungsorientiertes Lernen mit einem Fokus auf aktives Entdecken und Forschen.",
+    "solution_description": "Kombination aus Klassenraum-Einstieg, geführter Waldexpedition in Kleingruppen mit Dokumentationsaufträgen und gemeinsamer Sicherungs- und Reflexionsphase.",
+    "approach": "Kombination aus Klassenraum-Einstieg, geführter Waldexpedition in Kleingruppen mit Dokumentationsaufträgen und gemeinsamer Sicherungs- und Reflexionsphase.",
+    "didactic_approach": "Erfahrungsorientiertes, kooperatives Lernen mit klaren Reflexions- und Sicherungsphasen.",
     "didactic_template": {
       "learning_sequences": [
         {
           "sequence_id": "LS1",
           "sequence_name": "Waldexpedition zur biologischen Vielfalt",
-          "time_frame": "3 Stunden",
-          "learning_goal": "Erforschung und Verständnis der biologischen Vielfalt im Wald",
+          "time_frame": "90 Minuten",
+          "learning_goal": "Erforschung und Verständnis der biologischen Vielfalt im Wald durch Beobachtung, Dokumentation und Reflexion",
           "phases": [
             {
               "phase_id": "LS1-P1",
-              "phase_name": "Einführung",
-              "time_frame": "30 Minuten",
-              "learning_goal": "Vorwissen aktivieren und Interesse wecken",
+              "phase_name": "Einstieg",
+              "time_frame": "15 Minuten",
+              "learning_goal": "Vorwissen aktivieren, Aufgaben erklären und Gruppen einteilen",
               "activities": [
                 {
                   "activity_id": "LS1-P1-A1",
                   "name": "Waldgespräch",
-                  "description": "Einführung in das Thema durch Diskussion über den Wald und seine Bewohner",
-                  "duration": 30,
-                  "goal": "Aktivierung des Vorwissens und Schaffung von Neugier",
+                  "description": "Kurzes Impuls-Gespräch über Wald, Artenvielfalt und das Ziel der Expedition; Vorstellung der Aufgaben und Sicherheitsregeln.",
+                  "duration": 10,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet das Waldgespräch, stellt Ziele, Sicherheitsregeln und Aufgaben vor.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "M_WLO_01",
+                          "M_WLO_07",
+                          "ENV1-M1768681581902-ohnt",
+                          "ENV1-M1768681581606-avda"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Beteiligt sich am Gespräch, stellt Fragen und notiert erste Beobachtungen/Fragestellungen.",
+                      "selected_differentiation": [
+                        "diff_A2_1768681573847_0",
+                        "diff_A2_1768681573847_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "M_WLO_02",
+                          "M_WLO_03",
+                          "ENV1-M1768681585093-pzuo",
+                          "ENV1-M1768681580686-ei4s"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R3",
+                      "role_name": "Moderation",
+                      "actor_id": "A3",
+                      "task_description": "Ergänzt fachlich, erklärt ökologische Begriffe und weist auf Beobachtungsaspekte hin.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "M_WLO_01",
+                          "M_WLO_02",
+                          "ENV1-M1768681585647-hjlw",
+                          "ENV1-M1768681579578-ihxz"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Vorwissen aktivieren und Neugier wecken",
                   "prerequisite_activity": null,
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P1-A2"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Lehrperson-Notizen",
+                      "Kurze Abfrage (mündlich)"
+                    ],
+                    "criteria": [
+                      "Schüler können ein Beispiel für ein Waldtier oder eine Waldpflanze nennen",
+                      "Schüler kennen die Sicherheitsregeln"
+                    ]
+                  }
+                },
+                {
+                  "activity_id": "LS1-P1-A2",
+                  "name": "Gruppenaufteilung und Aufgabenverteilung",
+                  "description": "Bildung von Kleingruppen (3-4 SuS) mit klaren Rollen (Dokumentation, Foto, Forscher) und Ausgabe der Materialien.",
+                  "duration": 5,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A2-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Bildet Kleingruppen, erklärt die Rollen (Dokumentation, Foto, Forscher) und verteilt Materialien.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "M_WLO_03",
+                          "M_WLO_07",
+                          "ENV1-M1768681584573-cmb8",
+                          "ENV1-M1768681586038-nnn5"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A2-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Organisiert sich in der Gruppe, wählt Rollen und nimmt die ausgeteilten Materialien entgegen.",
+                      "selected_differentiation": [
+                        "diff_A2_1768681573847_0",
+                        "diff_A2_1768681573847_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "M_WLO_03",
+                          "ENV1-M1768681585498-gedw",
+                          "ENV1-M1768681581315-x6z1"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A2-R3",
+                      "role_name": "Moderation",
+                      "actor_id": "A3",
+                      "task_description": "Unterstützt bei der Aufgabenverteilung und klärt fachliche Fragen zu Beobachtungsaufträgen.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "M_WLO_01",
+                          "ENV1-M1768681586255-o7e0",
+                          "ENV1-M1768681586893-5yt9"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Organisation und Rollenverteilung für effektives Arbeiten im Wald",
+                  "prerequisite_activity": "LS1-P1-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [
@@ -80,40 +228,14 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Beobachtung",
-                      "Mündliche Rückmeldungen"
+                      "Beobachtung durch Lehrkraft",
+                      "Kurze Rückmeldung der Gruppen"
                     ],
                     "criteria": [
-                      "Aktive Teilnahme",
-                      "Interesse zeigen"
+                      "Gruppen sind gebildet",
+                      "Rollen sind vergeben"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P1-A1-R1",
-                      "role_name": "Lehrkraft",
-                      "actor_id": "A1",
-                      "task_description": "Moderiert das Gespräch und stellt gezielte Fragen",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    },
-                    {
-                      "role_id": "LS1-P1-A1-R2",
-                      "role_name": "Schüler",
-                      "actor_id": "A2",
-                      "task_description": "Beteiligt sich aktiv am Gespräch",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": null,
@@ -124,16 +246,77 @@
             {
               "phase_id": "LS1-P2",
               "phase_name": "Erkundung",
-              "time_frame": "120 Minuten",
-              "learning_goal": "Aktive Erkundung der Waldumgebung und Beobachtung von Pflanzen und Tieren",
+              "time_frame": "60 Minuten",
+              "learning_goal": "Aktive Erkundung, Beobachtung und Dokumentation der Vielfalt im Wald",
               "activities": [
                 {
                   "activity_id": "LS1-P2-A1",
                   "name": "Naturdetektive",
-                  "description": "Gruppen erkunden den Wald und dokumentieren ihre Funde",
-                  "duration": 60,
-                  "goal": "Beobachtung und Dokumentation der biologischen Vielfalt",
-                  "prerequisite_activity": "LS1-P1-A1",
+                  "description": "Kleingruppen erkunden einen zugewiesenen Bereich, notieren Beobachtungen und sammeln (sichtbare) Hinweise.",
+                  "duration": 20,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Begleitet die Erkundung, gibt Impulse, achtet auf Sicherheit und unterstützt bei Beobachtungsfragen.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "M_WLO_04"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Erkundet den zugewiesenen Bereich in der Kleingruppe, notiert Beobachtungen im Notizbuch und sammelt sichtbare Hinweise.",
+                      "selected_differentiation": [
+                        "diff_A2_1768681573847_0",
+                        "diff_A2_1768681573847_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M1",
+                          "ENV2-M2",
+                          "ENV2-M1768681579268-erbo"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R3",
+                      "role_name": "Moderation",
+                      "actor_id": "A3",
+                      "task_description": "Leitet fachlich an, hilft bei Bestimmungen und zeigt Beobachtungs- und Sammeltechniken.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M2",
+                          "M_WLO_05"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": [
+                          "ENV2-S1"
+                        ]
+                      }
+                    }
+                  ],
+                  "goal": "Systematische Beobachtung und erste Dokumentation",
+                  "prerequisite_activity": "LS1-P1-A2",
                   "transition_type": "parallel",
                   "condition_description": null,
                   "next_activity": [
@@ -142,56 +325,173 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Präsentation der Funde"
+                      "Lehrperson-Beobachtung",
+                      "Kurze Checkliste"
                     ],
                     "criteria": [
-                      "Kreativität der Dokumentation",
-                      "Teamarbeit"
+                      "Anzahl dokumentierter Fundpunkte",
+                      "Kooperative Arbeit in der Gruppe"
                     ]
-                  },
+                  }
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "Foto- und Zeichenaufgabe",
+                  "description": "Gruppen dokumentieren besondere Funde fotografisch und zeichnen mindestens ein Exemplar im Notizbuch.",
+                  "duration": 20,
                   "roles": [
                     {
-                      "role_id": "LS1-P2-A1-R1",
-                      "role_name": "Lehrkraft",
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Moderation",
                       "actor_id": "A1",
-                      "task_description": "Begleitet und unterstützt die Gruppen während der Erkundung",
+                      "task_description": "Gibt Anleitung zur fotografischen Dokumentation und zur zeichnerischen Erfassung, organisiert Zeit und Material.",
+                      "selected_differentiation": [],
                       "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "M_WLO_04",
+                          "ENV2-M1768681585684-93ep"
+                        ],
                         "selected_tools": [
-                          "ENV1-T1",
-                          "ENV1-T2"
+                          "ENV2-T2"
                         ],
                         "selected_services": []
                       }
                     },
                     {
-                      "role_id": "LS1-P2-A1-R2",
-                      "role_name": "Naturdetektiv Gruppe",
+                      "role_id": "LS1-P2-A2-R2",
+                      "role_name": "Aktive Teilnahme",
                       "actor_id": "A2",
-                      "task_description": "Erforscht den Wald und dokumentiert die Funde in einem Notizbuch",
+                      "task_description": "Dokumentiert besondere Funde fotografisch und zeichnet mindestens ein Exemplar im Notizbuch.",
+                      "selected_differentiation": [
+                        "diff_A2_1768681573847_0",
+                        "diff_A2_1768681573847_1"
+                      ],
                       "learning_environment": {
-                        "environment_id": "ENV1",
+                        "environment_id": "ENV2",
                         "selected_materials": [
-                          "ENV1-M1",
-                          "ENV1-M2"
+                          "ENV2-M1",
+                          "ENV2-M2",
+                          "ENV2-M1768681581102-4auy"
                         ],
                         "selected_tools": [
-                          "ENV1-T1"
+                          "ENV2-T2"
                         ],
                         "selected_services": []
                       }
+                    },
+                    {
+                      "role_id": "LS1-P2-A2-R3",
+                      "role_name": "Moderation",
+                      "actor_id": "A3",
+                      "task_description": "Zeigt genaue Betrachtung (z. B. mit Lupe), gibt Tipps zum Fotografieren und hilft bei Zeichentechniken.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M2",
+                          "ENV2-M1768681588744-nvjp",
+                          "ENV2-M1768681582537-7ou5"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": [
+                          "ENV2-S1"
+                        ]
+                      }
                     }
-                  ]
+                  ],
+                  "goal": "Visuelle Dokumentation und genaue Beobachtung fördern",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A3"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Sichtung der Fotos",
+                      "Lehrperson-Feedback"
+                    ],
+                    "criteria": [
+                      "Qualität der Fotos/Zeichnungen",
+                      "Genauigkeit der Beschreibungen"
+                    ]
+                  }
                 },
                 {
-                  "activity_id": "LS1-P2-A2",
-                  "name": "Fossilien- und Pflanzensuche",
-                  "description": "Suche nach Pflanzen und Fossilien im Wald",
-                  "duration": 60,
-                  "goal": "Vertiefung des Verständnisses für die biologische Vielfalt",
-                  "prerequisite_activity": "LS1-P2-A1",
-                  "transition_type": "branching",
+                  "activity_id": "LS1-P2-A3",
+                  "name": "Sammel- und Bestimmungsstation",
+                  "description": "An einer Station besprechen Gruppen ihre Funde, nutzen Bestimmungskarten und erstellen eine kurze Fundliste.",
+                  "duration": 20,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A3-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert die Sammel- und Bestimmungsstation, erklärt Vorgehen und überprüft die erstellte Fundliste.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "M_WLO_04"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A3-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Bespricht Funde in der Gruppe, nutzt Bestimmungskarten und erstellt eine kurze Fundliste.",
+                      "selected_differentiation": [
+                        "diff_A2_1768681573847_0",
+                        "diff_A2_1768681573847_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M3",
+                          "ENV2-M2",
+                          "M_WLO_05",
+                          "ENV2-M1768681580581-klfz"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A3-R3",
+                      "role_name": "Moderation",
+                      "actor_id": "A3",
+                      "task_description": "Unterstützt bei der Bestimmung, gibt fachliches Feedback und führt durch den Bestimmungsprozess.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M2",
+                          "M_WLO_05",
+                          "ENV2-M1768681586114-sef3"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": [
+                          "ENV2-S1"
+                        ]
+                      }
+                    }
+                  ],
+                  "goal": "Vertieftes Bestimmen und Austausch in der Gruppe",
+                  "prerequisite_activity": "LS1-P2-A2",
+                  "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [
                     "LS1-P3-A1"
@@ -199,45 +499,14 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Beobachtung",
-                      "Diskussion"
+                      "Prüfung der Fundlisten",
+                      "Kurze Gruppenpräsentation (informell)"
                     ],
                     "criteria": [
-                      "Kreativität der Fundstücke",
-                      "Kooperationsfähigkeit"
+                      "Richtigkeit der Bestimmungen",
+                      "Zusammenarbeit in der Station"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P2-A2-R1",
-                      "role_name": "Lehrkraft",
-                      "actor_id": "A1",
-                      "task_description": "Beobachtet die Gruppen und gibt Hilfestellungen",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    },
-                    {
-                      "role_id": "LS1-P2-A2-R2",
-                      "role_name": "Naturdetektiv Gruppe",
-                      "actor_id": "A2",
-                      "task_description": "Sammelt Pflanzen und Fossilien zur Dokumentation",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [
-                          "ENV1-M1",
-                          "ENV1-M2"
-                        ],
-                        "selected_tools": [
-                          "ENV1-T1"
-                        ],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS1-P1",
@@ -248,56 +517,93 @@
             {
               "phase_id": "LS1-P3",
               "phase_name": "Reflexion und Sicherung",
-              "time_frame": "30 Minuten",
-              "learning_goal": "Reflexion der Erfahrungen und Sicherung des Gelernten",
+              "time_frame": "15 Minuten",
+              "learning_goal": "Ergebnisse sichern, Erkenntnisse teilen und Handlungsimpulse für Nachhaltigkeit geben",
               "activities": [
                 {
                   "activity_id": "LS1-P3-A1",
-                  "name": "Präsentation der Funde",
-                  "description": "Gruppen präsentieren ihre gesammelten Funde und Erkenntnisse",
-                  "duration": 30,
-                  "goal": "Gemeinsame Reflexion und Sicherung des Gelernten",
-                  "prerequisite_activity": "LS1-P2-A2",
+                  "name": "Präsentation und Feedback",
+                  "description": "Kurzpräsentation der Kleingruppen (2 Minuten je Gruppe), Feedback durch Mitschüler und Lehrkraft, Abschlussimpuls zum nachhaltigen Handeln.",
+                  "duration": 15,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Kurzpräsentationen, gibt Feedback mithilfe des Bewertungsrasters und fasst den Abschlussimpuls zusammen.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "M_WLO_07",
+                          "M_WLO_01",
+                          "ENV1-M1768681581286-efjc",
+                          "ENV1-M1768681586652-71oa"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Präsentiert die Gruppenergebnisse (ca. 2 Minuten), nimmt Feedback entgegen und bearbeitet zur Sicherung das Quiz.",
+                      "selected_differentiation": [
+                        "diff_A2_1768681573847_0",
+                        "diff_A2_1768681573847_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV3",
+                        "selected_materials": [
+                          "M_WLO_06",
+                          "ENV3-M1768681582086-1rym",
+                          "ENV3-M1768681587345-amkv"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R3",
+                      "role_name": "Moderation",
+                      "actor_id": "A3",
+                      "task_description": "Gibt fachliches Feedback zu den Präsentationen und regt nachhaltiges Handeln an.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "M_WLO_01",
+                          "ENV1-M1768681589913-2o86",
+                          "ENV1-M1768681589958-8ib7"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Reflexion der Erfahrungen und Sicherung des Gelernten",
+                  "prerequisite_activity": "LS1-P2-A3",
                   "transition_type": "feedback_loops",
                   "condition_description": null,
                   "next_activity": [],
                   "assessment": {
                     "type": "summative",
                     "methods": [
-                      "Präsentation",
-                      "Feedback-Runde"
+                      "Kurzpräsentation",
+                      "Feedback-Runde",
+                      "Bewertungsraster Lehrkraft"
                     ],
                     "criteria": [
                       "Klarheit der Präsentation",
-                      "Verständnis der biologischen Vielfalt"
+                      "Reflexionsfähigkeit",
+                      "Erkennen von Zusammenhängen"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P3-A1-R1",
-                      "role_name": "Lehrkraft",
-                      "actor_id": "A1",
-                      "task_description": "Moderiert die Präsentationen und gibt Feedback",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    },
-                    {
-                      "role_id": "LS1-P3-A1-R2",
-                      "role_name": "Präsentierende Gruppe",
-                      "actor_id": "A2",
-                      "task_description": "Stellt die gesammelten Funde vor und erklärt deren Bedeutung",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS1-P2",
@@ -306,58 +612,58 @@
               "next_phase": null
             }
           ],
-          "prerequisite_learningsequences": [],
+          "prerequisite_sequence": null,
           "transition_type": "sequential",
           "condition_description": null,
-          "next_learningsequence": []
+          "next_sequence": null
         }
       ]
     }
   },
   "consequences": {
     "advantages": [
-      "Aktives und praktisches Lernen in der Natur",
-      "Förderung der Teamarbeit und sozialen Fähigkeiten",
-      "Stärkung des Bewusstseins für Umweltschutz",
-      "Direkte Erfahrungen mit der Natur"
+      "Aktives und praxisnahes Lernen stärkt Beobachtungsfähigkeiten",
+      "Fördert Teamarbeit und soziale Kompetenzen",
+      "Erhöht Umweltbewusstsein durch direkte Erfahrungen",
+      "Klare Struktur mit Reflexionsphase sichert Lerntransfer"
     ],
     "disadvantages": [
-      "Abhängigkeit von Wetterbedingungen",
-      "Logistische Herausforderungen bei der Durchführung",
-      "Benötigung von zusätzlichem Personal zur Aufsicht"
+      "Abhängigkeit von Wetter und Außengelände",
+      "Logistischer Aufwand (Materialien, Betreuung)",
+      "Bei großen Gruppen sind zusätzliche Begleitpersonen nötig"
     ]
   },
   "implementation_notes": [
     {
       "note_id": "Note1",
-      "description": "Sicherstellen, dass alle Materialien vorab bereitgestellt werden"
+      "description": "Materialien (Lupe, Notizbücher, Tablets/Kameras) vorab prüfen und verteilen."
     },
     {
       "note_id": "Note2",
-      "description": "Wettervorhersage im Voraus überprüfen"
+      "description": "Alternativplan für Schlechtwetter: virtuelle Exkursion mit Bildern/Video-Material im Klassenzimmer."
     },
     {
       "note_id": "Note3",
-      "description": "Sicherheitsvorkehrungen für den Waldaufenthalt treffen"
+      "description": "Sicherheitsregeln und Notfallkontakte den Begleitpersonen vorab mitteilen."
     }
   ],
   "related_patterns": [
     "Erfahrungslernen",
-    "Naturpädagogik",
-    "Umweltbildung",
-    "Kooperatives Lernen"
+    "Kooperatives Lernen",
+    "Projektbasiertes Lernen",
+    "Naturpädagogik"
   ],
   "feedback": {
     "comments": [
       {
         "date": "2024-03-14",
         "name": "Dr. Weber",
-        "comment": "Tolle Idee, die Schüler aktiv in die Natur einzubeziehen!"
+        "comment": "Gute Struktur mit klarer Verbindung zwischen Aktion und Reflexion."
       },
       {
         "date": "2024-03-15",
         "name": "Herr Schmidt",
-        "comment": "Das Konzept fördert das Verständnis für die Umwelt sehr gut."
+        "comment": "Eignet sich gut für den fächerübergreifenden Einsatz."
       }
     ]
   },
@@ -365,11 +671,13 @@
   "actors": [
     {
       "id": "A1",
-      "name": "Anna Müller",
+      "name": "Lehrkraft (Anna Müller)",
       "type": "Einzelperson",
       "demographic_data": {
         "age": 30,
+        "age_range": "",
         "gender": "weiblich",
+        "gender_distribution": "",
         "ethnic_background": "deutsch"
       },
       "education": {
@@ -384,7 +692,7 @@
         ],
         "cognitive_competencies": [
           "Analytisches Denken",
-          "Kreativität"
+          "Beobachtungsleitfäden erstellen"
         ],
         "methodical_competencies": [
           "Erfahrungsorientierte Lehrmethoden",
@@ -395,8 +703,8 @@
           "Kommunikationsfähigkeit"
         ],
         "digital_competencies": [
-          "Digitale Mediennutzung",
-          "Präsentationstechnik"
+          "Einsatz von Lernplattformen",
+          "Mediengestaltung"
         ],
         "language_skills": {
           "languages": [
@@ -413,10 +721,13 @@
       "learning_requirements": {
         "learning_preferences": [
           "Praxisorientiert",
-          "Visuelle Unterstützung"
+          "Klar strukturierte Materialien"
         ],
         "special_needs": [],
-        "technical_requirements": []
+        "technical_requirements": [
+          "Zugang zu WLO-Ressourcen",
+          "Beamer/Tablet"
+        ]
       },
       "interests_and_goals": {
         "interests": [
@@ -424,8 +735,8 @@
           "Umweltbildung"
         ],
         "goals": [
-          "Förderung des Umweltbewusstseins bei Kindern",
-          "Integration von Lernen im Freien"
+          "Förderung des Umweltbewusstseins",
+          "Praxisnahe Experimente im Freien"
         ],
         "motivation": {
           "type": "intrinsic",
@@ -442,7 +753,9 @@
       "name": "Schülergruppe",
       "type": "Gruppe",
       "demographic_data": {
+        "age": 0,
         "age_range": "8-10",
+        "gender": "",
         "gender_distribution": "gemischt",
         "ethnic_background": "diverse"
       },
@@ -458,16 +771,20 @@
         ],
         "cognitive_competencies": [
           "Beobachtungsvermögen",
-          "Kreativität"
+          "Kategorisieren"
         ],
         "methodical_competencies": [
-          "Gruppenarbeit",
-          "Dokumentation"
+          "Dokumentation",
+          "Gruppenarbeit"
         ],
         "affective_competencies": [
-          "Teamfähigkeit"
+          "Teamfähigkeit",
+          "Interesse an Natur"
         ],
-        "digital_competencies": [],
+        "digital_competencies": [
+          "Fotos mit Tablet erstellen",
+          "Einfache digitale Dokumentation"
+        ],
         "language_skills": {
           "languages": [
             "Deutsch"
@@ -477,14 +794,16 @@
           }
         }
       },
-      "social_form": "Klassenverband",
+      "social_form": "Klassenverband in Kleingruppen",
       "learning_requirements": {
         "learning_preferences": [
           "Aktives Lernen",
           "Visuelle Darstellungen"
         ],
         "special_needs": [],
-        "technical_requirements": []
+        "technical_requirements": [
+          "Zugang zu Notizbuch und ggf. Tablet/Kamera"
+        ]
       },
       "interests_and_goals": {
         "interests": [
@@ -493,7 +812,7 @@
         ],
         "goals": [
           "Verstehen der biologischen Vielfalt",
-          "Förderung von Teamarbeit"
+          "Sicheres Beobachten und Dokumentieren"
         ],
         "motivation": {
           "type": "mixed",
@@ -503,99 +822,1288 @@
       "social_structure": {
         "group_size": 20,
         "heterogeneity": "hoch"
+      },
+      "differentiation_options": [
+        {
+          "id": "diff_A2_1768681573847_0",
+          "label": "Erweiterung & Vertiefung",
+          "description": "Für leistungsstarke Schülerinnen und Schüler: eigenständige Vertiefung des Themas, Zusatzaufgaben und Expertenrollen zur Erweiterung des Wissenshorizonts.",
+          "hints": [
+            "Forschungsprojekt: Lasse eine kurze Untersuchungsfrage formulieren und ein kleines Feld- oder Laborprojekt planen, durchführen und die Ergebnisse in einer Präsentation vorstellen.",
+            "Expertenrolle: Weise Rollen wie Datenanalyst, Quellenprüfer oder Präsentationsleiter zu und lasse die/den Expert/in eine Mini-Lehrsequenz für die Gruppe vorbereiten.",
+            "Vertiefende Quellenarbeit: Gib Zugang zu wissenschaftlichen Artikeln oder Citizen-Science-Datenbanken und lasse die SuS Befunde vergleichen und kritisch bewerten."
+          ]
+        },
+        {
+          "id": "diff_A2_1768681573847_1",
+          "label": "Basisunterstützung",
+          "description": "Für SuS, die mehr Zeit oder gezielte Hilfe benötigen: kleinschrittige Anleitung, Partnerarbeit und strukturierte Vorlagen für sichere Lernfortschritte.",
+          "hints": [
+            "Aufgabenschritte gliedern: Teile Aufgaben in klare, kurze Arbeitsschritte mit Zeitvorgaben und sichtbaren Kontrollpunkten, damit Fortschritte für die SuS nachvollziehbar werden.",
+            "Partnerarbeit organisieren: Ordne Peer-Pairs mit klaren Unterstützungsaufgaben (Erklären, Nachfragen, Lösungsüberprüfung) und kurzen Feedbackzyklen zu.",
+            "Vorlagen und Leitfragen bereitstellen: Gib strukturierte Arbeitsblätter (Versuchsprotokoll, Beobachtungsfelder, Checkliste) und gezielte Leitfragen, die beim Bearbeiten anleiten."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "name": "Naturpädagoge (Externe Begleitung)",
+      "type": "Einzelperson",
+      "demographic_data": {
+        "age": 45,
+        "age_range": "",
+        "gender": "männlich",
+        "gender_distribution": "",
+        "ethnic_background": "diverse"
+      },
+      "education": {
+        "education_level": "Ausbildung/Studium in Umweltpädagogik",
+        "class_level": "Primarstufe (Beratung)",
+        "subject_focus": "Naturpädagogik"
+      },
+      "competencies": {
+        "subject_competencies": [
+          "Ökologie",
+          "Artbestimmung"
+        ],
+        "cognitive_competencies": [
+          "Systemdenken",
+          "Fachwissen vermitteln"
+        ],
+        "methodical_competencies": [
+          "Exkursionen leiten",
+          "Bestimmungshilfen einsetzen"
+        ],
+        "affective_competencies": [
+          "Motivation fördern",
+          "Begeisterung für Natur wecken"
+        ],
+        "digital_competencies": [],
+        "language_skills": {
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2"
+          }
+        }
+      },
+      "social_form": "Externe Begleitung",
+      "learning_requirements": {
+        "learning_preferences": [
+          "Fachliche Austauschmöglichkeiten"
+        ],
+        "special_needs": [],
+        "technical_requirements": []
+      },
+      "interests_and_goals": {
+        "interests": [
+          "Ökologische Bildung",
+          "Jugendarbeit"
+        ],
+        "goals": [
+          "Fachliche Unterstützung bei Exkursionen",
+          "Förderung naturwissenschaftlicher Neugier"
+        ],
+        "motivation": {
+          "type": "intrinsic",
+          "level": "high"
+        }
+      },
+      "social_structure": {
+        "group_size": 1,
+        "heterogeneity": "n/a"
       }
     }
   ],
   "environments": [
     {
       "id": "ENV1",
-      "name": "Waldgebiet für praktische Erkundungen",
-      "description": "Ein Waldgebiet, das sich ideal für praktische Erkundungen der biologischen Vielfalt eignet.",
+      "name": "Klassenzimmer",
+      "description": "Präsenzunterricht im Klassenraum für Einstieg und Sicherung; ggf. Digitaler Anschluss über Beamer.",
       "materials": [
         {
+          "id": "M_WLO_01",
+          "name": "Wald Präsentation",
+          "material_type": "Präsentation",
+          "source": "wlo",
+          "access_link": "",
+          "search_query": "Wald"
+        },
+        {
+          "id": "M_WLO_02",
+          "name": "Pflanzenvideo",
+          "material_type": "Video",
+          "source": "wlo",
+          "access_link": "",
+          "search_query": "Pflanzen"
+        },
+        {
+          "id": "M_WLO_07",
+          "name": "Bewertungsraster",
+          "material_type": "Arbeitsblatt",
+          "source": "wlo",
+          "access_link": "",
+          "search_query": "Bewertungsraster"
+        },
+        {
           "id": "ENV1-M1",
-          "name": "Notizbuch und Stifte",
-          "material_type": "Schreibmaterial",
-          "source": "filter",
+          "name": "Eiszeit Bilder",
+          "material_type": "Bild",
+          "source": "manual",
           "access_link": "",
-          "filter_criteria": {
-            "cclom:title": "Notizbuch",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/57bfc743-4c94-4bdd-bdfa-c638a062d151",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
-          }
+          "search_query": "Eiszeit"
         },
         {
-          "id": "ENV1-M2",
-          "name": "Bestimmungskarten für Pflanzen und Tiere",
-          "material_type": "Hilfsmittel",
-          "source": "filter",
+          "id": "M_WLO_03",
+          "name": "Dokumentationsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "wlo",
           "access_link": "",
-          "filter_criteria": {
-            "cclom:title": "Pflanzen Tiere",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
-          }
+          "search_query": "Pflanzendokumentation"
         },
         {
-          "id": "ENV1-M3",
-          "name": "Fossilien- und Pflanzensammelbehälter",
-          "material_type": "Sammelbehälter",
-          "source": "filter",
-          "access_link": "",
-          "filter_criteria": {
-            "cclom:title": "Fossilien",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/11f438d7-cb11-49c2-8e67-2dd7df677092",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
-          }
+          "id": "ENV1-M1768681581902-ohnt",
+          "name": "Waldgespräch Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/Liebeslyrik",
+          "search_query": "Waldgespräch",
+          "wlo_metadata": [
+            {
+              "nodeId": "abb2e061-4646-4342-9fd6-c20efce52627",
+              "title": "Naturlyrik",
+              "description": "Informationen und Materialien zum Thema Naturlyrik",
+              "subject": "Deutsch",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Naturlyrik",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=abb2e061-4646-4342-9fd6-c20efce52627&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681581606-avda",
+          "name": "Artenvielfalt Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.dw.com/de/lernpaket-gr%C3%BCnfl%C3%A4chen/a-46684317",
+          "search_query": "Artenvielfalt",
+          "wlo_metadata": [
+            {
+              "nodeId": "2a221301-c2a7-4662-9532-8a6de7d94ebb",
+              "title": "Grüne Oasen in der Stadt ",
+              "description": "Was haben Kinder, Picknick-Fans, Wildtiere und Bienen in der Stadt gemeinsam? Sie alle brauchen Natur zum Glücklichsein. Ein Lernpaket über das Entdecken und Schaffen von grünen Rückzugsorten inmitten der Großstadt.",
+              "subject": "Nachhaltigkeit",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Projekt-Material",
+              "wwwUrl": "https://www.dw.com/de/lernpaket-gr%C3%BCnfl%C3%A4chen/a-46684317",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=2a221301-c2a7-4662-9532-8a6de7d94ebb&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681585093-pzuo",
+          "name": "Wald Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/67409a22",
+          "search_query": "Wald",
+          "wlo_metadata": [
+            {
+              "nodeId": "4734160f-aa7d-4095-90e3-c6cc39f9e086",
+              "title": "Nahrungsnetz im Wald",
+              "description": "- Nahrungsnetz im Wald\n- Vanessa Mair\n- 30.06.2020\n- Naturwissenschaft\n- 8\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nNahrungsnetz im Wald\n02.12.2019\nNahrungsnetz im Wald\nJedes Lebewesen und jede Pflanze hat ihren Platz im Nahrungsnetz des Waldes!\nMan unterscheidet zwischen , die Sauerstoff und grüne Blätter produzieren und , die die Abfallprodukte weiter verwerten. Zudem gibt es Verbraucher und Verbraucher .\nDie Frage, die sich stellt ist: WER FRISST WEN?\nVorgehensweise\nZeichne Pfeile um anzuzeigen, wer im Nahrungsnetz zusammenhängt!\nSchon fertig?\nBearbeite auf den Seiten 66 die Aufgabe A1 (mündlich) und 67 die Aufgaben A2 - A4 in dein Heft!\nBearbeite auf den Seiten 66 die Aufgabe A1 (mündlich) und 67 die Aufgaben A2 - A4 in dein Heft!\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/67409a22\nhttps://www.tutory.de/entdecken/dokument/67409a22 [...]",
+              "subject": "",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/67409a22",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4734160f-aa7d-4095-90e3-c6cc39f9e086&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "f5a1c25a-421e-434b-89de-4ff28a5ff72f",
+              "title": "Der Nährstoffkreislauf im tropischen Regenwald",
+              "description": "Einer schematischen Darstellung sind vorgegeben Aussagen zum Nährstoffkreislauf im tropischen Regenwald zuzuordnen.",
+              "subject": "",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://media.sodis.de/open/melt/AB_Naehrstoffkreislauf.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f5a1c25a-421e-434b-89de-4ff28a5ff72f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "a179014a-5bd7-4312-9889-03c19246d001",
+              "title": "Punkte Wald",
+              "description": "",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.geogebra.org/m/pUvPyFes",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a179014a-5bd7-4312-9889-03c19246d001&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681580686-ei4s",
+          "name": "Artenvielfalt Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://medienportal.siemens-stiftung.org/de/klimawandel-teil-iii-das-1-5-grad-ziel-114509",
+          "search_query": "Artenvielfalt",
+          "wlo_metadata": [
+            {
+              "nodeId": "7cb4ed74-16a5-4176-b4ed-7416a5c17676",
+              "title": "Medienpaket Klimawandel Teil III – Das 1,5-Grad-Ziel",
+              "description": "Derzeit reichen die Anstrengungen der Weltgemeinschaft, vor allem aber die der Hauptverursacher der Treibhausgasemissionen, nicht aus, um das 1,5-Grad-Ziel zu erreichen. Die Wissenschaftler und Wissenschaftlerinnen des IPCC gehen davon aus, dass die Reduktionszusagen der Länder, die das Pariser Klima-Abkommen ratifiziert haben, bis zum Ende dieses Jahrhunderts zu einer Erderwärmung von 3–4 °C führen. Die Länder müssen also ihre Anstrengungen erheblich steigern, um das 1,5-Grad-Ziel noch zu erreichen. Selbst ein sofortiger Stopp aller CO2-Emissionen wäre nicht mehr ausreichend. So geht es auch darum, der Atmosphäre CO2 zu entziehen. Das Medienpaket befasst sich mit den Möglichkeiten, das 1,5-Grad-Ziel noch zu erreichen. Maßnahmen dazu werden behandelt. Die Vor- und Nachteile der einzelnen Maßnahmen sollen erarbeitet werden.",
+              "subject": "Biologie",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Bild",
+              "wwwUrl": "https://medienportal.siemens-stiftung.org/de/klimawandel-teil-iii-das-1-5-grad-ziel-114509",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7cb4ed74-16a5-4176-b4ed-7416a5c17676&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "1abf23ee-0b1c-48f0-bf23-ee0b1c68f041",
+              "title": "Medienpaket Klimawandel Teil II – Auswirkungen des Klimawandels",
+              "description": "Die Erderwärmung verursacht Veränderungen des Klimasystems (physikalische Auswirkungen des Klimawandels). Diese Veränderungen wirken sich jetzt schon sowohl auf die Menschen als auch auf Pflanzen, Tiere und Ökosysteme aus. Das Medienpaket befasst sich mit den Auswirkungen des Klimawandels und macht deutlich, wie notwendig es ist, die Erderwärmung zu stoppen bzw. zu stabilisieren. Außerdem wird auf das 1,5 °C-Ziel eingegangen und erklärt, warum es wichtig ist, vom bisherigen 2 °C-Ziel abzuweichen und eine Erderwärmung auf maximal 1,5 °C über vorindustriellem Niveau zu begrenzen.",
+              "subject": "Biologie",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Bild",
+              "wwwUrl": "https://medienportal.siemens-stiftung.org/de/klimawandel-teil-ii-auswirkungen-des-klimawandels-113824",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1abf23ee-0b1c-48f0-bf23-ee0b1c68f041&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "33b4f73e-82fe-4049-b4f7-3e82fe70498e",
+              "title": "Medienpaket Klimawandel Teil IV – Klimagerechtigkeit",
+              "description": "Erderwärmung und Klimawandel sind eine globale Herausforderung. Bei der Beschäftigung mit dem Thema lässt sich erkennen, dass die Lasten des Klimawandels ungleich verteilt sind. Länder und Bevölkerungsgruppen, die am wenigsten zur Erderwärmung beitragen und beigetragen haben, beispielsweise durch ihren CO2-Ausstoß, leiden zum Teil am stärksten unter den Auswirkungen des Klimawandels. Hier greift das Konzept der Klimagerechtigkeit. Der Klimawandel wird dabei nicht nur als Umweltproblem und technische Herausforderung angesehen, sondern als ethisch-politisches Thema.   Die Schülerinnen und Schüler sollen ein grundlegendes Verständnis für die Begriffe Gerechtigkeit und Klimagerechtigkeit entwickeln und in der Lage sein, Definitionen für beide Begriffe zu liefern. Im Weiteren sollen sie sich vertieft mit den verschiedenen Dimensionen der Klimagerechtigkeit auseinandersetzen und verstehen, wie diese miteinander verknüpft sind. Mittels der Analyse und Auswertung von Zahlen, Grafiken und Texten werden die komplexen Herausforderungen und Zusammenhänge im Bereich Klimagerechtigkeit erarbeitet.",
+              "subject": "Biologie",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Tabellen",
+              "wwwUrl": "https://medienportal.siemens-stiftung.org/de/klimawandel-teil-iv-klimagerechtigkeit-114837",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=33b4f73e-82fe-4049-b4f7-3e82fe70498e&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681585647-hjlw",
+          "name": "Waldökologie Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.spektrum.de/news/waldbraende-warum-forstbraende-das-eigentliche-problem-sind/2031940",
+          "search_query": "Waldökologie",
+          "wlo_metadata": [
+            {
+              "nodeId": "922a8a85-20c3-406a-baff-678722fe9b94",
+              "title": "»Wir haben uns die Forstbrandgefahr selbst geschaffen«",
+              "description": "In Brandenburg hat kein Wald gebrannt, sondern ein Forst. Was der Unterschied ist und warum nur Laubbäume gegen den Klimawandel helfen, erklärt der Waldökologe Pierre Ibisch",
+              "subject": "Nachhaltigkeit",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Erwachsenenbildung",
+                "Hochschule",
+                "Fortbildung",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.spektrum.de/news/waldbraende-warum-forstbraende-das-eigentliche-problem-sind/2031940",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=922a8a85-20c3-406a-baff-678722fe9b94&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "8e3395f4-a978-4e3c-be93-2351a71205ab",
+              "title": "Schriftliche Abituraufgaben Niedersachsen 2017 Biologie Kurs auf erhöhtem Anforderungsniveau (eA) Aufgabe 1",
+              "description": "",
+              "subject": "Biologie",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/8e3395f4-a978-4e3c-be93-2351a71205ab",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8e3395f4-a978-4e3c-be93-2351a71205ab&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 60
+            },
+            {
+              "nodeId": "87b3654a-6069-4bf0-b031-efffda4506ae",
+              "title": "Schriftliche Abituraufgaben Niedersachsen 2019 Biologie Kurs auf erhöhtem Anforderungsniveau (eA) Aufgabe 2",
+              "description": "",
+              "subject": "Biologie",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/87b3654a-6069-4bf0-b031-efffda4506ae",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=87b3654a-6069-4bf0-b031-efffda4506ae&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 50
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681579578-ihxz",
+          "name": "Artenvielfalt Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/Hunger",
+          "search_query": "Artenvielfalt",
+          "wlo_metadata": [
+            {
+              "nodeId": "16c8ebc7-1cf3-449e-a9c0-2c8bd7992356",
+              "title": "Hunger",
+              "description": "Ideen zur Bearbeitung des Themas in Unterricht",
+              "subject": "Ethik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Unterrichtsidee",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Hunger",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=16c8ebc7-1cf3-449e-a9c0-2c8bd7992356&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "2a221301-c2a7-4662-9532-8a6de7d94ebb",
+              "title": "Grüne Oasen in der Stadt ",
+              "description": "Was haben Kinder, Picknick-Fans, Wildtiere und Bienen in der Stadt gemeinsam? Sie alle brauchen Natur zum Glücklichsein. Ein Lernpaket über das Entdecken und Schaffen von grünen Rückzugsorten inmitten der Großstadt.",
+              "subject": "Nachhaltigkeit",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Projekt-Material",
+              "wwwUrl": "https://www.dw.com/de/lernpaket-gr%C3%BCnfl%C3%A4chen/a-46684317",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=2a221301-c2a7-4662-9532-8a6de7d94ebb&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "412ae11c-bd8c-42f6-aae1-1cbd8c32f6fc",
+              "title": "Arbeitsheft für Schüler*innen",
+              "description": "Arbeits-/Projektheft für Schüler*innen zum Projekt \"Wie gemeinwohlorientiert ist mein Ausbildungsbetrieb\"",
+              "subject": "Projektmanagement",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Projekt-Material",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/412ae11c-bd8c-42f6-aae1-1cbd8c32f6fc",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=412ae11c-bd8c-42f6-aae1-1cbd8c32f6fc&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681584573-cmb8",
+          "name": "Gruppenarbeit Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/3b0fb540-92c7-4e67-8fb5-4092c71e6776",
+          "search_query": "Gruppenarbeit",
+          "wlo_metadata": [
+            {
+              "nodeId": "cf6508cf-da13-4b19-9107-a54b5b24d3fe",
+              "title": "Modul 7: Kollaborative Dokumentenerstellung – Clouds, Pads und Versionierung",
+              "description": "Kollaborationssysteme werden vielfach im Schulalltag eingesetzt, um\n• Gemeinsam/kollaborativ an Dokumenten zu arbeiten, bspw. im Rahmen von Fachschaftsratsitzungen, Schulkonzepten, Veranstaltungsplanung etc.\n• Kollaborativ im Unterricht zu arbeiten,\n• Dateiverzeichnisse zu strukturieren und sich in geteilten Verzeichnissen zu bewegen\n\nDieses Modul ist Teil einer Serie mit weiteren Modulen zur informatischen Bildung für (angehende) Lehrkräfte. Über das letzte Serienelement gelangen Sie zum Gesamtüberblick samt Nutzungskonzept.\nAlle Quelldateien können mit LaTeX angepasst werden. Die Arbeit mit LaTeX wird im Modul 2: \"Aufsätze, Facharbeiten, Projektberichte\" näher beleuchtet.",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Hochschule",
+                "Fortbildung"
+              ],
+              "resourceType": "Handout",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/cf6508cf-da13-4b19-9107-a54b5b24d3fe",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=cf6508cf-da13-4b19-9107-a54b5b24d3fe&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 72
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681586038-nnn5",
+          "name": "Rollenverteilung Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/Lernen%20durch%20Lehren%20im%20Englischunterricht",
+          "search_query": "Rollenverteilung",
+          "wlo_metadata": [
+            {
+              "nodeId": "3cda25ad-7480-4291-831c-726036a66ac1",
+              "title": "Lernen durch Lehren im Englischunterricht",
+              "description": "ist in allen Klassenstufen einsetzbar, vielfach erprobt und durch zunehmende Bedeutung des Faches Englisch in der globalisierten Welt von SchülerInnen und Eltern methodisch geradezu gefordert. Zu Beginn ist es ratsam, einen der Lerngruppe angemessenen classroom discourse einzuführen. Komplexität und Umfang der übertragenen fachdidaktischen Teilkompetenzen werden allmählich gesteigert: von einer fünfminütigen Leseübung bis zu einer kompletten Texteinführung. Auch Struktureinführung und Textinterpretation sind möglich, bei Bedarf erfolgt Wissenskonstruktion a posteriori.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Lernen%20durch%20Lehren%20im%20Englischunterricht",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=3cda25ad-7480-4291-831c-726036a66ac1&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "be42e984-e0bc-442a-a549-07ed1d7e02c5",
+              "title": "Algorithmisches Zeichnen",
+              "description": "Das Projekt \"Algorithmisches Zeichnen\" wurde von der Junge Tüftler gGmbH unter der Lizenz CC-BY-SA 4.0 erstellt. Es ist eine Übung, die verdeutlicht, wie präzise Anweisungen sein müssen, um das gleiche Ergebnis zu erzielen. Das Spiel kann entweder frontal oder in Teams zu zweit gespielt werden. Eine Person entwirft eine Form und versucht dann durch genaue Anweisungen seine Teampartnerin so anzuleiten, dass dieser die gleiche Form zeichnen kann.\n\nDas Projekt eignet sich als methodisches Training zur Bearbeitung von Aufgaben und fördert das Verständnis von algorithmischen Strukturen sowie die Voraussetzungen für erfolgreiches Programmieren.\n\nFür die Durchführung werden Buntstifte oder Filzstifte, Papier, ein Radiergummi und ein Anspitzer benötigt. Optional können Ausdrucke der Vorlagenblätter als Anschauungsmaterial verwendet werden.\n\nDie Spielvorbereitung beinhaltet die Aufteilung der Kinder in Zweier- oder Dreiergruppen sowie die Rollenverteilung zwischen Navigatoren, die die Befehlsfolge lesen, und Zeichnern, die die Anweisungen umsetzen.\n\nDas Spielziel besteht darin, durch Befehlsabfolgen unterschiedliche Formen zu malen und dann die Ergebnisse zu vergleichen. Es werden Fragen zur Arbeitsweise der Gruppen gestellt und die Beziehung des Spiels zur Programmierung erläutert. Es wird betont, dass klare und eindeutige Anweisungen zu einheitlicheren Ergebnissen führen, ähnlich wie wohldefinierte Algorithmen.\n\nDas Projekt ermöglicht den Kindern, grundlegende Prinzipien der Kommunikation zwischen Mensch und Computer zu verstehen: klare Befehle, klare Bedeutungen und Befehlsfolgen als Algorithmen. Es schlägt auch weitere Übungen vor, um das Verständnis für Algorithmen zu vertiefen.\n\nZum Abschluss werden Übungen angeboten, bei denen die Teilnehmer eigene Befehlsabfolgen erfinden und den anderen vorlesen, um Formen zu zeichnen. Das gesamte Projekt dient dazu, grundlegende Konzepte von Algorithmen spielerisch zu vermitteln und das Verständnis für präzise Anweisungen zu fördern.\n",
+              "subject": "Informatik",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://tueftelakademie.de/wp-content/uploads/2023/07/2303-algorithmischeszeichnen-a4-ohne-pairmethode.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=be42e984-e0bc-442a-a549-07ed1d7e02c5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "d7a8b43b-5c9f-4cd3-a933-97ec23470e4d",
+              "title": "Kriterienhandbuch für Mehrsprachigkeit in Kindertageseinrichtungen",
+              "description": "Im QITA-Kriterienhandbuch fnden sich neun Qualitätsbereiche für mehrsprachige frühkindliche Bildung. Dabei\norientieren sich die Kriterien an Tagesabläufen und Bildungsplänen. ",
+              "subject": "Deutsch als Zweitsprache",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Elementarbereich",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/d7a8b43b-5c9f-4cd3-a933-97ec23470e4d",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d7a8b43b-5c9f-4cd3-a933-97ec23470e4d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681585498-gedw",
+          "name": "Teamrollen Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/16ea3492-bfa3-4197-b17f-590a3fe1a54c",
+          "search_query": "Teamrollen",
+          "wlo_metadata": [
+            {
+              "nodeId": "16ea3492-bfa3-4197-b17f-590a3fe1a54c",
+              "title": "META-Analyse",
+              "description": "Dieses Dokument bietet eine Anleitung zur Selbsteinschätzung und Teamrollen-Analyse. Teilnehmer bewerten sich anhand von Aussagen und erhalten ein persönliches Profil in den Kategorien „Macher“, „Entwickler“, „Teamer“ und „Analytiker“. Es fördert das Verständnis für Teamdynamiken.",
+              "subject": "Projektmanagement",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/16ea3492-bfa3-4197-b17f-590a3fe1a54c",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=16ea3492-bfa3-4197-b17f-590a3fe1a54c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 100
+            },
+            {
+              "nodeId": "c803d1bb-3c3c-4c27-a6b4-1c813dd9f7be",
+              "title": "Teamrollentest",
+              "description": "Die Materialien richten sich an Lehrende, um die Teamkompetenzen ihrer Studierenden zu starken. Sie konnen parallel zu einer Teamarbeit im Studium angewendet werden.\n\nAnwendungsgebiet: Teamkompetenzen im Studium starken\n\nZielgruppe: Lehrende\n\nInhalt:\n\n  * Eine didaktische Notiz mit Hinweisen zur Anwendung\n  * Ein Teamrollentest\n  * Ein Coaching-Konzept\n  * Vortragen zu den Themen: Grundlagen der Teamarbeit und Kommunikation im Team\n  * Begleitmaterialien zu den Themen: Grundlagen der Teamarbeit und Kommunikation im Team\n\n\n",
+              "subject": "",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.twillo.de/edu-sharing/components/render/fc861b16-a333-4cd3-bc20-e7baf1775bcf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c803d1bb-3c3c-4c27-a6b4-1c813dd9f7be&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "4a142a48-22e8-4804-b123-be4cc4a64501",
+              "title": "Grundlagen Teamarbeit",
+              "description": "Die Materialien richten sich an Lehrende, um die Teamkompetenzen ihrer Studierenden zu starken. Sie konnen parallel zu einer Teamarbeit im Studium angewendet werden.\n\nAnwendungsgebiet: Teamkompetenzen im Studium starken\n\nZielgruppe: Lehrende\n\nInhalt:\n\n  * Eine didaktische Notiz mit Hinweisen zur Anwendung\n  * Ein Teamrollentest\n  * Ein Coaching-Konzept\n  * Vortragen zu den Themen: Grundlagen der Teamarbeit und Kommunikation im Team\n  * Begleitmaterialien zu den Themen: Grundlagen der Teamarbeit und Kommunikation im Team\n\n\n",
+              "subject": "",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.twillo.de/edu-sharing/components/render/bf963f49-87da-453d-9cb4-be87ef59e424",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4a142a48-22e8-4804-b123-be4cc4a64501&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681581315-x6z1",
+          "name": "Gruppenorganisation Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://phaidra.univie.ac.at/o:1141732",
+          "search_query": "Gruppenorganisation",
+          "wlo_metadata": [
+            {
+              "nodeId": "d1be6c68-e1ed-42ce-bcb8-45b7fcb4b657",
+              "title": "Tipps und Tricks zur Gruppenorganisation: Lernpfad Gruppen",
+              "description": "Screencast zu Tipps und Tricks zur Organisation von Gruppen in Moodle-Kursen",
+              "subject": "Rechts-, Wirtschafts- und Sozialwissenschaften",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://phaidra.univie.ac.at/o:1141732",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d1be6c68-e1ed-42ce-bcb8-45b7fcb4b657&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681586255-o7e0",
+          "name": "Gruppenarbeit Rollen Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/537089ab-eb79-4b31-b089-abeb79ab31ae",
+          "search_query": "Gruppenarbeit Rollen",
+          "wlo_metadata": [
+            {
+              "nodeId": "537089ab-eb79-4b31-b089-abeb79ab31ae",
+              "title": "Methodenset \"Klischeefrei macht Schule\"",
+              "description": "Das Methodenset „Klischeefrei macht Schule“ umfasst 12 interaktive Unterrichtsmethoden für Schülerinnen und Schüler. Zusätzlich bietet es zwei Methoden, die im Rahmen der Elternarbeit und für schulinterne Entwicklungsprozesse zur Berufs- und Studienwahl frei von Geschlechterklischees genutzt werden können. Die Unterrichtsmethoden können im berufsvorbereitenden Unterricht, im Fachunterricht, in Vertretungsstunden oder an Projekttagen eingesetzt werden. Die ausgearbeiteten Methoden sind für den sofortigen Einsatz konzipiert. Erweitern Sie gerne unsere Vorschläge mit eigenen Ideen.",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/537089ab-eb79-4b31-b089-abeb79ab31ae",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=537089ab-eb79-4b31-b089-abeb79ab31ae&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "5060e558-b1c5-4159-a0e5-58b1c55159ce",
+              "title": "Methodenset \"Klischeefrei durch die Grundschule\"",
+              "description": "Bereits im Grundschulalter verbinden Kinder viele Berufe mit einem bestimmten Geschlecht. Das Methodenset „Klischeefrei durch die Grundschule“ tritt dem entgegen. Es umfasst Methoden für die pädagogische Arbeit mit Kindern, Anleitungen zur Sensibilisierung und Selbstreflexion im Kollegium sowie zur Einbindung von Eltern.",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Schule",
+                "Primarstufe"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/5060e558-b1c5-4159-a0e5-58b1c55159ce",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=5060e558-b1c5-4159-a0e5-58b1c55159ce&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "bdb0b00b-7b9f-4c43-b10e-5baabd2f3edc",
+              "title": "Gruppenpuzzle",
+              "description": "Gruppenarbeit soll die Eigenständigkeit und Eigenverantwortung des Lerners fördern, läuft aber oft so ab, dass Einzelne in der Gruppe die Arbeit erledigen und die Anderen sich führen lassen. Das geht bis hin zum Präsentieren der Gruppenergebnisse. Das erarbeitete und/oder präsentierte Ergebnis spiegelt folglich nicht den Wissensstand der einzelnen Gruppenmitglieder wieder - davon gehen aber Lehrerin oder Lehrer gerne aus. Die Gruppenarbeit nützt wieder einmal denjenigen am meisten, die auch sonst initiativ, neugierig und zielorientiert sind.",
+              "subject": "Deutsch",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Gruppenpuzzle",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=bdb0b00b-7b9f-4c43-b10e-5baabd2f3edc&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681586893-5yt9",
+          "name": "Beobachtungsauftrag Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://openedu-rlp.de/edu-sharing/components/render/2bfcc2a4-0dc9-401e-8993-8b3f177c1e00",
+          "search_query": "Beobachtungsauftrag",
+          "wlo_metadata": [
+            {
+              "nodeId": "cbec0c9c-bec3-4b50-b06a-5416e29daca1",
+              "title": "1.1_Beobachtungsauftrag Einstiegssituation",
+              "description": "In dem Dokument befindet sich der Beobachtungsauftrag für die Einstiegssituation.\n",
+              "subject": "Berufs- und Wirtschaftspädagogik",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://openedu-rlp.de/edu-sharing/components/render/2bfcc2a4-0dc9-401e-8993-8b3f177c1e00",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=cbec0c9c-bec3-4b50-b06a-5416e29daca1&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "6156648a-40b4-4e13-95a8-855d67353596",
+              "title": "1.1_Der Beobachtungsauftrag für die Einstiegssituation",
+              "description": "In dem Dokument befindet sich der Beobachtungsauftrag für die Einstiegssituation.\n",
+              "subject": "Berufs- und Wirtschaftspädagogik",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://openedu-rlp.de/edu-sharing/components/render/b4ca74fd-0488-43d2-bd0d-c58694e10770",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6156648a-40b4-4e13-95a8-855d67353596&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "79f0b2a1-0072-434f-838b-75da0b761e18",
+              "title": "Unsere Sinne",
+              "description": "- Unsere Sinne\n- SynLLOER\n- 30.06.2020\n- Biologie\n- 6\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nUnsere Sinne\n25.08.2019\nKurzfilm - unsere Sinne\nBeobachtungsauftrag:\n1. Wozu dienen unsere Sinnesorgane?\n1. Wozu dienen unsere Sinnesorgane?\n2. Wofür brauchen wir unsere Sinne?\n3. Wer hat die besseren Sinne - Mensch oder Tier?\n4. Wie gelangen Signale in unser Bewustsein?\n4a) Was sehen wir?\n4b) Was hören wir?\nWas schmecken wir?\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/cf7649d3\nhttps://www.tutory.de/entdecken/dokument/cf7649d3 [...]",
+              "subject": "Biologie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/cf7649d3",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=79f0b2a1-0072-434f-838b-75da0b761e18&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 55
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681581286-efjc",
+          "name": "Nachhaltiges Handeln Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/e1624b9e-42c5-4d3f-a24b-9e42c51d3f19",
+          "search_query": "Nachhaltiges Handeln",
+          "wlo_metadata": [
+            {
+              "nodeId": "e1624b9e-42c5-4d3f-a24b-9e42c51d3f19",
+              "title": "Didaktische Anleitung für Lehrkräfte",
+              "description": "Didaktische Anleitung für Lehrkräfte zum Projekt \"Wie gemeinwohlorientiert ist mein Ausbildungsbetrieb\"",
+              "subject": "Projektmanagement",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Projekt-Material",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/e1624b9e-42c5-4d3f-a24b-9e42c51d3f19",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e1624b9e-42c5-4d3f-a24b-9e42c51d3f19&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "dabc4b4c-a4c8-429d-bf86-e6edc128e627",
+              "title": "Vergleich Coronaepidemie und Klimawandel",
+              "description": "Sammlung von inhaltlichen Impulsen zum Vergleich der Corona-Pandemie mit dem Klimawandel ",
+              "subject": "Politik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Unterrichtsidee",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Vergleich%3A%20Coronaepidemie%20und%20Klimawandel",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=dabc4b4c-a4c8-429d-bf86-e6edc128e627&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681586652-71oa",
+          "name": "Feedback geben Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.bpb.de/lernen/digitale-bildung/werkstatt/255718/formative-assessment-bewerten-um-des-lernens-willen",
+          "search_query": "Feedback geben",
+          "wlo_metadata": [
+            {
+              "nodeId": "1fa68fcd-8e97-46de-8f5f-aed7e105603b",
+              "title": "Formative Assessment: Bewerten um des Lernens Willen ",
+              "description": "Geschichte: 2. Mathe: 3+. Klassisch wird in der Schule das Gelernte benotet. Formative Assessment dreht mithilfe digitaler Tools diesen Ansatz um und setzt auf Bewertung während und nicht am Ende des Lernprozesses.",
+              "subject": "Zeitgemäße Bildung",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://www.bpb.de/lernen/digitale-bildung/werkstatt/255718/formative-assessment-bewerten-um-des-lernens-willen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1fa68fcd-8e97-46de-8f5f-aed7e105603b&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "9f015a4f-c1a0-48b0-b4c9-6edc61958950",
+              "title": "Rhetorik / Streitgespräch",
+              "description": "Informationen zu Formen und Regeln des Streitgesprächs",
+              "subject": "Deutsch",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Rhetorik/Streitgespr%C3%A4ch",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9f015a4f-c1a0-48b0-b4c9-6edc61958950&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            },
+            {
+              "nodeId": "fb2c3c71-c8eb-4545-8c33-072f3bc1d72e",
+              "title": "Votum-Ei",
+              "description": "Beim Votum-Ei geben die Schülerinnen und Schüler zeichnerisch eine Rückmeldung zum Unterricht, etwa zu einem Arbeitsprozess oder einer Unterrichtsstunde.",
+              "subject": "Deutsch als Zweitsprache",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://deutsch-lernen.zum.de/wiki/Votum-Ei",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=fb2c3c71-c8eb-4545-8c33-072f3bc1d72e&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 82
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681589913-2o86",
+          "name": "Nachhaltigkeit Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://learning-corner.learning.europa.eu/learning-materials/ready-green-challenge_de",
+          "search_query": "Nachhaltigkeit",
+          "wlo_metadata": [
+            {
+              "nodeId": "02a16ba0-dafe-48d2-a16b-a0dafe98d2f2",
+              "title": "Green Challenge – bist du bereit?",
+              "description": "Unterrichtsmaterial mit neuen Ideen und Hintergrundinfos zum Thema Nachhaltigkeit – für Lehrkräfte der Sekundarstufe. Das Toolkit wurde im Rahmen der Green-Trip-Kampagne erstellt, die nachhaltige Projekte und umweltfreundliches Verhalten junger Menschen fördert.",
+              "subject": "Nachhaltigkeit",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://learning-corner.learning.europa.eu/learning-materials/ready-green-challenge_de",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=02a16ba0-dafe-48d2-a16b-a0dafe98d2f2&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "3b0fb540-92c7-4e67-8fb5-4092c71e6776",
+              "title": "EbM Lehrkonzept Medizin_ Lübeck",
+              "description": "",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Präsentation",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/3b0fb540-92c7-4e67-8fb5-4092c71e6776",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=3b0fb540-92c7-4e67-8fb5-4092c71e6776&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "8ade737a-dcb3-471e-9e73-7adcb3971efa",
+              "title": "EbM Lehrkonzept Medizin Uni Lübeck",
+              "description": "",
+              "subject": "null",
+              "educationalContext": [],
+              "resourceType": "Präsentation",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/8ade737a-dcb3-471e-9e73-7adcb3971efa",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8ade737a-dcb3-471e-9e73-7adcb3971efa&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768681589958-8ib7",
+          "name": "Feedback Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/Wissenserwerb%20und%20Anwendung%20von%20Fachbegriffen%20der%20Lyrik",
+          "search_query": "Feedback",
+          "wlo_metadata": [
+            {
+              "nodeId": "8f1e9fee-1f82-4324-8bc4-de99228dab30",
+              "title": "Wissenserwerb und Anwendung von Fachbegriffen der Lyrik",
+              "description": "Klasse: 5",
+              "subject": "Deutsch",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Wissenserwerb%20und%20Anwendung%20von%20Fachbegriffen%20der%20Lyrik",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8f1e9fee-1f82-4324-8bc4-de99228dab30&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "173cbed6-60f5-4d15-a454-b1ed2379c2c4",
+              "title": "Unterrichtsinhalte mittels Padlet üben",
+              "description": "Klasse: 5 – Q2",
+              "subject": "Latein",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Unterrichtsinhalte%20mittels%20Padlet%20%C3%BCben",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=173cbed6-60f5-4d15-a454-b1ed2379c2c4&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "e0fdad0b-baae-4a99-b15f-a0bdcc1c055a",
+              "title": "Digitales und kollaboratives Schreiben via ZUM-Pad",
+              "description": "Klasse: 7",
+              "subject": "Englisch",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Digitales%20und%20kollaboratives%20Schreiben%20via%20ZUM-Pad",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e0fdad0b-baae-4a99-b15f-a0bdcc1c055a&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
         }
       ],
       "tools": [
         {
           "id": "ENV1-T1",
+          "name": "Beamer",
+          "tool_type": "Präsentationstechnik",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": []
+    },
+    {
+      "id": "ENV2",
+      "name": "Waldgebiet",
+      "description": "Ausgewähltes Waldgebiet für praktische Erkundungen, Stationen und Beobachtungen.",
+      "materials": [
+        {
+          "id": "ENV2-M1",
+          "name": "Notizbuch",
+          "material_type": "Arbeitsblatt",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Notizbuch"
+        },
+        {
+          "id": "ENV2-M2",
+          "name": "Bestimmungskarten",
+          "material_type": "Bild",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Bestimmungskarten"
+        },
+        {
+          "id": "ENV2-M3",
+          "name": "Sammelbehälter",
+          "material_type": "Hilfsmittel",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Sammelbehälter"
+        },
+        {
+          "id": "M_WLO_04",
+          "name": "Lehrerleitfaden Wald",
+          "material_type": "Arbeitsblatt",
+          "source": "wlo",
+          "access_link": "",
+          "search_query": "Wald Leitfaden"
+        },
+        {
+          "id": "M_WLO_05",
+          "name": "Lösungsblatt Bestimmung",
+          "material_type": "Arbeitsblatt",
+          "source": "wlo",
+          "access_link": "",
+          "search_query": "Bestimmung Lösungen"
+        },
+        {
+          "id": "ENV2-M1768681579268-erbo",
+          "name": "Waldboden beobachten Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/86898e37-ea58-47b9-9175-661bc7a9a727",
+          "search_query": "Waldboden beobachten",
+          "wlo_metadata": [
+            {
+              "nodeId": "86898e37-ea58-47b9-9175-661bc7a9a727",
+              "title": "Agilität und Bildung - E-Book  1. Auflage Januar 2021 ",
+              "description": "Ein Reiseführer durch die Welt der Agilität - Agilität und Bildungsprozesse, -konzepte, -organisationen",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe II",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "(Lehr-)Buch",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/86898e37-ea58-47b9-9175-661bc7a9a727",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=86898e37-ea58-47b9-9175-661bc7a9a727&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "bf4a0bb9-199e-424d-8a0b-b9199ec24d1c",
+              "title": "Agilität und Bildung",
+              "description": "Ein Reiseführer durch die Welt der Agilität",
+              "subject": "Projektmanagement",
+              "educationalContext": [
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Bildungsangebot",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/bf4a0bb9-199e-424d-8a0b-b9199ec24d1c",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=bf4a0bb9-199e-424d-8a0b-b9199ec24d1c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768681585684-93ep",
+          "name": "Zeichnen Natur Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.umwelt-im-unterricht.de/unterrichtsvorschlaege/wer-braucht-den-wald/",
+          "search_query": "Zeichnen Natur",
+          "wlo_metadata": [
+            {
+              "nodeId": "981f5a99-2eb6-4292-a4d0-0fddb52a960f",
+              "title": "Wer braucht den Wald?",
+              "description": "Die Schüler/-innen und Schüler lernen die Leistungen des Waldes für Natur und Menschen kennen, indem sie aus verschiedenen Perspektiven der Frage nachgehen: Wer braucht den Wald? Anhand eines Schaubilds erarbeiten sie, welche schädlichen Auswirkungen menschliche Aktivitäten auf den Wald haben können. Sie sammeln Ideen, wie diese verringert und die Leistungen des Waldes erhalten werden können.",
+              "subject": "Sachunterricht",
+              "educationalContext": [],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://www.umwelt-im-unterricht.de/unterrichtsvorschlaege/wer-braucht-den-wald/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=981f5a99-2eb6-4292-a4d0-0fddb52a960f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "412ae11c-bd8c-42f6-aae1-1cbd8c32f6fc",
+              "title": "Arbeitsheft für Schüler*innen",
+              "description": "Arbeits-/Projektheft für Schüler*innen zum Projekt \"Wie gemeinwohlorientiert ist mein Ausbildungsbetrieb\"",
+              "subject": "Projektmanagement",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Projekt-Material",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/412ae11c-bd8c-42f6-aae1-1cbd8c32f6fc",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=412ae11c-bd8c-42f6-aae1-1cbd8c32f6fc&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 72
+            },
+            {
+              "nodeId": "d7a8b43b-5c9f-4cd3-a933-97ec23470e4d",
+              "title": "Kriterienhandbuch für Mehrsprachigkeit in Kindertageseinrichtungen",
+              "description": "Im QITA-Kriterienhandbuch fnden sich neun Qualitätsbereiche für mehrsprachige frühkindliche Bildung. Dabei\norientieren sich die Kriterien an Tagesabläufen und Bildungsplänen. ",
+              "subject": "Deutsch als Zweitsprache",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Elementarbereich",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/d7a8b43b-5c9f-4cd3-a933-97ec23470e4d",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d7a8b43b-5c9f-4cd3-a933-97ec23470e4d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 38
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768681581102-4auy",
+          "name": "Wald-Explorer Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/7e270be7-ed2e-46a5-9ce1-1558ca819c13",
+          "search_query": "Wald-Explorer",
+          "wlo_metadata": [
+            {
+              "nodeId": "7e270be7-ed2e-46a5-9ce1-1558ca819c13",
+              "title": "Arbeitsheft zu \"Gratis Online Lernen\" - LISUM Edition",
+              "description": "Der Kurs „Gratis Online Lernen - Edition LISUM“ von Oktober 2017 basiert auf einer Kooperation mit den Initiatoren Sandra Schön (BIMS e.V.) und Martin Ebner (TU Graz) mit dem Projekt OSM@BB, das mit Mitteln des deutschen Bundesministerium für Bildung und Forschung gefördert wird. Damit war es möglich, den Online-Kurs zu überarbeiten, insbesondere das Arbeitsheft wurde so aktualisiert und gedruckt. Herzlichen Dank!",
+              "subject": "Open Educational Resources",
+              "educationalContext": [
+                "null"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/7e270be7-ed2e-46a5-9ce1-1558ca819c13",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7e270be7-ed2e-46a5-9ce1-1558ca819c13&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768681588744-nvjp",
+          "name": "Beobachtung zeichnen Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/migration/russlanddeutsche/283533/identitaet-und-ethnizitaet-bei-bundesbuergern-mit-russlanddeutschem-migrationshintergrund",
+          "search_query": "Beobachtung zeichnen",
+          "wlo_metadata": [
+            {
+              "nodeId": "8f0d83af-99c9-46ef-818a-85282beeffc8",
+              "title": "Identität und Ethnizität bei Bundesbürgern mit russlanddeutschem Migrationshintergrund | bpb",
+              "description": "\"Deutsch\", \"russisch\", \"deutschrussisch\" oder \"russlanddeutsch\": Wer sind die Menschen mit russlanddeutschem Migrationshintergrund? Welche Bedeutung haben Fragen nach Ethnizität, Identität und Nationalität für sie? Jannis Panagiotidis gibt einen Über",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/migration/russlanddeutsche/283533/identitaet-und-ethnizitaet-bei-bundesbuergern-mit-russlanddeutschem-migrationshintergrund",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8f0d83af-99c9-46ef-818a-85282beeffc8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "17095030-8954-4d33-9d9e-21fcaa499228",
+              "title": "Das Medienereignis Fußball-WM",
+              "description": "Die Kommunikationswissenschaft analysiert Medienereignisse unter dem Gesichtspunkt ihrer Inszenierung. Noch immer steht das Fernsehen dabei im Mittelpunkt, aber Livestreams und Social Media spielen auch bei der WM eine immer größere Rolle.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/internationales/europa/russland/270672/medienereignis-fussball-wm",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=17095030-8954-4d33-9d9e-21fcaa499228&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "7c2a564a-8be9-4520-9557-0f8bad84bd27",
+              "title": "\"Wir hätten aufmerksamer sein müssen\" | bpb",
+              "description": "",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/projekte/tracingaddai/313664/interview-mit-regisseurin",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7c2a564a-8be9-4520-9557-0f8bad84bd27&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768681582537-7ou5",
+          "name": "Fototipps Natur Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/c143b223-a6aa-4412-8b9b-d95191750d68",
+          "search_query": "Fototipps Natur",
+          "wlo_metadata": [
+            {
+              "nodeId": "c143b223-a6aa-4412-8b9b-d95191750d68",
+              "title": "Digitale Fotoarbeit mit Kindern in der Kita",
+              "description": "IFP/JFF-Expertise, die über die Bedeutung der digitalen Fotoarbeit in der Kita und deren pädagogischen, rechtlichen und technischen Voraussetzungen informiert sowie viele Praxisbeispiele enthält  ",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Elementarbereich"
+              ],
+              "resourceType": "Handout",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/c143b223-a6aa-4412-8b9b-d95191750d68",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c143b223-a6aa-4412-8b9b-d95191750d68&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768681580581-klfz",
+          "name": "Pilze bestimmen Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/ed246420",
+          "search_query": "Pilze bestimmen",
+          "wlo_metadata": [
+            {
+              "nodeId": "bb33cdc4-5b5b-43ba-8b0f-cd3bc61691d0",
+              "title": "Übungsblatt für die Klassenarbeit",
+              "description": "- Übungsblatt für die Klassenarbeit\n- anonym\n- 30.06.2020\n- Allgemeine Hochschulreife\n- Mathematik\n- 7\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nÜbungsblatt für die Klassenarbeit\n07.12.2018\n1\nBeim Verkauf eines Artikels verdient ein Händler 20% des Verkaufspreises. Wie hoch war sein Preisaufschlag?\n2\nBeim Verkauf eines anderen Artikels beträgt der Preisaufschlag 20%. Wie viel Prozent des Verkaufspreises ist dieser Preisaufschlag?\n3\nInstrumente im Schulorchester\n- Wie viel Prozent der Orchestermitglieder spielen Violine bzw. Querflöte?\n- Welcher Prozentsatz der Orchestermitglieder spielt kein Streichinstrument?\n- Mit Beginn des nächsten Schuljahres scheiden zwei Querflötenspielerinnen altershalber aus. Um wie viel Prozent hat die Anzahl der Querflöten im Orchester abgenommen?\n- Der Musiklehrer behauptet:\n16,2% der Orchestermitglieder sind schon länger als sechs Jahre dabei.Zeige, dass er nicht Recht haben kann.\n4\nBei einem Rechteck wird eine Seitenlänge um 20% verkleinert, die andere Seitenlänge um 30 Prozent vergrößert.\nUm wie viel Prozent verändert sich dabei der Flächeninhalt des Rechtecks?\nUm wie viel Prozent verändert sich dabei der Flächeninhalt des Rechtecks?\n5\nFrische Pilze bestehen zu 92% ihrer Masse aus Wasser. Trocknet man 5kg frische Pilze, so nimmt ihr Wasseranteil auf 60 Prozent ab.\nUm wie viel Prozent hat das Gewicht der frischen Pilze abgenommen?\nUm wie viel Prozent hat das Gewicht der frischen Pilze abgenommen?\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/ed246420\nhttps://www.tutory.de/entdecken/dokument/ed246420\nName:\nÜbungsblatt für die Klassenarbeit\n07.12.2018\n6\nAnnegret behauptet: Wenn man einen Preis zweimal hintereinander um 50% erhöht, kann man den Grundwert auch direkt mit 2,25 multiplizieren, um den Preis zu bestimmen.\n- Überprüfe anhand von Zahlenbeispielen, ob die Aussage stimmen kann.\n- Erläu [...]",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/ed246420",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=bb33cdc4-5b5b-43ba-8b0f-cd3bc61691d0&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "62d06001-e4a8-464d-afbd-5f81fb036777",
+              "title": "Der Nulleffekt | Radioaktivität überall",
+              "description": "Radioaktivität ist ein Phänomen, das überall um uns herum existiert. Physiker:innen sprechen auch vom Nulleffekt. Mit Hilfe von Großflächenzählrohren lässt sich der Nulleffekt zuverlässig bestimmen. ",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Experiment",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/f273e550",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=62d06001-e4a8-464d-afbd-5f81fb036777&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768681586114-sef3",
+          "name": "Bestimmungsschlüssel Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://media.sodis.de/open/melt/Wer_ist_wer.pdf",
+          "search_query": "Bestimmungsschlüssel",
+          "wlo_metadata": [
+            {
+              "nodeId": "1b8d4159-b1f2-4b7a-82d0-102ad1d68576",
+              "title": "Wer ist wer?",
+              "description": "Bestimmungsschlüssel. Fragen führen Schritt für Schritt zur richtigen Bestimmung verschiedener Lurche.",
+              "subject": "",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Bild",
+              "wwwUrl": "https://media.sodis.de/open/melt/Wer_ist_wer.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1b8d4159-b1f2-4b7a-82d0-102ad1d68576&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "2d5a7bd6-f642-4d7b-aa53-e6937802569d",
+              "title": "Bäume bestimmen – Erstellen eines Bestimmungsschlüssels mit Scratch ",
+              "description": "Die Schüler erstellen nach einer Vorlage aus dem Biologie-Buch einen dichotomen Bestimmungsschlüssel für Blätter von Laub- und Nadelbäumen und überprüfen diesen anschließend anhand ausliegender Laubblätter bzw. kleiner Äste von Nadelbäumen.",
+              "subject": "Biologie",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://plattform.fobizz.com/unterrichtsmaterialien/1309-baeume-bestimmen-erstellen-eines-bestimmungsschluessels-mit-scratch",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=2d5a7bd6-f642-4d7b-aa53-e6937802569d&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "45eb9608-86e3-45f0-a778-6a142b36d60e",
+              "title": "Methoden der Schwangerschaftsverhütung",
+              "description": "Mentimeter-Befragung. Kollaboration über ein Padlet (innerhalb der Klasse) und über MS Teams oder ZUMPad (innerhalb der Arbeitsgruppe). Sicherung über Erstellung und Anwendung von LearningApps.",
+              "subject": "Biologie",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://plattform.fobizz.com/unterrichtsmaterialien/778-methoden-der-schwangerschaftsverhutung",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=45eb9608-86e3-45f0-a778-6a142b36d60e&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV2-T1",
           "name": "Lupe",
           "tool_type": "Hilfsmittel",
-          "source": "filter",
-          "access_link": "",
-          "filter_criteria": {
-            "cclom:title": "Lupe",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/37a3ad9c-727f-4b74-bbab-27d59015c695",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
-          }
+          "source": "manual",
+          "access_link": ""
         },
         {
-          "id": "ENV1-T2",
+          "id": "ENV2-T2",
           "name": "Kamera",
           "tool_type": "Technologie",
-          "source": "filter",
-          "access_link": "",
-          "filter_criteria": {
-            "cclom:title": "Kamera",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/ffe4d8e8-3cfd-4e9a-b025-83f129eb5c9d",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
-          }
-        },
-        {
-          "id": "ENV1-T3",
-          "name": "Fernglas",
-          "tool_type": "",
           "source": "manual",
           "access_link": ""
         }
       ],
       "services": [
         {
-          "id": "ENV1-S1",
+          "id": "ENV2-S1",
           "name": "Naturpädagogische Begleitung",
-          "service_type": "Förderung",
-          "source": "filter",
-          "access_link": "",
-          "filter_criteria": {
-            "cclom:title": "Naturpädagogik",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/6b6786df-9ce9-44bf-8a04-caebd4456fcf",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/080"
-          }
+          "service_type": "Begleitung",
+          "source": "manual",
+          "access_link": ""
         }
       ]
+    },
+    {
+      "id": "ENV3",
+      "name": "Digitales Klassenzimmer",
+      "description": "LMS/Kursraum für Bereitstellung digitaler WLO-Ressourcen und weiterführende Übungen.",
+      "materials": [
+        {
+          "id": "M_WLO_06",
+          "name": "Walddetektive Quiz",
+          "material_type": "Lernspiel",
+          "source": "wlo",
+          "access_link": "",
+          "search_query": "Wald"
+        },
+        {
+          "id": "ENV3-M1768681582086-1rym",
+          "name": "Mülltrennung Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/grundschule/sachunterricht/natur-und-umwelt/arbeitsmaterial/am/umweltschutz-durch-muelltrennung-und-muellvermeidung-interaktive-uebungen/",
+          "search_query": "Mülltrennung",
+          "wlo_metadata": [
+            {
+              "nodeId": "99e7fdda-90c4-43fe-aa45-ae49c58b35d2",
+              "title": "Umweltschutz durch Mülltrennung und Müllvermeidung: interaktive Übungen",
+              "description": "Nahezu täglich konfrontieren uns die Medien mit neuen erschreckenden Nachrichten zum Abfallaufkommen. Die weltweite Problematik rund um die Verschmutzung der Meere durch Plastikmüll geht uns alle an. Diese interaktiven Übungen dienen unterstützend zu der Unterrichtseinheit Umweltschutz in der Grundschule: Mülltrennung, Recycling und Upcycling dazu, den Lernenden die Ausmaße des übermäßigen Konsums und der damit verbundenen Menge an Verpackungsmüll bewusst zu machen. \n\nSpielerisch setzen sich die Schülerinnen und Schüler dabei am Tablet, PC oder Smartphone mit der verantwortungsbewussten Mülltrennung auseinander, indem sie in einer Zuordnungsaufgabe dem Müll die entsprechende Entsorgung zuordnen oder aber auch durch Drag and Drop in einem Lückentext ihr neu erworbenes Wissen rund um die Umweltverschmutzung durch die erhöhte Produktion von Müll anwenden. Im Vordergrund steht dabei die Sensibilisierung der Lernenden hin zu mehr Nachhaltigkeit durch die Frage, wie die Schülerinnen und Schüler ganz persönlich einen Beitrag zum Umweltschutz leisten können.\n\nAuf diese Weise tragen Sie als Lehrkraft einen wesentlichen Teil zur Umwelterziehung bei und fördern gleichzeitig die Medienkompetenz im Unterricht. Leiten Sie die Lernenden im Sinne der individuellen Förderung mit diesen Übungen Stück für Stück zum aktiven Selbstlernen an, indem Sie bereits in der Grundschule interaktive Übungen einführen, damit die Lernenden diese später eigenverantwortlich auch zu Hause zur Festigung der Lerninhalte einsetzen können. Damit steigern Sie nicht nur die Motivation durch digitale Elemente, sondern ermöglichen den Schülerinnen und Schülern, gemäß ihrem Lerntempo Lernfortschritte zu erzielen.",
+              "subject": "Umweltgefährdung, Umweltschutz",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/grundschule/sachunterricht/natur-und-umwelt/arbeitsmaterial/am/umweltschutz-durch-muelltrennung-und-muellvermeidung-interaktive-uebungen/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=99e7fdda-90c4-43fe-aa45-ae49c58b35d2&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "504f6c9b-be98-4e38-8f6c-9bbe989e380a",
+              "title": "Wie funktioniert die Mülltrennung?",
+              "description": "Das Medienpaket „B3 Wie funktioniert die Mülltrennung? – Stofftrennung nach Dichte und Magnetismus“ enthält die Anleitungen zum Experiment  für die Lehrkraft und die Schülerinnen und Schüler. Alle Fragen zum Experiment werden in einem separaten Lösungsblatt beantwortet.   Ergänzend sind weiterführende Medien wie DFU-Arbeitsblätter oder eine Linkliste zum Themenkomplex des Experiments enthalten.  Hinweise: • Bei allen Experimenten wurden die in Deutschland gültigen Sicherheitsvorschriften berücksichtigt. Zusätzlich sollten Sie auf (bundes-)länderspezifische Sicherheitsvorschriften achten. So ist z. B. in Nordrhein-Westfalen die Verbrennung von Zucker nur in geschlossenen Systemen oder im Abzug erlaubt.  • Die Anleitungen stammen aus Experimento, dem Bildungsprogramm der Siemens Stiftung. Weitere Informationen hierzu finden Sie im Medienportal unter „Experimento: Medien rund ums Experimentieren“. • Alle in den Anleitungen genannten Materialien müssen selbst im Handel beschafft werden. Einzelne Experimentiermaterialien können auch im Onlineshop des Lehrmittelherstellers Arnulf Betzold GmbH unter www.betzold.de/experimento kostenpflichtig bezogen werden. ",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Schule",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Bild",
+              "wwwUrl": "https://medienportal.siemens-stiftung.org/de/experimento-10-b3-wie-funktioniert-die-muelltrennung-103969",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=504f6c9b-be98-4e38-8f6c-9bbe989e380a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "6e482230-25f3-4b21-bd27-af3f2b0cb067",
+              "title": "NABU-Quiz zur Mülltrennung - Welcher Müll gehört in welche Tonne?",
+              "description": "Ob Biomüll, Altpapier, Kunststoff oder Glas - gut getrennt ist halb recycelt. Doch welcher Müll gehört in welche Tonne? Testen Sie Ihr Wissen beim großen NABU-Mülltrennungsquiz! Schaffen Sie es, alle zehn Fragen richtig zu beantworten?",
+              "subject": "Nachhaltigkeit",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.nabu.de/umwelt-und-ressourcen/oekologisch-leben/alltagsprodukte/23425.html",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e482230-25f3-4b21-bd27-af3f2b0cb067&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV3-M1768681587345-amkv",
+          "name": "Nachhaltigkeit Tests / Fragebögen",
+          "material_type": "Tests / Fragebögen",
+          "source": "database",
+          "access_link": "https://www.aktion-moorschutz.de/moorquiz.html",
+          "search_query": "Nachhaltigkeit",
+          "wlo_metadata": [
+            {
+              "nodeId": "39be2a52-62ef-450e-be28-8c33b91474cf",
+              "title": "Moor-Quiz › Aktion Moorschutz",
+              "description": "In diesem Quiz finden Sie es heraus. Wenn Sie zuerst durch unsere Seiten stöbern, werden Sie die Quiz-Fragen leicht beantworten können.",
+              "subject": "Nachhaltigkeit",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Hochschule",
+                "Berufliche Bildung",
+                "Fortbildung",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://www.aktion-moorschutz.de/moorquiz.html",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=39be2a52-62ef-450e-be28-8c33b91474cf&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "c637d5ee-a4d4-4949-bf51-eb0682d3d8cf",
+              "title": "Aufgabe aus \"Aufgaben zu Addition und Subtraktion\"",
+              "description": "Addiere die ein- oder zweistelligen Zahlen im Kopf.Klasse.Stelle dir 24+3 als 24 blaue und 3 rote Punkte vor. Wie viele Punkte hast du dann …",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://serlo.org/9549",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c637d5ee-a4d4-4949-bf51-eb0682d3d8cf&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "bc83f314-3edb-4407-ac2d-22a1e9b56173",
+              "title": "Aufgabe aus \"Aufgaben zu Addition und Subtraktion\"",
+              "description": "Löse die folgenden Aufgaben.55 - 6Subtrahiere die Einerstellen: Da  kleiner als  ist, rechne stattdessen  und schreibe die  bei der Zehnerstelle …",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://serlo.org/9563",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=bc83f314-3edb-4407-ac2d-22a1e9b56173&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 65
+            }
+          ]
+        }
+      ],
+      "tools": [],
+      "services": []
+    },
+    {
+      "id": "ENV-DEFAULT",
+      "name": "Standard-Lernumgebung",
+      "description": "Digitale Lernumgebung für WLO-Inhalte",
+      "materials": [],
+      "tools": [],
+      "services": []
     }
   ]
 }

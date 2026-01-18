@@ -1,244 +1,606 @@
 {
   "metadata": {
     "title": "Schule aus – und dann? Auf dem Weg in meine berufliche Zukunft",
-    "description": "\n„Schule aus – und dann?“ Diese Frage stellen sich viele Schülerinnen und Schüler häufig, ohne eine klare Antwort zu haben. Sie verlieren sich im Überfluss an scheinbar unendlichen Möglichkeiten und treffen oft aus zeitlichem Druck eine Entscheidung, die vor allem emotional geprägt ist. Die Folgen dieser Entscheidungen sind deutlich: Etwa 33 % der Schülerinnen, Schüler und Studierenden brechen ihre Ausbildung oder ihr Studium vorzeitig ab. Doch wie geht es nach einem solchen Abbruch weiter? Bei der Vielzahl von 330 Ausbildungsberufen und 19.000 Studiengängen fällt es schwer, die richtige Wahl zu treffen. Dieser Teufelskreis lässt sich jedoch durchbrechen, wenn Jugendliche sich frühzeitig mit der Berufsorientierung auseinandersetzen und die vorhandenen Angebote gezielt nutzen.\n\nDieses Modul unterstützt die Berufsorientierung, indem es den Schülerinnen und Schülern ermöglicht, mithilfe der interaktiven Anwendung „JobChecker“ ihre eigenen Stärken und Potenziale zu erkennen. Basierend auf diesen Ergebnissen schlägt der „JobChecker“ passende Ausbildungs- und Studiengänge vor und ergänzt diese Empfehlungen mit weiteren hilfreichen Informationen zur Berufswahl.",
+    "description": "„Schule aus – und dann?“ Diese Frage stellen sich viele Schülerinnen und Schüler häufig, ohne eine klare Antwort zu haben. Dieses Modul unterstützt die Berufsorientierung mit dem interaktiven JobChecker, Reflexionsphasen und Präsentationsaufgaben (Elevator Pitch).",
     "keywords": [
       "Berufsorientierung",
       "Berufs- und Arbeitswelt"
     ],
     "author": "Christian",
-    "version": "1.0"
+    "version": "1.1",
+    "created": "2026-01-17T20:06:35.204Z"
   },
   "problem": {
-    "problem_description": "Problemstellung:\nViele Schülerinnen und Schüler stehen nach dem Schulabschluss vor der Frage „Schule aus – und dann?“, ohne eine klare Vorstellung von ihrem beruflichen Weg zu haben. In einem Überangebot an Ausbildungsberufen und Studiengängen fällt es schwer, eine fundierte Entscheidung zu treffen. Oft wird die Entscheidung aus Zeitdruck und emotionaler Belastung heraus getroffen, was in vielen Fällen zu Abbrüchen von Ausbildungen und Studiengängen führt. Rund 33 % der Schülerinnen und Schüler sowie Studierenden brechen ihre Ausbildung oder ihr Studium vorzeitig ab. Der Dschungel an Möglichkeiten bleibt somit unübersichtlich und die Wahl des richtigen Berufsweges bleibt eine große Herausforderung.\n\nProblemfrage:\nWie können Schülerinnen und Schüler frühzeitig die richtigen beruflichen Entscheidungen treffen und die verfügbaren Orientierungsmöglichkeiten effektiv nutzen, um spätere Abbrüche von Ausbildung oder Studium zu vermeiden?",
+    "problem_description": "Viele Schülerinnen und Schüler stehen nach dem Schulabschluss vor der Frage „Schule aus – und dann?“, ohne eine klare Vorstellung von ihrem beruflichen Weg zu haben. In einem Überangebot an Ausbildungsberufen und Studiengängen fällt es schwer, eine fundierte Entscheidung zu treffen. Oft wird die Entscheidung aus Zeitdruck und emotionaler Belastung heraus getroffen, was in vielen Fällen zu Abbrüchen von Ausbildungen und Studiengängen führt.",
+    "description": "Viele Schülerinnen und Schüler stehen nach dem Schulabschluss vor der Frage „Schule aus – und dann?“, ohne eine klare Vorstellung von ihrem beruflichen Weg zu haben. In einem Überangebot an Ausbildungsberufen und Studiengängen fällt es schwer, eine fundierte Entscheidung zu treffen. Oft wird die Entscheidung aus Zeitdruck und emotionaler Belastung heraus getroffen, was in vielen Fällen zu Abbrüchen von Ausbildungen und Studiengängen führt.",
     "learning_goals": [
-      "Die Schülerinnen und Schüler ...",
-      "- reflektieren ihre eigenen Stärken und Schwächen.",
-      "- Identifizieren, mithilfe eines Berufsorientierungstests, für sie geeignete Berufe. ",
-      "- hinterfragen die Aussagekraft des Testergebnisses kritisch. •\tbeschreiben und beurteilen den Beruf Assistentin/Assistent für Freizeitwirtschaft."
+      "Die Schülerinnen und Schüler reflektieren ihre eigenen Stärken und Schwächen.",
+      "Die Schülerinnen und Schüler identifizieren mithilfe eines Berufsorientierungstests für sie geeignete Berufe.",
+      "Die Schülerinnen und Schüler hinterfragen die Aussagekraft des Testergebnisses kritisch.",
+      "Die Schülerinnen und Schüler beschreiben und beurteilen den Beruf Assistentin/Assistent für Freizeitwirtschaft."
     ],
     "didactic_keywords": [
-      "ElevatorPitch"
-    ]
+      "ElevatorPitch",
+      "Selbsteinschätzung",
+      "Berufsorientierung"
+    ],
+    "challenges": []
   },
   "context": {
     "target_group": "Schülerinnen und Schüler des Gymnasiums",
     "subject": "Arbeit-Wirtschaft-Technik",
     "educational_level": "9/10",
-    "prerequisites": "Kenntnisse der Methode \"Elevator Pitch\"",
-    "time_frame": "2 Unterrichtsstunden"
+    "prerequisites": "Kenntnisse der Methode \"Elevator Pitch\" (Grundkenntnisse oder kurze Einführung möglich)",
+    "time_frame": "90 Minuten"
   },
   "influence_factors": [],
   "solution": {
-    "solution_description": "Der Lösungsansatz im Material zur beruflichen Zukunft bietet einen strukturierten Ansatz zur Berufsorientierung für Schülerinnen und Schüler. Die Schüler sollen ihre eigenen Stärken und Interessen erkennen und diese mit den verschiedenen Berufs- und Studienmöglichkeiten abgleichen. Dabei werden interaktive Tools wie der „JobChecker“ genutzt, um personalisierte Empfehlungen für passende Ausbildungs- und Studiengänge zu erhalten. Zusätzlich werden die Schüler in den richtigen Umgang mit Informationsquellen und Entscheidungshilfen eingeführt, um eine fundierte und reflektierte Entscheidung über ihre berufliche Zukunft treffen zu können. Der Fokus liegt auf der frühzeitigen Auseinandersetzung mit der Berufswahl, um die Gefahr von späteren Abbrüchen zu minimieren.\n\nDer Lösungsansatz ist im Detail hier abrufbar: https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Loesungen.pdf ",
-    "didactic_approach": "",
+    "solution_description": "Strukturierter Ablauf: Einstieg mit Zitat-Analyse, individuelles Testen mit dem JobChecker im Computerraum, kritische Reflexion der Ergebnisse, Erstellung eines Steckbriefs zu einem vorgestellten Beruf und abschließende Präsentation (Elevator Pitch / Galeriegang). Unterstützende digitale Ressourcen (WLO) und Arbeitsblätter werden angeboten.",
+    "approach": "Strukturierter Ablauf: Einstieg mit Zitat-Analyse, individuelles Testen mit dem JobChecker im Computerraum, kritische Reflexion der Ergebnisse, Erstellung eines Steckbriefs zu einem vorgestellten Beruf und abschließende Präsentation (Elevator Pitch / Galeriegang). Unterstützende digitale Ressourcen (WLO) und Arbeitsblätter werden angeboten.",
+    "didactic_approach": "Kombination aus individualisierter Selbstreflexion, digitalen Tools zur Information, kooperativen Arbeitsphasen und Präsentation zur Ergebnissicherung. Differenzierung durch Wahlaufgaben und methodische Varianten (Galeriegang statt Elevator Pitch).",
     "didactic_template": {
       "learning_sequences": [
         {
           "sequence_id": "LS1",
-          "sequence_name": "Schule aus – und dann? Auf dem Weg in meine berufliche Zukunft ",
-          "time_frame": "90",
-          "learning_goal": "Die Schülerinnen und Schüler ... \n- reflektieren ihre eigenen Stärken und Schwächen. \n- Identifizieren, mithilfe eines Berufsorientierungstests, für sie geeignete Berufe. \n- hinterfragen die Aussagekraft des Testergebnisses kritisch. \n- beschreiben und beurteilen den Beruf Assistentin/Assistent für Freizeitwirtschaft.",
+          "sequence_name": "Schule aus – und dann? Auf dem Weg in meine berufliche Zukunft",
+          "time_frame": "90 Minuten",
+          "learning_goal": "Die SuS reflektieren eigene Stärken, identifizieren passende Berufe mit einem Berufsorientierungstest, hinterfragen die Testergebnisse kritisch und erarbeiten einen Steckbrief für den Beruf Assistent/in für Freizeitwirtschaft.",
           "phases": [
             {
               "phase_id": "LS1-P1",
               "phase_name": "Vorbereitung (optional)",
-              "time_frame": "15",
-              "learning_goal": "Die SuS schätzen ihre eigenen Stärken und Schwächen ein und führen auf Basis einer Fremdeinschätzung eine Reflektion dieser durch.",
+              "time_frame": "15 Minuten",
+              "learning_goal": "Die SuS schätzen ihre eigenen Stärken und Schwächen ein (Selbst- und Fremdeinschätzung) und bringen Ergebnisse mit in die Stunde.",
               "activities": [
                 {
                   "activity_id": "LS1-P1-A1",
-                  "name": "Arbeitsblatt: Selbst- und Fremdeinschätzung",
-                  "description": "Dieses Arbeitsblatt dient der inhaltlichen Vorbereitung auf das Modul und kann vorab als vorbereitende Hausaufgabe aufgegeben werden. ",
+                  "name": "Selbst- und Fremdeinschätzung",
+                  "description": "Hausaufgabe: Ausfüllen des Arbeitsblatts zur Selbst- und Fremdeinschätzung. Ergebnisse in einer kurzen Notiz sichern (Stärken / Entwicklungsbereiche).",
                   "duration": 15,
-                  "roles": [],
-                  "goal": "",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Gibt Instruktionen zur Hausaufgabe, erklärt das Arbeitsblatt zur Selbst- und Fremdeinschätzung, zeigt ggf. Beispiele mit dem Beamer und sammelt Hinweise zur Abgabe.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M1768680483169-lxte",
+                          "ENV1-M1768680487973-tbhi"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Füllt das Arbeitsblatt zur Selbst- und Fremdeinschätzung aus, sichert die Ergebnisse (kurze Notiz: Stärken / Entwicklungsbereiche) und bereitet ggf. Fragen zur Besprechung vor.",
+                      "selected_differentiation": [
+                        "diff_A2_1768680477183_0",
+                        "diff_A2_1768680477183_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M1768680494249-c4p3",
+                          "ENV1-M1768680492881-sjgb"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Vorwissen und Selbsteinschätzung vorbereiten",
                   "prerequisite_activity": null,
                   "transition_type": "sequential",
                   "condition_description": null,
-                  "next_activity": [],
+                  "next_activity": [
+                    "LS1-P2-A1"
+                  ],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "sichtkontrolle der Notizen",
+                      "kurze mündliche Abfrage zu Beginn"
+                    ],
+                    "criteria": [
+                      "Vollständigkeit des Arbeitsblatts",
+                      "Reflexionsniveau (konkrete Beispiele)"
+                    ]
                   }
                 }
               ],
               "prerequisite_phase": null,
               "transition_type": "sequential",
               "condition_description": null,
-              "next_phase": null
+              "next_phase": "LS1-P2"
             },
             {
               "phase_id": "LS1-P2",
               "phase_name": "Einstieg",
-              "time_frame": "10",
-              "learning_goal": "Die SuS analysieren ein Zitat und leiten daraus Hinweise für das  Finden des eigenen Traumberufs ab. ",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Die SuS analysieren ein Zitat und leiten Hinweise für die Suche nach dem eigenen Traumberuf ab.",
               "activities": [
                 {
                   "activity_id": "LS1-P2-A1",
-                  "name": "Bearbeitung M1 Konfuzius sagt …",
-                  "description": "",
+                  "name": "Zitat-Analyse",
+                  "description": "Gemeinsame Analyse des Zitats (M1 Konfuzius sagt …). Kurze Sammlung von Stichworten an der Tafel: Was bedeutet das für Berufswahl?",
                   "duration": 10,
-                  "roles": [],
-                  "goal": "",
-                  "prerequisite_activity": null,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die gemeinsame Analyse des Konfuzius-Zitats, projiziert das Bild/Zitat mit dem Beamer, stellt Leitfragen und moderiert die Stichwortsammlung an der Tafel.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2",
+                          "ENV1-M1768680482638-swqp"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Analysiert das präsentierte Zitat, diskutiert dessen Bedeutung für die Berufswahl und liefert Stichworte für die Tafel-Sammlung.",
+                      "selected_differentiation": [
+                        "diff_A2_1768680477183_0",
+                        "diff_A2_1768680477183_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2",
+                          "ENV1-M1768680483287-10ds"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Interesse wecken, Einstieg in das Thema Berufsorientierung",
+                  "prerequisite_activity": "LS1-P1-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
-                  "next_activity": [],
+                  "next_activity": [
+                    "LS1-P3-A1"
+                  ],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Beobachtung",
+                      "Stichwortsammlung"
+                    ],
+                    "criteria": [
+                      "Aktive Teilnahme",
+                      "Beitragsqualität (Relevanz)"
+                    ]
                   }
                 }
               ],
-              "prerequisite_phase": null,
+              "prerequisite_phase": "LS1-P1",
               "transition_type": "sequential",
               "condition_description": null,
-              "next_phase": null
+              "next_phase": "LS1-P3"
             },
             {
               "phase_id": "LS1-P3",
-              "phase_name": "Erarbeitung I ",
-              "time_frame": "40",
-              "learning_goal": "Die SuS identifizieren, mithilfe eines Berufsorientierungstests,  eigene Interessen und Fähigkeiten sowie daraus resultierende Berufsvorschläge. \ninteraktive  Anwendung: JobChecker",
+              "phase_name": "Erarbeitung I",
+              "time_frame": "30 Minuten",
+              "learning_goal": "Die SuS nutzen den JobChecker, identifizieren persönliche Interessen/Fähigkeiten und sammeln erste Berufsvorschläge.",
               "activities": [
                 {
                   "activity_id": "LS1-P3-A1",
-                  "name": "Einzelarbeit",
-                  "description": "Die Bearbeitung des JobCheckers erfolgt im Computerraum. Die Berufsvorschläge können kopiert, in einem separaten Ordner gesammelt und im Klassenzimmer für alle zugänglich aufgestellt werden.  ",
-                  "duration": 0,
-                  "roles": [],
-                  "goal": "",
-                  "prerequisite_activity": null,
+                  "name": "JobChecker Einzelarbeit",
+                  "description": "Im Computerraum führen die SuS den Berufsorientierungstest (JobChecker) durch, speichern die Ergebnisse und notieren 3 Berufsvorschläge mit Begründung.",
+                  "duration": 20,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Bereitet die PCs und den Jobchecker-Dienst vor, gibt Hinweise zur Durchführung und Speicherung der Ergebnisse, unterstützt technisch und fachlich bei Bedarf.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M3",
+                          "ENV2-M1768680493183-u7xe",
+                          "ENV2-M1768680488468-eghk"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": [
+                          "ENV2-S1"
+                        ]
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Führt den Berufsorientierungstest (JobChecker) am PC durch, speichert die Resultate und notiert drei Berufsvorschläge mit kurzer Begründung.",
+                      "selected_differentiation": [
+                        "diff_A2_1768680477183_0",
+                        "diff_A2_1768680477183_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M1",
+                          "ENV2-M1768680486403-z3dv",
+                          "ENV2-M1768680491447-k161"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": [
+                          "ENV2-S1"
+                        ]
+                      }
+                    }
+                  ],
+                  "goal": "Individuelle Interessen mit beruflichen Optionen verknüpfen",
+                  "prerequisite_activity": "LS1-P2-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
-                  "next_activity": [],
+                  "next_activity": [
+                    "LS1-P3-A2"
+                  ],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Kontrolle der gespeicherten Ergebnisse",
+                      "Kurzfeedback durch Lehrkraft"
+                    ],
+                    "criteria": [
+                      "Dokumentation der 3 Berufsvorschläge",
+                      "Begründungsansatz vorhanden"
+                    ]
+                  }
+                },
+                {
+                  "activity_id": "LS1-P3-A2",
+                  "name": "Partnervergleich",
+                  "description": "In Tandems vergleichen die SuS ihre JobChecker-Ergebnisse, diskutieren Gemeinsamkeiten und Unterschiede und notieren offene Fragen zur Validität des Tests.",
+                  "duration": 10,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A2-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Organisiert die Tandems, gibt Leitfragen für den Vergleich (Gemeinsamkeiten, Unterschiede, Validitätsfragen) und moderiert die Austauschphase; stellt das Auswertungsarbeitsblatt bereit.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4",
+                          "ENV1-M1768680487352-bnpk"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A2-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Vergleicht in Tandems die JobChecker-Ergebnisse, diskutiert Gemeinsamkeiten und Unterschiede und notiert offene Fragen zur Validität des Tests auf dem Auswertungsblatt.",
+                      "selected_differentiation": [
+                        "diff_A2_1768680477183_0",
+                        "diff_A2_1768680477183_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4",
+                          "ENV1-M1768680482061-s22z"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Peer-Lernen und kritische Reflexion der Ergebnisse",
+                  "prerequisite_activity": "LS1-P3-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P4-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Beobachtung der Diskussion",
+                      "Stichprobenhafte Einsicht in Notizen"
+                    ],
+                    "criteria": [
+                      "Reflexionsfähigkeit",
+                      "Begründete Kritikpunkte"
+                    ]
                   }
                 }
               ],
-              "prerequisite_phase": null,
+              "prerequisite_phase": "LS1-P2",
               "transition_type": "sequential",
               "condition_description": null,
-              "next_phase": null
+              "next_phase": "LS1-P4"
             },
             {
               "phase_id": "LS1-P4",
               "phase_name": "Vertiefung",
-              "time_frame": "10",
-              "learning_goal": "Die SuS hinterfragen die Aussagekraft des Testergebnisses kritisch.",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Die SuS hinterfragen die Aussagekraft des Testergebnisses kritisch und dokumentieren Vor- und Nachteile des Verfahrens.",
               "activities": [
                 {
                   "activity_id": "LS1-P4-A1",
-                  "name": "Bearbeitung Arbeitsblatt: Testauswertung",
-                  "description": "",
+                  "name": "Testauswertung Arbeitsblatt",
+                  "description": "Bearbeitung eines Arbeitsblatts zur Auswertung der Testresultate: Welche Hinweise sind valide? Was fehlt? Wie ergänze ich die Ergebnisse?",
                   "duration": 10,
-                  "roles": [],
-                  "goal": "",
-                  "prerequisite_activity": null,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P4-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Gibt den Arbeitsauftrag zur Auswertung der Testresultate, begleitet die Analyse (Welches ist valide? Was fehlt?) und unterstützt bei der Ergänzung der Ergebnisse.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4",
+                          "ENV1-M1768680482651-hyvg",
+                          "ENV1-M1768680482352-jm1t"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P4-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Bearbeitet das Arbeitsblatt zur Testauswertung, beurteilt Hinweise auf Validität, ergänzt fehlende Informationen und formuliert Verbesserungen.",
+                      "selected_differentiation": [
+                        "diff_A2_1768680477183_0",
+                        "diff_A2_1768680477183_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4",
+                          "ENV1-M1768680482046-p1xo",
+                          "ENV1-M1768680486904-bdab"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Kritische Bewertung von Testinstrumenten",
+                  "prerequisite_activity": "LS1-P3-A2",
                   "transition_type": "sequential",
                   "condition_description": null,
-                  "next_activity": [],
+                  "next_activity": [
+                    "LS1-P5-A1"
+                  ],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Einsicht in Arbeitsblätter",
+                      "Mündliche Rückmeldung"
+                    ],
+                    "criteria": [
+                      "kritische Analysepunkte vorhanden",
+                      "Konkrete Ergänzungsvorschläge"
+                    ]
                   }
                 }
               ],
-              "prerequisite_phase": null,
+              "prerequisite_phase": "LS1-P3",
               "transition_type": "sequential",
               "condition_description": null,
-              "next_phase": null
+              "next_phase": "LS1-P5"
             },
             {
               "phase_id": "LS1-P5",
-              "phase_name": "Präsentation",
-              "time_frame": "20",
-              "learning_goal": "Die SuS präsentieren einzelne Berufsvorschläge und informieren sich so über  wei tere Berufe. ",
+              "phase_name": "Erarbeitung II",
+              "time_frame": "15 Minuten",
+              "learning_goal": "Die SuS erstellen einen Steckbrief für den Beruf Assistent/in für Freizeitwirtschaft und vertiefen damit fachliche Kenntnisse.",
               "activities": [
                 {
                   "activity_id": "LS1-P5-A1",
-                  "name": "Vorbereitung und Durchführung des Elevator Pitch",
-                  "description": "Differenzierung: Anstelle des Elevator Pitchs kann auch ein Galeriegang durchgeführt und so die unterschiedlichen Berufe vorgestellt werden.",
-                  "duration": 0,
-                  "roles": [],
-                  "goal": "",
-                  "prerequisite_activity": null,
+                  "name": "Steckbrief erstellen",
+                  "description": "Arbeit in Kleingruppen: Erstellung eines kompakten Steckbriefs (Aufgaben, Voraussetzungen, Ausbildung, Perspektiven) zum vorgegebenen Beruf.",
+                  "duration": 15,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P5-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Gibt die Steckbrief-Vorlage und Bewertungsanforderungen frei, organisiert Kleingruppenarbeit, unterstützt bei Recherchefragen und moderiert Prozess und Zeitmanagement über das LMS.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV3",
+                        "selected_materials": [
+                          "ENV3-M1",
+                          "ENV3-M1768680483692-q93x",
+                          "ENV3-M1768680492546-3bnk"
+                        ],
+                        "selected_tools": [
+                          "ENV3-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P5-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Arbeitet in Kleingruppen an der Steckbrief-Vorlage (Aufgaben, Voraussetzungen, Ausbildung, Perspektiven), recherchiert nötige Fakten und erstellt den kompakten Steckbrief im LMS.",
+                      "selected_differentiation": [
+                        "diff_A2_1768680477183_0",
+                        "diff_A2_1768680477183_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV3",
+                        "selected_materials": [
+                          "ENV3-M1",
+                          "ENV3-M3",
+                          "ENV3-M1768680483002-sowj",
+                          "ENV3-M1768680492686-hzsm"
+                        ],
+                        "selected_tools": [
+                          "ENV3-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Sachinformationen zu einem Berufsbild systematisch zusammenfassen",
+                  "prerequisite_activity": "LS1-P4-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
-                  "next_activity": [],
+                  "next_activity": [
+                    "LS1-P6-A1"
+                  ],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Checkliste für Steckbrief",
+                      "Peer-Feedback"
+                    ],
+                    "criteria": [
+                      "Vollständigkeit (Aufgaben, Ausbildung, Perspektiven)",
+                      "Quellenangaben vorhanden"
+                    ]
                   }
                 }
               ],
-              "prerequisite_phase": null,
+              "prerequisite_phase": "LS1-P4",
               "transition_type": "sequential",
               "condition_description": null,
-              "next_phase": null
+              "next_phase": "LS1-P6"
             },
             {
               "phase_id": "LS1-P6",
-              "phase_name": "Erarbeitung II",
-              "time_frame": "10",
-              "learning_goal": "Die SuS erstellen einen aussagekräftigen Steckbrief für den Beruf der Assistentin/des Assistenten für Freizeitwirtschaft.",
+              "phase_name": "Präsentation",
+              "time_frame": "10 Minuten",
+              "learning_goal": "Die SuS präsentieren ihre Steckbriefe (Elevator Pitch oder Galeriegang) und erhalten Peer-Feedback.",
               "activities": [
                 {
                   "activity_id": "LS1-P6-A1",
-                  "name": "Bearbeitung M2  Beruf der Woche: Assistentin/Assistent für Freizeitwirtschaft",
-                  "description": "",
-                  "duration": 8,
-                  "roles": [],
-                  "goal": "",
-                  "prerequisite_activity": null,
+                  "name": "Elevator Pitch / Galeriegang",
+                  "description": "Kurzpräsentationen (1-2 Minuten pro Gruppe) oder Galeriegang als alternative Präsentationsform; Abschluss: Sammeln von Feedbackpunkten.",
+                  "duration": 10,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P6-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert die Präsentationsphase (Zeitlimits für Elevator Pitches), organisiert den Galeriegang als Alternative, nutzt Beamer bei Bedarf und sammelt Feedbackpunkte mithilfe der Feedbackkarten.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M1768680490935-eiao"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P6-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Präsentiert den Steckbrief als Elevator Pitch (1–2 Minuten) oder stellt Ergebnisse im Galeriegang aus, gibt und sammelt Feedbackpunkte mit den Feedbackkarten.",
+                      "selected_differentiation": [
+                        "diff_A2_1768680477183_0",
+                        "diff_A2_1768680477183_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M5",
+                          "ENV1-M3",
+                          "ENV1-M1768680483797-h8lm",
+                          "ENV1-M1768680494518-42th"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Sicherung des Gelernten durch Präsentation und Feedback",
+                  "prerequisite_activity": "LS1-P5-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Peer-Feedbackkarten",
+                      "Lehrerfeedback"
+                    ],
+                    "criteria": [
+                      "Klarheit der Präsentation",
+                      "Relevanz der Inhalte"
+                    ]
                   }
                 }
               ],
-              "prerequisite_phase": null,
+              "prerequisite_phase": "LS1-P5",
               "transition_type": "sequential",
               "condition_description": null,
               "next_phase": null
             }
           ],
-          "prerequisite_learningsequences": [],
+          "prerequisite_sequence": null,
           "transition_type": "sequential",
           "condition_description": null,
-          "next_learningsequence": []
-        },
-        {
-          "sequence_id": "LS2",
-          "sequence_name": "Einstieg",
-          "time_frame": "",
-          "learning_goal": "Die SuS analysieren ein Zitat und leiten daraus Hinweise für das  Finden des eigenen Traumberufs ab. ",
-          "phases": [],
-          "prerequisite_learningsequences": [],
-          "transition_type": "sequential",
-          "condition_description": null,
-          "next_learningsequence": []
+          "next_sequence": null
         }
       ]
     }
   },
   "consequences": {
-    "advantages": [],
-    "disadvantages": []
+    "advantages": [
+      "Kombination aus digitaler Diagnose (JobChecker) und klassischer Reflexion verbessert Selbstwahrnehmung.",
+      "Klare Struktur (Einstieg → Erarbeitung → Sicherung) fördert Lernerfolg.",
+      "Differenzierung durch Wahl von Präsentationsformen."
+    ],
+    "disadvantages": [
+      "Benötigt Computerraum/Endgeräte für JobChecker.",
+      "Zeitdruck bei hoher Teilnehmerzahl für Präsentationen."
+    ]
   },
-  "implementation_notes": [],
+  "implementation_notes": [
+    "Computerraum im Vorfeld reservieren oder BYOD klären.",
+    "Optional: Steckbrief-Vorlage digital im LMS bereitstellen.",
+    "Bei Zeitknappheit: Galeriegang statt Elevator Pitch wählen."
+  ],
   "related_patterns": [],
   "feedback": {
     "comments": []
@@ -246,8 +608,8 @@
   "sources": [
     {
       "source_id": "S1",
-      "title": "Schule aus – und dann? Auf dem Weg in meine berufliche Zukunft ",
-      "author": "Fenja Wißborn ",
+      "title": "Schule aus – und dann? Auf dem Weg in meine beruflichen Zukunft",
+      "author": "Fenja Wißborn",
       "year": 2019,
       "publisher": "C. C. Buchner Verlag",
       "url": "https://www.teacheconomy.de/unterrichtsmaterial/berufs-und-arbeitswelt/berufliche-zukunft-gym1/"
@@ -255,13 +617,15 @@
   ],
   "actors": [
     {
-      "id": "actor-1",
-      "name": "Lehrkraft",
+      "id": "A1",
+      "name": "Lehrperson",
       "type": "Einzelperson",
       "demographic_data": {
-        "ethnic_background": "unbekannt",
         "age": "42",
-        "gender": "männlich"
+        "age_range": "",
+        "gender": "männlich",
+        "gender_distribution": "",
+        "ethnic_background": "unbekannt"
       },
       "education": {
         "education_level": "Hochschulabschluss",
@@ -269,28 +633,55 @@
         "subject_focus": "Wirtschaft, Recht, Bildungswissenschaften"
       },
       "competencies": {
-        "subject_competencies": [],
-        "cognitive_competencies": [],
-        "methodical_competencies": [],
-        "affective_competencies": [],
-        "digital_competencies": [],
+        "subject_competencies": [
+          "Kenntnisse der Arbeitswelt und Berufsprofile",
+          "Methodenkompetenz: Elevator Pitch"
+        ],
+        "cognitive_competencies": [
+          "Diagnostische Beobachtung",
+          "Moderationsfähigkeiten"
+        ],
+        "methodical_competencies": [
+          "Unterstützung digitaler Tools",
+          "Feedback geben"
+        ],
+        "affective_competencies": [
+          "Empathie",
+          "Motivationsförderung"
+        ],
+        "digital_competencies": [
+          "Begleitung von Online-Tests",
+          "LMS-Nutzung"
+        ],
         "language_skills": {
-          "languages": [],
-          "proficiency_levels": {}
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2"
+          }
         }
       },
-      "social_form": "",
+      "social_form": "Plenum, Kleingruppen",
       "learning_requirements": {
         "learning_preferences": [],
         "special_needs": [],
-        "technical_requirements": []
+        "technical_requirements": [
+          "Zugang zum LMS",
+          "Beamer/Display"
+        ]
       },
       "interests_and_goals": {
-        "interests": [],
-        "goals": [],
+        "interests": [
+          "Berufsorientierung",
+          "Schülerförderung"
+        ],
+        "goals": [
+          "Förderung einer reflektierten Berufswahl"
+        ],
         "motivation": {
           "type": "intrinsic",
-          "level": "medium"
+          "level": "hoch"
         }
       },
       "social_structure": {
@@ -299,113 +690,1209 @@
       }
     },
     {
-      "id": "actor-2",
-      "name": "Schülerinnen und Schüler des Gymnasiums",
+      "id": "A2",
+      "name": "Schülerinnen und Schüler",
       "type": "Gruppe",
       "demographic_data": {
-        "ethnic_background": "heterogen",
+        "age": 0,
         "age_range": "15-16",
-        "gender_distribution": "gemischt"
+        "gender": "",
+        "gender_distribution": "gemischt",
+        "ethnic_background": "heterogen"
       },
       "education": {
         "education_level": "Gymnasium",
         "class_level": "9/10",
-        "subject_focus": "Arbeit - Wirtschaft- Recht"
+        "subject_focus": "Arbeit - Wirtschaft - Technik"
       },
       "competencies": {
         "subject_competencies": [
-          "Beschreiben und beurteilen den Beruf Assistentin/Assistent für Freizeitwirtschaft."
+          "Kenntnisse zu Berufsbildern",
+          "Grundverständnis zu Ausbildungswegen"
         ],
         "cognitive_competencies": [
-          "Die Schülerinnen und Schüler reflektieren ihre eigenen Stärken und Schwächen und hinterfragen kritisch die Aussagekraft des Testergebnisses."
+          "Reflexion der eigenen Stärken/Schwächen",
+          "Kritische Bewertung von Testresultaten"
         ],
         "methodical_competencies": [
-          "Identifizieren",
-          "mithilfe eines Berufsorientierungstests",
-          "für sie geeignete Berufe."
+          "Nutzung digitaler Tests",
+          "Erstellen eines Steckbriefs",
+          "Kurzpräsentation (Elevator Pitch)"
         ],
-        "affective_competencies": [],
+        "affective_competencies": [
+          "Selbstwirksamkeit",
+          "Motivation zur Berufsorientierung"
+        ],
         "digital_competencies": [
-          "Keine expliziten digitalen Kompetenzen in diesen Beispielen. (Die Nutzung des Berufsorientierungstests könnte jedoch als digitale Kompetenz betrachtet werden",
-          "wenn der Test online durchgeführt wird.)"
+          "Online-Testdurchführung",
+          "Recherche im Web"
         ],
         "language_skills": {
-          "languages": [],
-          "proficiency_levels": {}
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "B2-C1 (variierend)"
+          }
         }
       },
-      "social_form": "",
+      "social_form": "Plenum, Partnerarbeit, Kleingruppen",
       "learning_requirements": {
-        "learning_preferences": [],
+        "learning_preferences": [
+          "Visuell",
+          "Kooperativ"
+        ],
         "special_needs": [],
-        "technical_requirements": []
+        "technical_requirements": [
+          "Zugang zu Rechnern oder Tablets",
+          "LMS-Zugang (optional)"
+        ]
       },
       "interests_and_goals": {
-        "interests": [],
-        "goals": [],
+        "interests": [
+          "Berufsorientierung",
+          "praktische Tätigkeit"
+        ],
+        "goals": [
+          "Klärung des nächsten Schritts nach der Schule"
+        ],
         "motivation": {
           "type": "intrinsic",
-          "level": "medium"
+          "level": "mittel"
         }
       },
       "social_structure": {
         "group_size": "24-28",
-        "heterogeneity": "n/a"
-      }
+        "heterogeneity": "heterogen"
+      },
+      "differentiation_options": [
+        {
+          "id": "diff_A2_1768680477183_0",
+          "label": "Erweiterung & Vertiefung",
+          "description": "Für leistungsstarke Schüler: offene, forschende Aufgaben und Expertenrollen zur selbstständigen Vertiefung technischer und wirtschaftlicher Zusammenhänge.",
+          "hints": [
+            "Gib eine Zusatzaufgabe mit hohem Komplexitätsgrad (z. B. konstruktive Optimierung eines Prototyps mit Material- und Kostenanalyse) und fordere eine schriftliche Begründung der Entscheidungen.",
+            "Setze Expertenrollen (z. B. Projektleiter, Qualitätsprüfer, Kostenanalyst) ein und lass die Schüler kurze Mini-Workshops oder Präsentationen für die Gruppe vorbereiten.",
+            "Stelle weiterführende Quellen und ein Bewertungsraster zur Verfügung und verlange ein reflektierendes Lernprodukt (Kurzbericht oder Portfolio) über die angewandten Methoden."
+          ]
+        },
+        {
+          "id": "diff_A2_1768680477183_1",
+          "label": "Basisunterstützung",
+          "description": "Für Schüler, die mehr Zeit oder strukturierte Hilfe benötigen: kleinschrittige Aufgabenaufteilung und unterstützende Hilfsmittel zur schrittweisen Leistungserbringung.",
+          "hints": [
+            "Teile die Aufgaben in klare, zeitlich abgegrenzte Arbeitsschritte mit konkreten Zwischenergebnissen und einem einfachen Kontrollpunkt nach jedem Schritt.",
+            "Gib ein teilfertiges Arbeitsblatt oder ein Musterbeispiel, das sie ergänzen bzw. weiterentwickeln sollen, damit sie die Vorgehensweise praktisch nachvollziehen können.",
+            "Ermögliche Partnerarbeit mit wechselnden Rollen (z. B. Aufgabenleser und Ausführender) und kurze Feedback-Checks durch die Lehrkraft zur Absicherung der nächsten Schritte."
+          ]
+        }
+      ]
     }
   ],
   "environments": [
     {
       "id": "ENV1",
-      "name": "",
-      "description": "",
+      "name": "Klassenzimmer",
+      "description": "Präsenzunterricht im Klassenraum mit Tafel/Beamer.",
       "materials": [
         {
           "id": "ENV1-M1",
-          "name": "Selbst- und Fremdeinschätzung",
+          "name": "Selbsteinschätzung",
           "material_type": "Arbeitsblatt",
           "source": "manual",
-          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf",
+          "search_query": "Selbsteinschätzung"
         },
         {
           "id": "ENV1-M2",
-          "name": " M1: Konfuzius sagt …",
-          "material_type": "Übungsmaterial",
+          "name": "Konfuzius Zitat",
+          "material_type": "Bild",
           "source": "manual",
-          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf",
+          "search_query": "Konfuzius"
         },
         {
           "id": "ENV1-M3",
-          "name": "JobChecker",
-          "material_type": "Interaktives Medium",
-          "source": "manual",
-          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+          "name": "Feedbackkarten",
+          "material_type": "Arbeitsblatt",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Feedback"
         },
         {
           "id": "ENV1-M4",
           "name": "Testauswertung",
           "material_type": "Arbeitsblatt",
           "source": "manual",
-          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf",
+          "search_query": "Testauswertung"
         },
         {
           "id": "ENV1-M5",
-          "name": "M2: Beruf der Woche: Assistentin/Assistent für Freizeitwirtschaft",
+          "name": "Beruf Steckbrief",
           "material_type": "Arbeitsblatt",
-          "source": "manual",
-          "access_link": "https://www.teacheconomy.de/media/unterrichtsmaterial/berufliche-zukunft-gym1/Berufliche_Zukunft_Gym1_Material.pdf"
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Beruf Steckbrief"
+        },
+        {
+          "id": "ENV1-M1768680483169-lxte",
+          "name": "Selbsteinschätzung Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/4fab28c6-8339-4fc9-ab28-c683391fc956",
+          "search_query": "Selbsteinschätzung",
+          "wlo_metadata": [
+            {
+              "nodeId": "4fab28c6-8339-4fc9-ab28-c683391fc956",
+              "title": "Kognitive Emotionstheorie",
+              "description": "Hier findest du eine Präsentation zum Thema Kognitive Emotionstheorie: Attributionstheorie – Weiner. ",
+              "subject": "Psychologie",
+              "educationalContext": [
+                "Hochschule",
+                "Berufliche Bildung",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Präsentation",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/4fab28c6-8339-4fc9-ab28-c683391fc956",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4fab28c6-8339-4fc9-ab28-c683391fc956&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680487973-tbhi",
+          "name": "Peer Feedback Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/Lernen%20durch%20Lehren%20im%20Englischunterricht",
+          "search_query": "Peer Feedback",
+          "wlo_metadata": [
+            {
+              "nodeId": "3cda25ad-7480-4291-831c-726036a66ac1",
+              "title": "Lernen durch Lehren im Englischunterricht",
+              "description": "ist in allen Klassenstufen einsetzbar, vielfach erprobt und durch zunehmende Bedeutung des Faches Englisch in der globalisierten Welt von SchülerInnen und Eltern methodisch geradezu gefordert. Zu Beginn ist es ratsam, einen der Lerngruppe angemessenen classroom discourse einzuführen. Komplexität und Umfang der übertragenen fachdidaktischen Teilkompetenzen werden allmählich gesteigert: von einer fünfminütigen Leseübung bis zu einer kompletten Texteinführung. Auch Struktureinführung und Textinterpretation sind möglich, bei Bedarf erfolgt Wissenskonstruktion a posteriori.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Lernen%20durch%20Lehren%20im%20Englischunterricht",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=3cda25ad-7480-4291-831c-726036a66ac1&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "04950112-b2d0-4ab5-9501-12b2d04ab53d",
+              "title": "KI & schulpraktische Seminare",
+              "description": "Künstliche Intelligenz (KI) ist aus unserem Leben nicht mehr wegzudenken und wird längst wissentlich und unwissentlich täglich genutzt. Noch bestehen jedoch große Unsicherheiten im Umgang mit KI in Schule und Lehrkräftebildung",
+              "subject": "Projektmanagement",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Projekt-Material",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/04950112-b2d0-4ab5-9501-12b2d04ab53d",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=04950112-b2d0-4ab5-9501-12b2d04ab53d&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "6cb1129f-b547-4aab-928a-9d88ad587725",
+              "title": "Blended Learning in der Praxis",
+              "description": "Auf die richtige Mischung aus Online und Präsenz kommt es an  Blended Learning steht für ein didaktisches Konzept, das Online- und Präsenzanteile von Unterricht kombiniert. Gastautorin Stefanie Quade, selbst Lehrende an Hochschulen der Medien- und Wi",
+              "subject": "Mediendidaktik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://www.bpb.de/lernen/digitale-bildung/werkstatt/241001/blended-learning-in-der-praxis",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6cb1129f-b547-4aab-928a-9d88ad587725&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680494249-c4p3",
+          "name": "Selbsteinschätzung Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/selbstfremdeinschaetzung",
+          "search_query": "Selbsteinschätzung",
+          "wlo_metadata": [
+            {
+              "nodeId": "b63ba564-8ca5-48f3-a624-d83487754c32",
+              "title": "Selbst/Fremdeinschätzung",
+              "description": "Arbeitsblatt zur Selbsteinschätzung\n1 = trifft überhaupt nicht zu bis zu 7 = trifft völlig zu\nLies dir das Merkmal und das Beispiel durch und ordne dich ein!\nSetze dazu einfach ein X in die entsprechende Spalte.\nMerkmal\nBeispiel\n1\n2\n3\n4\n5\n6\n7\nAufgeschlossenheit\nIch höre gerne Menschen zu, die eine ganz andere Auffassung haben als ich.\nSelbstbewusstsein\nIch weiß, was ich kann und was ich will.\nEigeninitiative\nIch setze mir eigene Ziele und verwirkliche sie ohne Anstöße von außen.\nLeistungsbereitschaft\nIch habe den Ehrgeiz, schwierige Situationen zu meistern.\nAnpassungsvermögen\nIch komme mit ganz unterschiedlichen Menschen zurecht.\nLernbereitschaft\nIch lerne gerne Neues.\nSelbstständigkeit\nIch kann gut nach meinen eigenen Regeln arbeiten\nAuffassungsgabe\nIch begreife sehr schnell, wenn ich etwas falsch gemacht habe.\nEntscheidungsfähigkeit\nIch kann mich gewöhnlich schnell und sicher entscheiden.\nKritikbereitschaft\nIch lasse mich korrigieren, wenn ich etwas falsch gemacht ahbe oder auf dem falschen Weg bin\nÜberzeugungskraft\nIch habe oft treffsichere Argumente, die andere überzeugen.\nKreativität\nEs fällt mir leicht, neue Ideen zu entwickeln.\nZuverlässigkeit\nIch bin ein Mensch, auf den man sich verlassen kann.\nMerkmal\nBeispiel\n1\n2\n3\n4\n5\n6\n7\nSpontaneität\nIch handel oft ohne große Vorbereitung.\nKompromissbereitschaft\nIch muss nicht immer recht behalten - andere Meinungen und Ideen kann ich mit meiner Meinung verbinden.\nHilfsbereitschaft\nWenn jemand Hilfe braucht, helfe ich gerne.\nTeamfähigkeit\nIch kann gut mit anderen zusammen arbeiten.\nAusdauer\nIch habe Geduld, um schwierige Probleme zu lösen.\nSelbstsicherheit\nIch fühle mich in den meisten Situationen sicher.\nSelbstdisziplin\nAuch wenn ich eigentlich keine Lust habe, kann ich mich zum Arbeiten zwingen.\nGuter Zuhörer\nIch kann anderen Menschen bei ihren Problemen gut zuhören.\nZielstrebigkeit\nWas ich mir vorgenommen habe, versuche ich konsequent zu erreichen.\nRisikobereitschaft\nUm etwas zu gewinnen, gehe ich auch gerne mal ein R [...]",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/selbstfremdeinschaetzung",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b63ba564-8ca5-48f3-a624-d83487754c32&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "767adcab-cbeb-44f1-8a0a-1433a4175ffc",
+              "title": "Selbst-/Fremdeinschätzung Teil 1",
+              "description": "Arbeitsblatt zur Selbsteinschätzung\n1 = trifft überhaupt nicht zu bis zu 7 = trifft völlig zu\nLies dir das Merkmal und das Beispiel durch und ordne dich ein!\nSetze dazu einfach ein X in die entsprechende Spalte.\nMerkmal\nBeispiel\n1\n2\n3\n4\n5\n6\n7\nAufgeschlossenheit\nIch höre gerne Menschen zu, die eine ganz andere Auffassung haben als ich.\nSelbstbewusstsein\nIch weiß, was ich kann und was ich will.\nEigeninitiative\nIch setze mir eigene Ziele und verwirkliche sie ohne Anstöße von außen.\nLeistungsbereitschaft\nIch habe den Ehrgeiz, schwierige Situationen zu meistern.\nAnpassungsvermögen\nIch komme mit ganz unterschiedlichen Menschen zurecht.\nLernbereitschaft\nIch lerne gerne Neues.\nSelbstständigkeit\nIch kann gut nach meinen eigenen Regeln arbeiten\nAuffassungsgabe\nIch begreife sehr schnell, wenn ich etwas falsch gemacht habe.\nEntscheidungsfähigkeit\nIch kann mich gewöhnlich schnell und sicher entscheiden.\nKritikbereitschaft\nIch lasse mich korrigieren, wenn ich etwas falsch gemacht ahbe oder auf dem falschen Weg bin\nÜberzeugungskraft\nIch habe oft treffsichere Argumente, die andere überzeugen.\nKreativität\nEs fällt mir leicht, neue Ideen zu entwickeln.\nZuverlässigkeit\nIch bin ein Mensch, auf den man sich verlassen kann.\nMerkmal\nBeispiel\n1\n2\n3\n4\n5\n6\n7\nSpontaneität\nIch handel oft ohne große Vorbereitung.\nKompromissbereitschaft\nIch muss nicht immer recht behalten - andere Meinungen und Ideen kann ich mit meiner Meinung verbinden.\nHilfsbereitschaft\nWenn jemand Hilfe braucht, helfe ich gerne.\nTeamfähigkeit\nIch kann gut mit anderen zusammen arbeiten.\nAusdauer\nIch habe Geduld, um schwierige Probleme zu lösen.\nSelbstsicherheit\nIch fühle mich in den meisten Situationen sicher.\nSelbstdisziplin\nAuch wenn ich eigentlich keine Lust habe, kann ich mich zum Arbeiten zwingen.\nGuter Zuhörer\nIch kann anderen Menschen bei ihren Problemen gut zuhören.\nZielstrebigkeit\nWas ich mir vorgenommen habe, versuche ich konsequent zu erreichen.\nRisikobereitschaft\nUm etwas zu gewinnen, gehe ich auch gerne mal ein R [...]",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/selbst-fremdeinschaetzung-teil-1",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=767adcab-cbeb-44f1-8a0a-1433a4175ffc&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 92
+            },
+            {
+              "nodeId": "66cd06cd-842d-44f4-838c-472aac15962a",
+              "title": "Selbsteinschätzung",
+              "description": "Selbsteinschätzungsbogen\nNachdem du die Stationen und auch die Abschlussaufgabe bearbeitet hast, bewerte (ehrlich) deine eigene Arbeitsweise, indem du die untenstehenden Sätze vervollständigst.\nDu musst dabei nur deinen eigenen Eindruck schildern, deine Selbsteinschätzung wird nicht benotet.\nBesonders gut konnte ich ...\nBei der Arbeit an den Stationen habe ich gemerkt, dass ich Schwierigkeiten habe ...\nDas hätte ich besser machen können:\nBei der Auswahl der drei Stationen half mir ...\nDie Arbeitszeit und den Umfang der Stationen empfand ich als ...\nIm Umgang mit Bildern aus dem Internet habe ich gelernt, dass ...\nDas zielstrebige Arbeiten gelang mir ...\nDas sorgfältige und vollständige Lösen der Aufgaben gelang mir ... [...]",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/75bbea18",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=66cd06cd-842d-44f4-838c-472aac15962a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680492881-sjgb",
+          "name": "Peer-Feedback Tests / Fragebögen",
+          "material_type": "Tests / Fragebögen",
+          "source": "database",
+          "access_link": "https://oercommons.org/courseware/lesson/112329/overview",
+          "search_query": "Peer-Feedback",
+          "wlo_metadata": [
+            {
+              "nodeId": "1b095bd4-eab1-4438-895b-d4eab1e43852",
+              "title": "Fostering Equity in Outcomes Assessment: A Rubric, Mock Reports, and Training Support Materials",
+              "description": "Overview:\nIn this collection, we are sharing a meta-assessment rubric, mock reports, and training support materials created by a team at James Madison University to foster equity in educational programming and outcomes assessment. The intention of sharing these materials under creative commons license is to provide other organizations or institutions a starting place to expose, model, and train others on equity considerations when designing and evaluating programming. This content was developed in partnership with the Center for Assessment and Research Studies and the Division of Student Affairs at James Madison University.",
+              "subject": "Erziehungswissenschaften",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://oercommons.org/courseware/lesson/112329/overview",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1b095bd4-eab1-4438-895b-d4eab1e43852&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "dc8ad68f-3d5b-40e2-8ad6-8f3d5b50e27c",
+              "title": "Oregon Open Learning Quality Review Tool",
+              "description": "Overview:\nThe Oregon Open Learning Quality Review Tool provides a set of criteria to consider when completing an initial evaluation of OER before saving a resource to a group or a folder within that group. This one page tool includes four high level categories: alignment to standards, teaching strategies, instructional supports, and assessment.",
+              "subject": "Erziehungswissenschaften",
+              "educationalContext": [
+                "Fortbildung",
+                "Hochschule"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://oercommons.org/courseware/lesson/65557/overview",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=dc8ad68f-3d5b-40e2-8ad6-8f3d5b50e27c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            },
+            {
+              "nodeId": "8e1eb118-c347-4905-9eb1-18c3476905f0",
+              "title": "Learner Personas",
+              "description": "Overview:\nAn example of two learning personas.  Created using ChatGPT.  Transcript from ChatGPT is included in the Sources section.",
+              "subject": "Erziehungswissenschaften",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://oercommons.org/courseware/lesson/112983/overview",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8e1eb118-c347-4905-9eb1-18c3476905f0&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 75
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680482638-swqp",
+          "name": "Konfuzius Zitat Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=cSDwiC1dquA",
+          "search_query": "Konfuzius Zitat",
+          "wlo_metadata": [
+            {
+              "nodeId": "d1cc361c-5774-4bb5-8c36-1c57749bb53b",
+              "title": "Schweißertest Schweißertraining Übungen und Erklärungen Rohrschweißkurs Episode 3 YT Channel FHD",
+              "description": "Schweißertest Schweißertraining Übungen und Erklärungen Rohrschweißkurs Episode 3 YT Channel FHD https://www.aweldi.de/youtube/ \n\nWas du mir sagst, das vergesse ich.\nWas du mir zeigst, daran erinnere ich mich.\nWas du mich tun lässt; das verstehe ich.\nKonfuzius\n\nEin interessantes Zitat von Konfuzius trifft es auf dem Punkt. \n\nMeinen Respekt, denn von Olaf Otto geht ein starker Wille und eine hohe Konzentration aus, die ich im Laufe der Übungsstunden feststellen konnte. \n\nSchön zu beobachten, wie immer wieder erneut versucht wird, eine bestmögliche Position bei diesem Schweißer Test während der Übungen umzusetzen. \n\nWelding Schools Germany click here https://bit.ly/3rvblcJ \nSchweißerausbildungen und Weiterbildungen https://bit.ly/3rvblcJ \n\nSchweißertest und Schweißertraining Rohrschweißkurs Episode 1 YT Channel FHD https://youtu.be/rja9hznPCMM \n\nSchweißertest und Schweißertraining Rohrschweißkurs Episode 2 YT Channel FHD https://youtu.be/6bGFGxdiLpM \n\nWurzelschweißen Rohrschweißer Tipps YT Channel https://bit.ly/2WovCTN \n\nZwischenlagen Rohrschweißer Tipps YT Channel FHD https://bit.ly/3sgQAlX \n\nDecklagen Rohrschweißer Tipps YT Channel FHD https://bit.ly/2K5D0AI \n\nÜberkopf Rohrschweißer Tipps YT Channel Full HD https://bit.ly/3aklsvF \n\nQuernaht PC Querposition Rohrschweißer Tipps YT Channel Full HD https://bit.ly/3nhYKYn \n\nBeginne mit einfachen Übungen Rohrschweißer Tipps Pendeltechnik Kurs https://youtu.be/j0F5Svm4JcM \n\nTipps kleine Düse Rohrschweißerkurs sichere Übungen https://youtu.be/7Nub_7H9Irw \n\nAm Blech mit einfachen Übungen die Pendeltechnik lernen https://youtu.be/h1kWHFVr-40 \nRohrschweißen lernen Rohrschweißer Profi werden Rohrschweißkurs https://youtu.be/KFSVUTjhx2I \n\nBehälter Kessel Rohrschweißer Tipps mit der Gaslinse https://youtu.be/4dXNcXCtbKU \n\nEinfach und logisch schweißen - Schweißbrennerwechsel wozu? https://youtu.be/5sxyMzK8vPY \n\nRohrschweißkurs sicher und langsam lernen Rohrschweißer Decklage https://youtu.be/0YVh-ECXik4 \n\nPendeltechnik Schmelze sehen, verstehen und kontrollieren Rohrschweißkurs https://youtu.be/ujedPdGSRGg \n\nPendeltechnik achteln pendeln mehrere Rohrschweißer Stile Rohrschweißkurs https://youtu.be/VKVj8iJdRfw \n\nDoppelrohre Tipps Rohrschweißkurse Tipps für das Rohrschweißen YT Channel Full HD https://bit.ly/3xwNRGY \n\nWorldwide International Institute of Welding http://iiwelding.org/ \nThe International Institute of Welding members Worldwide http://iiwelding.org/iiw-members \n\nRohrleitungsbau YouTube Channel Full HD https://bit.ly/3guwiSg \nRohrleitungsbauer und Rohrmontagen YT Channel FHD https://bit.ly/2XnI2f2 \n\nVorrichter Rohrvorrichter Rohrmontage YouTube Channel Full HD https://bit.ly/2K6DOFw \n\nDN 500 Rohrmontagen im Rohrleitungsbau YouTube Channel https://bit.ly/3gH6cK8 \n\nRohrbrücke Rohrmontage über der Bundesbahn YouTube Channel FHD https://bit.ly/2CRdagj \n\nSchweißfasen Vorbereitung an Rohrleitungen YouTube Channel Full HD https://bit.ly/3au03ya \n\nGSI Gesellschaft für Schweißtechnik international mbH, Niederlassung SLV Berlin-Brandenburg https://www.slv-bb.de/ \n\nSchweißhelden Schweißschule Schweißausbildung Linde AG Schweißtechnik https://bit.ly/3rvblcJ \n\nSLV Schweißtechnische Lehr- und Versuchsanstalten https://www.gsi-slv.de/ \n\nGSI Gesellschaft für Schweißtechnik international mbH https://www.gsi-slv.de/ \n\nEuropean Federation for Welding, Joining and Cutting https://www.ewf.be/ \nTel: (+351) 215 815 200 \nEmail: ewf-iab@ewf.be \nAv. Dr. Mário Soares, 35 TagusPark \nP-2740-119 Porto Salvo · PORTUGAL \n\nGaslinse - Multi Gaslinse für ein einfaches System YT Channel Full HD https://bit.ly/3nyysl4 \n\nRohrschweißkurse Tipps Doppelrohre YT Channel Full HD https://bit.ly/38fFULg \n\nEinzelrohre Rohrleitungsschweißer YT Channel Full HD https://bit.ly/3h44J0L\n\nReality - Pendeltechnik Tipps Rohrschweißkurse YT Channel Full HD https://bit.ly/37v5qx8 \n\nFreihand Stil und Pendeltechnik Rohrschweißen Tipps Schweißkurs YT Channel Full HD https://bit.ly/3akZIzz \n\nGaslinse - der Gasdüsen Shop für Profis https://www.wiggaslinseshop.de/ \n\nKeramikdüse Gasdüse 10,00mm – 26,00mm  https://bit.ly/2MqzkuB \nKeramikdüse Gasdüse 13,00mm - 26,00mm https://bit.ly/3tCQbKA \n\nKeramikdüse Gasdüse 7,5mm – 37mm https://bit.ly/39DPQjy \nKeramikdüse Gasdüse 10,0mm – 37mm https://bit.ly/3vJFMhX \nKeramikdüse Gasdüse 13,0mm – 37mm https://bit.ly/36wRdP1 \nKeramikdüse Gasdüse 15,0mm – 37 mm https://bit.ly/3pJwQpv \n\nGaslinse für die Rohrschweißer Praxis und Hobbyschweißer https://www.aweldi.de/gaslinse/ \n\nSchweißer Test und Schweißvorführung mit Olaf Otto und Stefan Prahst.\n\nOlaf Otto https://www.otto-wasserstrahltechnik.de/ \n\n#rohrschweißen #schweißertest #rohrleitungsbau \n\nSchweißgeräte https://bit.ly/2MgWKlK \nWIG Schweißdraht WIG Schweißstäbe https://bit.ly/2MhMNob \nZubehör Halter Nadelschleifer https://bit.ly/37TTe95 \n\nSchweißerprüfungen https://bit.ly/3pQPiwF \nSchweißkurse Grundkurs WIG https://bit.ly/2N1w9JB \nSchweißerausbildung Schweißerschulungen https://bit.ly/3rvblcJ",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Erwachsenenbildung",
+                "Informelles Lernen"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=cSDwiC1dquA",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d1cc361c-5774-4bb5-8c36-1c57749bb53b&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "42df0d79-1b94-4a4b-954e-4d3e74f2d3be",
+              "title": "Filmliste von Laura Teixeira",
+              "description": "Die Filme ihrer Liste vereint die Begegnung mit dem Fremden. Dabei sind ihre Empfehlungen geprägt von ihren persönlichen Erfahrungen als Migrantin, gepaart mit dem Blick der Filmwissenschaftlerin.",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/filmbildung/328189/filmliste-von-laura-teixeira/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=42df0d79-1b94-4a4b-954e-4d3e74f2d3be&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680483287-10ds",
+          "name": "Berufswahl Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/biologie/arbeitsmaterial/am/quiz-rheuma-bei-kindern-und-jugendlichen/",
+          "search_query": "Berufswahl",
+          "wlo_metadata": [
+            {
+              "nodeId": "a4e51755-16a9-4909-93ac-af4d808817e7",
+              "title": "Quiz: Rheuma bei Kindern und Jugendlichen",
+              "description": "Das Quiz ist Teil der Unterrichtseinheit \"Rheuma bei Kindern und Jugendlichen (Sekundarstufe I\" beziehungsweise der Einheit \"Rheuma bei Kindern und Jugendlichen (Sekundarstufe II)\", welche eine tiefgreifende Beschäftigung mit der Rheuma-Erkrankung ermöglicht. \n\nFolgende Formate und Themenbereiche werden im Quiz abgefragt:Multiple Choice: Welche Aussagen treffen auf die Krankheit Rheuma zu?Lückentext: ein Leben mit RheumaZuordnungsübung: von Rheuma betroffene KörperregionenMultiple Choice: Der neue Mitschüler Jonas leidet an Rheuma. Was hilft Jonas im Schulalltag?Drag and Drop: Wofür brauchen Betroffene therapeutische Maßnahmen?Bild-Zuordnungsübung: Aussagen über ein gesundes Gelenk beziehungsweise ein von Rheuma betroffenes Gelenk richtig zuordnenMultiple Choice: Was sollten rheumakranke Jugendliche bei der Berufswahl beachten?Lückentext: die juvenile idiopathische Arthritis (JIA)Die erste Quiz-Version richtet sich an Schülerinnen und Schüler der Sekundarstufe I, die zweite Version an Lernende der Sekundarstufe II.",
+              "subject": "Biologie",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/biologie/arbeitsmaterial/am/quiz-rheuma-bei-kindern-und-jugendlichen/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a4e51755-16a9-4909-93ac-af4d808817e7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "75fde983-58f3-4647-a170-da3b0a6e3234",
+              "title": "Motivationsfaktoren und Maslowsche Bedürfnispyramide: interaktives Begleitmaterial",
+              "description": "Mittels eines Lückentextes lernen die Schülerinnen und Schüler zwischen intrinsischen und extrinsischen Motivationsfaktoren zu differenzieren. In der interaktiven Übung \"Single Choice\" ordnen die Lernenden vorgegebene Faktoren dem primären beziehungsweise dem sekundären Motiv zu. In einem Quiz überprüfen die Lernenden ihre erlangten Kenntnisse zu der gesamten Unterrichtseinheit.\n\nZiel der dazugehörigen Unterrichtseinheit ist es, dass die Auszubildenden ihre berufliche Rolle und ihr eigenes Handeln in Bezug auf ihre Berufswahl und -motivation reflektieren. Sie erkennen und reflektieren die eigenen Motive, die zur Wahl des Pflegeberufes geführt haben. Darüber hinaus werden sie sich der Bedeutung der Motivation für ihren Arbeitsalltag bewusst.\n\nSowohl durch die Übungen auf den Arbeitsblättern als auch durch Diskussionen und diese interaktiven Übungen wird für einen abwechslungsreichen Unterricht gesorgt.",
+              "subject": "Gesundheit",
+              "educationalContext": [
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/berufsbildung/gesundheit-medizin/pflege-therapie-pharmazie/arbeitsmaterial/am/motivationsfaktoren-und-maslowsche-beduerfnispyramide-interaktives-begleitmaterial/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=75fde983-58f3-4647-a170-da3b0a6e3234&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680487352-bnpk",
+          "name": "Auswertungsblatt Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/lernen/angebote/grafstat/krise-und-sozialisation/224363/m-03-04-08-auswertungsblatt-arbeitsgruppe-3-gruens-neuanfang/",
+          "search_query": "Auswertungsblatt",
+          "wlo_metadata": [
+            {
+              "nodeId": "959bc273-dc74-4b25-ad3c-070e2594fa0b",
+              "title": "M 03.04.08 Auswertungsblatt AG 3: Grüns Neuanfang",
+              "description": "Das Auswertungsblatt \"Neuanfang 1949 von Franz Grün in Hohenzollern-Sigmaringen: Meine Jugend- und Lehrzeit\" gliedert die Etappen in Ereignisse und sozialwissenschaftliche Deutungen.",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/angebote/grafstat/krise-und-sozialisation/224363/m-03-04-08-auswertungsblatt-arbeitsgruppe-3-gruens-neuanfang/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=959bc273-dc74-4b25-ad3c-070e2594fa0b&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "7b67e7f9-ce73-4b22-8e32-6f19900e7b45",
+              "title": "M 03.04.06 Auswertungsblatt AG1: Grüns Kindheit",
+              "description": "Das Arbeitsblatt zu den schwierigen Lebensabschnitten des Franz Grün untergliedert zwischen den Bereichen der Beschreibung und der sozialwissenschaftlichen Deutung.",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/angebote/grafstat/krise-und-sozialisation/224357/m-03-04-06-auswertungsblatt-arbeitsgruppe-1-gruens-kindheit/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7b67e7f9-ce73-4b22-8e32-6f19900e7b45&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "c1d17bcc-98bd-47dd-bcb4-decf62310d6d",
+              "title": "M 03.04.09 Auswertungsblatt AG 4: Grüns Berufswahl",
+              "description": "",
+              "subject": "Allgemein",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/grafstat/krise-und-sozialisation/224366/m-03-04-09-gruen-auswertung-ag-4",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c1d17bcc-98bd-47dd-bcb4-decf62310d6d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680482061-s22z",
+          "name": "Berufsinteressen Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://memucho.de/Berufsinteressen/975",
+          "search_query": "Berufsinteressen",
+          "wlo_metadata": [
+            {
+              "nodeId": "452e0e4a-654a-4e7e-a247-715b28344cc6",
+              "title": "Berufsinteressen",
+              "description": "...folgt.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://memucho.de/Berufsinteressen/975",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=452e0e4a-654a-4e7e-a247-715b28344cc6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680482651-hyvg",
+          "name": "Testauswertung Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/4fab28c6-8339-4fc9-ab28-c683391fc956",
+          "search_query": "Testauswertung",
+          "wlo_metadata": [
+            {
+              "nodeId": "4fab28c6-8339-4fc9-ab28-c683391fc956",
+              "title": "Kognitive Emotionstheorie",
+              "description": "Hier findest du eine Präsentation zum Thema Kognitive Emotionstheorie: Attributionstheorie – Weiner. ",
+              "subject": "Psychologie",
+              "educationalContext": [
+                "Hochschule",
+                "Berufliche Bildung",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Präsentation",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/4fab28c6-8339-4fc9-ab28-c683391fc956",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4fab28c6-8339-4fc9-ab28-c683391fc956&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680482352-jm1t",
+          "name": "Diagnostische Kriterien Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/5b8d05de-b03d-4886-8d05-deb03d688679",
+          "search_query": "Diagnostische Kriterien",
+          "wlo_metadata": [
+            {
+              "nodeId": "5b8d05de-b03d-4886-8d05-deb03d688679",
+              "title": "3. Teaching Club vom 23.01.24: GATE-Frame Ein grafisches Analyse-Tool für  epidemiologische Studien",
+              "description": "Der Berg wissenschaftlicher Literatur wächst unaufhörlich und die Absicht, in der \nmedizinischen Praxis evidenzbasiert zu arbeiten, droht darunter begraben zu werden.           \nDas GATE-Frame ist ein einfach anwendbares Tool, um eine epidemiologische Studie schnell \nauf ihre wesentlichsten Bestandteile zu reduzieren und überblicken zu können, ohne tief in die \nDaten einsteigen zu müssen. In diesem 60-minüten Kurs stellen wir Ihnen das GATE-Frame vor \nund wenden es exemplarisch an, so dass Sie es im Anschluss leicht in Ihren Alltag übertragen \nkönnen",
+              "subject": "Gesundheit",
+              "educationalContext": [
+                "Erwachsenenbildung",
+                "Hochschule",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/5b8d05de-b03d-4886-8d05-deb03d688679",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=5b8d05de-b03d-4886-8d05-deb03d688679&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680482046-p1xo",
+          "name": "Testauswertung Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/4fab28c6-8339-4fc9-ab28-c683391fc956",
+          "search_query": "Testauswertung",
+          "wlo_metadata": [
+            {
+              "nodeId": "4fab28c6-8339-4fc9-ab28-c683391fc956",
+              "title": "Kognitive Emotionstheorie",
+              "description": "Hier findest du eine Präsentation zum Thema Kognitive Emotionstheorie: Attributionstheorie – Weiner. ",
+              "subject": "Psychologie",
+              "educationalContext": [
+                "Hochschule",
+                "Berufliche Bildung",
+                "Erwachsenenbildung"
+              ],
+              "resourceType": "Präsentation",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/4fab28c6-8339-4fc9-ab28-c683391fc956",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4fab28c6-8339-4fc9-ab28-c683391fc956&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680486904-bdab",
+          "name": "Validität Tests Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/5b8d05de-b03d-4886-8d05-deb03d688679",
+          "search_query": "Validität Tests",
+          "wlo_metadata": [
+            {
+              "nodeId": "5b8d05de-b03d-4886-8d05-deb03d688679",
+              "title": "3. Teaching Club vom 23.01.24: GATE-Frame Ein grafisches Analyse-Tool für  epidemiologische Studien",
+              "description": "Der Berg wissenschaftlicher Literatur wächst unaufhörlich und die Absicht, in der \nmedizinischen Praxis evidenzbasiert zu arbeiten, droht darunter begraben zu werden.           \nDas GATE-Frame ist ein einfach anwendbares Tool, um eine epidemiologische Studie schnell \nauf ihre wesentlichsten Bestandteile zu reduzieren und überblicken zu können, ohne tief in die \nDaten einsteigen zu müssen. In diesem 60-minüten Kurs stellen wir Ihnen das GATE-Frame vor \nund wenden es exemplarisch an, so dass Sie es im Anschluss leicht in Ihren Alltag übertragen \nkönnen",
+              "subject": "Gesundheit",
+              "educationalContext": [
+                "Erwachsenenbildung",
+                "Hochschule",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/5b8d05de-b03d-4886-8d05-deb03d688679",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=5b8d05de-b03d-4886-8d05-deb03d688679&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "ff1ef214-21ab-4542-8d92-ea5cfef39650",
+              "title": "Qualität von OER. Internationale Bestandsaufnahme von Instrumenten zur Qualitätssicherung von Open Educational Resources (OER)– Schritte zu einem deutschen Modell am Beispiel der Hamburg Open Online University",
+              "description": "Die  vorliegende  Studie  stellt  einen  ersten  Schritt  dar,  um  sich  systematisch  mit  der  Frage  nach  der  Entwicklung  und  Sicherung  von  Qualität  von  Open  Educational  Re­sources  (OER)  auseinandersetzen.  Zugleich  stellt  sie  einen  ersten  Schritt  zu  einem  deutschen Qualitätsmodell für OER dar.",
+              "subject": "Open Educational Resources",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/ff1ef214-21ab-4542-8d92-ea5cfef39650",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ff1ef214-21ab-4542-8d92-ea5cfef39650&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "fd976990-e5d4-450c-b5d7-a9e5f0ca74a4",
+              "title": "Das Dilemma mit den Schulnoten",
+              "description": "Ziffernnoten von 1 bis 6 gehören zur Schule wie Unterricht, Klassenfahrt und Pausenbrot. Aber seit Jahrzehnten stehen Noten in der Kritik. Sie gelten als ungerecht, beliebig, nicht vergleichbar. Warum werden sie dann immer noch fast überall vergeben?",
+              "subject": "Zeitgemäße Bildung",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/213307/schulnoten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=fd976990-e5d4-450c-b5d7-a9e5f0ca74a4&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680490935-eiao",
+          "name": "Elevator Pitch Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://oercommons.org/courseware/lesson/15988/overview",
+          "search_query": "Elevator Pitch",
+          "wlo_metadata": [
+            {
+              "nodeId": "6af5517e-d572-4f20-b551-7ed572df2062",
+              "title": "Elevator Pitch",
+              "description": "Overview:\nThe purpose of the elevator pitch activity is to encourage graduate students to think clearly about how they communicate their professional identity. In this assignment, students are asked to identify: strengths and skills; areas of interest in their disclipline; and professional goals for the near term. Students work to develop a 30-40 second elevator pitch that they can use in networking scenarios and career events. Created by Steven Harris-Scott, Ph.D., Amy Lewis, Ed.D., and Emma Cutrufello, Ph.D., for INTO George Mason University with support from Mason 4-VA.",
+              "subject": "Geisteswissenschaften",
+              "educationalContext": [
+                "Fortbildung",
+                "Hochschule"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://oercommons.org/courseware/lesson/15988/overview",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6af5517e-d572-4f20-b551-7ed572df2062&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "642854e1-9637-4927-a665-3e6885e7f4ae",
+              "title": "Elevator Pitch ",
+              "description": "Diese Vorlage dient als Vorbereitung um ein Forschungsvorhaben oder eine Forschungsfrage einem Plenum in aller Kürze strukturiert vorzustellen. Die Leitfragen können 1:1 verwendet oder je nach Bedarf angepasst werden.  \nTipp: Einheitliche Leitfragen führen zu einer besseren Vergleichbarkeit.  \nDiese Vorlage gehört zum Template Forschendes Lernen.\n",
+              "subject": "",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.twillo.de/edu-sharing/components/render/7567e236-33a3-4e0b-a9d7-56b1c784196e",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=642854e1-9637-4927-a665-3e6885e7f4ae&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "daea20bb-448a-46c7-b74a-3e388e52c99a",
+              "title": "Elevator Pitch - Mit Ziel Erweiterung des beruflichen Netzwerks",
+              "description": "Der Elevator-Pitch ist eine bekannte Methode, die angewendet wird, um eine Idee in kurzer Zeit moglichst mitreißend und ansprechend zu prasentieren - als ob man mit jemand im Fahrstuhl fahrt, und die Zeit der gemeinsamen Fahrt alles ist, was man zur Verfugung hat. Sie bietet sich an, wenn in kurzer Zeit viele Vortrage gehalten werden sollen. Die Studierenden, die sich auf ihr Praxissemester vorbereiten, erhalten die Aufgabe, dem Plenum je ein Unternehmen zu prasentieren, bei dem ein Praxissemester absolviert werden konnte. Um zu vermeiden, dass große Unternehmen gleich mehrfach prasentiert werden, soll zusatzlich jede/r ein zweites Unternehmen als Backup vorbereiten. Ziel ist dabei zum einen, jede/n Studierende/n zu motivieren, sich auf Unternehmenssuche zu begeben und zu uberlegen, wo und warum dort ein Praxissemester sinnvoll sein konnte. Zum anderen ergibt sich so in der Summe eine Liste mit Unternehmen, die vorgestellt werden. Da die Aufgabe darin besteht, moglichst kurz und dabei spannend zu prasentieren, profitieren alle Teilnehmer/innen unmittelbar von dem Informationsaustausch. \n\nDer Ablauf des Workshops sieht vor, dass sich alle in Prasenz im Horsaal treffen. Die Workshopleitung setzt zusatzlich ein Zoom-Meeting an und ubertragt den Bildschirm per Beamer an die Wand. Alle Teilnehmende wahlen sich mit mobilem Endgerat in die Sitzung ein, so dass jede/r Vortraggebende nun einen Weblink zu dem jeweiligen Unternehmen per Chat posten kann. Die Workshopleitung folgt dann dem Link, so dass wahrend des Vortrages die Webseiten fur alle sichtbar sind. Auf diese Weise kann Vortrag auf Vortrag folgen, ohne dass eine technische Umrustung der Vortraggebenden notwendig wird. Die Vortraggebenden mussen sich gut vorbereiten, da wenig Zeit zum Improvisieren bleibt. So ist der Informations- (und der Unterhaltungs-) wert fur das Plenum am hochsten.\n",
+              "subject": "Ingenieurwissenschaften",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Übungsmaterial",
+              "wwwUrl": "https://www.twillo.de/edu-sharing/components/render/038af1e7-dea1-41fe-8078-1c8ecaef7a46",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=daea20bb-448a-46c7-b74a-3e388e52c99a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680483797-h8lm",
+          "name": "Elevator Pitch Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/9e0fc370",
+          "search_query": "Elevator Pitch",
+          "wlo_metadata": [
+            {
+              "nodeId": "7d9942d4-3812-4df1-95a4-b12b289f64dc",
+              "title": "Faire parler les étudiants",
+              "description": "- Faire parler les étudiants\n- hoeflere\n- 30.06.2020\nEn classe, il est assez difficile de faire parler les étudiants. Soit qu’ils ont peur de parler, soit qu’ils n’ont rien à dire. En fait, la compréhension orale et l’expression orale sont les deux compétences dont les élèves ont besoin dès qu’ils arrivant dans un pays francophone. Il y a plusieurs approches méthodologiques pour faire parler les jeunes ; on va en essayer six.\n1 | Les BD\nLes BD sont un genre assez connu e aimé que nous offre tant de possibilités des faire parler les élèves. Ou les élèves créent des BD eux-mêmes ou les profs les préparent : les BD sont vite faites et s’intègrent sans problèmes dans les classes de tous les jours.\nhttps://www.makebeliefscomix.com/\n2 | une dictée\nLes élèves profitent de leurs téléphones intelligents et les utilisent pour enregistrer leur voix. Ils choisissent un texte, le lisent à haute voix et ils envoient l’enregistrement à la classe. Les autres transcrivent le texte. Puis, on compare les résultats.\n3 | C'est quelqu'un d'autre\nFaire parler son avatar ? De temps en temps il est plus facile donner sa propre voix à quelqu’un d’autre. Les avatars nous offrent un bon moyen de parler sans parler.\nhttps://www.tutory.de/entdecken/dokument/9e0fc370\n4 | Pecha Kucha\nUn Pecha Kucha est une forme de présentation japonaise bien structurée. Une présentation a 20 transparents au maximum. Pour chaque transparent on a 20 secondes au maximum. Cela fait 400 secondes de présentation au maximum.\n5 | Elevator Pitch & Speed Dating\nPersuader quelqu’unde quelque chose en quelques minutes ? Un elevator pitch ou même la méthodespeed dating nous donnent la structure nécessaire.\n6 | Lip Dub\nOn aime bien travailler avec la musique en classe. Pourquoi ne pas faire un lip dub ? Il nous aide à bien articuler.\nhoefler.elke@gmail.com | @lacknere | #EduPnx | www.digitalanalog.at\nhttps://www.tutory.de/entdecken/dokument/9e0fc370 [...]",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/9e0fc370",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7d9942d4-3812-4df1-95a4-b12b289f64dc&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "642854e1-9637-4927-a665-3e6885e7f4ae",
+              "title": "Elevator Pitch ",
+              "description": "Diese Vorlage dient als Vorbereitung um ein Forschungsvorhaben oder eine Forschungsfrage einem Plenum in aller Kürze strukturiert vorzustellen. Die Leitfragen können 1:1 verwendet oder je nach Bedarf angepasst werden.  \nTipp: Einheitliche Leitfragen führen zu einer besseren Vergleichbarkeit.  \nDiese Vorlage gehört zum Template Forschendes Lernen.\n",
+              "subject": "",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.twillo.de/edu-sharing/components/render/7567e236-33a3-4e0b-a9d7-56b1c784196e",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=642854e1-9637-4927-a665-3e6885e7f4ae&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768680494518-42th",
+          "name": "Feedback geben Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.leifiphysik.de/mechanik/arbeit-energie-und-leistung/versuche/trampolin-ck-12-simulation",
+          "search_query": "Feedback geben",
+          "wlo_metadata": [
+            {
+              "nodeId": "dd0d2d29-3c09-4589-8e2e-641617241377",
+              "title": "Trampolin (CK-12-Simulation)",
+              "description": "Wie werden Energieformen beim Trampolinspringen umgewandelt?\n\nEnergieumwandlungen passieren ständig und überall - ein schönes Beispiel  für eine Energieumwandlungskette ist das Trampolinspringen. Welche Energieformen dabei auf welche Weise ineinander umgewandelt werden, kannst du mithilfe der…",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.leifiphysik.de/mechanik/arbeit-energie-und-leistung/versuche/trampolin-ck-12-simulation",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=dd0d2d29-3c09-4589-8e2e-641617241377&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "615a0147-662a-4117-88cb-eaadabedc2a0",
+              "title": "Silizium-Solarzellen",
+              "description": "Solarzellen bestehen oft aus dem Halbmetall Silizium, einem klassischen Halbleiter. Dieses Silizium ist mit anderen Elementen gezielt verunreinigt worden (Dotierung). Leifiphysik bietet einen gelungenen Überblick über die Funktionsweise solcher Solarzellen.",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.leifiphysik.de/elektronik/halbleiterdiode/grundwissen/silizium-solarzellen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=615a0147-662a-4117-88cb-eaadabedc2a0&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "d8588b8f-05b0-4b27-8337-e6084a9ee651",
+              "title": "Botafumeiro (Simulation)",
+              "description": "Der Botafumeiro ist ein schweres Weihrauchfass, das zu den Hauptattraktionen der Kathedrale von Santiago de Compostela gehört. ",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe II",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.leifiphysik.de/mechanik/kreisbewegung/ausblick/botafumeiro-simulation",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d8588b8f-05b0-4b27-8337-e6084a9ee651&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
         }
       ],
-      "tools": [],
+      "tools": [
+        {
+          "id": "ENV1-T1",
+          "name": "Beamer",
+          "tool_type": "Präsentationstechnik",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": []
+    },
+    {
+      "id": "ENV2",
+      "name": "Computerraum",
+      "description": "Arbeitsplätze für individuelle Online-Tests und Recherche.",
+      "materials": [
+        {
+          "id": "ENV2-M1",
+          "name": "JobChecker",
+          "material_type": "Interaktives Medium",
+          "source": "extern",
+          "access_link": "https://www.jobchecker21.de",
+          "search_query": "JobChecker"
+        },
+        {
+          "id": "ENV2-M2",
+          "name": "Berufsinfo Video",
+          "material_type": "Video",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Berufsinformation"
+        },
+        {
+          "id": "ENV2-M3",
+          "name": "Berufsporträts",
+          "material_type": "Präsentation",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Berufsporträts"
+        },
+        {
+          "id": "ENV2-M1768680493183-u7xe",
+          "name": "Berufsorientierung Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/sekundarstufen/geisteswissenschaften/politik-sowi/unterrichtseinheit/ue/das-betriebspraktikum-was-muss-ich-wissen/",
+          "search_query": "Berufsorientierung",
+          "wlo_metadata": [
+            {
+              "nodeId": "3efbaf87-d490-41f5-8637-fb26fe3c613a",
+              "title": "Das Betriebspraktikum – was muss ich wissen?",
+              "description": "Die Unterrichtseinheit enthält zum einen didaktische Hinweise und Arbeitsblätter, mit denen beispielsweise die Auswahl eines geeigneten Berufs und Betriebs durch die Lernenden begleitet wird. Zum anderen gibt sie Hinweise für eine methodisch abwechslungsreiche, die Kommunikation und Kooperation fördernde Auswertungsphase. Auch stellt die Sequenz den Lehrenden Leitfäden und Checklisten zur Verfügung, die eine strukturierte und gewinnbringende Durchführung des Betriebspraktikums erleichtern.",
+              "subject": "Politik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Unterrichtsplan",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/geisteswissenschaften/politik-sowi/unterrichtseinheit/ue/das-betriebspraktikum-was-muss-ich-wissen/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=3efbaf87-d490-41f5-8637-fb26fe3c613a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "646bd348-37e2-4bce-abd3-4837e2dbced2",
+              "title": "Virtuelle Tour durch ein Rechenzentrum von Amazon Web Services (AWS)",
+              "description": "Informatik- und Berufsorientierung als spannende, virtuelle Tour verpackt: Schulklassen können kostenfrei eine Gruppentour durchführen und in einem spielerischen Wettbewerb antreten, während sie die Technologie und die Berufe der Zukunft erkunden. Auf der Tour erfahren die Schülerinnen und Schüler, wie es die Cloud und die Rechenzentren möglich machen, Filme von überall und zu jeder Zeit zu streamen. Sie lernen die Komponenten eines Computers kennen, erhalten einen Überblick über die Cloud, erfahren wie Daten durch Glasfaserkabel transportiert werden und wie Protokolle den Daten mitteilen, wohin sie gehen sollen. Sie erfahren auch, wie Rechenzentren die Daten sicher und nachhaltig aufbewahren, damit sich niemand Sorgen um das Hochladen der eigenen Daten in die Cloud machen muss. Die Schülerinnen und Schüler lernen zudem, wie Rechenzentren einen natürlichen Prozess nutzen, um Server vor Überhitzung zu schützen, wie Redundanz und Sensoren sicherstellen, dass Daten immer verfügbar sind, wie Cyber- und physische Sicherheitsmaßnahmen die Daten schützen und wie nachhaltige Maßnahmen getroffen werden, um die Umwelt zu schützen. Auf dem Weg dorthin treffen sie Mitarbeitende, die als Rechenzentrumsbetreibende, Lösungsarchitektinnen und -architekten, Betreibende von Rechenzentrumstechnik und Nachhaltigkeitsspezialistinnen und -spezialisten tätig sind.\nVoraussetzung ist ein eigenes Tablet oder ein eigener Computer. Die Lehrkraft fungiert als Moderatorin. Alternativ können die Lernenden auch selbstständig die Tour durchführen.",
+              "subject": "Informatik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Entdeckendes Lernen",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/informatik/unterrichtseinheit/ue/virtuelle-tour-durch-ein-rechenzentrum-von-amazon-web-services-aws/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=646bd348-37e2-4bce-abd3-4837e2dbced2&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "da916342-a421-4a4b-8d46-3808742a62b0",
+              "title": "Richtig bewerben - aber wie?",
+              "description": "Steuerberaterin oder Steuerberater ist ein Beruf, der vielfältige Kompetenzen erfordert: Spaß am Umgang mit Menschen und Zahlen, Kommunikationsstärke und Empathie, Organisationstalent und Teamgeist. Es ist ein Beruf, der für Studieninteressierte ebenso in Frage kommt wie für Schulabgängerinnen und Schulabgänger, die eine Ausbildung beginnen möchten. Am Beispiel der Steuerberatung erhalten die Schülerinnen und Schüler einen exemplarischen Einblick in mögliche Anforderungen an Bewerberinnen und Bewerber, um im Rahmen der Berufsorientierung die einzelnen Stationen einer Bewerbung einzuüben: Berufsrecherche, Selbsterkundung, Bewerbungsunterlagen verfassen sowie korrektes Verhalten im Vorstellungsgespräch und im Praktikum.",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Entdeckendes Lernen",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/faecheruebergreifend/unterrichtseinheit/ue/bewerbung-im-berufsfeld-steuerberatung/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=da916342-a421-4a4b-8d46-3808742a62b0&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768680488468-eghk",
+          "name": "Berufstest Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=WrhlddUqQP8",
+          "search_query": "Berufstest",
+          "wlo_metadata": [
+            {
+              "nodeId": "6e9f1d83-bd06-45f2-9f1d-83bd0625f2cc",
+              "title": "Welche Ausbildung passt zu mir?",
+              "description": "Alle Ausbildungsberufe: https://tinyurl.com/yys4csqu\nTipps für deine Bewerbung: https://tinyurl.com/yy7j772m\n\n00:00 – Traumausbildung \n00:19 – Was soll ich nach der Schule machen?\n00:29 – Was ist der Berufscheck?\n01:02 – Wie kann ich mich auf meinen Traumjob bewerben?\n\nWas soll ich nach der Schule machen?\nSoll es ein handwerklicher, sozialer oder doch eher ein kaufmännischer Beruf sein? Oder willst du statt einer Ausbildung lieber ein duales Studium machen? Du bekommst solche Fragen nach deinen Zukunftsplänen wahrscheinlich oft zu hören, wenn du kurz davor bist, die Schule abzuschließen. Bei über 650 unterschiedlichen Ausbildungsberufen ist es auch gar nicht so einfach, den einen passenden Ausbildungsberuf zu finden. Möglichkeiten hast du viele, denn du kannst für deine Ausbildung zwischen vielen verschiedenen Branchen und Bereichen wählen. Was dabei besonders wichtig ist, sind deine persönlichen Interessen. Finde heraus, was du besonders gut kannst und vor allem was dir Spaß macht. Was dir dabei ganz konkret helfen kann, ist der Berufsscheck auf Ausbildung.de. \n\nWas ist der Berufscheck?\nBeim Berufscheck handelt es sich um einen wissenschaftlichen Test, der entwickelt wurde, um dir eine aussagekräftige und fundierte Berufsempfehlung zu geben. Dafür musst du nur zwölf Fragen zu deiner Persönlichkeit beantworten. Diese Fragen helfen dir dabei, herauszufinden, welche Eigenschaften dich ausmachen. Du bekommst zu jeder Frage zwei Antwortoptionen vorgeschlagen, aus denen du eine wählen kannst. So kannst du zum Beispiel angeben, ob du jemand bist, der gerne alles im Voraus plant oder doch eher der Typ, der alles spontan auf sich zukommen lässt. Du siehst: Es ist ganz einfach und du brauchst nicht viel Zeit zu investieren. Innerhalb weniger Minuten bist du bereits mit dem Test fertig und du erfährst etwas über deine persönlichen Stärken, Interessen und Fähigkeiten.\n\nWie kann ich mich auf meinen Traumjob bewerben?\nIm Anschluss an den Test zeigen wir dir, welche Berufsfelder und Ausbildungsberufe besonders gut zu dir passen. Du bekommst mehrere Ausbildungsberufe angezeigt, die dir anhand deiner Angaben sehr gut gefallen könnten und für die du bestens geeignet wärst. Passend zu den Berufen erscheinen freie Ausbildungsplätze, auf die du dich direkt bewerben kannst. Klicke einfach auf die Stelle, die dich am meisten interessiert – und schon kannst du deine Bewerbung schnell und einfach über Ausbildung.de abschicken. \n \nWeitere Tipps rund um deine Ausbildung findest du auf Ausbildung.de: \nFreie Ausbildungsplätze in deiner Region: 👉 https://tinyurl.com/y5qhrsbf \nBerufe nach Themen: 👉 https://tinyurl.com/y2rmq5lq \nLass dich von Unternehmen finden: 👉 https://tinyurl.com/y2vcqpyw \n\n#ausbildung #ausbildungDE #ratgbeber\n\nAusbildung.de auf Social Media:\n✅ https://www.instagram.com/ausbildung/\n✅ https://www.tiktok.com/@ausbildung.de \n\n\nAusbildung.de GmbH\nGeschäftsführung:\nFelix von Zittwitz, Tim Schormann\nWittener Straße 87\nD – 44789 Bochum\nT +49 (0) 234 369 3720\nF +49 (0) 234 369 3769",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=WrhlddUqQP8",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e9f1d83-bd06-45f2-9f1d-83bd0625f2cc&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "c03ca4f0-dd92-4c8f-bf89-1d958b1787a6",
+              "title": "Studiencheck: Wie fit bin ich für mein Studium?",
+              "description": "Die Webseite \"Studiencheck\" der Bundesagentur für Arbeit (BA) bietet eine umfassende Informationsplattform für Schülerinnen und Schüler, die sich über verschiedene Studiengänge und Hochschulen informieren möchten. Die Plattform ermöglicht es, gezielt nach Interessen und Neigungen zu suchen, um geeignete Studienrichtungen zu finden. Durch detaillierte Informationen zu Studieninhalten, Zugangsvoraussetzungen und Berufsaussichten erhalten sie einen klaren Überblick über ihre Möglichkeiten. Darüber hinaus finden sich Erfahrungsberichte von Studierenden, die wertvolle Einblicke in den Studienalltag und die jeweiligen Fachrichtungen geben. Diese Webseite richtet sich insbesondere an junge Menschen, die ihre berufliche Zukunft aktiv planen, sowie an Eltern und Lehrkräfte, die Unterstützung bei der Studienwahl suchen. Mit hilfreichen Tools und Ratschlägen fördert Studiencheck.de eine fundierte Entscheidung für den passenden Studiengang.",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://studiencheck.de/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c03ca4f0-dd92-4c8f-bf89-1d958b1787a6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "9498323e-73e2-4e7a-9832-3e73e2ee7afe",
+              "title": "Welcher Beruf passt zu mir? So findest du deinen Traumjob!",
+              "description": "Du bist bald fertig mit der Schule und stellst dir nun die Frage: Welcher Beruf passt zu mir? Hier helfen wir dir dabei, die richtige Ausbildung zu finden! \n\nHier geht's zum Video auf unserer Seite: https://studyflix.de/ausbildung/karriere-ausbildung/welcher-beruf-passt-zu-mir-4879\n\nWelcher Beruf passt zu mir?\nWahrscheinlich stehst du jetzt wie die meisten anderen Jugendlichen vor deinem Schulabschluss und fragst dich: Welche Ausbildung passt zu mir?\n\nEgal, ob du die Abwechslung liebst oder feste Strukturen bevorzugst, gerne nach Vorgaben arbeitest oder lieber eigene Ideen einbringst: Für jede Persönlichkeit gibt es Berufe, die besonders gut — oder eben überhaupt nicht — passen. Darum solltest du dir zuerst Gedanken darüber machen, welche Wünsche du hast und was du später erreichen möchtest. \n\nBerufstest: Welcher Beruf passt zu mir? \nMit unserem Berufstest kannst du in nur wenigen Minuten herausfinden, welcher Beruf am besten zu dir passt! Der Beruf-Test besteht insgesamt aus 21 Fragen. Nach jeweils drei Fragen findest du die Branche und mögliche Ausbildungsberufe, die zu dir passen könnten.\n\nBeruf-Test: Soziale Ader\n✅ Du bist kontaktfreudig und hilfst gerne anderen Menschen?\n✅ Du übernimmst oft die Verantwortung?\n✅ Du kannst dich gut in andere hineinversetzen?\n\nBeruf-Test: Verkaufstalent\n✅ Du kannst gut mit Zahlen umgehen?\n✅ Du willst auf der Arbeit am liebsten einen Anzug tragen?\n✅ Du wünschst dir einen Beruf mit Zukunft?\n\nBeruf-Test: Kreative Fähigkeiten\n✅ Du bist kreativ und steckst voller Ideen?\n✅ Teamarbeit macht dir Spaß?\n✅ Du hast ein Auge für Details?\n\nBeruf-Test: Technische Kenntnisse\n✅ Du kannst gut mit Computern und technischen Geräten umgehen?\n✅ Logisches Denken fällt dir leicht?\n✅ Bist du ein Perfektionist?\n\nBeruf-Test: Handwerkliche Kenntnisse\n✅ Besitzt du ein gutes Fingerspitzengefühl?\n✅ Bist du körperlich fit und packst gerne mit an?\n✅ Du kennst dich gut mit Handwerk und den verschiedensten Materialien aus?\n\nBeruf-Test: Gerechtigkeit und Ordnung\n✅ Du bist ein Organisationstalent?\n✅ Streitigkeiten konntest du schon immer klären?\n✅ Du hast einen ausgeprägten Gerechtigkeitssinn?\n\nBeruf-Test: Kulturelle Kompetenz\n✅ Gegenüber fremden Menschen und Kulturen bist du sehr aufgeschlossen?\n✅ Sprachen lernen macht dir Spaß?\n✅ Du kochst gerne?\n\nBeruf-Test: Tierliebe\n✅ Du besitzt ein oder mehrere Haustiere?\n✅ Bio zählt zu deinen Lieblingsfächern?\n✅ Du hast ein großes Einfühlungsvermögen?\n\n---------------------------------------------------------------------------------------------------------------------------\nWeitere Informationen findest du auf Instagram und TikTok: https://www.instagram.com/studyflix_app/\nhttps://www.tiktok.com/@studyflix\noder auf unserer Webseite: https://studyflix.de/​​​ \nHier geht´s zur kostenlosen Studyflix-App: \n- Play Store: https://play.google.com/store/apps/details?id=de.studyflix.studyflix&hl=de&gl=US\n- Apple Store: https://apps.apple.com/de/app/studyflix-deine-lernapp/id1514546785 \n--------------------------------------------------------------------------------------------------------------------------\nÜber uns: Studyflix ist eine junge, schnell wachsende E-Learning Plattform, auf der du kostenlose Lernvideos sowie 10.000 freie Ausbildungsplätze und Jobs findest! Jeden Tag kommt ein neues Video dazu! Von Handwerksberufen, sozialen und kaufmännischen Berufen bis hin zu kreativen Berufen und Berufen mit Zukunft -- alles ist dabei!",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=ruJTPQ8Whm4",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9498323e-73e2-4e7a-9832-3e73e2ee7afe&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768680486403-z3dv",
+          "name": "Berufstest Tests / Fragebögen",
+          "material_type": "Tests / Fragebögen",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=WrhlddUqQP8",
+          "search_query": "Berufstest",
+          "wlo_metadata": [
+            {
+              "nodeId": "6e9f1d83-bd06-45f2-9f1d-83bd0625f2cc",
+              "title": "Welche Ausbildung passt zu mir?",
+              "description": "Alle Ausbildungsberufe: https://tinyurl.com/yys4csqu\nTipps für deine Bewerbung: https://tinyurl.com/yy7j772m\n\n00:00 – Traumausbildung \n00:19 – Was soll ich nach der Schule machen?\n00:29 – Was ist der Berufscheck?\n01:02 – Wie kann ich mich auf meinen Traumjob bewerben?\n\nWas soll ich nach der Schule machen?\nSoll es ein handwerklicher, sozialer oder doch eher ein kaufmännischer Beruf sein? Oder willst du statt einer Ausbildung lieber ein duales Studium machen? Du bekommst solche Fragen nach deinen Zukunftsplänen wahrscheinlich oft zu hören, wenn du kurz davor bist, die Schule abzuschließen. Bei über 650 unterschiedlichen Ausbildungsberufen ist es auch gar nicht so einfach, den einen passenden Ausbildungsberuf zu finden. Möglichkeiten hast du viele, denn du kannst für deine Ausbildung zwischen vielen verschiedenen Branchen und Bereichen wählen. Was dabei besonders wichtig ist, sind deine persönlichen Interessen. Finde heraus, was du besonders gut kannst und vor allem was dir Spaß macht. Was dir dabei ganz konkret helfen kann, ist der Berufsscheck auf Ausbildung.de. \n\nWas ist der Berufscheck?\nBeim Berufscheck handelt es sich um einen wissenschaftlichen Test, der entwickelt wurde, um dir eine aussagekräftige und fundierte Berufsempfehlung zu geben. Dafür musst du nur zwölf Fragen zu deiner Persönlichkeit beantworten. Diese Fragen helfen dir dabei, herauszufinden, welche Eigenschaften dich ausmachen. Du bekommst zu jeder Frage zwei Antwortoptionen vorgeschlagen, aus denen du eine wählen kannst. So kannst du zum Beispiel angeben, ob du jemand bist, der gerne alles im Voraus plant oder doch eher der Typ, der alles spontan auf sich zukommen lässt. Du siehst: Es ist ganz einfach und du brauchst nicht viel Zeit zu investieren. Innerhalb weniger Minuten bist du bereits mit dem Test fertig und du erfährst etwas über deine persönlichen Stärken, Interessen und Fähigkeiten.\n\nWie kann ich mich auf meinen Traumjob bewerben?\nIm Anschluss an den Test zeigen wir dir, welche Berufsfelder und Ausbildungsberufe besonders gut zu dir passen. Du bekommst mehrere Ausbildungsberufe angezeigt, die dir anhand deiner Angaben sehr gut gefallen könnten und für die du bestens geeignet wärst. Passend zu den Berufen erscheinen freie Ausbildungsplätze, auf die du dich direkt bewerben kannst. Klicke einfach auf die Stelle, die dich am meisten interessiert – und schon kannst du deine Bewerbung schnell und einfach über Ausbildung.de abschicken. \n \nWeitere Tipps rund um deine Ausbildung findest du auf Ausbildung.de: \nFreie Ausbildungsplätze in deiner Region: 👉 https://tinyurl.com/y5qhrsbf \nBerufe nach Themen: 👉 https://tinyurl.com/y2rmq5lq \nLass dich von Unternehmen finden: 👉 https://tinyurl.com/y2vcqpyw \n\n#ausbildung #ausbildungDE #ratgbeber\n\nAusbildung.de auf Social Media:\n✅ https://www.instagram.com/ausbildung/\n✅ https://www.tiktok.com/@ausbildung.de \n\n\nAusbildung.de GmbH\nGeschäftsführung:\nFelix von Zittwitz, Tim Schormann\nWittener Straße 87\nD – 44789 Bochum\nT +49 (0) 234 369 3720\nF +49 (0) 234 369 3769",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=WrhlddUqQP8",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6e9f1d83-bd06-45f2-9f1d-83bd0625f2cc&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "c03ca4f0-dd92-4c8f-bf89-1d958b1787a6",
+              "title": "Studiencheck: Wie fit bin ich für mein Studium?",
+              "description": "Die Webseite \"Studiencheck\" der Bundesagentur für Arbeit (BA) bietet eine umfassende Informationsplattform für Schülerinnen und Schüler, die sich über verschiedene Studiengänge und Hochschulen informieren möchten. Die Plattform ermöglicht es, gezielt nach Interessen und Neigungen zu suchen, um geeignete Studienrichtungen zu finden. Durch detaillierte Informationen zu Studieninhalten, Zugangsvoraussetzungen und Berufsaussichten erhalten sie einen klaren Überblick über ihre Möglichkeiten. Darüber hinaus finden sich Erfahrungsberichte von Studierenden, die wertvolle Einblicke in den Studienalltag und die jeweiligen Fachrichtungen geben. Diese Webseite richtet sich insbesondere an junge Menschen, die ihre berufliche Zukunft aktiv planen, sowie an Eltern und Lehrkräfte, die Unterstützung bei der Studienwahl suchen. Mit hilfreichen Tools und Ratschlägen fördert Studiencheck.de eine fundierte Entscheidung für den passenden Studiengang.",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://studiencheck.de/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c03ca4f0-dd92-4c8f-bf89-1d958b1787a6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "9498323e-73e2-4e7a-9832-3e73e2ee7afe",
+              "title": "Welcher Beruf passt zu mir? So findest du deinen Traumjob!",
+              "description": "Du bist bald fertig mit der Schule und stellst dir nun die Frage: Welcher Beruf passt zu mir? Hier helfen wir dir dabei, die richtige Ausbildung zu finden! \n\nHier geht's zum Video auf unserer Seite: https://studyflix.de/ausbildung/karriere-ausbildung/welcher-beruf-passt-zu-mir-4879\n\nWelcher Beruf passt zu mir?\nWahrscheinlich stehst du jetzt wie die meisten anderen Jugendlichen vor deinem Schulabschluss und fragst dich: Welche Ausbildung passt zu mir?\n\nEgal, ob du die Abwechslung liebst oder feste Strukturen bevorzugst, gerne nach Vorgaben arbeitest oder lieber eigene Ideen einbringst: Für jede Persönlichkeit gibt es Berufe, die besonders gut — oder eben überhaupt nicht — passen. Darum solltest du dir zuerst Gedanken darüber machen, welche Wünsche du hast und was du später erreichen möchtest. \n\nBerufstest: Welcher Beruf passt zu mir? \nMit unserem Berufstest kannst du in nur wenigen Minuten herausfinden, welcher Beruf am besten zu dir passt! Der Beruf-Test besteht insgesamt aus 21 Fragen. Nach jeweils drei Fragen findest du die Branche und mögliche Ausbildungsberufe, die zu dir passen könnten.\n\nBeruf-Test: Soziale Ader\n✅ Du bist kontaktfreudig und hilfst gerne anderen Menschen?\n✅ Du übernimmst oft die Verantwortung?\n✅ Du kannst dich gut in andere hineinversetzen?\n\nBeruf-Test: Verkaufstalent\n✅ Du kannst gut mit Zahlen umgehen?\n✅ Du willst auf der Arbeit am liebsten einen Anzug tragen?\n✅ Du wünschst dir einen Beruf mit Zukunft?\n\nBeruf-Test: Kreative Fähigkeiten\n✅ Du bist kreativ und steckst voller Ideen?\n✅ Teamarbeit macht dir Spaß?\n✅ Du hast ein Auge für Details?\n\nBeruf-Test: Technische Kenntnisse\n✅ Du kannst gut mit Computern und technischen Geräten umgehen?\n✅ Logisches Denken fällt dir leicht?\n✅ Bist du ein Perfektionist?\n\nBeruf-Test: Handwerkliche Kenntnisse\n✅ Besitzt du ein gutes Fingerspitzengefühl?\n✅ Bist du körperlich fit und packst gerne mit an?\n✅ Du kennst dich gut mit Handwerk und den verschiedensten Materialien aus?\n\nBeruf-Test: Gerechtigkeit und Ordnung\n✅ Du bist ein Organisationstalent?\n✅ Streitigkeiten konntest du schon immer klären?\n✅ Du hast einen ausgeprägten Gerechtigkeitssinn?\n\nBeruf-Test: Kulturelle Kompetenz\n✅ Gegenüber fremden Menschen und Kulturen bist du sehr aufgeschlossen?\n✅ Sprachen lernen macht dir Spaß?\n✅ Du kochst gerne?\n\nBeruf-Test: Tierliebe\n✅ Du besitzt ein oder mehrere Haustiere?\n✅ Bio zählt zu deinen Lieblingsfächern?\n✅ Du hast ein großes Einfühlungsvermögen?\n\n---------------------------------------------------------------------------------------------------------------------------\nWeitere Informationen findest du auf Instagram und TikTok: https://www.instagram.com/studyflix_app/\nhttps://www.tiktok.com/@studyflix\noder auf unserer Webseite: https://studyflix.de/​​​ \nHier geht´s zur kostenlosen Studyflix-App: \n- Play Store: https://play.google.com/store/apps/details?id=de.studyflix.studyflix&hl=de&gl=US\n- Apple Store: https://apps.apple.com/de/app/studyflix-deine-lernapp/id1514546785 \n--------------------------------------------------------------------------------------------------------------------------\nÜber uns: Studyflix ist eine junge, schnell wachsende E-Learning Plattform, auf der du kostenlose Lernvideos sowie 10.000 freie Ausbildungsplätze und Jobs findest! Jeden Tag kommt ein neues Video dazu! Von Handwerksberufen, sozialen und kaufmännischen Berufen bis hin zu kreativen Berufen und Berufen mit Zukunft -- alles ist dabei!",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=ruJTPQ8Whm4",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9498323e-73e2-4e7a-9832-3e73e2ee7afe&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768680491447-k161",
+          "name": "Berufsprofil Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=GA0wN-hmecs",
+          "search_query": "Berufsprofil",
+          "wlo_metadata": [
+            {
+              "nodeId": "ebb9fe62-8abf-4e86-b9fe-628abfbe86bd",
+              "title": "Wie wird man Fitnesstrainer*in? Dein Weg in den Beruf",
+              "description": "Du liebst Sport und möchtest deine Leidenschaft zum Beruf machen? Als Fitnesstrainer oder Fitnesstrainerin kannst du deine Freude an Bewegung und Gesundheit auch an andere weitergeben und ihnen dabei helfen, fit zu werden!⬇️⬇️⬇️\n\n✅ Zum Berufsprofil: 👉 https://link.ausbildung.de/5xGXGm\n\n▬▬ Videokapitel ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n00:00 – Intro\n00:16 – Worum geht‘s?\n00:36 – Aufgaben als Fitnesstrainer*in?\n01:14 – Was machen Fitnesstrainer*innen noch?\n01:46 – Was verdienen Fitnesstrainer*innen?\n02:38 – Outro \n\n❓ Ausbildung zum/zur Fitnesstrainer*in\nFitnesstrainer*in ist kein klassischer Ausbildungsberuf. Wenn du Fitnesstrainerin werden willst, kannst du entweder ein duales Studium im Bereich Gesundheit und Fitness machen oder verschiedene Ausbildungen absolvieren, z.B. zum/zur Sport- und Fitnesskaufmann/-frau. Dabei lernst du alles über den menschlichen Körper, wie Muskeln funktionieren und wie man richtig trainiert. Im kaufmännischen Teil bekommst du auch Skills in Marketing, Verkauf oder Buchhaltung beigebracht. Aber als Fitnesstrainer*in ist das Wichtigste, was du in der Praxis drauf hast. Du musst wissen, wie du Trainingspläne erstellst, Geräte richtig benutzt und deine Kund*innen bei Themen wie Ernährung und Muskelaufbau berätst.\n\n❓ Was machen Fitnesstrainer*innen?\nFitnesstrainer*innen stehen nicht nur auf der Fläche und trainieren. Natürlich macht das einen Großteil der Arbeit aus, sie sind aber für noch viel mehr verantwortlich. Du unterstützt deine Kund*innen durch die Erstellung von Trainingsplänen, übernimmst administrative Aufgaben und bist immer da, wenn Kund*innen Feedback oder Motivation brauchen. \n\n❓Trainer*in-Lizenz?\nIm Fitnessbereich läuft alles nach einem Lizenzsystem ab. Es gibt drei Level: C-, B- und A-Lizenz. Die C-Lizenz ist das Einsteiger-Ticket – hier lernst du die Basics zu Training, wie dein Körper funktioniert und was Muskeln so draufhaben.\nWenn du als Fitnesstrainer*in arbeiten willst, brauchst du die B-Lizenz. Da tauchst du tiefer in die Trainingswissenschaft ein und schnappst dir auch Know-how aus der Sportpsychologie. \nDie A-Lizenz ist die Königsklasse. Damit erstellst du nicht nur personalisierte Trainingspläne, sondern erkennst auch spezielle gesundheitliche Probleme und weißt, wie du sie im Fitnessbereich angehen kannst.\n\nWeitere Tipps rund um deine Ausbildung findest du auf Ausbildung.de: \n✅ Sport- und Fitnesskaufleute 👉 https://link.ausbildung.de/tAsdyO\n✅ Duales Studium Fitness 👉 https://link.ausbildung.de/nnhHUC\n✅ Mehr Infos zum Thema Gehalt 👉 https://link.ausbildung.de/Q77Cmj\n\n#ausbildung #ausbildungDE #beruf\n\nAusbildung.de auf Social Media: \n💻 https://www.tiktok.com/@ausbildung.de \n📱 https://www.instagram.com/ausbildung/ \nx\nAusbildung.de GmbH \nGeschäftsführung: Felix von Zittwitz, Tim Schormann \nWittener Str. 87 \nD - 44789 Bochum \n\nMusik: www.bensound.com",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=GA0wN-hmecs",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ebb9fe62-8abf-4e86-b9fe-628abfbe86bd&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "c279a855-6682-41b9-b9a8-55668241b938",
+              "title": "Bestbezahlte Ausbildungen 2025 – Top 10 💶💰",
+              "description": "In welcher Ausbildung gibt’s das höchste Gehalt? In diesem Video gibt’s alle aktuellen Zahlen, Infos und ein Top 10 Ranking der bestbezahlten Ausbildungen in 2025. ⬇️⬇️⬇️\n\nFolg uns auch auf Instagram und TikTok: 🙌 📱\nhttps://www.instagram.com/ausbildung/\nhttps://www.tiktok.com/@ausbildung.de\n\n✅ Top 15 bestbezahlte Ausbildungsberufe: 👉 https://link.ausbildung.de/yS443T\n\n▬▬ Videokapitel ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n00:00 – Intro\n00:13 – Geld ist wichtig, aber nicht alles.\n01:02 – Platz 10\n01:36 – Platz 9\n01:53 – Platz 8\n02:11 – Platz 7\n02:27 – Platz 6\n02:46 – Platz 5\n03:03 – Platz 4\n03:22 – Platz 3\n03:39 – Platz 2\n03:59 – Platz 1\n04:24 – Outro\n\n✅ Freie Ausbildungsplätze 2025: 👉 https://link.ausbildung.de/o8DJ39\n\n❗ Wichtig: Das Ranking bezieht sich auf die Ausbildungsvergütung, also wie viel du während der Ausbildung verdienst. Es geht also nicht um das Einstiegsgehalt nach der Ausbildung oder das generelle Durchschnittsgehalt in diesen Berufen, sondern um die Gehaltszahlen während der Ausbildung. Die Zahlen nach der Ausbildung schwanken immer sehr stark je nach Arbeitgeber, du findest mehr Infos dazu aber trotzdem bei uns auf Ausbildung.de im jeweiligen Berufsprofil. Beachte dabei: Bei den Zahlen handelt es sich um Richtwerte! Wenn du Fragen hast, schreib uns einen Kommentar oder eine Nachricht auf Instagram oder Tiktok. Wir freuen uns immer dort von dir zu hören.\n\n❓ Wie entsteht das Ranking der bestbezahlten Ausbildungen? 📑\nDie Gehaltszahlen der Berufe aus unserem Ranking sind aus verschiedenen Tarifverträgen. Da steht ganz genau drin, wie viel du in der Ausbildung verdienst. Manche Ausbildungen kannst du auch in verschiedenen Branchen machen, da gibt es dann auch unterschiedliche Tarifverträge. Es kann auch sein, dass du bei deinem Arbeitgeber nicht nach dem Tarifvertrag bezahlt wirst und dein Gehalt deswegen anders ausfällt. Willst du mehr zum Thema Tarifvertrag wissen, haben wir auf dieser Seite alle wichtigsten Infos für dich zusammengefasst: https://link.ausbildung.de/aWBqdm\n\nAlternativ haben wir zum Tarifvertrag auch noch ein eigenes Video. \n📺 Unser Video zum Tarifvertrag? 👉 https://youtu.be/0AjrbLKrR1I\n\nℹ️ Alle Infos zu den einzelnen Berufen ℹ️\n🏘️ Verwaltungsfachangestellte 👉 https://link.ausbildung.de/58Scl1\n👷‍♀️👷‍♂️ Maurer*innen 👉 https://link.ausbildung.de/ghl6oS\n💰 Kaufleute für Versicherungen und Finanzanlagen 👉 https://link.ausbildung.de/1ArE5d\n🏦 Bankkaufleute 👉 https://link.ausbildung.de/hld1cn\n👩‍⚕️👨‍⚕️ Pflegefachleute 👉 https://link.ausbildung.de/ntc4tR\n👩‍💼👨‍💼 Sozialversicherungsfachangestellte 👉 https://link.ausbildung.de/S27xjh\n🗃️ Verwaltungswirt*innen 👉 https://link.ausbildung.de/K9cn4Q\n👮‍♀️👮‍♂️ Polizist*innen 👉 https://link.ausbildung.de/CUhrmt\n🚢 Schiffsmechaniker*innen 👉 https://link.ausbildung.de/qyT05O\n🛫🛬 Fluglots*innen 👉 https://link.ausbildung.de/kUhvaW\n\nWeitere Tipps rund um deine Ausbildung findest du auf Ausbildung.de: \n✅ Alle Infos zum Gehalt in der Ausbildung 👉 https://link.ausbildung.de/akhUae\n✅ Alles zum Thema Bewerben 👉 https://link.ausbildung.de/eE1jh9 \n\n#ausbildung #ausbildungDE #ratgeber #gehalt \n\nAusbildung.de auf Social Media: \n💻 https://www.tiktok.com/@ausbildung.de \n📱 https://www.instagram.com/ausbildung/ \n\nAusbildung.de GmbH \nGeschäftsführung: Felix von Zittwitz, Tim Schormann\nWittener Str. 87 \nD - 44789 Bochum \n\nMusik: www.bensound.com",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=gYls_QTbcdQ",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c279a855-6682-41b9-b9a8-55668241b938&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "bb39bfc2-b226-42f8-b9bf-c2b22692f874",
+              "title": "Arbeit mit Ausblick! Was machen eigentlich Industriekletterer?",
+              "description": "Höher, schneller, sicherer – als Industriekletterer erlebst du täglich Abenteuer in schwindelerregenden Höhen! Ob du Fenster reinigst, Fassaden wartest oder sogar Windräder reparierst – dein Job ist alles nur nicht langweilig. Bereit, die Welt aus einer neuen Perspektive zu sehen? ⬇️⬇️⬇️\n\n✅ Zum Berufsprofil: 👉 https://link.ausbildung.de/QJMH7d\n\n▬▬ Videokapitel ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n00:00 – Intro\n00:14 – Was machen Industriekletterer?\n01:01 – Welche Skills braucht man?\n01:34 – Wie wird man Industriekletterer?\n02:12 – Wie viel verdienen Industriekletterer?\n02:48 – Was man noch wissen sollte.\n03:19 – Outro \n\n❓ Ausbildung zum Industriekletterer\nIndustriekletterer ist kein klassischer Ausbildungsberuf. Du willst trotzdem Industriekletterer werden? Der Weg in die Höhen ist spannend und vielseitig: Meist startest du mit einer Ausbildung im Handwerk, wie Dachdecker, Metallbauer oder Maler. Danach geht’s ans Eingemachte – mit speziellen Kursen wie der „FISAT-Ausbildung“ lernst du alles, was du für den sicheren Einsatz am Seil brauchst. Von Knotentechniken bis zur Rettung aus der Höhe: Hier wirst du fit gemacht für Jobs, bei denen Action garantiert ist. Klingt nach deinem Ding? Dann schnapp dir den Klettergurt und leg los!\n\n❓ Was machen Industriekletterer?\nDu willst hoch hinaus? Als Industriekletterer wirst du zum Profi für Arbeiten in schwindelerregenden Höhen – von Fassadenreinigung und Dachinspektionen über Montagearbeiten an Windrädern und Brücken bis hin zu Reparaturen, Wartungen oder sogar dem Schutz von Bauwerken vor Tauben. Mit Seil, Gurt und cooler Ausrüstung bist du immer sicher unterwegs und arbeitest dort, wo andere nur staunen. Klingt aufregend? Dann erfahre mehr über diesen außergewöhnlichen Beruf!\n\n\n❓Zukunft als Industriekletterer?\nHoch hinaus geht’s nicht nur im Job, sondern auch in deiner Karriere! Als Industriekletterer stehen dir viele Türen offen: Von Spezialeinsätzen in der Windkraft oder Industrie bis hin zur Arbeit in der Höhenrettung – die Nachfrage nach echten Profis wächst ständig. Mit Erfahrung und Weiterbildungen kannst du dich sogar auf bestimmte Bereiche spezialisieren und dein Gehalt ordentlich aufstocken. Deine Zukunft? Sicher, spannend und voller Möglichkeiten!\n\nWeitere Tipps rund um deine Ausbildung findest du auf Ausbildung.de: \n✅ Berufe mit Technik 👉 https://link.ausbildung.de/Njv9sT\n✅ Du brauchst Hilfe bei der Berufswahl? 👉 https://link.ausbildung.de/M6VRdK\n✅ Mehr Infos zum Thema Gehalt 👉 https://link.ausbildung.de/xkPqLm\n\n#ausbildung #ausbildungDE #beruf\n\nAusbildung.de auf Social Media: \n💻 https://www.tiktok.com/@ausbildung.de \n📱 https://www.instagram.com/ausbildung/ \nx\nAusbildung.de GmbH \nGeschäftsführung: Felix von Zittwitz, Tim Schormann \nWittener Str. 87 \nD - 44789 Bochum \n\nMusik: www.bensound.com",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=jYfBoO6xmFs",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=bb39bfc2-b226-42f8-b9bf-c2b22692f874&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV2-T1",
+          "name": "PCs/Notebooks",
+          "tool_type": "Endgeräte",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
       "services": [
         {
-          "id": "ENV1-S1",
-          "name": "Jobchecker",
-          "service_type": "interaktiven Anwendung „ JobChecker“",
-          "source": "manual",
-          "access_link": " www.jobchecker21.de"
+          "id": "ENV2-S1",
+          "name": "Jobchecker Dienst",
+          "service_type": "interaktive Anwendung",
+          "source": "extern",
+          "access_link": "https://www.jobchecker21.de"
         }
       ]
+    },
+    {
+      "id": "ENV3",
+      "name": "LMS-Kursraum",
+      "description": "Virtueller Kursraum für Bereitstellung von Materialien und Vorlagen.",
+      "materials": [
+        {
+          "id": "ENV3-M1",
+          "name": "Steckbrief Vorlage",
+          "material_type": "Arbeitsblatt",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Steckbrief Vorlage"
+        },
+        {
+          "id": "ENV3-M2",
+          "name": "Diskussionsfragen",
+          "material_type": "Arbeitsblatt",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Diskussionsfragen Berufsorientierung"
+        },
+        {
+          "id": "ENV3-M3",
+          "name": "Berufsfacts",
+          "material_type": "Übungsmaterial",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Berufsfacts"
+        },
+        {
+          "id": "ENV3-M4",
+          "name": "Elevator Anleitung",
+          "material_type": "Präsentation",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Elevator Pitch"
+        },
+        {
+          "id": "ENV3-M1768680483692-q93x",
+          "name": "Berufssteckbrief Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/Berufsorientierung/Ausbildungsberufe",
+          "search_query": "Berufssteckbrief",
+          "wlo_metadata": [
+            {
+              "nodeId": "46dea54c-e165-4a08-ba91-048b024187b8",
+              "title": "Berufsorientierung/Ausbildungsberufe",
+              "description": "Laut dem Verzeichnis der anerkannten Ausbildungsberufe des Bundesinstituts für Berufsbildung (Vgl. Bundesinstitut für Berufsbildung (Hrsg.) (2021): Verzeichnis der anerkannten Ausbildungsberufe 2021. Bonn: o. V.) gibt es in Deutschland 324 anerkannte Ausbildungsberufe.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Berufsorientierung/Ausbildungsberufe",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=46dea54c-e165-4a08-ba91-048b024187b8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "d10683cc-e42b-431a-91d4-0bde4d3a5d35",
+              "title": "Aufgaben Berufe - Steckbrief",
+              "description": "- Aufgaben Berufe - Steckbrief\n- b.jennemann\n- 30.06.2020\n- Förderschule\n- Deutsch\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nAufgaben Berufe - Steckbrief\n04.12.2016\nAufgaben zu Arbeitsplan Nr. 2, 3, 4 und 6\nAuf diesem Blatt findest du alle Aufgaben, die du mit Hilfe des Berufssteckbriefs beantworten kannst!\nSchaue dir dazu den Berufssteckbrief genau an und achte auf die Überschriften!\nBeantworte die Fragen in deiner Mappe!\n1\na) Wie lange dauert die Ausbildung?\nb) Wo findet die Ausbildung statt?\nb) Wo findet die Ausbildung statt?\n2\nAus einer Grafik auf dem Steckbrief kannst du erkennen, welcher Schulabschluss für die Ausbildung erwartet wird.\nSchreibe die Prozentzahlen zu den Bildungssgängen auf.\nErkläre außerdem, welche Schulfächer für den Beruf wichtig sind und warum.\nSchreibe die Prozentzahlen zu den Bildungssgängen auf.\nErkläre außerdem, welche Schulfächer für den Beruf wichtig sind und warum.\n3\nBeantworte folgende Frage für jedes Ausbildungsjahr:\nWie hoch ist das Gehalt ungefähr?\nWie hoch ist das Gehalt ungefähr?\n4\nAuf dem Berufssteckbrief werden wichtige Fähigkeiten und Stärken aufgezählt.\nWelche Fähigkeiten und Stärken sind für diesen Beruf wichtig?\nBesitzt du die einzelnen Fähigkeiten und Stärken auch?\nWelche Fähigkeiten und Stärken sind für diesen Beruf wichtig?\nBesitzt du die einzelnen Fähigkeiten und Stärken auch?\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/b9894350\nhttps://www.tutory.de/entdecken/dokument/b9894350 [...]",
+              "subject": "Deutsch",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/b9894350",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d10683cc-e42b-431a-91d4-0bde4d3a5d35&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV3-M1768680492546-3bnk",
+          "name": "Kleingruppenarbeit Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/0928258b-bbad-4250-a715-6965cd354e87",
+          "search_query": "Kleingruppenarbeit",
+          "wlo_metadata": [
+            {
+              "nodeId": "0928258b-bbad-4250-a715-6965cd354e87",
+              "title": "Kontextorientierte Unterrichtseinheit: Kartoffel",
+              "description": "In dieser Bachelorarbeit wird aufbauend auf fachdidaktischen Modellen eine kontextorientierte, inklusive Unterrichtseinheit für den Sachunterricht am Beispiel der Kartoffel entwickelt. Die dabei entstandenen Materialien stehen hier zum Nachnutzen bereit.",
+              "subject": "Sachunterricht",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Unterrichtsplan",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/0928258b-bbad-4250-a715-6965cd354e87",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=0928258b-bbad-4250-a715-6965cd354e87&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "8bfe3e34-8470-4e2a-bb56-b28b67b0fa94",
+              "title": "Bewegungsänderung von Elektronen (Gruppenarbeit) – EducETH - ETH-Kompetenzzentrum für Lehren und Lernen | ETH Zürich",
+              "description": "Eine Anleitung zur Durchführung einer Partner- und Kleingruppenarbeit zum Thema \nBewegungsänderung von Elektronen in elektrischen und magnetischen Feldern.",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://educ.ethz.ch/unterrichtsmaterialien/physik/bewegungsaenderung-von-elektronen-gruppenarbeit.html",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8bfe3e34-8470-4e2a-bb56-b28b67b0fa94&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "e58a57ae-6237-44cf-ae81-6ca2fb0d71e8",
+              "title": "WebQuest \"Luft\" - Müdigkeit im Klassenraum?",
+              "description": "Die Schülerinnen und Schüler setzen sich in Partner- oder Kleingruppenarbeit zunächst mit den allgemeinen Aspekten des Themas und den Eigenschaften von Luft auseinander. Ihnen wird deutlich, aus welchen Bestandteilen Luft besteht und wie sich dieses Stoffgemisch zusammensetzt. Sie sollen erkennen, dass Luft auch \"schmutzig\" werden kann. In diesem Zusammenhang werden auch Luftschadstoffe behandelt. Abschließend versuchen die Lernenden die Ausgangsfrage (Müdigkeit im Klassenzimmer) zu beantworten. Ihnen soll bewusst werden, dass Klassenräume regelmäßig gelüftet werden müssen, um im Unterricht ?fit? bleiben zu können.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/chemie/unterrichtseinheit/ue/webquest-luft-muedigkeit-im-klassenraum/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e58a57ae-6237-44cf-ae81-6ca2fb0d71e8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV3-M1768680483002-sowj",
+          "name": "Berufssteckbrief Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/b9894350",
+          "search_query": "Berufssteckbrief",
+          "wlo_metadata": [
+            {
+              "nodeId": "d10683cc-e42b-431a-91d4-0bde4d3a5d35",
+              "title": "Aufgaben Berufe - Steckbrief",
+              "description": "- Aufgaben Berufe - Steckbrief\n- b.jennemann\n- 30.06.2020\n- Förderschule\n- Deutsch\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nAufgaben Berufe - Steckbrief\n04.12.2016\nAufgaben zu Arbeitsplan Nr. 2, 3, 4 und 6\nAuf diesem Blatt findest du alle Aufgaben, die du mit Hilfe des Berufssteckbriefs beantworten kannst!\nSchaue dir dazu den Berufssteckbrief genau an und achte auf die Überschriften!\nBeantworte die Fragen in deiner Mappe!\n1\na) Wie lange dauert die Ausbildung?\nb) Wo findet die Ausbildung statt?\nb) Wo findet die Ausbildung statt?\n2\nAus einer Grafik auf dem Steckbrief kannst du erkennen, welcher Schulabschluss für die Ausbildung erwartet wird.\nSchreibe die Prozentzahlen zu den Bildungssgängen auf.\nErkläre außerdem, welche Schulfächer für den Beruf wichtig sind und warum.\nSchreibe die Prozentzahlen zu den Bildungssgängen auf.\nErkläre außerdem, welche Schulfächer für den Beruf wichtig sind und warum.\n3\nBeantworte folgende Frage für jedes Ausbildungsjahr:\nWie hoch ist das Gehalt ungefähr?\nWie hoch ist das Gehalt ungefähr?\n4\nAuf dem Berufssteckbrief werden wichtige Fähigkeiten und Stärken aufgezählt.\nWelche Fähigkeiten und Stärken sind für diesen Beruf wichtig?\nBesitzt du die einzelnen Fähigkeiten und Stärken auch?\nWelche Fähigkeiten und Stärken sind für diesen Beruf wichtig?\nBesitzt du die einzelnen Fähigkeiten und Stärken auch?\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/b9894350\nhttps://www.tutory.de/entdecken/dokument/b9894350 [...]",
+              "subject": "Deutsch",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/b9894350",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d10683cc-e42b-431a-91d4-0bde4d3a5d35&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV3-M1768680492686-hzsm",
+          "name": "Berufsprofile Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=UIi8qPgT_F4",
+          "search_query": "Berufsprofile",
+          "wlo_metadata": [
+            {
+              "nodeId": "99226c53-b3d4-41a8-a26c-53b3d411a8a7",
+              "title": "Die Schreiner Ausbildung im Überblick!",
+              "description": "Schneiden, Sägen, Pfeilen? Das der Beruf des Schreiners (Tischlers) einiges mehr zu bieten hat, zeigen wir Dir in unserem heutigen Video.\nViel Spaß!\n\nInhalte der Ausbildung: https://www.handwerk.de/berufsprofile/tischler-in-schreiner-in.html?gclid=CjwKCAjwjbCDBhAwEiwAiudBy7JQR6cJpfoq7jMXgQp-zTxgz8FZk6JTu2MeWkm1KJc7excXfRCLjhoCQIoQAvD_BwE\n\nAbonniere JobWiki auf Instagram:\nhttps://www.instagram.com/jobwiki.de/​​\n\nFolge JobWiki auf Facebook:\nhttps://www.facebook.com/jobwiki.de/​​\n\nFreunde, willkommen bei JobWiki!\nBei uns findet Ihr neben spannenden Berufen und interessanten Ranglisten auch Interviews, Erfahrungs- und Finanzberichte von Jobs aus aller Welt.\nWir haben es uns zur Aufgabe gemacht jungen Leuten einen Einblick in die Arbeitswelt zu geben und wollen Euch bei der Berufsorientierung unter die Arme greifen.\n\nAbonniert gerne unseren Kanal und gebt uns doch einen Daumen hoch, wenn Ihr mehr Videos von uns sehen wollt!\n\n#Schreiner #Ausbildung\n\nQuellen:\n https://www.azubi.de/beruf/ausbildung-tischler\n\nhttps://de.statista.com/statistik/daten/studie/206369/umfrage/anzahl-der-auszubildenden-zum-tischler/\n\nhttps://www.tischler.nrw/der-fachverband/zahlen-fakten/",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=UIi8qPgT_F4",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=99226c53-b3d4-41a8-a26c-53b3d411a8a7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "7920f2d1-1ff9-449f-a0f2-d11ff9549fb6",
+              "title": "Die Ausbildung zum Fliesenleger/-in im Überblick!",
+              "description": "Sichere Dir jetzt den JobWiki Karrierguide: https://jobwikiguide.gkmedien-bonn.de/ \n\nHallo Freunde, herzlich willkommen zu einem neuen Video auf unserem Kanal. Heute soll es ganz um die Ausbildung zum Fliesenleger/in gehen. Bleib außerdem bis zum Ende dran, wenn du bereit bist für eine Überraschung. Los geht’s!\n\nFolge JobWiki auf Facebook:\nhttps://www.facebook.com/jobwiki.de\n\nFrisch aus der Schule und keinen Plan von deiner Zukunft? Kennen wir!\nBei uns findest du deshalb das Wichtigste zu Studiengängen und Ausbildungen kurz und kompakt zusammengefasst. \nWir haben es uns außerdem zur Aufgabe gemacht jungen Leuten einen Einblick in die Organisation und Struktur des Bildungssektors zu verschaffen. Welche Berufsbranchen sind unterbesetzt, welcher Arbeitsmarkt hat die besten Zukunftsaussichten und wie funktioniert das Ausbildungs- und Hochschulwesen? \nHast du dir diese Fragen schon mal gestellt? Dann klick' dich durch unseren Kanal! \nHerzlich willkommen bei JobWiki!\n\nAbonniere gerne unseren Kanal, aktiviere die Mitteilungsglocke und gib uns doch einen Daumen hoch, wenn du mehr Videos von uns sehen willst!\n\nJobWiki ist eine Mitproduktion der G&K Mediengestaltung in Bonn. \nhttps://gkmediendesign.com\n\nAlle Rechte sind vorbehalten.\n\nQuellen:\nhttps://www.gehaltsvergleich.com/gehalt/Fliesenleger-in\nhttps://de.jobted.com/gehalt/fliesenleger\nhttps://www.aubi-plus.de/berufe/fliesen-platten-und-mosaikleger-66/\nhttps://de.talent.com/salary?job=Fliesenleger\nhttps://www.handwerk.de/infos-zur-ausbildung/ausbildungsberufe/berufsprofile/fliesen-platten-und-mosaiklegerin\nhttps://www.ausbildung.de/berufe/fliesenleger/\nhttps://www.kmk.org/themen/berufliche-schulen/duale-berufsausbildung/rahmenlehrplaene-und-ausbildungsordnungen.html\nhttps://de.wikipedia.org/wiki/Fliesenleger",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=BHALv-vdTHU",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7920f2d1-1ff9-449f-a0f2-d11ff9549fb6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "6db1a087-affd-49be-a1f5-2b03cd90e2c7",
+              "title": "Ausbildungsinfo: Gerüstbauer/-in werden",
+              "description": "Das Material zur Ausbildung als Gerüstbauerin von Handwerk macht Schule bietet Einblicke in die praktischen und technischen Aspekte dieses Berufes, wie das Aufbauen und Sichern von Baustellen-Gerüsten. Es richtet sich besonders an Schülerinnen und Schüler der Sekundarstufe I, die sich für handwerkliche Berufe interessieren und erste berufliche Einblicke erhalten möchten. Neben der Vermittlung technischer Fertigkeiten werden auch Sicherheitsaspekte und Verantwortungsbewusstsein thematisiert.",
+              "subject": "Metalltechnik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Hochschule",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Artikel",
+              "wwwUrl": "https://www.handwerk.de/infos-zur-ausbildung/ausbildungsberufe/berufsprofile/geruestbauerin?gclid=EAIaIQobChMI98KzuYeZ-QIVjqnVCh034QD2EAMYASAAEgKUnvD_BwE#details",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6db1a087-affd-49be-a1f5-2b03cd90e2c7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV3-T1",
+          "name": "LMS",
+          "tool_type": "Lernplattform",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": []
+    },
+    {
+      "id": "ENV-DEFAULT",
+      "name": "Standard-Lernumgebung",
+      "description": "Digitale Lernumgebung für WLO-Inhalte",
+      "materials": [],
+      "tools": [],
+      "services": []
     }
   ]
 }

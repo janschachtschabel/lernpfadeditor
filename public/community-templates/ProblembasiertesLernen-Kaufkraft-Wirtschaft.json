@@ -1,19 +1,21 @@
 {
   "metadata": {
     "title": "Finanzen weltweit: Verständnis globaler Währungen und Kaufkraft",
-    "description": "Ein interaktives Lernkonzept zur Einführung in globale Finanzen und Kaufkraft für Schüler der 7. Klasse.",
+    "description": "Interaktive Doppelstunde (90 min) zur Einführung in globale Währungen, Wechselkurse und Kaufkraftvergleich für die 7. Klasse.",
     "keywords": [
       "Finanzen",
       "Währungen",
       "Kaufkraft",
-      "Globalisierung",
-      "Interaktives Lernen"
+      "Wechselkurse",
+      "Globales Lernen"
     ],
     "author": "Jan Schachtschabel",
-    "version": "1.0"
+    "version": "1.1",
+    "created": "2026-01-17T23:35:35.574Z"
   },
   "problem": {
     "problem_description": "Schüler sollen die Vielfalt globaler Währungen und deren Einfluss auf die Kaufkraft verstehen, um globale wirtschaftliche Zusammenhänge zu erkennen.",
+    "description": "Schüler sollen die Vielfalt globaler Währungen und deren Einfluss auf die Kaufkraft verstehen, um globale wirtschaftliche Zusammenhänge zu erkennen.",
     "learning_goals": [
       "Kenntnis verschiedener Währungen und deren Länder",
       "Verständnis von Wechselkursen und deren Berechnung",
@@ -27,7 +29,8 @@
       "Globales Lernen",
       "Mathematische Kompetenzen",
       "Sozialkompetenz"
-    ]
+    ],
+    "challenges": []
   },
   "context": {
     "target_group": "Schüler der 7. Klasse",
@@ -51,28 +54,71 @@
     }
   ],
   "solution": {
-    "solution_description": "Durchführung einer interaktiven Unterrichtsstunde mit entdeckendem Lernen, bei der Schüler durch Partner- und Gruppenarbeit Wechselkurse berechnen und Kaufkraft vergleichen.",
-    "didactic_approach": "Entdeckendes Lernen mit interaktiven Elementen zur Förderung von Eigeninitiative und sozialer Interaktion.",
+    "solution_description": "Durchführung einer interaktiven Doppelstunde mit entdeckendem Lernen: Brainstorming, Partnerarbeit zur Umrechnung von Beträgen, Gruppenarbeit zum Kaufkraftvergleich und abschließende Präsentation und Reflexion.",
+    "approach": "Durchführung einer interaktiven Doppelstunde mit entdeckendem Lernen: Brainstorming, Partnerarbeit zur Umrechnung von Beträgen, Gruppenarbeit zum Kaufkraftvergleich und abschließende Präsentation und Reflexion.",
+    "didactic_approach": "Entdeckendes Lernen, kooperative Methoden, differenzierte Unterstützungsangebote; Nutzung kurzer digitaler Lernressourcen (WLO) zur Unterstützung von Erklärung und Übung.",
     "didactic_template": {
       "learning_sequences": [
         {
           "sequence_id": "LS1",
           "sequence_name": "Einführung in globale Währungen",
           "time_frame": "30 Minuten",
-          "learning_goal": "Schüler lernen verschiedene Währungen und deren Länder kennen.",
+          "learning_goal": "Schüler lernen verschiedene Währungen und deren Länder kennen und verstehen Grundbegriffe von Wechselkursen.",
           "phases": [
             {
               "phase_id": "LS1-P1",
-              "phase_name": "Aktivierung des Vorwissens",
+              "phase_name": "Aktivierung",
               "time_frame": "10 Minuten",
-              "learning_goal": "Vorhandenes Wissen über Geld und Währungen aktivieren.",
+              "learning_goal": "Vorwissen über Geld und Währungen aktivieren und Interesse wecken.",
               "activities": [
                 {
                   "activity_id": "LS1-P1-A1",
-                  "name": "Brainstorming",
-                  "description": "Schüler nennen Währungen, die sie kennen, und ordnen sie den entsprechenden Ländern zu.",
+                  "name": "Brainstorming Währungen",
+                  "description": "Lehrkraft sammelt an der Tafel Währungsnamen und Länder; Schüler nennen Beispiele aus Alltag und Medien.",
                   "duration": 10,
-                  "goal": "Sammlung bekannter Währungen und Länder",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet das Brainstorming, notiert Währungsnamen und Länder auf dem Plakat, verbindet Beiträge mit Alltags- und Medienbeispielen.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M7",
+                          "ENV1-M1768693032554-py82"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Nennt Beispiele aus Alltag und Medien, schlägt Währungen/Länder vor und diskutiert kurz Unterschiede.",
+                      "selected_differentiation": [
+                        "diff_A2_1768693018971_0",
+                        "diff_A2_1768693018971_1",
+                        "diff_A2_1768693018971_2",
+                        "diff_A2_1768693018971_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M1768693024603-cwtv",
+                          "ENV1-M1768693029817-71mw"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Sammlung bekannter Währungen und Zuordnung zu Ländern",
                   "prerequisite_activity": null,
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -82,41 +128,14 @@
                   "assessment": {
                     "type": "formativ",
                     "methods": [
-                      "Mündliche Beiträge"
+                      "Mündliche Beiträge",
+                      "Tafelübersicht"
                     ],
                     "criteria": [
                       "Aktive Teilnahme",
-                      "Korrektheit der Zuordnungen"
+                      "Korrekte Zuordnungen"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P1-A1-R1",
-                      "role_name": "Lehrkraft",
-                      "actor_id": "A1",
-                      "task_description": "Moderiert das Brainstorming und notiert die Beiträge an der Tafel.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [
-                          "ENV1-T1"
-                        ],
-                        "selected_services": []
-                      }
-                    },
-                    {
-                      "role_id": "LS1-P1-A1-R2",
-                      "role_name": "Schüler",
-                      "actor_id": "A2",
-                      "task_description": "Nennen Währungen und ordnen sie Ländern zu.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": null,
@@ -126,16 +145,60 @@
             },
             {
               "phase_id": "LS1-P2",
-              "phase_name": "Erarbeitung der Wechselkurse",
+              "phase_name": "Erarbeitung",
               "time_frame": "20 Minuten",
-              "learning_goal": "Schüler verstehen, wie man Wechselkurse berechnet und Geldbeträge umrechnet.",
+              "learning_goal": "Schüler verstehen, wie Wechselkurse berechnet werden und wenden einfache Umrechnungen an.",
               "activities": [
                 {
                   "activity_id": "LS1-P2-A1",
-                  "name": "Partnerarbeit: Wechselkurse berechnen",
-                  "description": "Schüler arbeiten in Paaren und rechnen vorgegebene Geldbeträge in andere Währungen um.",
-                  "duration": 20,
-                  "goal": "Anwendung mathematischer Fähigkeiten in realen Kontexten",
+                  "name": "Partnerarbeit: Wechselkurse rechnen",
+                  "description": "Schülerpaare erhalten kurze Aufgaben (Arbeitsblatt + Video) und rechnen Beträge zwischen Euro und Fremdwährung um.",
+                  "duration": 15,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Erklärt Aufgabenstellung der Partnerarbeit, führt in das Video ein, unterstützt bei Umrechnungsregeln und beobachtet Paare.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M7",
+                          "ENV1-M1768693035015-fgfy"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Bearbeitung",
+                      "actor_id": "A2",
+                      "task_description": "Arbeitet im Partnerteam anhand des Arbeitsblatts, nutzt das Video zur Verdeutlichung und rechnet Beträge zwischen Euro und Fremdwährung um.",
+                      "selected_differentiation": [
+                        "diff_A2_1768693018971_0",
+                        "diff_A2_1768693018971_1",
+                        "diff_A2_1768693018971_2",
+                        "diff_A2_1768693018971_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4",
+                          "ENV1-M3",
+                          "ENV1-M1768693033642-dtor"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Anwendung von Grundrechenarten auf reale Wechselkurssituationen",
                   "prerequisite_activity": "LS1-P1-A1",
                   "transition_type": "parallel",
                   "condition_description": null,
@@ -145,37 +208,59 @@
                   "assessment": {
                     "type": "formativ",
                     "methods": [
-                      "Arbeitsblätter überprüfen"
+                      "Sichtung der bearbeiteten Arbeitsblätter",
+                      "Gezielte Fragen der Lehrkraft"
                     ],
                     "criteria": [
                       "Richtigkeit der Berechnungen",
+                      "Saubere Darstellung des Rechenwegs",
                       "Zusammenarbeit im Team"
                     ]
-                  },
+                  }
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "Kurzfeedback",
+                  "description": "Lehrkraft sammelt zwei Beispiele an der Tafel, klärt typische Fehler kurz und gibt Tipps zur Umrechnung.",
+                  "duration": 5,
                   "roles": [
                     {
-                      "role_id": "LS1-P2-A1-R1",
-                      "role_name": "Lehrkraft",
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Feedbackgeber",
                       "actor_id": "A1",
-                      "task_description": "Erklärt die Aufgabe und steht für Fragen zur Verfügung.",
+                      "task_description": "Sammelt zwei typische Beispiele an der Tafel, erklärt typische Fehler bei der Umrechnung kurz und gibt konkrete Tipps zur Vorgehensweise.",
+                      "selected_differentiation": [],
                       "learning_environment": {
                         "environment_id": "ENV1",
                         "selected_materials": [
-                          "ENV1-M1"
+                          "ENV1-M4",
+                          "ENV1-M7",
+                          "ENV1-M1768693030093-t82v"
                         ],
-                        "selected_tools": [],
+                        "selected_tools": [
+                          "ENV1-T3",
+                          "ENV1-T1"
+                        ],
                         "selected_services": []
                       }
                     },
                     {
-                      "role_id": "LS1-P2-A1-R2",
-                      "role_name": "Schülerpaare",
+                      "role_id": "LS1-P2-A2-R2",
+                      "role_name": "Reflexion",
                       "actor_id": "A2",
-                      "task_description": "Berechnen die Umrechnung von Geldbeträgen mithilfe der Wechselkurse.",
+                      "task_description": "Hört die Korrekturen an, überprüft eigene Lösungen und notiert die Hinweise zur Vermeidung typischer Fehler.",
+                      "selected_differentiation": [
+                        "diff_A2_1768693018971_0",
+                        "diff_A2_1768693018971_1",
+                        "diff_A2_1768693018971_2",
+                        "diff_A2_1768693018971_3"
+                      ],
                       "learning_environment": {
                         "environment_id": "ENV1",
                         "selected_materials": [
-                          "ENV1-M1"
+                          "ENV1-M4",
+                          "ENV1-M1768693026036-hoa0",
+                          "ENV1-M1768693031673-87ck"
                         ],
                         "selected_tools": [
                           "ENV1-T2"
@@ -183,7 +268,24 @@
                         "selected_services": []
                       }
                     }
-                  ]
+                  ],
+                  "goal": "Fehlerklärung und Sicherung des Rechenwegs",
+                  "prerequisite_activity": "LS1-P2-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS2-P1-A1"
+                  ],
+                  "assessment": {
+                    "type": "formativ",
+                    "methods": [
+                      "Mündliche Rückmeldung"
+                    ],
+                    "criteria": [
+                      "Verständnis der Umrechnungsregeln",
+                      "Verbesserung nach Feedback"
+                    ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS1-P1",
@@ -192,33 +294,147 @@
               "next_phase": null
             }
           ],
-          "prerequisite_learningsequences": [],
+          "prerequisite_sequence": null,
           "transition_type": "sequential",
           "condition_description": null,
-          "next_learningsequence": [
-            "LS2"
-          ]
+          "next_sequence": null
         },
         {
           "sequence_id": "LS2",
           "sequence_name": "Vergleich der Kaufkraft",
           "time_frame": "60 Minuten",
-          "learning_goal": "Schüler vergleichen die Kaufkraft verschiedener Länder anhand von Konsumgütern und Taschengeld.",
+          "learning_goal": "Schüler vergleichen die Kaufkraft verschiedener Länder anhand typischer Konsumgüter und reflektieren über Unterschiede.",
           "phases": [
             {
               "phase_id": "LS2-P1",
-              "phase_name": "Analyse von Konsumgütern",
+              "phase_name": "Erarbeitung / Analyse",
               "time_frame": "30 Minuten",
-              "learning_goal": "Schüler setzen den Wert von Konsumgütern ins Verhältnis zum Taschengeld.",
+              "learning_goal": "Schüler setzen Preise in Relation zu Taschengeld und berechnen Kaufkraftindikatoren.",
               "activities": [
                 {
                   "activity_id": "LS2-P1-A1",
-                  "name": "Gruppenarbeit: Kaufkraftvergleich",
-                  "description": "In Gruppen analysieren die Schüler die Preise von Konsumgütern in verschiedenen Ländern.",
-                  "duration": 30,
-                  "goal": "Verständnis für globale Unterschiede in der Kaufkraft entwickeln",
+                  "name": "Gruppenarbeit: Preise vergleichen",
+                  "description": "Kleine Gruppen analysieren vorgegebene Preise verschiedener Länder mithilfe eines Datenblatts und berechnen, wie viel ein typisches Taschengeld dort wert wäre.",
+                  "duration": 15,
+                  "roles": [
+                    {
+                      "role_id": "LS2-P1-A1-R1",
+                      "role_name": "Begleitung",
+                      "actor_id": "A1",
+                      "task_description": "Führt in die Gruppenaufgabe ein, erläutert das Datenblatt zur Kaufkraft und unterstützt bei methodischen Fragen.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M5",
+                          "ENV1-M7",
+                          "ENV1-M1768693024876-h3xf",
+                          "ENV1-M1768693031478-zccm"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P1-A1-R2",
+                      "role_name": "Analyse",
+                      "actor_id": "A2",
+                      "task_description": "Analysiert die vorgegebenen Preise mithilfe des Datenblatts, berechnet den Wert des typischen Taschengelds und nutzt ggf. die Simulation zur Veranschaulichung.",
+                      "selected_differentiation": [
+                        "diff_A2_1768693018971_0",
+                        "diff_A2_1768693018971_1",
+                        "diff_A2_1768693018971_2",
+                        "diff_A2_1768693018971_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M5",
+                          "ENV1-M6",
+                          "ENV1-M1768693033675-ki3y",
+                          "ENV1-M1768693029037-a61o"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Verständnis für relative Kaufkraft entwickeln",
                   "prerequisite_activity": "LS1-P2-A1",
                   "transition_type": "parallel",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS2-P1-A2"
+                  ],
+                  "assessment": {
+                    "type": "formativ",
+                    "methods": [
+                      "Beobachtung",
+                      "Zwischenabfrage durch Lehrkraft"
+                    ],
+                    "criteria": [
+                      "Korrekte Umrechnung und Vergleiche",
+                      "Teamarbeit und Rollenverteilung in der Gruppe"
+                    ]
+                  }
+                },
+                {
+                  "activity_id": "LS2-P1-A2",
+                  "name": "Plakatgestaltung",
+                  "description": "Gruppen bereiten ein kurzes Plakat oder digitale Folie vor, das ihre wichtigsten Vergleiche und eine Antwort auf die Leitfrage zeigt: ‚Wofür reicht Taschengeld?‘",
+                  "duration": 15,
+                  "roles": [
+                    {
+                      "role_id": "LS2-P1-A2-R1",
+                      "role_name": "Beratung",
+                      "actor_id": "A1",
+                      "task_description": "Gibt Hinweise zur Gestaltung des Plakats/Folien, stellt gestalterische Kriterien vor und verteilt Materialien.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M7",
+                          "ENV1-M1768693031197-rsop",
+                          "ENV1-M1768693037562-97e7"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P1-A2-R2",
+                      "role_name": "Gestaltung",
+                      "actor_id": "A2",
+                      "task_description": "Erstellt ein kurzes Plakat oder eine digitale Folie mit den wichtigsten Vergleichen und einer Antwort auf die Leitfrage ‚Wofür reicht Taschengeld?‘.",
+                      "selected_differentiation": [
+                        "diff_A2_1768693018971_0",
+                        "diff_A2_1768693018971_1",
+                        "diff_A2_1768693018971_2",
+                        "diff_A2_1768693018971_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M5",
+                          "ENV1-M1768693025834-gdb6",
+                          "ENV1-M1768693032120-lpac"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T3"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Ergebnisaufbereitung und Visualisierung für die Präsentation",
+                  "prerequisite_activity": "LS2-P1-A1",
+                  "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [
                     "LS2-P2-A1"
@@ -227,45 +443,13 @@
                     "type": "formativ",
                     "methods": [
                       "Beobachtung",
-                      "Gruppenpräsentation"
+                      "Kurze Checkliste (Inhalte, Verständlichkeit)"
                     ],
                     "criteria": [
-                      "Korrekte Analysen",
-                      "Teamarbeit"
+                      "Deutliche Visualisierung der Ergebnisse",
+                      "Klare Schlussfolgerungen"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS2-P1-A1-R1",
-                      "role_name": "Lehrkraft",
-                      "actor_id": "A1",
-                      "task_description": "Unterstützt die Gruppen und gibt Hilfestellungen.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [
-                          "ENV1-M2"
-                        ],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    },
-                    {
-                      "role_id": "LS2-P1-A1-R2",
-                      "role_name": "Schülergruppen",
-                      "actor_id": "A2",
-                      "task_description": "Analysieren die Daten und bereiten eine kurze Präsentation vor.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [
-                          "ENV1-M2"
-                        ],
-                        "selected_tools": [
-                          "ENV1-T2"
-                        ],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": null,
@@ -275,17 +459,59 @@
             },
             {
               "phase_id": "LS2-P2",
-              "phase_name": "Präsentation und Diskussion",
+              "phase_name": "Sicherung / Präsentation",
               "time_frame": "30 Minuten",
-              "learning_goal": "Schüler fassen ihre Ergebnisse zusammen und diskutieren globale finanzielle Zusammenhänge.",
+              "learning_goal": "Ergebnisse präsentieren, diskutieren und globale Zusammenhänge reflektieren.",
               "activities": [
                 {
                   "activity_id": "LS2-P2-A1",
                   "name": "Kugellagergespräch",
-                  "description": "Schüler präsentieren ihre Ergebnisse in wechselnden Partnergesprächen.",
+                  "description": "Schüler präsentieren ihr Ergebnis in kurzen wechselnden Partnergesprächen (Kugellager), sammeln Rückfragen und Vergleichspunkte.",
                   "duration": 15,
-                  "goal": "Förderung der Kommunikationsfähigkeiten",
-                  "prerequisite_activity": "LS2-P1-A1",
+                  "roles": [
+                    {
+                      "role_id": "LS2-P2-A1-R1",
+                      "role_name": "Organisation",
+                      "actor_id": "A1",
+                      "task_description": "Organisiert das Kugellager (Partnerwechsel, Zeitrahmen), gibt Fragestellungen vor und moderiert Übergänge.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M7"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P2-A1-R2",
+                      "role_name": "Präsentation",
+                      "actor_id": "A2",
+                      "task_description": "Präsentiert kurz die Gruppenergebnisse in wechselnden Partnergesprächen, sammelt Rückfragen und Vergleichspunkte.",
+                      "selected_differentiation": [
+                        "diff_A2_1768693018971_0",
+                        "diff_A2_1768693018971_1",
+                        "diff_A2_1768693018971_2",
+                        "diff_A2_1768693018971_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4",
+                          "ENV1-M5",
+                          "ENV1-M1768693031577-6d08",
+                          "ENV1-M1768693026783-vo9s"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Förderung kommunikativer Kompetenz und Peer-Feedback",
+                  "prerequisite_activity": "LS2-P1-A2",
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [
@@ -294,46 +520,66 @@
                   "assessment": {
                     "type": "formativ",
                     "methods": [
-                      "Beobachtung"
+                      "Beobachtung",
+                      "Kurznotizen"
                     ],
                     "criteria": [
                       "Aktive Teilnahme",
-                      "Verständliche Zusammenfassungen"
+                      "Klarheit der Darstellung"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS2-P2-A1-R1",
-                      "role_name": "Lehrkraft",
-                      "actor_id": "A1",
-                      "task_description": "Organisiert das Kugellager und moderiert bei Bedarf.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    },
-                    {
-                      "role_id": "LS2-P2-A1-R2",
-                      "role_name": "Schüler",
-                      "actor_id": "A2",
-                      "task_description": "Präsentieren ihre Ergebnisse und tauschen sich aus.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 },
                 {
                   "activity_id": "LS2-P2-A2",
                   "name": "Abschlussdiskussion",
-                  "description": "Gemeinsame Reflexion über die globalen finanziellen Zusammenhänge und den eigenen Standort in der Welt.",
+                  "description": "Plenumsdiskussion: Lehrkraft moderiert Fragen wie ‚Was bedeutet Kaufkraft für Lebensstandard?‘ und leitet Reflexion zur eigenen Lebenswelt ein.",
                   "duration": 15,
-                  "goal": "Vertieftes Verständnis und persönliche Reflexion",
+                  "roles": [
+                    {
+                      "role_id": "LS2-P2-A2-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Abschlussdiskussion, stellt Leitfragen wie ‚Was bedeutet Kaufkraft für Lebensstandard?‘ und lenkt die Reflexion auf die eigene Lebenswelt.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M7",
+                          "ENV1-M5",
+                          "ENV1-M1768693037315-1uh7",
+                          "ENV1-M1768693036809-14fq"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P2-A2-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Beteiligt sich an der Plenumsdiskussion, reflektiert Bedeutung von Kaufkraft und vergleicht die Ergebnisse mit der eigenen Lebensrealität.",
+                      "selected_differentiation": [
+                        "diff_A2_1768693018971_0",
+                        "diff_A2_1768693018971_1",
+                        "diff_A2_1768693018971_2",
+                        "diff_A2_1768693018971_3"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M5",
+                          "ENV1-M6",
+                          "ENV1-M1768693035300-b4az",
+                          "ENV1-M1768693035579-azik"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Vertiefte Reflexion und Transfer auf eigene Lebenswirklichkeit",
                   "prerequisite_activity": "LS2-P2-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -341,39 +587,14 @@
                   "assessment": {
                     "type": "summativ",
                     "methods": [
-                      "Mündliche Beiträge"
+                      "Mündliche Beiträge",
+                      "Kurzreflexion (optional als Hausaufgabe)"
                     ],
                     "criteria": [
                       "Tiefe der Reflexion",
-                      "Engagement"
+                      "Bezug zu konkreten Beispielen"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS2-P2-A2-R1",
-                      "role_name": "Lehrkraft",
-                      "actor_id": "A1",
-                      "task_description": "Moderiert die Diskussion und fasst die Kernergebnisse zusammen.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    },
-                    {
-                      "role_id": "LS2-P2-A2-R2",
-                      "role_name": "Schüler",
-                      "actor_id": "A2",
-                      "task_description": "Beteiligen sich an der Diskussion und teilen persönliche Eindrücke.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS2-P1",
@@ -382,12 +603,10 @@
               "next_phase": null
             }
           ],
-          "prerequisite_learningsequences": [
-            "LS1"
-          ],
+          "prerequisite_sequence": null,
           "transition_type": "sequential",
           "condition_description": null,
-          "next_learningsequence": []
+          "next_sequence": null
         }
       ]
     }
@@ -406,15 +625,19 @@
   "implementation_notes": [
     {
       "note_id": "Note1",
-      "description": "Arbeitsblätter und Materialien im Voraus vorbereiten und auf Verständlichkeit prüfen."
+      "description": "Arbeitsblätter und digitale Materialien (WLO) im Voraus prüfen und Links/IDs bereitlegen."
     },
     {
       "note_id": "Note2",
-      "description": "Visuelle Hilfsmittel nutzen, um Schüler mit sprachlichen Schwierigkeiten zu unterstützen."
+      "description": "Visuelle Hilfsmittel (Plakate, Tabellen) nutzen, um sprachlich schwächere Schüler zu unterstützen."
     },
     {
       "note_id": "Note3",
-      "description": "Bei Bedarf Differenzierungsangebote für schnellere oder langsamere Lerner bereitstellen."
+      "description": "Differenzierungsangebote: Zusatzaufgaben für schnellere Gruppen und strukturierte Hilfestellungen (Rechenhilfen) für schwächere Lernende."
+    },
+    {
+      "note_id": "Note4",
+      "description": "Zeitmanagement beachten: Aktivitäten so timen, dass die Präsentationsphase nicht gekürzt wird."
     }
   ],
   "related_patterns": [
@@ -436,7 +659,48 @@
       }
     ]
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "WLO1",
+      "name": "Wechselkurs Video",
+      "material_type": "Video",
+      "source": "WLO",
+      "access_link": "",
+      "search_query": "Wechselkurse"
+    },
+    {
+      "id": "WLO2",
+      "name": "Wechselkurs Aufgaben",
+      "material_type": "Arbeitsblatt",
+      "source": "WLO",
+      "access_link": "",
+      "search_query": "Wechselkurse"
+    },
+    {
+      "id": "WLO3",
+      "name": "Kaufkraft Daten",
+      "material_type": "Übungsmaterial",
+      "source": "WLO",
+      "access_link": "",
+      "search_query": "Kaufkraft"
+    },
+    {
+      "id": "WLO4",
+      "name": "Kaufkraft Simulation",
+      "material_type": "Interaktives Medium",
+      "source": "WLO",
+      "access_link": "",
+      "search_query": "Kaufkraft"
+    },
+    {
+      "id": "WLO5",
+      "name": "Lehrer Präsentation",
+      "material_type": "Präsentation",
+      "source": "WLO",
+      "access_link": "",
+      "search_query": "Wechselkurse"
+    }
+  ],
   "actors": [
     {
       "id": "A1",
@@ -444,7 +708,9 @@
       "type": "Einzelperson",
       "demographic_data": {
         "age": 35,
+        "age_range": "",
         "gender": "weiblich",
+        "gender_distribution": "",
         "ethnic_background": "deutsch"
       },
       "education": {
@@ -520,7 +786,9 @@
       "name": "7. Klasse",
       "type": "Gruppe",
       "demographic_data": {
+        "age": 0,
         "age_range": "12-13",
+        "gender": "",
         "gender_distribution": "gemischt",
         "ethnic_background": "divers"
       },
@@ -586,50 +854,989 @@
       "social_structure": {
         "group_size": 22,
         "heterogeneity": "hoch"
-      }
+      },
+      "differentiation_options": [
+        {
+          "id": "diff_A2_1768693018971_0",
+          "label": "Vereinfachte Sprache & klare Struktur",
+          "description": "Aufgaben, Erklärungen und Arbeitsanweisungen in kurzer, einfacher Sprache formulieren und logisch gegliedert bereitstellen.",
+          "hints": [
+            "Verwende kurze Sätze, aktive Verben und vermeide Nebensätze; wichtigste Information an den Satzanfang stellen.",
+            "Arbeitsaufträge nummerieren und in Einzelschritten formulieren (Schritt 1, Schritt 2…), damit die Sequenz klar bleibt.",
+            "Wichtige Fachbegriffe kursiv/markiert wiederholen und kurz in Klammern erklären (z. B. Durchschnitt = Mittelwert)."
+          ]
+        },
+        {
+          "id": "diff_A2_1768693018971_1",
+          "label": "Visualisierte Anweisungen und Aufgaben",
+          "description": "Instruktionen und Aufgaben mit Bildern, Symbolen, Farbmarkierungen und Diagrammen unterstützen, um sprachliche Barrieren zu reduzieren.",
+          "hints": [
+            "Zu jeder Aufgabe ein Icon oder Bild hinzufügen, das die Handlung visualisiert (z. B. Waage-Symbol bei Gewichtsaufgaben).",
+            "Schrittfolgen mit Pfeilen und Farbblöcken darstellen; Farben konsequent für wiederkehrende Bedeutungen nutzen (z. B. grün = rechnen, blau = zeichnen).",
+            "Arbeitsblätter um grafische Beispiele und eine Musterlösung ergänzen, sodass Schüler den Lösungsweg sehen können."
+          ]
+        },
+        {
+          "id": "diff_A2_1768693018971_2",
+          "label": "Wortschatz‑Vorentlastung mit Bild‑Glossar",
+          "description": "Wichtige mathematisch‑fachliche und sachkundliche Begriffe vor der Stunde einführen, mit Bildern, einfachen Definitionen und Beispielsätzen.",
+          "hints": [
+            "Kurz vor der Einheit 8–10 zentrale Begriffe in einer 5‑Minuten‑Mini‑Einführung zeigen; Wörter mit Bild und einem Beispielsatz versehen.",
+            "Ein kleines Glossar auf dem Arbeitsblatt oder als Karteikarten bereitstellen, das Schüler während der Aufgaben nutzen können.",
+            "Begriffe auch nonverbal üben: Begriffs‑Karten sortieren lassen oder zu Begriffen passende Zeichnungen zuordnen."
+          ]
+        },
+        {
+          "id": "diff_A2_1768693018971_3",
+          "label": "Satzgestelle, Formulierungshilfen & Musterlösungen",
+          "description": "Vorformulierte Satzanfänge, Rechen‑ und Erklärungsrahmen sowie kommentierte Musterlösungen bereitstellen, die sprachliche Produktion erleichtern.",
+          "hints": [
+            "Aufgaben mit Satzanfängen anbieten (z. B. „Das Ergebnis ist…“, „Zuerst habe ich…“) und Beispiele mündlich modellieren.",
+            "Für Textaufgaben strukturierte Notizzettel mit Feldern (Gegeben, Gesucht, Rechnung, Antwort) bereitstellen.",
+            "Musterlösungen schrittweise zeigen und jeweils mit einfachen Erklärungen versehen, sodass Schüler eigene Lösungen daran orientieren können."
+          ]
+        }
+      ]
     }
   ],
   "environments": [
     {
       "id": "ENV1",
       "name": "Klassenzimmer",
-      "description": "Standard-Klassenraum mit Tafel, Beamer und Möglichkeit zur Gruppenarbeit.",
+      "description": "Präsenzunterricht im Klassenraum",
       "materials": [
         {
-          "id": "ENV1-M1",
-          "name": "Arbeitsblatt Wechselkurse",
-          "material_type": "Arbeitsblatt",
-          "source": "Intern",
-          "access_link": "materials/wechselkurse.pdf",
-          "filter_criteria": {}
+          "id": "ENV1-M3",
+          "name": "Wechselkurs Video",
+          "material_type": "Video",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Wechselkurse"
         },
         {
-          "id": "ENV1-M2",
-          "name": "Datenblatt Konsumgüterpreise",
-          "material_type": "Datenblatt",
-          "source": "Intern",
-          "access_link": "materials/konsumgueter.pdf",
-          "filter_criteria": {}
+          "id": "ENV1-M4",
+          "name": "Wechselkurs Aufgaben",
+          "material_type": "Arbeitsblatt",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Wechselkurse"
+        },
+        {
+          "id": "ENV1-M5",
+          "name": "Kaufkraft Daten",
+          "material_type": "Übungsmaterial",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Kaufkraft"
+        },
+        {
+          "id": "ENV1-M6",
+          "name": "Kaufkraft Simulation",
+          "material_type": "Interaktives Medium",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Kaufkraft"
+        },
+        {
+          "id": "ENV1-M7",
+          "name": "Lehrer Präsentation",
+          "material_type": "Präsentation",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Wechselkurse"
+        },
+        {
+          "id": "ENV1-M1768693032554-py82",
+          "name": "Währungen Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/politik/hintergrund-aktuell/69825/dollar-unter-druck-22-11-2007",
+          "search_query": "Währungen",
+          "wlo_metadata": [
+            {
+              "nodeId": "36c57be2-6f47-49b9-a717-c51dd463fc37",
+              "title": "Dollar unter Druck",
+              "description": "Am Dienstag senkte die amerikanische Notenbank ihre Wachstumsprognose, der Dollar fiel darauf am Mittwoch auf einen neuen Tiefstand, während der Ölpreis kurzfristig auf Rekordhoch kletterte. Ölexporteure spekulieren nun, ihre Geschäfte nicht mehr in ",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/politik/hintergrund-aktuell/69825/dollar-unter-druck-22-11-2007",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=36c57be2-6f47-49b9-a717-c51dd463fc37&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 92
+            },
+            {
+              "nodeId": "ef501226-9954-4d2e-a93a-988cc58d9e88",
+              "title": "Analyse: Geldpolitik in der Ukraine: Erfolgsgeschichte unter besonderen Umfeldbedingungen",
+              "description": "Mit einer vorsichtigen Zinspolitik hat die Zentralbank der Ukraine maßgeblich zur Disinflation im vergangenen Jahr beigetragen, kommentieren die Autoren. Zum Erfolg haben neben den Bemühungen der Bank aber auch besonders positive Rahmenbedingungen, w",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/internationales/europa/ukraine/306003/analyse-geldpolitik-in-der-ukraine-erfolgsgeschichte-unter-besonderen-umfeldbedingungen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ef501226-9954-4d2e-a93a-988cc58d9e88&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 75
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693024603-cwtv",
+          "name": "Währungen Welt Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://serlo.org/214672",
+          "search_query": "Währungen Welt",
+          "wlo_metadata": [
+            {
+              "nodeId": "fce2f5a7-160c-44fb-a9db-97a309c5236f",
+              "title": "Nachhaltige Geldanlagen",
+              "description": "Wichtigstes Auswahlkriterium für eine Geldanlage ist in der Regel der zu erwartende Gewinn. Allerdings sollte man auch berücksichtigen, …",
+              "subject": "Biologie",
+              "educationalContext": [],
+              "resourceType": "Bild",
+              "wwwUrl": "https://serlo.org/214672",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=fce2f5a7-160c-44fb-a9db-97a309c5236f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "e640f930-a0aa-4952-b6ca-529d228b1ce0",
+              "title": "Spezielle Funktionen ",
+              "description": "Neben den Funktionen, die man zum Rechnen benutzt, gibt es auch noch weitere Funktionen. Eine Auswahl der wichtigsten speziellen Funktionen …",
+              "subject": "Informatik",
+              "educationalContext": [],
+              "resourceType": "Bild",
+              "wwwUrl": "https://serlo.org/69587",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e640f930-a0aa-4952-b6ca-529d228b1ce0&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693029817-71mw",
+          "name": "Währungen vergleichen Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://mediathek.hhu.de/watch/ee523b0f-93f1-44e2-a598-49562b8b0d8a",
+          "search_query": "Währungen vergleichen",
+          "wlo_metadata": [
+            {
+              "nodeId": "f553e141-018a-41fa-a2ca-f45addf9d2f6",
+              "title": "Blockchain DICE HHU Bürgeruniversität",
+              "description": "In diesem Video wird das Thema: Die Blockchain als Grundlage für digitale Währungen, vorgestellt. Wir wünschen Ihnen viel Freude beim Betrachten! \n\nIn der Bürgeruniversitätsreihe des DICE HHU erfahren Sie mehr über interessante, wirtschaftswissenschaftliche Themen in Form von kurzen Erklärvideos. Dieses Projekt wird mit Studierenden der Fakultät für Wirtschaftswissenschaften an der HHU durchgeführt und erfolgt in Kooperation mit dem HHU MMZ. Dabei stellen Studierende Inhalte aus Ihren Vorlesungen vor und möchten diese gerne Bürger/innen näher bringen. \n\nDozierende: Prof. Dr. Heimeshoff, Phoutsada Khenkitisack (M.A.)\nMMZ: Evelyn Möcking, Michaela Kyere\nMMZ Postproduktion: Andreas Gläsle, Alexander Funke, Dunja Arens\n\n\"Investierst du auch in Bitcoin?\" - Diese Frage hört man heutzutage immer häufiger. Kryptowährungen sind in aller Munde und mit Ihnen der Begriff der \"Blockchain\"? Aber was ist die Blockchain eigentlich? Was hat sie mit einer Kryptowährung zu tun? Und ist eine Kryptowährung eigentlich mit klassischen Währungen wie dem Euro zu vergleichen?\nDiesen Fragen wollen wir im Folgendem nachgehen und euch einen Überblick über die Technologie verschaffen, die den derzeitigen Kryptowährungen zugrunde liegt.\n\nGrafikquellen:\n\nEigene Erstellung\nhttps://pixabay.com/de/\n\nQuellen:\nAntonopoulos, Andreas M. (2017), Mastering Bitcoin: Programming the Open Blockchain. 2. Auflage, O‘Reilly Media: Sebastopol, California\n\nBlockchaincenter (2021), Bitcoin Kursverlauf in Euro. Online verfügbar unter: https://www.blockchaincenter.net/bitcoin/bitcoin-kurs/ [03.07.2021]\n\nBosch, R., Baumann K., Sancar B., Brand F., Bärligea R und Bickerle S. (2018), „Kryptowährungen im Wettbewerb zu staatlichen Währungen und Gold“. In: Arnold C. und Knödler H. (Hrsg.): Die informatisierte Service-Ökonomie – Veränderungen im privaten und öffentlichen Sektor, S. 413-444, Springer Fachmedien, Wiesbaden.\n\nBundesbank (2019), Was ist Geld?. Online verfügbar unter: https://www.bundesbank.de/de/service/schule-und-bildung/erklaerfilme/was-ist-geld--800972 [01.07.2021]\n\nButerin (2021), Why sharding is great: demystifying the technical properties. Online verfügbar unter: https://vitalik.ca/general/2021/04/07/sharding.html [08.07.2021]\n\nDreschner, Daniel (2017), Blockchain Basics: A Non-Technical Introduction in 25 Steps. Apress: Frankfurt am Main, Germany\n\nEasley D., O´Hara M. und Basu S. (2019), From mining to markets: The evolution of bitcoin transaction fees, Journal of Financial Economics, 134, S. 91-109\n\nForbes (2021), .Online verfügbar unter: https://www.forbes.com/sites/rmiller/2021/03/23/bitcoin-is-a-cryptocurrency-but-is-it-money/?sh=1affd8061dda [01.07.2021]\n\nNakamoto, Satoshi (2008), „Bitcoin: A Peer-to-Peer Electronic Cash System”\n\nVerbraucherzentrale (2017), Bitcoins: Einkaufen mit virtuellem Geld. Online verfügbar unter: https://www.verbraucherzentrale.de/wissen/geld-versicherungen/sparen-und-anlegen/bitcoins-einkaufen-mit-virtuellem-geld-11641 [04.07.2021] ",
+              "subject": "",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://mediathek.hhu.de/watch/ee523b0f-93f1-44e2-a598-49562b8b0d8a",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f553e141-018a-41fa-a2ca-f45addf9d2f6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "64f064e5-23cc-42de-80fa-0a24ac7ffd38",
+              "title": "Der Euro – stark oder schwach ein Gewinn",
+              "description": "Die praktischen Vorzüge des Euro sind bekannt: Mit genügend davon im Portemonnaie kann man überall im Euroland problemlos zahlen. Doch was bewegt die Gemeinschaftswährung? Und ist ein starker oder schwacher Euro besser für die Wirtschaft? ",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/politik/wirtschaft/wirtschaftspolitik/64283/der-euro",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=64f064e5-23cc-42de-80fa-0a24ac7ffd38&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "1c334225-c8bd-42ee-8ab0-8b5c68ce2560",
+              "title": "Handel im Mittelalter - Material",
+              "description": "Markt, Zunft und Geld - Handel im Mittelalter Der Markt bildete das Zentrum der mittelalterlichen Stadt. Hier wurden die Produkte der Bauern und Handwerker angeboten. Verschiedene Waren lockten Käufer und Verkäufer auf die Marktplätze, wo dann gefeilscht und verhandelt wurde. Die folgenden Aufgaben werden dir dabei helfen, einen Einblick in das mittelalterliche Markttreiben zu bekommen.  1 Nenne anhand der Fotos  M1  und  M2  drei dir schon bekannte Fakten über den Markt im Mittelalter und drei Fragen, die du dir gern beantworten möchtest. Mögliche thematische Schwerpunkte :  Berufe, Warenangebote, Orte des Marktes, Zahlungsmittel M1 Stand eines Topfmachers auf einem heutigen Mittelaltermarkt CC0  Link :  https://t1p.de/0qpmj M2 Stand eines Korbmachers auf einem heutigen Mittelaltermarkt CC0 Link :   https://t1p.de/kj70z interessante Fakten:   offene Fragen:  Geschichte Seite  1 / 27 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie un",
+              "subject": "Geschichte",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/24e456a1-af8a-405a-a56d-df5d47e9c52b",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1c334225-c8bd-42ee-8ab0-8b5c68ce2560&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693035015-fgfy",
+          "name": "Wechselkurse Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://mediathek.hhu.de/watch/7195759c-1e2e-48d1-a92f-1c38b3633ef1",
+          "search_query": "Wechselkurse",
+          "wlo_metadata": [
+            {
+              "nodeId": "6ce7ad89-ee8a-49e7-9328-baa8cc195576",
+              "title": "Interaktive Makroökonomik flexibler und fester Wechselkurse",
+              "description": "1. E-Teaching Netzwerktreffen im SS 2013  Projektschau von geförderten Projekten",
+              "subject": "Fachübergreifend",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://mediathek.hhu.de/watch/7195759c-1e2e-48d1-a92f-1c38b3633ef1",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6ce7ad89-ee8a-49e7-9328-baa8cc195576&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 100
+            },
+            {
+              "nodeId": "f3721f98-c1eb-4f69-a6a6-4e9299eb8afa",
+              "title": "Analyse: Was geschieht mit dem Rubel?",
+              "description": "Der russische Rubel ist gegenüber anderen Währungen dramatisch gefallen. Was sind die Gründe für diesen drastischen Kursverfall? Und welche Folgen hat der schwache Rubel für Wirtschaft und Bevölkerung? Diese Analyse sucht nach Antworten - und gibt ei",
+              "subject": "Allgemein",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/internationales/europa/russland/analysen/202925/analyse-was-geschieht-mit-dem-rubel",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f3721f98-c1eb-4f69-a6a6-4e9299eb8afa&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            },
+            {
+              "nodeId": "64f064e5-23cc-42de-80fa-0a24ac7ffd38",
+              "title": "Der Euro – stark oder schwach ein Gewinn",
+              "description": "Die praktischen Vorzüge des Euro sind bekannt: Mit genügend davon im Portemonnaie kann man überall im Euroland problemlos zahlen. Doch was bewegt die Gemeinschaftswährung? Und ist ein starker oder schwacher Euro besser für die Wirtschaft? ",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/politik/wirtschaft/wirtschaftspolitik/64283/der-euro",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=64f064e5-23cc-42de-80fa-0a24ac7ffd38&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693033642-dtor",
+          "name": "Wechselkurse Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.bpb.de/politik/wirtschaft/finanzmaerkte/54846/einfuehrung",
+          "search_query": "Wechselkurse",
+          "wlo_metadata": [
+            {
+              "nodeId": "70cd2c37-c62e-4512-8dbb-af7fae118707",
+              "title": "Das Geld in der Volkswirtschaft",
+              "description": "Das Einführungskapitel zum Dossier Finanzmärkte beschreibt die Funktion des Geldes, erklärt wie die Europäische Zentralbank den Geldumlauf berechnet und stabil hält und behandelt Inflation und Deflation. Zudem geht es um einen Bereich, in dem Geld se",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/politik/wirtschaft/finanzmaerkte/54846/einfuehrung",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=70cd2c37-c62e-4512-8dbb-af7fae118707&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "7a5e5faa-a885-4eb0-b55b-cda67a6a111b",
+              "title": "Analyse: Lada, Renault, Nissan & Co - Probleme der Re-Industrialisierung am Beispiel der russischen Automobilindustrie",
+              "description": "Seit Ende der Sowjetunion leidet Russland an einer schwächer werdenden Industrie. Der Wirtschaftspolitik fehlen übergreifende Entwicklungsstrategien. Eine Ausnahme: die Automobilbranche. Nach Jahren des Niedergangs und massiver staatlicher Finanzhilf",
+              "subject": "Allgemein",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/internationales/europa/russland/analysen/203837/analyse-lada-renault-nissan-co-probleme-der-re-industrialisierung-am-beispiel-der-russischen-automobilindustrie",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7a5e5faa-a885-4eb0-b55b-cda67a6a111b&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "6ce7ad89-ee8a-49e7-9328-baa8cc195576",
+              "title": "Interaktive Makroökonomik flexibler und fester Wechselkurse",
+              "description": "1. E-Teaching Netzwerktreffen im SS 2013  Projektschau von geförderten Projekten",
+              "subject": "Fachübergreifend",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://mediathek.hhu.de/watch/7195759c-1e2e-48d1-a92f-1c38b3633ef1",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6ce7ad89-ee8a-49e7-9328-baa8cc195576&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693030093-t82v",
+          "name": "Einheitenumrechnung Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://web2.0rechner.de/",
+          "search_query": "Einheitenumrechnung",
+          "wlo_metadata": [
+            {
+              "nodeId": "abd4661d-2f18-4e76-9dc3-61ec45680566",
+              "title": "Web 2.0 Taschenrechner",
+              "description": "Der wissenschaftliche Taschenrechner im Internet. Ideal zum Lösen von Hausaufgaben aus den Gebieten: Mathematik, Physik und Technik. Mit Vektor/Matrixrechner, Gleichungslöser, komplexen Zahlen und Einheitenumrechnung.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe II",
+                "Sekundarstufe I",
+                "Erwachsenenbildung",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Tool",
+              "wwwUrl": "https://web2.0rechner.de/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=abd4661d-2f18-4e76-9dc3-61ec45680566&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693026036-hoa0",
+          "name": "Einheitenumrechnung Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://web2.0rechner.de/",
+          "search_query": "Einheitenumrechnung",
+          "wlo_metadata": [
+            {
+              "nodeId": "abd4661d-2f18-4e76-9dc3-61ec45680566",
+              "title": "Web 2.0 Taschenrechner",
+              "description": "Der wissenschaftliche Taschenrechner im Internet. Ideal zum Lösen von Hausaufgaben aus den Gebieten: Mathematik, Physik und Technik. Mit Vektor/Matrixrechner, Gleichungslöser, komplexen Zahlen und Einheitenumrechnung.",
+              "subject": "Mathematik",
+              "educationalContext": [
+                "Sekundarstufe II",
+                "Sekundarstufe I",
+                "Erwachsenenbildung",
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Tool",
+              "wwwUrl": "https://web2.0rechner.de/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=abd4661d-2f18-4e76-9dc3-61ec45680566&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693031673-87ck",
+          "name": "Bruchrechnung Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.geogebra.org/m/vc42taHb",
+          "search_query": "Bruchrechnung",
+          "wlo_metadata": [
+            {
+              "nodeId": "cd0057a1-c0fe-4224-b509-cd8abeced36d",
+              "title": "Bruchteile bestimmen - Rechteck",
+              "description": "Rechtecke von zufälliger Größe werden per Zufall in unterschiedlich viele Teil aufgeteilt und ein Teil davon farbig markiert. Die Lösung kann angezeigt und gekürzt werden.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.geogebra.org/m/vc42taHb",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=cd0057a1-c0fe-4224-b509-cd8abeced36d&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "b451367f-25fd-45d6-8d02-f7b95bb1aba5",
+              "title": "Bruchteile bestimmen - Kreis",
+              "description": "Kreise werden zufällig in Segmente aufgeteilt und Teile davon markiert. Die Lösung kann angezeigt und gekürzt werden.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.geogebra.org/m/MTYaH6mp",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b451367f-25fd-45d6-8d02-f7b95bb1aba5&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "92766e6c-3e17-465b-95eb-016f84ebb162",
+              "title": "Addition von ungleichnamigen Brüchen",
+              "description": "wie Titel",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Übungsmaterial",
+              "wwwUrl": "https://www.geogebra.org/m/MCMtZjdp",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=92766e6c-3e17-465b-95eb-016f84ebb162&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693024876-h3xf",
+          "name": "Kaufkraft Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/sekundarstufen/geisteswissenschaften/politik-sowi/unterrichtseinheit/ue/fair-kaufen/",
+          "search_query": "Kaufkraft",
+          "wlo_metadata": [
+            {
+              "nodeId": "b747c088-8f8f-4491-af1e-c3b4d1cb3f16",
+              "title": "Fair kaufen!",
+              "description": "Fair-Trade-Produkte sind teurer als konventionell gehandelte Waren, deshalb werden sie von Jugendlichen in der Regel nur selten gekauft. Dies liegt zum einen daran, dass Jugendliche über weniger Kaufkraft verfügen als Erwachsene, und zum anderen daran, dass Heranwachsende stärker als Erwachsene das Ziel von Markenwerbung sind. Mit Jugendlichen darüber zu reden, was sie kaufen, bedeutet aufzuzeigen, dass sie sich in ihren Kaufentscheidungen vorrangig am Preis und am Markenlogo orientieren. Es gilt, ihnen bewusst zu machen, dass sich hinter dem Preis und dem Markenlogo Produktionsbedingungen und Handelsstrukturen verbergen, die die Welt ärmer, schmutziger und ungerechter machen.",
+              "subject": "Politik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Projekt-Material",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/geisteswissenschaften/politik-sowi/unterrichtseinheit/ue/fair-kaufen/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b747c088-8f8f-4491-af1e-c3b4d1cb3f16&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693031478-zccm",
+          "name": "Preise vergleichen Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.tutory.de/bereitstellung/dokument/ccd9b8b0-23a1-470e-aa71-98689f30e311",
+          "search_query": "Preise vergleichen",
+          "wlo_metadata": [
+            {
+              "nodeId": "7251eb8b-141b-4c62-812d-561c8015f2a7",
+              "title": "Strategie Runterrechnen",
+              "description": "1 Jonas möchte im Supermarkt Preise für verschiedene Apfelsorten vergleichen. Leider sind die Preise für die Säcke mit  unterschiedlichen  Gewichten angegeben. Schreibe für jede Apfelsorte eine Minitabelle ins Heft. Rechne jeweils die Preise für 1 kg aus. Warum kann man so gut vergleichen? 2 Auch Emily möchte die Preise im Supermarkt vergleichen. Rechne auf beiden Wegen. Welcher Weg ist einfacher? Mathematik Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/strategie-runterrechnen",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/ccd9b8b0-23a1-470e-aa71-98689f30e311",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7251eb8b-141b-4c62-812d-561c8015f2a7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "29224d0b-5932-4fda-99c2-3e54676f41d9",
+              "title": "Folge 25: Portobello Road",
+              "description": "Lerninhalte dieser Folge sind u.a.: Eigenschaften miteinander vergleichen, Preise abwägen, jemanden umstimmen.",
+              "subject": "",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.br.de/mediathek/podcast/englisch-fuer-anfaenger/folge-25-portobello-road/40150",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=29224d0b-5932-4fda-99c2-3e54676f41d9&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            },
+            {
+              "nodeId": "7ee977ca-16c8-41b8-ac97-775803701903",
+              "title": "Einkaufen im Internet | bpb",
+              "description": "Auch im Internet können Sie einkaufen.Dabei sammeln die Geschäfte Daten. Deshalb können die Geschäfte gezielte Werbung machen. Wie das funktioniert erklären wir hier. ",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/politik/grundfragen/politik-einfach-fuer-alle/301225/einkaufen-im-internet",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7ee977ca-16c8-41b8-ac97-775803701903&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 75
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693033675-ki3y",
+          "name": "Preise vergleichen Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/bereitstellung/dokument/bdba739b-b6c7-47ef-af0f-f486851e1457",
+          "search_query": "Preise vergleichen",
+          "wlo_metadata": [
+            {
+              "nodeId": "130dd7d4-ba06-445e-b9dd-356db71aa753",
+              "title": "Ohne Titel",
+              "description": "1 Jonas möchte im Supermarkt Preise für verschiedene Apfelsorten vergleichen. Leider sind die Preise für die Säcke mit  unterschiedlichen  Gewichten angegeben. Schreibe für jede Apfelsorte eine Minitabelle ins Heft. Rechne jeweils die Preise für 1 kg aus. Warum kann man so gut vergleichen? 2 Auch Emily möchte die Preise im Supermarkt vergleichen. Rechne auf beiden Wegen. Welcher Weg ist einfacher? Mathematik Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/848f6d91",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/bdba739b-b6c7-47ef-af0f-f486851e1457",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=130dd7d4-ba06-445e-b9dd-356db71aa753&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "7251eb8b-141b-4c62-812d-561c8015f2a7",
+              "title": "Strategie Runterrechnen",
+              "description": "1 Jonas möchte im Supermarkt Preise für verschiedene Apfelsorten vergleichen. Leider sind die Preise für die Säcke mit  unterschiedlichen  Gewichten angegeben. Schreibe für jede Apfelsorte eine Minitabelle ins Heft. Rechne jeweils die Preise für 1 kg aus. Warum kann man so gut vergleichen? 2 Auch Emily möchte die Preise im Supermarkt vergleichen. Rechne auf beiden Wegen. Welcher Weg ist einfacher? Mathematik Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/strategie-runterrechnen",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/ccd9b8b0-23a1-470e-aa71-98689f30e311",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7251eb8b-141b-4c62-812d-561c8015f2a7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "7aacf06a-c118-45c0-acb4-b47410815210",
+              "title": "Strategie Runterrechnen",
+              "description": "1 Jonas möchte im Supermarkt Preise für verschiedene Apfelsorten vergleichen. Leider sind die Preise für die Säcke mit  unterschiedlichen  Gewichten angegeben. Schreibe für jede Apfelsorte eine Minitabelle ins Heft. Rechne jeweils die Preise für 1 kg aus. Warum kann man so gut vergleichen? 2 Auch Emily möchte die Preise im Supermarkt vergleichen. Rechne auf beiden Wegen. Welcher Weg ist einfacher? Mathematik Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/strategie-runterrechnen-1",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/7dcb80f6-dd31-4897-bb3a-bbac07a3f42e",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7aacf06a-c118-45c0-acb4-b47410815210&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693029037-a61o",
+          "name": "Währungsvergleich Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.bpb.de/geschichte/deutsche-einheit/lange-wege-der-deutschen-einheit/47133/zusammenbruch",
+          "search_query": "Währungsvergleich",
+          "wlo_metadata": [
+            {
+              "nodeId": "7067718d-9fcb-4b16-ba01-62d3319c282f",
+              "title": "Wirtschaftlicher Zusammenbruch und Neuanfang nach 1990",
+              "description": "Geringe Produktivität, überalterte Anlagen, Zusammenbruch der Märkte: Die Ausgangslage ostdeutscher Betriebe war schlecht, als sie sich mit der Währungsunion \"über Nacht\" der globalen Konkurrenz stellen mussten. Die Folge: eine Schocktherapie für die",
+              "subject": "Geschichte",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/geschichte/deutsche-einheit/lange-wege-der-deutschen-einheit/47133/zusammenbruch",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7067718d-9fcb-4b16-ba01-62d3319c282f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "9a10b3f3-29f3-4b68-b208-558e58658520",
+              "title": "Wirtschaftlicher Zusammenbruch und Neuanfang nach 1990",
+              "description": "Geringe Produktivität, überalterte Anlagen, Zusammenbruch der Märkte: Die Ausgangslage ostdeutscher Betriebe war schlecht, als sie sich mit der Währungsunion \"über Nacht\" der globalen Konkurrenz stellen mussten. Die Folge: eine Schocktherapie für die",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47133/wirtschaftlicher-zusammenbruch-und-neuanfang-nach-1990/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9a10b3f3-29f3-4b68-b208-558e58658520&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693031197-rsop",
+          "name": "Plakatgestaltung Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/2b8ba691-d609-48ca-8c0c-3e70db8e0314",
+          "search_query": "Plakatgestaltung",
+          "wlo_metadata": [
+            {
+              "nodeId": "2b8ba691-d609-48ca-8c0c-3e70db8e0314",
+              "title": "(Un)Freiheit - Die DDR bestimmt mein Leben",
+              "description": "Workshop, 6 Std., Zielgruppe: 14-17\nInhalt: Geschichte der DDR, politisch-philosophische Annäherung an das Thema \"Identitäten\"\nEignet sich v.a. als Projekttag an Schulen oder mit außerschulischen Jugendgruppen.",
+              "subject": "Geschichte",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Methoden",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/2b8ba691-d609-48ca-8c0c-3e70db8e0314",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=2b8ba691-d609-48ca-8c0c-3e70db8e0314&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693037562-97e7",
+          "name": "Taschengeld Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/medien-und-sport/bundesliga/205109/deutsch-israelische-fussballbeziehungen",
+          "search_query": "Taschengeld",
+          "wlo_metadata": [
+            {
+              "nodeId": "f7991c7b-3157-4208-a394-8edc02d8133c",
+              "title": "Diplomaten am Ball",
+              "description": "Der Austausch zwischen Sportlern aus Israel und Deutschland stellte eine wichtige Etappe auf dem Weg zu diplomatischen Beziehungen dar. Schon 1957 schickte Israel seine besten Trainer nach Deutschland. Auch die europäische Makkabiade ist Sportfest un",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/medien-und-sport/bundesliga/205109/deutsch-israelische-fussballbeziehungen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f7991c7b-3157-4208-a394-8edc02d8133c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "e760851f-8acd-4445-9b8d-61ea66f86c67",
+              "title": "4 Dinge über Weihnachten, die du wissen solltest! | Merk-Fakten",
+              "description": "Das gesamte freiwillige Team von DIE MERKHILFE wünscht euch frohe und besinnliche Weihnachten! Heute haben wir 4 spannende Weihnachtsfakten zusammengetragen, viel Spaß beim Ansehen! :)\nUnsere weiteren (geplanten) Kanäle (Abo zu Weihnachten ist richtig nett :D):\n- Wirtschaft & Recht: http://bit.ly/merkhilfewirtschaft\n- Politik & Gesellschaft: http://bit.ly/merkhilfegesellschaft\n- Quiz & Rätsel: http://youtube.com/MerkhilfeQuiz\n- Informatik & Tutorial: http://bit.ly/merkhilfetechnik\n\nZur gesamten MerkSpecial-Playlist: http://bit.ly/MerkSpecial\n---------------------------------------------\n➡ KOSTENLOS ABONNIEREN (hilft uns sehr!):\nhttp://bit.ly/1FS9J00\n\n➡ ALLE KANÄLE: \n- Die Merkhilfe: http://bit.ly/1HuWiFb\n- Die Denkhilfe: http://bit.ly/1LEG0ub\n- Die Technikhilfe: http://bit.ly/1HeqKA5\n\n➡ IHR FINDET UNS AUCH HIER!\n- Twitter: http://www.twitter.com/merkhilfe\n- Instagram: http://www.instagram.com/merkhilfe\n- Facebook: http://www.facebook.com/merkhilfe\n- Google+: https://plus.google.com/+diemerkhilfe\n\n➡ WAS IST DIE MERKHILFE?\nWir sind der Meinung, dass Wissen und Nachhilfe jedem kostenlos zur Verfügung stehen soll. Auf 3 Kanälen findest du die besten Bildungsvideos Deutschlands. Kostenlose, anschauliche und modern animierte Videos ermöglichen dir entspanntes Verstehen.\n\n➡ PRODUKTION DIESES VIDEOS:\nEin Konzept von Oliver\nScript: Oliver\nVisuelle Konzeption: Sandra\nTon & Schnitt: Oliver",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=daYJ6gToiLs",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e760851f-8acd-4445-9b8d-61ea66f86c67&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "6ca3209d-b6bf-45fd-b1c0-9405f5f17ea6",
+              "title": "Wer war Nikolaus? Woher kommt der Brauch? Allgemeinwissen einfach erklärt",
+              "description": "Wer war Nikolaus? Woher kommt der Brauch? Was ist überhaupt Nikolaus? Auf diese Fragen gehen wir in der heutigen Allgemeinwissen einfach erklärt - Folge ein. Der Name Nikolaus stammt vom Heiligen Nikolaus von Myra ab. Das Befragen der Kinder, ob sie denn fromm und brav gewesen sind, geht auf das Matthäus-Gleichnis zurück. Heute werden Strümpfe oder Schuhe mit Kleinigkeiten befüllt. Das beruht auf Legenden, dass Nikolaus arme Leute beschenkt hat. Viel Spaß :)\n-- Allgemeinwissens-Playlist: http://bit.ly/MerkWissen\n\nZUM VIDEO JUGENDWORT 2016: http://bit.ly/Jugendwort16\n----------------------------------------­-----\n➡ KOSTENLOS ABONNIEREN (hilft uns sehr!):\nhttp://bit.ly/merkhilfeabo\n\n➡ ALLE KANÄLE: \n- Nachhilfe & Wissen: http://youtube.com/DieMerkhilfe\n- Wirtschaft & Jura: http://www.youtube.com/MerkhilfeWirtschaft\n- Spanisch: http://www.youtube.com/MerkhilfeSpanisch\n- Informatik: http://www.youtube.com/MerkhilfeInformatik\n- Quiz & Rätsel: http://youtube.com/MerkhilfeQuiz\n- Communitykanal: http://youtube.com/MerkhilfeCommunity\n\n➡ IHR FINDET UNS AUCH HIER!\n- Instagram: http://www.instagram.com/merkhilfe\n- Facebook: http://www.facebook.com/merkhilfe\n- Twitter: http://www.twitter.com/merkhilfe\n\n➡ WAS IST DIE MERKHILFE?\nWir sind der Meinung, dass Bildung jedem Menschen kostenlos zur Verfügung stehen soll! Daher findest du auf unseren YouTube-Kanälen moderne Nachhilfe- und Allgemeinwissensvideos für viele Fächer: Biologie, Deutsch, Englisch, Mathe, Geografie, Geschichte, Spanisch, Wirtschaft, Philosophie, Physik, Chemie, Religion, Informatik, Politik, Gesellschaft, Recht und Psychologie.\n\n➡ PRODUKTION DIESES VIDEOS:\nScript: Redaktion Allgemeinwissen\nVisuelle Konzeption: Sandra\nTon & Schnitt: Oliver",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=0z5EuALlzPM",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6ca3209d-b6bf-45fd-b1c0-9405f5f17ea6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693025834-gdb6",
+          "name": "Budgetplanung Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.bne-portal.de/bne/shareddocs/lernmaterialien/de/praevention-in-der-schuldnerberatung.html",
+          "search_query": "Budgetplanung",
+          "wlo_metadata": [
+            {
+              "nodeId": "cdba33a3-9719-4e56-b87f-57441843cf05",
+              "title": "Prävention in der Schuldnerberatung",
+              "description": "Der Materialordner \"\"Prävention in der Schuldnerberatung\"\" hat das Ziel, durch praxisnahe Information rund um das Thema Geld und den Hinweis auf typische Schuldenfallen die Handlungskompetenzen junger Menschen zu erhöhen.Der Ordner besteht aus zehn Modulen, wobei acht thematischen Modulen ein übergreifendes Einstiegsmodul vorangestellt ist. Neben Themen wie Werbung und Konsum, Handy und Internet, die erste Wohnung und Budgetplanung werden auch beispielhafte Unterrichtseinheiten behandelt.",
+              "subject": "Nachhaltigkeit",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Hochschule",
+                "Erwachsenenbildung",
+                "Fortbildung",
+                "Berufliche Bildung",
+                "Elementarbereich",
+                "Sekundarstufe II",
+                "Primarstufe"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.bne-portal.de/bne/shareddocs/lernmaterialien/de/praevention-in-der-schuldnerberatung.html",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=cdba33a3-9719-4e56-b87f-57441843cf05&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "6ddc517c-c5be-482c-be46-49e95e67d1ce",
+              "title": "Umgang mit Geld - Challenges - YouthStart - Entrepreneurial Challenges",
+              "description": "Die Jugendlichen fragen sich, welchen Wert Dinge haben und denken über ihr Kaufverhalten nach. Wo gibt es Einkaufs-„Fallen“ und wie kann man sich vor ihnen schützen? Das trainieren sie mit einem Spiel („Vorsicht fiese Fallen“). Mit einem Finanzplan üben sie, sich ihr Geld einzuteilen und für ein erstrebenswertes Ziel zu sparen.",
+              "subject": "Wirtschaftskunde",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "http://www.youthstart.eu/de/challenges/money_management/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6ddc517c-c5be-482c-be46-49e95e67d1ce&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693032120-lpac",
+          "name": "Preisvergleich Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.tutory.de/bereitstellung/dokument/5fafc737-436f-4734-be62-f2b2f4607a61",
+          "search_query": "Preisvergleich",
+          "wlo_metadata": [
+            {
+              "nodeId": "7bbb0ccf-a4df-4eca-a16e-4446c915dbef",
+              "title": "Strategie \"Hochrechnen\"",
+              "description": "Leonie vergleicht die Preise für Waschmittel und möchte das  günstigste  Waschmittel für 8kg Wäsche finden. Nutze ihren Rechenweg  Hochrechnen  und ergänze in den Minitabellen jeweils die Preis für 8 kg. Ergänze und beschrifte die  Pfeile . Welches ist das  günstigste  Waschmittel?  Berechne, welches Waschmittel für 10kg (20 kg) das günstigste ist. Denke an die Rechenpfeile. Wie teuer ist das Waschmittel  pro Portion ? Was ist eine Portion? Erkläre: Persil (in kg) Preis (in €) 1 2 8 Sauber (in kg) Preis (in €) 2 6 8 Bravo (in kg) Preis (in €) 4 6 8 Persil (in kg) Preis (in €) 1 2 10 20 Sauber (in kg) Preis (in €) 1 3 10 20 Bravo (in kg) Preis (in €) 1 1,5 10 20 Mathematik Seite  1 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/strategie-hochrechnen Name:  Strategie \"Hochrechnen\" 22.05.2020 Wann lässt sich das günstigste Waschmittel am besten erkennen? Mathematik Seite  2 / 2 A",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/5fafc737-436f-4734-be62-f2b2f4607a61",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7bbb0ccf-a4df-4eca-a16e-4446c915dbef&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "7251eb8b-141b-4c62-812d-561c8015f2a7",
+              "title": "Strategie Runterrechnen",
+              "description": "1 Jonas möchte im Supermarkt Preise für verschiedene Apfelsorten vergleichen. Leider sind die Preise für die Säcke mit  unterschiedlichen  Gewichten angegeben. Schreibe für jede Apfelsorte eine Minitabelle ins Heft. Rechne jeweils die Preise für 1 kg aus. Warum kann man so gut vergleichen? 2 Auch Emily möchte die Preise im Supermarkt vergleichen. Rechne auf beiden Wegen. Welcher Weg ist einfacher? Mathematik Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/strategie-runterrechnen",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/ccd9b8b0-23a1-470e-aa71-98689f30e311",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7251eb8b-141b-4c62-812d-561c8015f2a7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "e4afaa9d-5c88-4934-814b-23a4d13c0155",
+              "title": "Ohne Titel",
+              "description": "Leonie vergleicht die Preise für Waschmittel und möchte das  günstigste  Waschmittel für 8kg Wäsche finden. Nutze ihren Rechenweg  Hochrechnen  und ergänze in den Minitabellen jeweils die Preis für 8 kg. Ergänze und beschrifte die  Pfeile . Welches ist das  günstigste  Waschmittel?  Berechne, welches Waschmittel für 10kg (20 kg) das günstigste ist. Denke an die Rechenpfeile. Wie teuer ist das Waschmittel  pro Portion ? Was ist eine Portion? Erkläre: Persil (in kg) Preis (in €) 1 2 8 Sauber (in kg) Preis (in €) 2 6 8 Bravo (in kg) Preis (in €) 4 6 8 Persil (in kg) Preis (in €) 1 2 10 20 Sauber (in kg) Preis (in €) 1 3 10 20 Bravo (in kg) Preis (in €) 1 1,5 10 20 Mathematik Seite  1 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/f084b73f Name:  Strategie \"Hochrechnen\" 22.05.2020 Wann lässt sich das günstigste Waschmittel am besten erkennen? Mathematik Seite  2 / 2 Angaben zu den",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/e08bb442-08ec-48ec-903a-3ea8c66a55ae",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e4afaa9d-5c88-4934-814b-23a4d13c0155&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693031577-6d08",
+          "name": "Bruchrechnung Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.geogebra.org/m/vc42taHb",
+          "search_query": "Bruchrechnung",
+          "wlo_metadata": [
+            {
+              "nodeId": "cd0057a1-c0fe-4224-b509-cd8abeced36d",
+              "title": "Bruchteile bestimmen - Rechteck",
+              "description": "Rechtecke von zufälliger Größe werden per Zufall in unterschiedlich viele Teil aufgeteilt und ein Teil davon farbig markiert. Die Lösung kann angezeigt und gekürzt werden.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.geogebra.org/m/vc42taHb",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=cd0057a1-c0fe-4224-b509-cd8abeced36d&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "b451367f-25fd-45d6-8d02-f7b95bb1aba5",
+              "title": "Bruchteile bestimmen - Kreis",
+              "description": "Kreise werden zufällig in Segmente aufgeteilt und Teile davon markiert. Die Lösung kann angezeigt und gekürzt werden.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.geogebra.org/m/MTYaH6mp",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b451367f-25fd-45d6-8d02-f7b95bb1aba5&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "92766e6c-3e17-465b-95eb-016f84ebb162",
+              "title": "Addition von ungleichnamigen Brüchen",
+              "description": "wie Titel",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Übungsmaterial",
+              "wwwUrl": "https://www.geogebra.org/m/MCMtZjdp",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=92766e6c-3e17-465b-95eb-016f84ebb162&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693026783-vo9s",
+          "name": "Datenanalyse Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/afc56b9f-7d19-417c-b0e2-3985aa4143ed",
+          "search_query": "Datenanalyse",
+          "wlo_metadata": [
+            {
+              "nodeId": "afc56b9f-7d19-417c-b0e2-3985aa4143ed",
+              "title": "Untersuchung der Photosynthese mit phyphox",
+              "description": "Dies PDF Datei beschreibt das Nutzungskonzept der App phyphox für die Untersuchung der Photosynthese. Sie eignet sich für Ermittlung des Anwendungsbereich in der Schule bzw. in Lehrkräftefortbildungen.",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Hochschule",
+                "Fortbildung"
+              ],
+              "resourceType": "Formel",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/afc56b9f-7d19-417c-b0e2-3985aa4143ed",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=afc56b9f-7d19-417c-b0e2-3985aa4143ed&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "0aff5896-172d-4a17-af2b-96b8a1fdb9da",
+              "title": "Untersuchung der Photosynthese mit phyphox",
+              "description": "Diese PDF Datei beschreibt das Nutzungskonzept der App phyphox für die Untersuchung der Photosynthese. Sie eignet sich für Ermittlung des Anwendungsbereich in der Schule bzw. in Lehrkräftefortbildungen.",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II",
+                "Hochschule",
+                "Fortbildung"
+              ],
+              "resourceType": "Formel",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/0aff5896-172d-4a17-af2b-96b8a1fdb9da",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=0aff5896-172d-4a17-af2b-96b8a1fdb9da&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693037315-1uh7",
+          "name": "Kaufkraft Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/datenreport-2021/sozialstruktur-und-soziale-lagen/330068/lebensstandard/",
+          "search_query": "Kaufkraft",
+          "wlo_metadata": [
+            {
+              "nodeId": "b4ae6ff8-8ffb-4761-b709-3d79f369b9f3",
+              "title": "Lebensstandard",
+              "description": "Zur Betrachtung des Lebensstandards werden die Indikatoren Haushaltseinkommen und Arbeitnehmerentgelte herangezogen, bei denen es für die Flächenländer eine Nord-Süd-Differenz gibt. Arbeitnehmerentgelte differierten 2017 zwischen Großstädten und länd",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/datenreport-2021/sozialstruktur-und-soziale-lagen/330068/lebensstandard/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b4ae6ff8-8ffb-4761-b709-3d79f369b9f3&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "9e90a24c-d751-4271-9574-dc6d331421c5",
+              "title": "Einkommen und Vermögen – wachsende Ungleichheiten | bpb",
+              "description": "Trotz Annäherung: In den neuen Bundesländern leben die ärmeren Deutschen. Das zeigt ein Blick auf Einkommen und Vermögen in Ost und West. ",
+              "subject": "Geschichte",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/geschichte/deutsche-einheit/lange-wege-der-deutschen-einheit/47436/einkommen-und-vermoegen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9e90a24c-d751-4271-9574-dc6d331421c5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "75f15f11-860c-4d49-bffc-c46cb29e34e5",
+              "title": "Volkswirtschaftslehre - Svens Anpassung an weniger Einkommen",
+              "description": "Sven macht gerade eine harte Zeit durch. Sein monatliches Einkommen ist gesunken und daher stehen ihm jetzt nur noch 30 statt 60 Euro für sein Süßigkeitenbudget zur Verfügung. Die Preise sind unverändert geblieben. Wie wird Sven seine Nachfrage an die neue Situation anpassen?",
+              "subject": "",
+              "educationalContext": [
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://media.sodis.de/open/fh_luebeck/Volkswirtschaftslehre-Svens_Anpassung_an_weniger_Einkommen.mp4",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=75f15f11-860c-4d49-bffc-c46cb29e34e5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693036809-14fq",
+          "name": "Diskussionsmethoden Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://material.rpi-virtuell.de/material/diskussionsmethoden-fuer-grosse-gruppen/",
+          "search_query": "Diskussionsmethoden",
+          "wlo_metadata": [
+            {
+              "nodeId": "6567f30b-3b8f-40ac-8ab7-24467324fdcd",
+              "title": "Diskussionsmethoden für große Gruppen",
+              "description": "Bodo Köster stellt verschiedene Diskussionsmethoden für große Gruppen als Word-Datei zur Verfügung.",
+              "subject": "Religion",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://material.rpi-virtuell.de/material/diskussionsmethoden-fuer-grosse-gruppen/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6567f30b-3b8f-40ac-8ab7-24467324fdcd&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 100
+            },
+            {
+              "nodeId": "85e78f30-0dde-4385-ad5b-e98cb8e8e7bd",
+              "title": "Jugendbildung",
+              "description": "Die Bandbreite der Träger, Angebote, Methoden und Inhalte der außerschulischen politischen Jugendbildung in Deutschland ist sehr groß. Mit innovativen Formaten und Kooperationen sollen zunehmend auch sozial benachteiligte und bildungsferne Jugendlich",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/politische-bildung/193383/jugendbildung/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=85e78f30-0dde-4385-ad5b-e98cb8e8e7bd&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 75
+            },
+            {
+              "nodeId": "9e3f9b22-7ec6-4163-b66e-2eade9330fad",
+              "title": "Filmanalyse (Unterrichtende, Elementarbereich, Grundschule, Sekundarstufe, Oberstufe)",
+              "description": "Einführung                        Im Religionsunterricht spielt die Analyse von Filmen eine große Rolle. Häufig folgen Interpretation und Diskussion. Hierbei die „Filmsprache“ zu kennen, ist eine große Hilfe. Filmbilder und Filmmusik sind mit Bedeutung geradezu aufgeladen. Sie führen uns ganz ohne Worte. Kameraperspektiven, Ton, Filmmontage u.a.m. – wie dies auf uns wirkt, wird auf vielen Internetseiten erklärt. Außerdem finden sich auch Methoden, wie Filmanalysen angeleitet werden können.                    Links[accordion]                    Fachinformation                                            Kriterien zur Filmanalyse                                                Institution: Institution suchen                        Filmanalyse im Kunstunterricht                            Diese Kriterien zur Filmanalyse beachten eher die technischen und ästhetischen Seiten eines Filmes.                                                                                            Filmanalyse                                                Institution: Bildungsserver Sachsen-Anhalt                        Anleitung                            Auf dieser Seite des Bildungsservers Sachsen-Anhalt wird (für den Deutschunterricht) ausführlich erklärt, wie ein Film auf den Ebenen der Einstellung, der Sequenz und des Textes analysiert werden kann.                                                                                            Filmanalyse                                                Institution: Institution suchen                        Umfangreiche Ideen für die Filmanalyse.                            Umfangreiche Ideen für die Filmanalyse.                                                                                            Der politische Film im Unterricht: Analyse, Interpretation, Diskussion                                                Institution: politischebildung.com                        Methoden- und Urteilkompetenz                            \"Die Urteilskompetenz der SchülerInnen wird dann angesprochen, wenn es gelingt, „vorliegende – durch den Film gefällte – Urteile, Botschaften und Einstellungen auf ihre Begründung hin zu untersuchen und die durch den Film vermittelten kontroversen politischen Positionen von Einzelnen, Gruppen oder Parteien auf die Werthaltungen, die ihnen zugrunde liegen, rückzubeziehen“.In fortgeschrittenem Lernalter wird es den SchülerIn-nen auch möglich sein, politische Kontroversen aus den durch den Film veranschaulichten unterschiedlichen Perspektiven wahrzunehmen.\"                                                                                                        Vorbereitung                                            Filmhefte der bpb                                                Institution: Bundeszentrale für politische Bildung                        Spielfilme erarbeitet für den Unterricht                             Die Filmhefte sind filmpädagogisches, themenorientiertes Begleitmaterial zu ausgewählten nationalen und internationalen Kinofilmen. Auf 16 bis 24 Seiten werden Inhalt, Figuren, Thema und Ästhetik des Films analysiert. Darüber hinaus gibt es ein detailliertes Sequenzprotokoll, Fragen, Materialien und Literaturhinweise. Alle aktuellen und auch bereits vergriffene Hefte sind im PDF-Format zum Herunterladen verfügbar                                                                                            Handbuch Theologie und populärer Film                                                Institution: Wikipedia                        Buchinfo bei Wikipedia                             Der Wikipedia-Artikel informiert über den Inhalt der beiden bisher erschienenen Bände, 2012 soll der dritte Band erscheinen.                                                                                            Unterrichtsmaterialien                                                                                Praxishilfen                                            Filmkritik im Unterricht                                                Institution: Institution suchen                        Unterrichtsvorschlag                            \"Eine aufschlussreiche Auseinandersetzung der Klasse mit dem gesehenen Film mündet im Idealfall in einer Filmkritik Ihrer Schüler, denn dabei haben sie die Gelegenheit, ihre ersten Eindrücke zu verarbeiten, ihr Urteil zu verdichten und damit ihreSelektions- und Beurteilungskompetenz weiterzuentwickeln.\" Eine Seite für SchulKinoWochen von spinxx.de                                                                                            Methoden der Filmauswertung                                                Institution: Fachstelle Medien und Kommunikation München                        25 methodische Ideen mit Beschreibung des Vorgehens                            Handreichung mit übersichtlicher Darstellung von 25 Diskussionsmethoden, schriftlichen Methoden, spielerischen und gestalterischen Methoden.                                                                                            Methoden der Aufarbeitung von Filmen                                                Institution: Niedersächsischer Bildungsserver                        Methodensammlung                            \"hancen, die Filme für das Lernen bieten, erschließen sich nur, wenn sie kompetent in die organisierten Lehr- und Lernprozessen der Schule integriert werden. Bezogen auf die dabei zumeist durchgeführten Medien(Film)gespräche und auf die Auswertung von medial vermittelten Informationen heißt das, Phantasie walten zu lassen in der Aufarbeitung von Filmen.Das kann schon vor der Filmvorführung beginnen, indem Aktivitäten gefördert und gefordert werden, z. B.: Vorwissen durch Assoziationen oder „Quizfragen“ aktivieren; Vermutungen äußern und sammeln lassen; die Lernenden in die Rolle von Regisseuren versetzen, die Ziele für „ihren“ Film formulieren, Schauspieler auswählen oder Mini-Drehbücher erstellen sollen.\" (Niedersächsischer Bildungsserver)                                                                                                        Bildungsmedien                                            Buß- und Bettag                                                Institution: bibeltv.de                        Video, 4:50'                            Video zum Buß- und Bettag für Jugendliche auf Bibel.TV.de                                                                                            e-buessen                                                Institution: EKD                        E-Vodcast                            Kurzer Animationsclip der EKD zum Thema \"büßen\" und \"Buße\".                                                                                                        Lernorte                                            Lernort Kino                                                Institution: Institution suchen                        Infoseite mit Materialien zu vielen Filmen                            Literatur, Geschichte und Geschichten zum Film - Filmwissen im Unterricht: Lehrstoff Film. Mit vielen Informationen und Filmheften mit Aufgaben zur Inhalts- und Filmanalyse und zahlreichen Hintergrundinformationen für die Vor- und Nachbearbeitung im Unterricht.                                                                                                        Verschiedene Materialien                                            critic                                                Institution: critic.de                        Filmvorstellungen und -kritiken                            Critic.de stellt neue Filme vor, stellt Rezensionen online, gibt Empfehlungen für Fernsehsendungen oder DVDs, berichtet über Festivals u.a.m. Chefredakteur ist der Filmkritiker Frédéric Jaeger.                                                                                            Film im Unterricht                                                Institution: lehrerfreund.de                        Artikelsammlung                            Die Seite \"lehrerfreund.de\" thematisiert \"Film im Unterricht\" an Artikeln wie \"Wie sieht ein Drehbuch aus?\"  -2ouTube im Unterricht nutzen\" u.a.m.                                                                                                    [/accordion]",
+              "subject": "Religion",
+              "educationalContext": [
+                "Elementarbereich",
+                "Primarstufe",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://material.rpi-virtuell.de/material/filmanalyse-unterrichtende-elementarbereich-grundschule-sekundarstufe-oberstufe/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9e3f9b22-7ec6-4163-b66e-2eade9330fad&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 60
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693035300-b4az",
+          "name": "Kaufkraft Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/inflation-und-teuerung-in-oesterreich-selbstcheck",
+          "search_query": "Kaufkraft",
+          "wlo_metadata": [
+            {
+              "nodeId": "0fc16503-8ad8-4149-830f-048fedde8fd6",
+              "title": "Inflation und Teuerung in Österreich - Selbstcheck",
+              "description": "- Inflation und Teuerung in Österreich - Selbstcheck\n- anonym\n- 04.12.2022\n- Geographie, Wirtschaft\n- 8\nMein Selbstcheck zu Inflation und Co\nÜberlege für dich persönlich und kreuze an:\nrichtig\nfalsch\nunklar\nIch kann konkrete Auswirkungen der Teuerung auf mein Leben beschreiben.\nIch kann Inflation und Deflation in eigenen Worten erklären.\nIch kann Kaufkraft als wirtschaftlichen Begriff erklären.\nIch kann Konsum als wirtschaftlichen Begriff erklären.\nIch kann Währung in eigenen Worten erklären.\nIch kann erklären, was ein finanzielles Mittel ist.\nIch kann anhand einer Grafik in einem Zeitungsartikel ableiten, wie mich Inflation betrifft.\nIch kann anhand eines Beispiels ableiten, wie ich in meiner Lebenssituation auf die wirtschaftliche Entwicklung reagieren kann.\nPlatz für Notizen:\n________________________________________________\n________________________________________________\n________________________________________________\n________________________________________________\n________________________________________________\nhttps://www.tutory.de/entdecken/dokument/inflation-und-teuerung-in-oesterreich-selbstcheck [...]",
+              "subject": "Geografie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/inflation-und-teuerung-in-oesterreich-selbstcheck",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=0fc16503-8ad8-4149-830f-048fedde8fd6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "5d5383ce-130e-4afd-97a5-1bc69a1f5d2a",
+              "title": "Aufgaben zum Selbststudium",
+              "description": "- Aufgaben zum Selbststudium\n- urban-m\n- 30.06.2020\n- Allgemeine Hochschulreife\n- Wirtschaft\n- 13\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nAufgaben zum Selbststudium\n20.03.2019\nBinnenwert des Geldes\nDer Binnenwert wird durch drei Faktoren definiert. Diese sind der Verbraucherpreisindex (VPI), die Kaufkraft und der Reallohn. Dabei sind alle drei Größen voneinander abhängig.\nDas Ziel des VPI ist die Preisstabilität. Diese wird erreicht, wenn in der Fischer'schen Verkehrsgleichung gilt: Geldmenge = Gütermenge.\nWenn bei dieser Gleichung jedoch Geldmenge ungleich Gu¨termenge gilt, liegt eine Geldwertstörung vor.\nDabei gibt es zwei Ausprägungen:\n1. Inflation\n2. Deflation\nEs wird das rote Buch und das\ngrüne Buch benötigt!\ngrüne Buch benötigt!\n1\nFinden Sie eine Definition für Inflation und Deflation.\n2\nInformieren Sie sich über die Inflation 1923 (rotes LB S. 488)\nDie Inflation kann dabei von beiden Seiten des Marktes ausgehen, also sowohl von der Angebots- als auch von der Nachfrageseite. Man spricht daher von der Nachfragebedingten Inflation und der Angebotsbedingten Inflation.\n3\nUnterscheiden Sie diese beiden Inflationsseiten ausführlich mit Hilfe des grünen Lehrbuchs (ab S. 280). Gehen Sie dabei auch auf die Arten der jeweiligen Seite ein.\n4\nBeschreiben Sie die Folgen einer Inflation stichpunktartig.\n5\nDiskutieren Sie Möglichkeiten der Bekämpfung einer Inflation durch verschieden Institutionen.\nÜbertragen Sie Ihr Wissen der Wirtschaftspolitik aus LB 5 auf die Bekämpfung der Inflation und beschreiben Sie mögliche Eingriffe des Staates.\nÜbertragen Sie Ihr Wissen der Wirtschaftspolitik aus LB 5 auf die Bekämpfung der Inflation und beschreiben Sie mögliche Eingriffe des Staates.\n6\nLösen Sie die folgenden Aufgaben :\n- grünes LB, Seite 285 Aufgabe 1\n- grünes LB, Seite 286 Aufgabe 7\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/c8 [...]",
+              "subject": "",
+              "educationalContext": [
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/c80bb876",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=5d5383ce-130e-4afd-97a5-1bc69a1f5d2a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "1c334225-c8bd-42ee-8ab0-8b5c68ce2560",
+              "title": "Handel im Mittelalter - Material",
+              "description": "Markt, Zunft und Geld - Handel im Mittelalter Der Markt bildete das Zentrum der mittelalterlichen Stadt. Hier wurden die Produkte der Bauern und Handwerker angeboten. Verschiedene Waren lockten Käufer und Verkäufer auf die Marktplätze, wo dann gefeilscht und verhandelt wurde. Die folgenden Aufgaben werden dir dabei helfen, einen Einblick in das mittelalterliche Markttreiben zu bekommen.  1 Nenne anhand der Fotos  M1  und  M2  drei dir schon bekannte Fakten über den Markt im Mittelalter und drei Fragen, die du dir gern beantworten möchtest. Mögliche thematische Schwerpunkte :  Berufe, Warenangebote, Orte des Marktes, Zahlungsmittel M1 Stand eines Topfmachers auf einem heutigen Mittelaltermarkt CC0  Link :  https://t1p.de/0qpmj M2 Stand eines Korbmachers auf einem heutigen Mittelaltermarkt CC0 Link :   https://t1p.de/kj70z interessante Fakten:   offene Fragen:  Geschichte Seite  1 / 27 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie un",
+              "subject": "Geschichte",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/24e456a1-af8a-405a-a56d-df5d47e9c52b",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1c334225-c8bd-42ee-8ab0-8b5c68ce2560&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 50
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768693035579-azik",
+          "name": "Preisvergleich Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/bildung/kulturelle-bildung/138938/der-prinzessinnengarten",
+          "search_query": "Preisvergleich",
+          "wlo_metadata": [
+            {
+              "nodeId": "494560d0-18d1-4743-821d-4b11d079df84",
+              "title": "Der Prinzessinnengarten als Ort des informellen Lernens",
+              "description": "Kunst- und Bildungsprojekte, soziale Begegnungen und gemeinsames praktisches Arbeiten mit Erde, Werkzeug und Pflanzen – im Prinzessinnengarten wird gelernt und gelehrt. Das gemeinsame Gärtnern führt unweigerlich zur Auseinandersetzung mit Fragen unse",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/kulturelle-bildung/138938/der-prinzessinnengarten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=494560d0-18d1-4743-821d-4b11d079df84&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "e4afaa9d-5c88-4934-814b-23a4d13c0155",
+              "title": "Ohne Titel",
+              "description": "Leonie vergleicht die Preise für Waschmittel und möchte das  günstigste  Waschmittel für 8kg Wäsche finden. Nutze ihren Rechenweg  Hochrechnen  und ergänze in den Minitabellen jeweils die Preis für 8 kg. Ergänze und beschrifte die  Pfeile . Welches ist das  günstigste  Waschmittel?  Berechne, welches Waschmittel für 10kg (20 kg) das günstigste ist. Denke an die Rechenpfeile. Wie teuer ist das Waschmittel  pro Portion ? Was ist eine Portion? Erkläre: Persil (in kg) Preis (in €) 1 2 8 Sauber (in kg) Preis (in €) 2 6 8 Bravo (in kg) Preis (in €) 4 6 8 Persil (in kg) Preis (in €) 1 2 10 20 Sauber (in kg) Preis (in €) 1 3 10 20 Bravo (in kg) Preis (in €) 1 1,5 10 20 Mathematik Seite  1 / 2 Angaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter  https://www.tutory.de/bereitstellung/dokument/f084b73f Name:  Strategie \"Hochrechnen\" 22.05.2020 Wann lässt sich das günstigste Waschmittel am besten erkennen? Mathematik Seite  2 / 2 Angaben zu den",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/e08bb442-08ec-48ec-903a-3ea8c66a55ae",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e4afaa9d-5c88-4934-814b-23a4d13c0155&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "a55eaaa5-407c-4321-92f4-726700e5bb86",
+              "title": "6 Dinge, die sich 2017 ändern",
+              "description": "Mit dem neuen Jahr kommen auch wieder einige Änderungen auf uns zu - eine davon ist besonders erfreulich. Zumindest für einige von uns. \n\nMein Buch* - https://www.m-vg.de/riva/shop/article/11171-verrueckte-geschichte/?pl=d3b69eca-98b9-45e6\n\nEine Übersicht über die Feiertage 2017 - http://www.schulferien.org/Feiertage/2017/feiertage_2017.html\n\nHintergründe zu den neuen Regelungen rund um das Roaming im EU-Ausland - https://www.bundesnetzagentur.de/DE/Sachgebiete/Telekommunikation/Verbraucher/WeitereThemen/InternRoaming/EURoaming/EURoaming-node.html\n\nWas ändert sich bei den Steuern im Jahr 2017? Hier erfahrt ihr es - https://www.steuern.de/steuergesetz-was-aendert-sich-ab-2017.html\n\nHintergründe zu den steigenden Strompreisen 2017 - http://www.handelsblatt.com/unternehmen/industrie/preisvergleich-der-strom-wird-2017-teurer-aber-mit-regionalen-unterschieden/14699326.html\n\nEine Übersicht der Verbraucherzentralen in Deutschland, auf der Homepage des Verbraucherzentrale Bundesverband - http://www.vzbv.de/content/verbraucherzentralen\n\nEine Übersicht der \"Hunger-Hotspots\" weltweit - http://de.wfp.org/hungerhotspots\n\nKostenlos abonnieren - http://www.youtube.com/mrwissen2go/?sub_confirmation=1\n\nMein Twitter-Account - https://twitter.com/MrWissen2Go\n\nMein Instagram-Account - https://instagram.com/mrwissen2go_\n\nHier findet ihr mich bei Facebook - http://www.facebook.com/wissen2go\n\nAlle in diesem verwendeten Videos, Fotos, Grafiken und sonstige Bilder habe ich über die Google-Bildersuche für lizenzfreies Bildmaterial gefunden. Sie sind zur Wiederverwendung freigegeben. Sollte dir auffallen, dass eine Kennzeichnung falsch und ein Foto/ eine Grafik/ ein Bild doch nicht lizenzfrei ist, melde dich bitte umgehend bei mir, damit ich mich um die Klärung der Rechte kümmern kann.\n\nThumbnail-Designer: David Weber.\n\n* Affiliate-Link, damit ich am Verkauf meines eigenen Buchs auch etwas verdiene",
+              "subject": "Politik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=8WLyAe15UBE",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a55eaaa5-407c-4321-92f4-726700e5bb86&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
         }
       ],
       "tools": [
         {
           "id": "ENV1-T1",
-          "name": "Tafel/Whiteboard",
-          "tool_type": "Hardware",
-          "source": "Intern",
-          "access_link": "",
-          "filter_criteria": {}
+          "name": "Beamer",
+          "tool_type": "Präsentationstechnik",
+          "source": "manual",
+          "access_link": ""
         },
         {
           "id": "ENV1-T2",
           "name": "Taschenrechner",
           "tool_type": "Hardware",
-          "source": "Intern",
-          "access_link": "",
-          "filter_criteria": {}
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV1-T3",
+          "name": "Marker & Plakat",
+          "tool_type": "Material",
+          "source": "manual",
+          "access_link": ""
         }
       ],
+      "services": []
+    },
+    {
+      "id": "ENV-DEFAULT",
+      "name": "Standard-Lernumgebung",
+      "description": "Digitale Lernumgebung für WLO-Inhalte",
+      "materials": [],
+      "tools": [],
       "services": []
     }
   ]

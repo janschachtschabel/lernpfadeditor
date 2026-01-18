@@ -1,76 +1,145 @@
 {
   "metadata": {
-    "title": "1 gegen 1 Trainingseinheit für Kinder",
-    "description": "Eine interaktive Trainingseinheit zur Förderung von 1 gegen 1 Fähigkeiten bei Kindern im Alter von 6 Jahren.",
+    "title": "1 gegen 1 Trainingseinheit (Kinder, 6 Jahre)",
+    "description": "Spielerische, altersgerechte 60‑minütige Trainingseinheit zur Förderung von 1‑gegen‑1‑Fertigkeiten, Kooperation und Selbstbewusstsein bei 6‑jährigen Kindern.",
     "keywords": [
       "1 gegen 1",
       "Kindertraining",
-      "Sport",
+      "Dribbling",
       "Teamarbeit",
-      "Spiele"
+      "Spielformen"
     ],
     "author": "Max Mustermann",
-    "version": "1.0"
+    "version": "1.2",
+    "created": "2026-01-17T18:47:01.323Z"
   },
   "problem": {
-    "problem_description": "Kinder im Alter von 6 Jahren benötigen gezielte Übungen, um ihre 1 gegen 1 Fähigkeiten im Spiel zu verbessern und Teamarbeit zu fördern.",
+    "problem_description": "Kinder im Alter von 6 Jahren brauchen gezielte, spielerische Übungsformen, um grundlegende 1‑gegen‑1‑Fähigkeiten (Ballführung, Ausweichen, Abschluss) zu verbessern und gleichzeitig Teamkompetenzen sowie Selbstvertrauen zu stärken.",
+    "description": "Kinder im Alter von 6 Jahren brauchen gezielte, spielerische Übungsformen, um grundlegende 1‑gegen‑1‑Fähigkeiten (Ballführung, Ausweichen, Abschluss) zu verbessern und gleichzeitig Teamkompetenzen sowie Selbstvertrauen zu stärken.",
     "learning_goals": [
-      "Verbesserung der individuellen Spieltechnik",
-      "Förderung der Teamarbeit und Kommunikation",
-      "Stärkung des Selbstbewusstseins im Spiel",
-      "Entwicklung von taktischem Verständnis"
+      "Verbesserung grundlegender 1‑gegen‑1‑Techniken (Dribbling, Richtungswechsel, Abschluss)",
+      "Förderung von Kooperation, Fairness und Kommunikation im Spiel",
+      "Stärkung des Selbstbewusstseins durch erfolgreiche Übungserlebnisse",
+      "Anwendung einfacher taktischer Entscheidungen in Spielsituationen"
     ],
     "didactic_keywords": [
       "Spielformen",
-      "1 gegen 1",
-      "Kooperation",
+      "Altersgerechte Differenzierung",
+      "Formative Bewertung",
       "Bewegungsförderung"
-    ]
+    ],
+    "challenges": []
   },
   "context": {
     "target_group": "Kinder im Alter von 6 Jahren",
     "subject": "Sport",
     "educational_level": "Vorschule/Grundschule",
-    "prerequisites": "Grundlegende Bewegungsfähigkeiten und Interesse am Spiel",
+    "prerequisites": "Grundlegende Bewegungsfähigkeit, Freude an Ballspielen",
     "time_frame": "60 Minuten"
   },
   "influence_factors": [
     {
       "factor": "Alter",
-      "description": "Die Übungen müssen altersgerecht und spielerisch gestaltet werden."
+      "description": "Kurzfristige Aufmerksamkeitsspannen; Übungen müssen kurz, abwechslungsreich und spielerisch sein."
     },
     {
-      "factor": "Bewegungsniveau",
-      "description": "Unterschiedliche motorische Fähigkeiten benötigen differenzierte Übungen."
+      "factor": "Motorisches Niveau",
+      "description": "Breite Spannbreite motorischer Fähigkeiten erfordert Differenzierung und individuelle Unterstützung."
     },
     {
-      "factor": "Gruppendynamik",
-      "description": "Die Kinder müssen in der Lage sein, miteinander zu arbeiten und zu kommunizieren."
+      "factor": "Gruppengröße",
+      "description": "Bei größeren Gruppen sind Aufgabenteilung und zusätzliche Betreuungspersonen sinnvoll."
+    },
+    {
+      "factor": "Ausstattung",
+      "description": "Verfügbarkeit von Bällen, Hütchen, Toren/Markierungen beeinflusst Übungsvarianten."
     }
   ],
   "solution": {
-    "solution_description": "Ein strukturiertes Training, das verschiedene Spielformen kombiniert, um 1 gegen 1 Fähigkeiten zu fördern.",
-    "didactic_approach": "Spielerisches Lernen durch verschiedene Übungen, die den Kindern helfen, ihre Fähigkeiten zu verbessern.",
+    "solution_description": "Strukturierte Einheit mit klarem Aufbau: Aktivierung → Technikübungen in Paaren → Anwendung im Team → Reflexion. Digitale und analoge Materialien unterstützen Lernende und Lehrende.",
+    "approach": "Strukturierte Einheit mit klarem Aufbau: Aktivierung → Technikübungen in Paaren → Anwendung im Team → Reflexion. Digitale und analoge Materialien unterstützen Lernende und Lehrende.",
+    "didactic_approach": "Spielerisches, handlungsorientiertes Lernen mit kurzen Fokusphasen, formative Rückmeldungen und einfachen Differenzierungsoptionen.",
     "didactic_template": {
       "learning_sequences": [
         {
           "sequence_id": "LS1",
           "sequence_name": "1 gegen 1 Trainingseinheit",
           "time_frame": "60 Minuten",
-          "learning_goal": "Verbesserung der 1 gegen 1 Fähigkeiten und Teamarbeit",
+          "learning_goal": "Verbesserung der 1‑gegen‑1 Fähigkeiten, Teamarbeit und Selbstvertrauen im Spiel",
           "phases": [
             {
               "phase_id": "LS1-P1",
               "phase_name": "Aufwärmen",
               "time_frame": "10 Minuten",
-              "learning_goal": "Aktivierung der Muskulatur und Vorbereitung auf die Übungen",
+              "learning_goal": "Muskelaktivierung, Aufmerksamkeit wecken und Spielbereitschaft herstellen",
               "activities": [
                 {
                   "activity_id": "LS1-P1-A1",
-                  "name": "Aufwärmspiel",
-                  "description": "Ein einfaches Fangspiel, um die Kinder in Bewegung zu bringen.",
+                  "name": "Aufwärmspiel: Kettenfangen",
+                  "description": "Ein kurzes, lustiges Fangspiel in kleinen Gruppen, bei dem die Fangenden eine Kette bilden und zusammenarbeiten müssen. Variation mit Ball: Wer gefangen wird, gibt Ball weiter.",
                   "duration": 10,
-                  "goal": "Aktivierung und Spaß",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet das Aufwärmspiel Kettenfangen, erklärt Regeln, zeigt Variationen mit Ball und koordiniert Sicherheitsaspekte.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1768675640480-8hwm",
+                          "ENV1-M2",
+                          "ENV1-M1768675969676-ww9f"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Moderation",
+                      "actor_id": "A2",
+                      "task_description": "Unterstützt die Leitung durch Beobachtung, gibt Impulse zur Variation (z. B. Ballweitergabe) und organisiert Material.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1768675640480-8hwm",
+                          "ENV1-M1",
+                          "ENV1-M1768675968509-lzgb"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R3",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A3",
+                      "task_description": "Nimmt aktiv am Kettenfangen teil, probiert die Ballvariation aus und arbeitet in der Gruppe zusammen.",
+                      "selected_differentiation": [
+                        "diff_A3_1768675958025_0",
+                        "diff_A3_1768675958025_1",
+                        "diff_A3_1768675958025_2"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2",
+                          "ENV1-MDR2"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Aufwärmen, Teamgefühl, Spaß",
                   "prerequisite_activity": null,
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -84,23 +153,9 @@
                     ],
                     "criteria": [
                       "Aktive Teilnahme",
-                      "Spaß"
+                      "Grundlegende Bewegungsbereitschaft"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P1-A1-R1",
-                      "role_name": "Trainer",
-                      "actor_id": "A1",
-                      "task_description": "Leitet das Aufwärmspiel und motiviert die Kinder.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": null,
@@ -110,16 +165,83 @@
             },
             {
               "phase_id": "LS1-P2",
-              "phase_name": "Übung 1: 1 gegen 1 Duelle",
+              "phase_name": "Erarbeitung: Technik im Paar",
               "time_frame": "20 Minuten",
-              "learning_goal": "Verbesserung der Technik im 1 gegen 1",
+              "learning_goal": "Grundlegende Dribbling‑ und Täuschungstechniken in 1‑gegen‑1 Situationen üben",
               "activities": [
                 {
                   "activity_id": "LS1-P2-A1",
                   "name": "1 gegen 1 Dribbling",
-                  "description": "Die Kinder treten in Paaren gegeneinander an und üben das Dribbling.",
+                  "description": "Paare üben auf kleinem Feld Dribbling und Richtungswechsel; jeweils 1 Angreifer vs. 1 Verteidiger, Wechsel nach 45–60 Sekunden.",
                   "duration": 10,
-                  "goal": "Technik und Selbstbewusstsein stärken",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Führt in die Übung 1 gegen 1 Dribbling ein, demonstriert Technik, gibt Feedback und zeigt didaktische Hinweise aus der Unterrichtsidee.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1768675642397-scyz",
+                          "ENV1-M1768675646621-71jr",
+                          "ENV1-MDR1"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Moderation",
+                      "actor_id": "A2",
+                      "task_description": "Beobachtet Paare, gibt individuelles Feedback zu Dribbling und Richtungswechseln und passt Schwierigkeitsgrad an.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-MDR2",
+                          "ENV1-M2",
+                          "ENV1-M1768675969855-70tm",
+                          "ENV1-M1768675969823-ww9t"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R3",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A3",
+                      "task_description": "Übt im Paar Dribbling und Richtungswechsel, wechselt zwischen Angreifer und Verteidiger nach Zeitvorgabe.",
+                      "selected_differentiation": [
+                        "diff_A3_1768675958025_0",
+                        "diff_A3_1768675958025_1",
+                        "diff_A3_1768675958025_2"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2",
+                          "ENV1-MDR2",
+                          "ENV1-M1768675969677-ccnb",
+                          "ENV1-M1768675966149-aaqu"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Ballkontrolle, Richtungswechsel, Mut zum Eins-gegen-Eins",
                   "prerequisite_activity": "LS1-P1-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -129,34 +251,85 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Feedback"
+                      "Feedback",
+                      "Kurzbeobachtungen"
                     ],
                     "criteria": [
-                      "Technik",
-                      "Selbstbewusstsein"
+                      "Ballkontrolle",
+                      "Einsatzbereitschaft"
                     ]
-                  },
+                  }
+                },
+                {
+                  "activity_id": "LS1-P2-A2",
+                  "name": "1 gegen 1 im Mini-Tor",
+                  "description": "Kleines Ziel/Markierung als Tor; Paare versuchen, nach Dribbling ein Tor zu erzielen. Variation: Verteidiger darf nur seitlich verteidigen.",
+                  "duration": 10,
                   "roles": [
                     {
-                      "role_id": "LS1-P2-A1-R1",
-                      "role_name": "Trainer",
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Moderation",
                       "actor_id": "A1",
-                      "task_description": "Beobachtet die Übungen und gibt individuelles Feedback.",
+                      "task_description": "Erklärt die Aufgabe 1 gegen 1 im Mini‑Tor, demonstriert Torabschlussvarianten und regelt Wechsel und Fairplay.",
+                      "selected_differentiation": [],
                       "learning_environment": {
                         "environment_id": "ENV1",
-                        "selected_materials": [],
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M1768675642397-scyz",
+                          "ENV1-M1768675646621-71jr",
+                          "ENV1-M1768675969246-p508"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A2-R2",
+                      "role_name": "Moderation",
+                      "actor_id": "A2",
+                      "task_description": "Koordiniert Spielfeldaufbau mit Mini‑Toren und Hütchen, passt Regeln (z. B. seitliche Verteidigung) je nach Gruppe an.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M2",
+                          "ENV1-MDR1",
+                          "ENV1-M1768675971684-zhut"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A2-R3",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A3",
+                      "task_description": "Spielt 1 gegen 1 mit Fokus auf Torabschluss; probiert die Variation (nur seitliches Verteidigen) aus.",
+                      "selected_differentiation": [
+                        "diff_A3_1768675958025_0",
+                        "diff_A3_1768675958025_1",
+                        "diff_A3_1768675958025_2"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M1",
+                          "ENV1-M1768675969591-1dnv",
+                          "ENV1-M1768675964794-ajzh"
+                        ],
                         "selected_tools": [],
                         "selected_services": []
                       }
                     }
-                  ]
-                },
-                {
-                  "activity_id": "LS1-P2-A2",
-                  "name": "1 gegen 1 im Tor",
-                  "description": "Die Kinder versuchen, den Ball ins Tor zu bringen.",
-                  "duration": 10,
-                  "goal": "Wettbewerb und Spaß fördern",
+                  ],
+                  "goal": "Abschlussmotivation, Wettbewerbselement, Anwendung der Technik",
                   "prerequisite_activity": "LS1-P2-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -166,27 +339,14 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Beobachtung"
+                      "Beobachtung",
+                      "kurzes Feedback"
                     ],
                     "criteria": [
-                      "Zielgenauigkeit",
-                      "Kreativität"
+                      "Abschlussbereitschaft",
+                      "Fairness"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P2-A2-R1",
-                      "role_name": "Trainer",
-                      "actor_id": "A2",
-                      "task_description": "Leitet die Übung und motiviert die Kinder.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS1-P1",
@@ -196,16 +356,84 @@
             },
             {
               "phase_id": "LS1-P3",
-              "phase_name": "Übung 2: Teamwettbewerb",
+              "phase_name": "Anwendung: Teamwettbewerb",
               "time_frame": "20 Minuten",
-              "learning_goal": "Teamarbeit fördern und 1 gegen 1 Fähigkeiten anwenden",
+              "learning_goal": "Anwendung der Techniken in einer spielnahen, kooperativen Wettbewerbssituation",
               "activities": [
                 {
                   "activity_id": "LS1-P3-A1",
                   "name": "Team 1 gegen 1 Turnier",
-                  "description": "Die Kinder treten in kleinen Teams gegeneinander an.",
+                  "description": "Kleine Teams (z. B. 4 Teams) spielen kurze Begegnungen im Rotationsprinzip; Punkte für faire Aktionen und Technik.",
                   "duration": 20,
-                  "goal": "Anwendung der 1 gegen 1 Techniken im Team",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Organisiert das Team‑Turnier, erklärt Rotationsprinzip, Wertung (faire Aktionen/Technik) und führt die Punkteauswertung durch.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-MDR2",
+                          "ENV1-M1768675642397-scyz",
+                          "ENV1-M1768675646621-71jr",
+                          "ENV1-M1768675964867-3w1w",
+                          "ENV1-M1768675964877-gwgl"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R2",
+                      "role_name": "Moderation",
+                      "actor_id": "A2",
+                      "task_description": "Betreut Spielpaarungen, achtet auf Fairness und Technikbewertung und unterstützt bei Bedarf die Anpassung der Teams.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M1",
+                          "ENV1-M1768675965511-wmr8"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R3",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A3",
+                      "task_description": "Spielt im Team‑Turnier, sammelt Punkte durch Technik und faires Verhalten und rotiert wie vorgegeben.",
+                      "selected_differentiation": [
+                        "diff_A3_1768675958025_0",
+                        "diff_A3_1768675958025_1",
+                        "diff_A3_1768675958025_2"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M3",
+                          "ENV1-MDR2",
+                          "ENV1-M1768675972283-xqu9",
+                          "ENV1-M1768675963985-78cf"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Transfer ins Spiel, Teamarbeit, taktische Grundideen",
                   "prerequisite_activity": "LS1-P2-A2",
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -215,27 +443,14 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Beobachtung"
+                      "Beobachtung",
+                      "kurze Notizen zur Teamleistung"
                     ],
                     "criteria": [
-                      "Teamarbeit",
-                      "Technik"
+                      "Kooperation",
+                      "Anwendung der Technik"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P3-A1-R1",
-                      "role_name": "Trainer",
-                      "actor_id": "A1",
-                      "task_description": "Beobachtet und bewertet die Team-Performances.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS1-P2",
@@ -247,14 +462,72 @@
               "phase_id": "LS1-P4",
               "phase_name": "Abschluss und Reflexion",
               "time_frame": "10 Minuten",
-              "learning_goal": "Reflexion der gelernten Inhalte und Feedback",
+              "learning_goal": "Erlebtes kurz gemeinsam reflektieren, Lernerfolge sichtbar machen und Ausblick geben",
               "activities": [
                 {
                   "activity_id": "LS1-P4-A1",
-                  "name": "Reflexion",
-                  "description": "Die Kinder teilen ihre Erfahrungen und was sie gelernt haben.",
+                  "name": "Reflexion in der Gruppe",
+                  "description": "Kurze Gesprächsrunde: Was hat gut geklappt? Was möchte ich weiter üben? Ausgabe eines einfachen Reflexionsbogens für Zuhause.",
                   "duration": 10,
-                  "goal": "Reflexion und Feedback zur Trainingseinheit",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P4-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Reflexionsrunde, stellt Leitfragen und gibt den Reflexionsbogen für Zuhause aus.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1768675646417-dj0w",
+                          "ENV1-M1768675972575-z3z4",
+                          "ENV1-M1768675972025-ksz0"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P4-A1-R2",
+                      "role_name": "Moderation",
+                      "actor_id": "A2",
+                      "task_description": "Unterstützt die Gesprächsmoderation, sammelt Rückmeldungen und fasst Lernziele für weitere Übungen zusammen.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1768675646417-dj0w",
+                          "ENV1-MDR3",
+                          "ENV1-M1768675972256-l9xt",
+                          "ENV1-M1768675972577-lip8"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P4-A1-R3",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A3",
+                      "task_description": "Reflektiert die eigene Leistung, füllt den Reflexionsbogen aus und benennt persönliche Lernziele für Zuhause.",
+                      "selected_differentiation": [
+                        "diff_A3_1768675958025_0",
+                        "diff_A3_1768675958025_1",
+                        "diff_A3_1768675958025_2"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-MDR3",
+                          "ENV1-M1768675969183-56nr",
+                          "ENV1-M1768675967355-yrq3"
+                        ],
+                        "selected_tools": [],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Sicherung, Selbstreflexion, Transfer nach Hause",
                   "prerequisite_activity": "LS1-P3-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -262,27 +535,14 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Gespräch"
+                      "Gespräch",
+                      "Ausfüllen kurzer Reflexionsfrage"
                     ],
                     "criteria": [
                       "Teilnahme",
-                      "Ehrlichkeit"
+                      "Erkenntnisfähigkeit"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P4-A1-R1",
-                      "role_name": "Trainer",
-                      "actor_id": "A2",
-                      "task_description": "Leitet die Reflexionsrunde.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS1-P3",
@@ -291,45 +551,50 @@
               "next_phase": null
             }
           ],
-          "prerequisite_learningsequences": [],
+          "prerequisite_sequence": null,
           "transition_type": "sequential",
           "condition_description": null,
-          "next_learningsequence": []
+          "next_sequence": null
         }
       ]
     }
   },
   "consequences": {
     "advantages": [
-      "Förderung der individuellen Fähigkeiten der Kinder",
-      "Verbesserung der Teamarbeit",
-      "Spaß und Bewegung in einem spielerischen Rahmen",
-      "Stärkung des Selbstbewusstseins"
+      "Klar strukturierte Einheit mit unmittelbarer Praxiserfahrung",
+      "Altersgerechte, spielerische Vermittlung technischer und sozialer Kompetenzen",
+      "Differenzierungsmöglichkeiten für heterogene Gruppen",
+      "Formative Beobachtung und gezieltes Feedback"
     ],
     "disadvantages": [
-      "Herausforderung bei der Koordination der Übungen",
-      "Mögliche Überforderung einzelner Kinder"
+      "Benötigt gute Organisation bei großen Gruppen (mehr Betreuer hilfreich)",
+      "Mögliche Überforderung einzelner Kinder ohne adäquate Vereinfachung",
+      "Abhängigkeit von Material- und Hallenausstattung"
     ]
   },
   "implementation_notes": [
     {
       "note_id": "Note1",
-      "description": "Alle Materialien und Werkzeuge vor der Einheit bereitstellen."
+      "description": "Materialien (Bälle, Hütchen, Tore) und digitale Ressourcen vorab prüfen und bereitlegen."
     },
     {
       "note_id": "Note2",
-      "description": "Die Kinder vor der Einheit über die Übungen informieren."
+      "description": "Teilung in Leistungsniveaus: einfache/erweiterte Parcours anbieten; bei Bedarf Assistenzkräfte einsetzen."
     },
     {
       "note_id": "Note3",
-      "description": "Sicherstellen, dass genügend Platz für die Übungen vorhanden ist."
+      "description": "Sicherheit: auf ausreichend Abstand, rutschfestes Schuhwerk und klare Regeln achten."
+    },
+    {
+      "note_id": "Note4",
+      "description": "Kurzvideo/Fotoaufnahmen nur mit Einverständnis der Erziehungsberechtigten verwenden."
     }
   ],
   "related_patterns": [
     "Bewegungsförderung",
     "Teamtraining",
     "Kindersport",
-    "Spiele im Sportunterricht"
+    "Spielformen im Sportunterricht"
   ],
   "feedback": {
     "comments": [
@@ -345,7 +610,9 @@
       }
     ]
   },
-  "sources": [],
+  "sources": [
+    "wirlernenonline.de"
+  ],
   "actors": [
     {
       "id": "A1",
@@ -353,7 +620,9 @@
       "type": "Einzelperson",
       "demographic_data": {
         "age": 30,
+        "age_range": "",
         "gender": "männlich",
+        "gender_distribution": "",
         "ethnic_background": "deutsch"
       },
       "education": {
@@ -363,7 +632,7 @@
       },
       "competencies": {
         "subject_competencies": [
-          "Sport",
+          "Kindersport",
           "Bewegungsförderung"
         ],
         "cognitive_competencies": [
@@ -372,7 +641,7 @@
         ],
         "methodical_competencies": [
           "Gruppenleitung",
-          "Methodenvielfalt"
+          "Moderation"
         ],
         "affective_competencies": [
           "Motivation",
@@ -399,12 +668,12 @@
       },
       "interests_and_goals": {
         "interests": [
-          "Teamtraining",
-          "Kindersport"
+          "Kindersport",
+          "Teamtraining"
         ],
         "goals": [
-          "Förderung von Kindern im Sport",
-          "Spaß am Sport vermitteln"
+          "Freude an Bewegung vermitteln",
+          "Technik fördern"
         ],
         "motivation": {
           "type": "intrinsic",
@@ -422,7 +691,9 @@
       "type": "Einzelperson",
       "demographic_data": {
         "age": 28,
+        "age_range": "",
         "gender": "weiblich",
+        "gender_distribution": "",
         "ethnic_background": "deutsch"
       },
       "education": {
@@ -490,7 +761,9 @@
       "name": "Trainingsteilnehmer",
       "type": "Gruppe",
       "demographic_data": {
+        "age": 0,
         "age_range": "6-7",
+        "gender": "",
         "gender_distribution": "gemischt",
         "ethnic_background": "diverse"
       },
@@ -512,7 +785,8 @@
           "Selbstorganisation"
         ],
         "affective_competencies": [
-          "Teamfähigkeit"
+          "Teamfähigkeit",
+          "Motivation"
         ],
         "digital_competencies": [],
         "language_skills": {
@@ -528,9 +802,13 @@
       "learning_requirements": {
         "learning_preferences": [
           "Aktive Teilnahme",
-          "Visuelle Unterstützung"
+          "Visuelle Unterstützung",
+          "Kurze Instruktionen"
         ],
-        "special_needs": [],
+        "special_needs": [
+          "Mehr Zeit",
+          "Motivationsunterstützung"
+        ],
         "technical_requirements": []
       },
       "interests_and_goals": {
@@ -550,14 +828,46 @@
       "social_structure": {
         "group_size": 20,
         "heterogeneity": "hoch"
-      }
+      },
+      "differentiation_options": [
+        {
+          "id": "diff_A3_1768675958025_0",
+          "label": "Gestaffelte Übungseinheiten",
+          "description": "Aufteilung von Lernzielen in kurze, wiederholbare Einheiten mit festen Zeitpuffern und Möglichkeit zu zusätzlichen Wiederholungen, damit Teilnehmende langsamer üben und mehr Zeit für Automatisierung erhalten und gleichzeitig Motivation durch erkennbare Fortschritte steigt.",
+          "hints": [
+            "Plane pro Übung mehrere Kurzzyklen (z. B. 3×5 Minuten) statt einer langen Einheit und baue zwischen den Zyklen 1–2 Minuten Reflexionszeit ein.",
+            "Biete am Ende der Stunde eine freiwillige Nachübung an (5–10 Minuten) für jene, die mehr Zeit brauchen.",
+            "Kennzeichne Aufgaben nach Schwierigkeit, damit Teilnehmende mit mehr Zeitbedarf eine niedrigere Einstiegsebene wählen und damit Erfolgserlebnisse sammeln."
+          ]
+        },
+        {
+          "id": "diff_A3_1768675958025_1",
+          "label": "Individualisierte Zielkarten",
+          "description": "Persönliche Zielkarten mit kleinen, erreichbaren Zwischenzielen und flexiblen Zeitrahmen, die den Fortschritt sichtbar machen und durch das Erreichen kurzer Etappen Motivation fördern; Zeitlimits sind individuell verlängerbar.",
+          "hints": [
+            "Erstelle SMART-Mini-Ziele (z. B. ‚3 korrekte Pässe in Folge‘) und lasse Teilnehmende ein realistisches Zeitfenster eintragen.",
+            "Nutze sichtbare Indikatoren (Sticker, Häkchen) für erreichte Zwischenziele, um Motivation durch sofortiges Feedback zu steigern.",
+            "Erlaube das Verschieben von Fristen ohne Stigma und dokumentiere die Verlängerung als Teil des Lernplans."
+          ]
+        },
+        {
+          "id": "diff_A3_1768675958025_2",
+          "label": "Buddy-System mit Zeitcoach",
+          "description": "Kleingruppen- bzw. Tandemarbeit, bei der ein Partner als Zeitmanager und Motivator fungiert: gibt Erinnerungen, lobt Fortschritte und unterstützt bei verlängerten Übungsphasen, sodass Zeitbedarf respektiert und Motivation gefördert wird.",
+          "hints": [
+            "Paare Teilnehmende so, dass Stärkere unterstützend motivieren und beide feste Rollen (Coach/Übender) zeitlich rotieren.",
+            "Gib einfache Gesprächs-/Motivationssätze (z. B. ‚Noch 2 Versuche, du schaffst das!‘) und klare Zeit-Signale (Timer) vor.",
+            "Plane kurze Peer-Feedback-Phasen, in denen Buddies positive Aspekte hervorheben und notwendige Extra-Zeit abstimmen."
+          ]
+        }
+      ]
     }
   ],
   "environments": [
     {
       "id": "ENV1",
       "name": "Sporthalle",
-      "description": "Sporthalle mit ausreichend Platz für Bewegungsübungen und Spiele.",
+      "description": "Halle mit ausreichend Platz für Spielfelder, Markierungen und kleine Tore.",
       "materials": [
         {
           "id": "ENV1-M1",
@@ -575,37 +885,905 @@
         },
         {
           "id": "ENV1-M3",
-          "name": "Matten",
+          "name": "Mini‑Tore",
           "material_type": "Sportgerät",
           "source": "manual",
           "access_link": ""
+        },
+        {
+          "id": "ENV1-M1768675640480-8hwm",
+          "name": "Aufwärmspiele Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.vlamingo.de/aufwaermspiele-basketball/#Dribbelfangen",
+          "search_query": "Aufwärmspiele",
+          "wlo_metadata": [
+            {
+              "nodeId": "4536c395-bd25-4aa4-8c2d-9579c3e0d2bb",
+              "title": "10 Basketball-Aufwärmspiele ",
+              "description": "Hier findest du zehn spannende Basketball-Aufwärmspiele. ",
+              "subject": "Sport",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.vlamingo.de/aufwaermspiele-basketball/#Dribbelfangen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4536c395-bd25-4aa4-8c2d-9579c3e0d2bb&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675642397-scyz",
+          "name": "1 gegen 1 Dribbling Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.knsu.de/spielsportarten/fussball/dribbing/dribbling-und-finten",
+          "search_query": "Dribbling",
+          "wlo_metadata": [
+            {
+              "nodeId": "ae240f67-5e43-48ad-aef3-24341a5a62d8",
+              "title": "Dribbling und Finten - knsu.de",
+              "description": "Ziel soll es sein, eine sicherere Ballführung zu automatisieren, da die sichere Ballführung elementar für das Dribbling ist.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/fussball/dribbing/dribbling-und-finten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ae240f67-5e43-48ad-aef3-24341a5a62d8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675646621-71jr",
+          "name": "Dribbling Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.knsu.de/spielsportarten/basketball/dribbling/dribbeln-lernen-in-stationenarbeit#video",
+          "search_query": "Dribbling",
+          "wlo_metadata": [
+            {
+              "nodeId": "ddb6b8f5-42db-448f-a070-e1ece286a733",
+              "title": "KNSU - Dribbeln lernen in Stationenarbeit",
+              "description": "DIE KNSU präsentiert OER-Materialien zum Thema: Dribbling lernen in Stationenarbeit.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/basketball/dribbling/dribbeln-lernen-in-stationenarbeit#video",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ddb6b8f5-42db-448f-a070-e1ece286a733&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675646417-dj0w",
+          "name": "Reflexionsbogen Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "filter",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/434ff3b3-992c-4546-8af2-2cb86ceec319",
+          "search_query": "Reflexion"
+        },
+        {
+          "id": "ENV1-MDR1",
+          "name": "Dribbling Video",
+          "material_type": "Video",
+          "source": "database",
+          "access_link": "https://www.knsu.de/spielsportarten/basketball/dribbling/dribbeln-lernen-in-stationenarbeit#video",
+          "search_query": "Dribbling",
+          "wlo_metadata": [
+            {
+              "nodeId": "ddb6b8f5-42db-448f-a070-e1ece286a733",
+              "title": "KNSU - Dribbeln lernen in Stationenarbeit",
+              "description": "Kurzes Erklärvideo mit einfachen Dribbling-Übungen.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/basketball/dribbling/dribbeln-lernen-in-stationenarbeit#video",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ddb6b8f5-42db-448f-a070-e1ece286a733&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            }
+          ]
+        },
+        {
+          "id": "ENV1-MDR2",
+          "name": "Ballübungen Spiel",
+          "material_type": "Lernspiel",
+          "source": "database",
+          "access_link": "https://www.mobilsport.ch",
+          "search_query": "Ballübungen",
+          "wlo_metadata": [
+            {
+              "nodeId": "6ad98e40-972a-4d95-9f58-39babf1fbd14",
+              "title": "Spiele und Übungen zum Erlernen des Basketballspiels",
+              "description": "Sammlung mit altersgerechten Ballübungen und Spielen.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.mobilesport.ch",
+              "previewUrl": "",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-MDR3",
+          "name": "Reflexionsbogen",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/434ff3b3-992c-4546-8af2-2cb86ceec319",
+          "search_query": "Reflexion",
+          "wlo_metadata": [
+            {
+              "nodeId": "8d9bce0f-0fd3-4d0e-9888-02a4d6d63d8a",
+              "title": "M 04.09 Zielscheibe zur Evaluation",
+              "description": "Einfacher Reflexionsbogen für Gruppen zur Evaluation.",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/434ff3b3-992c-4546-8af2-2cb86ceec319",
+              "previewUrl": "",
+              "relevanceScore": 75
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675969676-ww9f",
+          "name": "Aufwärmen Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=FbWWmFF7GbM",
+          "search_query": "Aufwärmen",
+          "wlo_metadata": [
+            {
+              "nodeId": "c3d74f4e-b7b3-4697-8fe3-e6adab979bc6",
+              "title": "Wo macht der König viel Theater? | Reportage mit Willi Weitzel | Willi wills wissen",
+              "description": "Tanzen, Singen und Schauspielern - das muss man alles können, um bei einem Musical  mitzuspielen! Willi ist im Theater in Füssen, wo die Geschichte von König Ludwig II. aufgeführt wird.",
+              "subject": "Darstellendes Spiel",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=FbWWmFF7GbM",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c3d74f4e-b7b3-4697-8fe3-e6adab979bc6&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "36950507-8d01-4120-b336-836984dd50fb",
+              "title": "Tapst - Tanzpädagogisches Projekt Schultanz und seine Arbeitsweise",
+              "description": "Das Tanzpädagogische Projekt Schultanz, TAPST, ist mehr als Tanzunterricht und ganz anders als Sport. Die Kernidee des Projekts ist die Vermittlung von kreativen Gestaltungsprozessen und körpersprachlichen Fähigkeiten durch professionelle Bühnenkünst",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/kulturelle-bildung/60270/tapst",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=36950507-8d01-4120-b336-836984dd50fb&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675968509-lzgb",
+          "name": "Aufwärmen Ball Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.bpb.de/lernen/projekte/vorbild/153086/die-einzelnen-schritte",
+          "search_query": "Aufwärmen Ball",
+          "wlo_metadata": [
+            {
+              "nodeId": "9cc41fc3-2830-465a-aa27-afb65165d663",
+              "title": "Grundschule 24 | Jonglieren – Mit drei Bällen | Sport macht Spaß",
+              "description": "Heute zünden wir bei #SportmachtSpaß die nächste Stufe: Nachdem wir uns in der letzten Folge schon mit den ersten Übungen dazu beschäftigt haben, schnappen wir uns heute direkt drei Bälle und meistern das freie Jonglieren. Auch beim Aufwärmen dürfen die Kugeln natürlich nicht fehlen, und zum krönenden Abschluss hat unser neues Gesicht Christoph heute ein besonders cooles Spiel für Emilia und euch alle mitgebracht: Schmettertennis! Viel Erfolg und gutes Jonglieren!\n\nUnser Mitmach-Sportprogramm für Grundschulkinder gibt es jeden Samstag um 10 Uhr mit einer neuen Folge auf unserem YouTube-Kanal. Um 9 Uhr erscheint zudem eine Sendung „Sport macht Spaß“ für die Kita. \n\nWir freuen uns auf eure Ideen und Kommentare! Schreibt uns einfach eine Mail an sportmachtspass@albaberlin.de – hier könnt ihr euch auch für unseren monatlichen Newsletter mit allen Infos rund um „Sport macht Spaß“ anmelden.\n_________________ \n\nWas erwartet Euch in dieser Folge? \n\n00:00​​ Begrüßung\n00:50​​ Warm-Up mit dem Ball\n08:18​​ Technik-Ecke: Jonglieren mit drei Bällen\n20:29​​ Schmettertennis\n__________________ \n\n„Sport macht Spaß“ ist Teil des großen digitalen Sportprogramms „Sport digital – Mehr Bewegung im Quartier“, das wir gemeinsam mit dem Bundesministerium des Innern, für Bau und Heimat (BMI) ins Leben gerufen haben. Wir bieten euch dabei kontinuierlich digitale Sportstunden für Kita- und Schulkinder hier bei YouTube an, es wird eine Mediathek mit Bildungs- und Informationsvideos aufgebaut, und es gibt Fortbildungen für pädagogische Fachkräfte im Netz und direkt in den Kiezen. Unter https://www.albaberlin.de/jugend/kita-schule-uni/sport-digital/ und https://www.miteinander-im-quartier.de/​​ findet ihr alle Infos zu unserem Modellprojekt, das im Rahmen der ressortübergreifenden Strategie „Soziale Stadt – Nachbarschaften stärken, miteinander im Quartier“ gefördert wird.\n\nRedaktion: Lena Flöttmann, Christoph Nicol & das ALBA-Kitateam | Kamera: Andreas Reuther & Clemens Barth | Regie: Kai Rostásy | Schnitt: Hagen Hinkelmann\n\n#ALBA​​ #Sportstunde​​ #Sport​​ #Bewegung​​ #Zuhause​​ #Grundschule​​ #Grundschulsport​​ #Kindersport​​ #Mitmachsport​​ #Jonglieren​​ #Jonglage​​ #Koordination​​ #Ball​",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=UhWXe9zUHbk",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9cc41fc3-2830-465a-aa27-afb65165d663&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 75
+            },
+            {
+              "nodeId": "e93c4fb9-f0cd-4a3b-a8fb-cfca6da90b49",
+              "title": "Anstoß in der Kreisklasse",
+              "description": "Integration kann ganz unbürokratisch sein. Eine naheliegende Idee, unkomplizierte Unterstützung und eine gehörige Portion Willkommenskultur können dazu beitragen, Flüchtlingen den Aufenthalt in der Fremde deutlich erträglicher zu machen. Wie das geht",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/themen/rechtsextremismus/dossier-rechtsextremismus/207404/anstoss-in-der-kreisklasse/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e93c4fb9-f0cd-4a3b-a8fb-cfca6da90b49&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 60
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675969855-70tm",
+          "name": "1 gegen 1 Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.knsu.de/spielsportarten/fussball/dribbing/dribbling-und-finten",
+          "search_query": "1 gegen 1",
+          "wlo_metadata": [
+            {
+              "nodeId": "ae240f67-5e43-48ad-aef3-24341a5a62d8",
+              "title": "Dribbling und Finten - knsu.de",
+              "description": "Ziel soll es sein, eine sicherere Ballführung zu automatisieren, da die sichere Ballführung elementar für das Dribbling ist. Das Dribbling kann dabei in drei Varianten differenziert werden. Das ballhaltende Dribbling dient der Sicherung des Balles. Meist wird es dazu verwendet, um das Spieltempo zu senken. Mitspieler können so nachrücken, den Spielerin Ballbesitzunterstützen und einen neuen Angriff in Ruhe aufbauen. Im Gegensatz dazu steht das Tempodribbling. Es findet in hoher bzw. höchster Geschwindigkeit statt und dient dem schnellen Raumgewinn. Vor Allem bei Konterangriffen wird diese Variante angewandt. Das Dribbling mit Finten wird in 1-gegen-1-Situationen angewendet.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/fussball/dribbing/dribbling-und-finten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ae240f67-5e43-48ad-aef3-24341a5a62d8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "563dfe00-9733-4822-a7b8-f0db966606f5",
+              "title": "Handball - Übungsbeispiele (PDF-Download)",
+              "description": "Koordinationstraining, Wurf, Ballführung, 1:1 Offensive und Defensive\nSchwerpunkt: Übungsformen für große Gruppen",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Primarstufe"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.oehb.at/de/infos-service/downloads/docdown-trainingsmaterialien-und-uebungssammlungen-YNlA0f4c0qCs",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=563dfe00-9733-4822-a7b8-f0db966606f5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "e770bb37-6cb0-4f5e-b429-d8d432c18d04",
+              "title": " Thema: Kampf gegen Jack Sparrow : Ballthema",
+              "description": " Thema: Kampf gegen Jack Sparrow : Ballthema",
+              "subject": "Sport",
+              "educationalContext": [
+                "Elementarbereich"
+              ],
+              "resourceType": "Unterrichtsidee",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/e770bb37-6cb0-4f5e-b429-d8d432c18d04",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e770bb37-6cb0-4f5e-b429-d8d432c18d04&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 72
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675969823-ww9t",
+          "name": "Dribbling Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.knsu.de/spielsportarten/fussball/dribbing/dribbling-und-finten",
+          "search_query": "Dribbling",
+          "wlo_metadata": [
+            {
+              "nodeId": "ae240f67-5e43-48ad-aef3-24341a5a62d8",
+              "title": "Dribbling und Finten - knsu.de",
+              "description": "Ziel soll es sein, eine sicherere Ballführung zu automatisieren, da die sichere Ballführung elementar für das Dribbling ist. Das Dribbling kann dabei in drei Varianten differenziert werden. Das ballhaltende Dribbling dient der Sicherung des Balles. Meist wird es dazu verwendet, um das Spieltempo zu senken. Mitspieler können so nachrücken, den Spielerin Ballbesitzunterstützen und einen neuen Angriff in Ruhe aufbauen. Im Gegensatz dazu steht das Tempodribbling. Es findet in hoher bzw. höchster Geschwindigkeit statt und dient dem schnellen Raumgewinn. Vor Allem bei Konterangriffen wird diese Variante angewandt. Das Dribbling mit Finten wird in 1-gegen-1-Situationen angewendet.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/fussball/dribbing/dribbling-und-finten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ae240f67-5e43-48ad-aef3-24341a5a62d8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "22bd9031-bd96-453c-9cdb-92be55daa5d9",
+              "title": "Dribbling - Einführung, Stationenarbeit und Methodik",
+              "description": "knsu.de bietet auf dieser Seite Anregungen zum Dribbling im Basketball.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/basketball/dribbling",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=22bd9031-bd96-453c-9cdb-92be55daa5d9&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "b5d1ce15-0688-44b6-9fb0-30676151aa0d",
+              "title": "Kleine Spiele im Basketball - knsu.de",
+              "description": "Viele kleine Spiele für das Basketballspiel: Begrüßungsdribbling, Dribbelkönig usw.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe II",
+                "Sekundarstufe I",
+                "Primarstufe"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/basketball/spiel-und-uebungsformen/kleine-spiele-im-basketball",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=b5d1ce15-0688-44b6-9fb0-30676151aa0d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675969677-ccnb",
+          "name": "Dribbling Video",
+          "material_type": "Video",
+          "source": "database",
+          "access_link": "https://www.knsu.de/spielsportarten/basketball/dribbling/dribbeln-lernen-in-stationenarbeit#video",
+          "search_query": "Dribbling",
+          "wlo_metadata": [
+            {
+              "nodeId": "ddb6b8f5-42db-448f-a070-e1ece286a733",
+              "title": "KNSU - Dribbeln lernen in Stationenarbeit",
+              "description": "DIE KNSU präsentiert tolle OER-Materialien zum Thema: Dribbling lernen in Stationenarbeit. ",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/basketball/dribbling/dribbeln-lernen-in-stationenarbeit#video",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ddb6b8f5-42db-448f-a070-e1ece286a733&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 98
+            },
+            {
+              "nodeId": "47157840-bb1f-4210-9ecd-bd217ef75e74",
+              "title": "Grundschule 38 l Basketball – Das Dribbling l Sport macht Spaß",
+              "description": "Spürt ihr das Dribbeln? Eine neue Folge von #SportmachtSpaß – und eine neue Miniserie: In den nächsten Wochen zeigen wir euch unseren Lieblingssport: Basketball! Zunächst haben Emilia und Stefan ein kurzes Warm-Up für euch vorbereitet. Danach zeigen die beiden euch, wie ihr wie die Profis mit dem Basketball dribbeln könnt. Und bei unserem Spiel der Woche ist der Name diesmal Programm: Gemeinsam spielen wir Spaßketball! Schnappt euch einen Ball und los geht’s!\n\nUnser Mitmach-Sportprogramm für Grundschulkinder gibt es jeden Samstag um 10 Uhr mit einer neuen Folge auf unserem YouTube-Kanal. Um 9 Uhr erscheint zudem eine Sendung „Sport macht Spaß“ für die Kita. \n\nWir freuen uns auf eure Ideen und Kommentare! Schreibt uns einfach eine Mail an sportmachtspass@albaberlin.de – hier könnt ihr euch auch für unseren monatlichen Newsletter mit allen Infos rund um „Sport macht Spaß“ anmelden.\n_________________ \n\nWas erwartet euch in dieser Folge? \n\n00:00​​​ Begrüßung\n00:57 Warm-Up mit Bällen\n08:31 Technik-Ecke: Dribbeln mit dem Basketball\n19:38 Spiel der Woche: Spaßketball\n__________________ \n\n„Sport macht Spaß“ ist Teil des großen digitalen Sportprogramms „Sport digital – Mehr Bewegung im Quartier“, das wir gemeinsam mit dem Bundesministerium des Innern, für Bau und Heimat (BMI) ins Leben gerufen haben. Wir bieten euch dabei kontinuierlich digitale Sportstunden für Kita- und Schulkinder hier bei YouTube an, es wird eine Mediathek mit Bildungs- und Informationsvideos aufgebaut, und es gibt Fortbildungen für pädagogische Fachkräfte im Netz und direkt in den Kiezen. ​Unter ​https://www.albaberlin.de/jugend/kita-schule-uni/sport-digital/ und https://www.miteinander-im-quartier.de​ findet ihr alle Infos zu unserem Modellprojekt, das im Rahmen der ressortübergreifenden Strategie „Soziale Stadt – Nachbarschaften stärken, Miteinander im Quartier“ gefördert wird.\n\nRedaktion: Lena Flöttmann, Christoph Nicol & das ALBA-Kitateam | Kamera: Andreas Reuther & Clemens Barth | Regie: Kai Rostásy | Schnitt: Hagen Hinkelmann\n\n#ALBA​​​​​​​​​ #Sportstunde​​​​​​​​​ #Sport​​​​​​​​​ #Bewegung​​​​​​​​​ #Zuhause​​​​​​​​​ #Grundschule​​​​​​​​​ #Grundschulsport​​​​​​​​​ #Kindersport​​​​​​​​​ #Mitmachsport​​​​​​​​​ #Basketball #Dribbling #Technik",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=12Ie7g3eRi0",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=47157840-bb1f-4210-9ecd-bd217ef75e74&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 92
+            },
+            {
+              "nodeId": "e26621d7-7708-49b5-b2f3-00337ea01789",
+              "title": "MBS & ALBA Basketball-Tutorials ",
+              "description": "Hier findest du eine hilfreiche Youtube-Playlist mit Basketball-Tutorials von MBS und ALBA. ",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/playlist?list=PL9H8VPpyaFzPDjauVTEt7CQqWKuGpmEZH",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e26621d7-7708-49b5-b2f3-00337ea01789&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675966149-aaqu",
+          "name": "Dribbling Übungen Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.zebis.ch/unterrichtsmaterial/basketball-dribbling",
+          "search_query": "Dribbling Übungen",
+          "wlo_metadata": [
+            {
+              "nodeId": "f5b562cd-310a-430b-b562-cd310a430b46",
+              "title": "Basketball - Dribbling",
+              "description": "Aufbaureihe - über die Fusstechnik zum Dribbling. Verschiedene Übungen sollen die Schülerinnen und Schüler anleiten, möglichst schnell korrekt zu dribbeln und den Ball ohne Schrittfehler zu führen.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.zebis.ch/unterrichtsmaterial/basketball-dribbling",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f5b562cd-310a-430b-b562-cd310a430b46&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "6ad98e40-972a-4d95-9f58-39babf1fbd14",
+              "title": "Spiele und Übungen zum Erlernen des Basketballspiels",
+              "description": "Viele Spiele und Übungen zum Thema Basketball - mobilsport.ch",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2013/09/praxis_2006_18_d.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6ad98e40-972a-4d95-9f58-39babf1fbd14&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675969246-p508",
+          "name": "1 gegen 1 Präsentation",
+          "material_type": "Präsentation",
+          "source": "filter",
+          "access_link": "https://www.bpb.de/gesellschaft/migration/laenderprofile/58320/refuge-and-asylum",
+          "search_query": "1 gegen 1"
+        },
+        {
+          "id": "ENV1-M1768675971684-zhut",
+          "name": "1 gegen 1 Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://redaktion.openeduhub.net/edu-sharing/components/render/e770bb37-6cb0-4f5e-b429-d8d432c18d04",
+          "search_query": "1 gegen 1",
+          "wlo_metadata": [
+            {
+              "nodeId": "e770bb37-6cb0-4f5e-b429-d8d432c18d04",
+              "title": " Thema: Kampf gegen Jack Sparrow : Ballthema",
+              "description": " Thema: Kampf gegen Jack Sparrow : Ballthema",
+              "subject": "Sport",
+              "educationalContext": [
+                "Elementarbereich"
+              ],
+              "resourceType": "Unterrichtsidee",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/e770bb37-6cb0-4f5e-b429-d8d432c18d04",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e770bb37-6cb0-4f5e-b429-d8d432c18d04&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "563dfe00-9733-4822-a7b8-f0db966606f5",
+              "title": "Handball - Übungsbeispiele (PDF-Download)",
+              "description": "Koordinationstraining, Wurf, Ballführung, 1:1 Offensive und Defensive\nSchwerpunkt: Übungsformen für große Gruppen",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Primarstufe"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.oehb.at/de/infos-service/downloads/docdown-trainingsmaterialien-und-uebungssammlungen-YNlA0f4c0qCs",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=563dfe00-9733-4822-a7b8-f0db966606f5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            },
+            {
+              "nodeId": "ae240f67-5e43-48ad-aef3-24341a5a62d8",
+              "title": "Dribbling und Finten - knsu.de",
+              "description": "Ziel soll es sein, eine sicherere Ballführung zu automatisieren, da die sichere Ballführung elementar für das Dribbling ist. Das Dribbling kann dabei in drei Varianten differenziert werden. Das ballhaltende Dribbling dient der Sicherung des Balles. Meist wird es dazu verwendet, um das Spieltempo zu senken. Mitspieler können so nachrücken, den Spielerin Ballbesitzunterstützen und einen neuen Angriff in Ruhe aufbauen. Im Gegensatz dazu steht das Tempodribbling. Es findet in hoher bzw. höchster Geschwindigkeit statt und dient dem schnellen Raumgewinn. Vor Allem bei Konterangriffen wird diese Variante angewandt. Das Dribbling mit Finten wird in 1-gegen-1-Situationen angewendet.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.knsu.de/spielsportarten/fussball/dribbing/dribbling-und-finten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ae240f67-5e43-48ad-aef3-24341a5a62d8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 75
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675969591-1dnv",
+          "name": "1 gegen 1 Video",
+          "material_type": "Video",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=olNR0RNaXyU",
+          "search_query": "1 gegen 1",
+          "wlo_metadata": [
+            {
+              "nodeId": "756c1f3f-306e-434c-98f6-431edfee3d75",
+              "title": "Grundschule 1 | Geschichte des Basketballs | ALBAs tägliche Sportstunde",
+              "description": "Update (Januar 2021): Nach dem überwältigenden Erfolg von „ALBAs täglicher Sportstunde“ bieten wir mit „Sport macht Spaß“ auch weiterhin ein digitales Mitmach-Sportprogramm an, das für Abwechslung, Bewegung und Freude in den eigenen vier Wänden sorgt. Jeden Samstag erscheinen zwei neue Folgen unserer Bewegungssendungen für Kita- und Grundschulkinder, in denen die ALBA-Jugendcoaches zu einem altersgerechten und spielerischen Mitmachprogramm aus Sport, Fitness und Wissen einladen.\n\nAlle Videos von „Sport macht Spaß“: https://www.youtube.com/playlist?list=PL9H8VPpyaFzMWQe_X24Xo09IGfMrqufpI \n\nMehr Informationen: https://www.albaberlin.de/jugend/kita-schule-uni/sport-digital/ \n___________\n\nDie behördlichen Maßnahmen gegen die Ausbreitung des Corona-Virus haben Deutschland fest im Griff. Die Kitas und Grundschulen sind zu, Vereinstraining gibt es zur Zeit auch nicht. Wir bringen daher mit „ALBAs Sportstunde“ täglich Bewegung, Fitness und Wissenswertes für Kinder und Jugendliche – zum Ansehen und Mitmachen in euren eigenen vier Wänden. \n\nViel Spaß! Wir freuen uns auf eure Meinungen, Vorschläge, Kommentare und Beiträge wie Fotos oder Videos! Nutzt dafür den Hashtag #albastäglichesportstunde auf Instagram, Facebook oder Twitter - oder schickt uns eine Mail an: sportstunde@albaberlin.de! \n\nRedaktion: ALBA-Jugendtrainer | Kamera: Kai Rostásy & Jan Buchholz | Regie: Jörg Diernberger\r | Schnitt: Jan Buchholz",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=olNR0RNaXyU",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=756c1f3f-306e-434c-98f6-431edfee3d75&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "874acb76-47a2-4538-b189-238b1618dd02",
+              "title": "Volleyball: Aufstellung und Wechsel",
+              "description": "Volleyball ist eine olympische Mannschaftssportart aus der Gruppe der Rückschlagspiele. Die Aufstellung der Mannschaft bestimmt die Rotationsfolge der Spieler auf dem Feld, die für die Dauer des jeweiligen Satzes gilt. Die Positionen werden von hinten rechts gegen den Uhrzeigersinn von 1 bis 6 nummeriert.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.dilertube.de/sport/oer-video/volleyball-aufstellung-und-wechsel-dilertube-sigloch.html",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=874acb76-47a2-4538-b189-238b1618dd02&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "001802ea-2bb1-4131-bfc2-ef0c642a0cda",
+              "title": "Oberschule 1 | Land von Feuer & Eis | ALBAs tägliche Sportstunde",
+              "description": "Update (Januar 2021): Nach dem überwältigenden Erfolg von „ALBAs täglicher Sportstunde“ bieten wir mit „Sport macht Spaß“ auch weiterhin ein digitales Mitmach-Sportprogramm an, das für Abwechslung, Bewegung und Freude in den eigenen vier Wänden sorgt. Jeden Samstag erscheinen zwei neue Folgen unserer Bewegungssendungen für Kita- und Grundschulkinder, in denen die ALBA-Jugendcoaches zu einem altersgerechten und spielerischen Mitmachprogramm aus Sport, Fitness und Wissen einladen. \n\nAlle Videos von „Sport macht Spaß“: https://www.youtube.com/playlist?list=PL9H8VPpyaFzMWQe_X24Xo09IGfMrqufpI \n\nMehr Informationen: https://www.albaberlin.de/jugend/kita-schule-uni/sport-digital/ \n__________\n\nDie behördlichen Maßnahmen gegen die Ausbreitung des Corona-Virus haben Deutschland fest im Griff. Die Kitas und Grundschulen sind zu, Vereinstraining gibt es zur Zeit auch nicht. Wir bringen daher mit „ALBAs Sportstunde“ täglich Bewegung, Fitness und Wissenswertes für Kinder und Jugendliche – zum Ansehen und Mitmachen in euren eigenen vier Wänden. Zuerst sind wir mit den Videos für Grundschüler und Kitakinder gestartet. Jetzt geht es mit der Folge für Oberschüler weiter, die auch für Erwachsene und jüngere Kinder geeignet ist. Euch erwartet ein abwechslungsreiches Programm aus Fitness, Koordination und Yoga sowie Challenges zum Ausprobieren. \n\nViel Spaß! Wir freuen uns auf eure Meinungen, Vorschläge, Kommentare und Beiträge wie Fotos oder Videos! Nutzt dafür den Hashtag #albastäglichesportstunde auf Instagram, Facebook oder Twitter - oder schickt uns eine Mail an: sportstunde@albaberlin.de! \n\nRedaktion: ALBA-Jugendtrainer | Kamera: Kai Rostásy & Jan Buchholz | Regie: Jörg Diernberger\r | Schnitt: Jan Buchholz",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=3kbhr03wJh4",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=001802ea-2bb1-4131-bfc2-ef0c642a0cda&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675964794-ajzh",
+          "name": "Dribbling Übungen Übungsmaterial",
+          "material_type": "Übungsmaterial",
+          "source": "database",
+          "access_link": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2013/09/praxis_2006_18_d.pdf",
+          "search_query": "Dribbling Übungen",
+          "wlo_metadata": [
+            {
+              "nodeId": "6ad98e40-972a-4d95-9f58-39babf1fbd14",
+              "title": "Spiele und Übungen zum Erlernen des Basketballspiels",
+              "description": "Viele Spiele und Übungen zum Thema Basketball - mobilsport.ch",
+              "subject": "Sport",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2013/09/praxis_2006_18_d.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6ad98e40-972a-4d95-9f58-39babf1fbd14&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675964867-3w1w",
+          "name": "Turnierorganisation Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/sport/frauenfussball-wm-2011/65050/presseschau",
+          "search_query": "Turnierorganisation",
+          "wlo_metadata": [
+            {
+              "nodeId": "0c8136de-e72b-4890-8631-d4280a1c6720",
+              "title": "Presseschau",
+              "description": "Aus und vorbei - Deutschland verabschiedet sich mit einer 0:1-Niederlage im Viertelfinale gegen die Japanerinnen aus dem Turnier. Die Presse sucht die Gründe für das Scheitern außerhalb der Stadien. Außerdem: Wie muslimische Mädchen den Fußball entde",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/sport/frauenfussball-wm-2011/65050/presseschau",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=0c8136de-e72b-4890-8631-d4280a1c6720&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "0ecda7d2-cf31-45fe-9856-e7c5833c0a37",
+              "title": "bpb.de - Frauenfußball-WM 2011 - Presseschau - Archiv",
+              "description": "",
+              "subject": "Allgemein",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/sport/frauenfussball-wm-2011/65046/presseschau-archiv",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=0ecda7d2-cf31-45fe-9856-e7c5833c0a37&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675964877-gwgl",
+          "name": "Fairplay Punkte Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.zebis.ch/unterrichtsmaterial/mini-tennis",
+          "search_query": "Fairplay Punkte",
+          "wlo_metadata": [
+            {
+              "nodeId": "09b055e0-320b-42a2-b055-e0320b22a2d7",
+              "title": "Mini-Tennis",
+              "description": "Mini-Tennis-Spielformen erleichtern durch einfache Regeln und die langsam fliegenden Schaumstoffbälle den Zugang zum Tennisspiel. Das Spiel eignet sich gut für koedukativen Sportunterricht. Spielfeld: Grosse Plätze (Parkplätze, Pausenplätze), auf denen nebeneinander möglichst viele Einzelspielfelder in der Grösse von ca. 5 x 12 Meter gezeichnet werden. Die Spielfeldlinien können mit Kreide, Ziegelsteinen o.Ä. gezeichnet oder als permanente Linien mit Farbe bemalt werden. In der Halle können vorgegebene Linien (z.B. Badminton-Spielfeld) genutzt und evtl. mit Klebbändern ergänzt werden. Netz: Es genügt eine Leine (Schreckband o.Ä.), welche auf einer Höhe von ca. 1 Meter gespannt wird (Malstäbe als Zwischenpfosten setzen und das Band 1-mal um den Pfosten wickeln). Tennisball: Schaumstoffbälle mit ca. 9 cm Durchmesser. Zählweise: Auf Punkte, z.B. wie beim Tischtennisspiel.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.zebis.ch/unterrichtsmaterial/mini-tennis",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=09b055e0-320b-42a2-b055-e0320b22a2d7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "7d66eab5-63d6-4ddc-84af-366f94db1e9c",
+              "title": "Spiel des Lebens: Der Fußball und seine gesellschaftliche Bedeutung  ",
+              "description": "Warum der Fußball von Politik und Wirtschaft geliebt wird, was der Fussball dem Publikum bietet und wie sich gesellschaftliche Fragen wie Integration und Probleme wie Diskriminierung auf den Fussball auswirken.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/medien-und-sport/bundesliga/163852/spiel-des-lebens-der-fussball-und-seine-gesellschaftliche-bedeutung-",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7d66eab5-63d6-4ddc-84af-366f94db1e9c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675965511-wmr8",
+          "name": "Fairplay Punkte Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.zebis.ch/unterrichtsmaterial/mini-tennis",
+          "search_query": "Fairplay Punkte",
+          "wlo_metadata": [
+            {
+              "nodeId": "09b055e0-320b-42a2-b055-e0320b22a2d7",
+              "title": "Mini-Tennis",
+              "description": "Mini-Tennis-Spielformen erleichtern durch einfache Regeln und die langsam fliegenden Schaumstoffbälle den Zugang zum Tennisspiel. Das Spiel eignet sich gut für koedukativen Sportunterricht. Spielfeld: Grosse Plätze (Parkplätze, Pausenplätze), auf denen nebeneinander möglichst viele Einzelspielfelder in der Grösse von ca. 5 x 12 Meter gezeichnet werden. Die Spielfeldlinien können mit Kreide, Ziegelsteinen o.Ä. gezeichnet oder als permanente Linien mit Farbe bemalt werden. In der Halle können vorgegebene Linien (z.B. Badminton-Spielfeld) genutzt und evtl. mit Klebbändern ergänzt werden. Netz: Es genügt eine Leine (Schreckband o.Ä.), welche auf einer Höhe von ca. 1 Meter gespannt wird (Malstäbe als Zwischenpfosten setzen und das Band 1-mal um den Pfosten wickeln). Tennisball: Schaumstoffbälle mit ca. 9 cm Durchmesser. Zählweise: Auf Punkte, z.B. wie beim Tischtennisspiel.",
+              "subject": "Sport",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.zebis.ch/unterrichtsmaterial/mini-tennis",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=09b055e0-320b-42a2-b055-e0320b22a2d7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "7d66eab5-63d6-4ddc-84af-366f94db1e9c",
+              "title": "Spiel des Lebens: Der Fußball und seine gesellschaftliche Bedeutung  ",
+              "description": "Warum der Fußball von Politik und Wirtschaft geliebt wird, was der Fussball dem Publikum bietet und wie sich gesellschaftliche Fragen wie Integration und Probleme wie Diskriminierung auf den Fussball auswirken.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/medien-und-sport/bundesliga/163852/spiel-des-lebens-der-fussball-und-seine-gesellschaftliche-bedeutung-",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7d66eab5-63d6-4ddc-84af-366f94db1e9c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675972283-xqu9",
+          "name": "Fairplay Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/medien-und-sport/bundesliga/163852/spiel-des-lebens-der-fussball-und-seine-gesellschaftliche-bedeutung-",
+          "search_query": "Fairplay",
+          "wlo_metadata": [
+            {
+              "nodeId": "7d66eab5-63d6-4ddc-84af-366f94db1e9c",
+              "title": "Spiel des Lebens: Der Fußball und seine gesellschaftliche Bedeutung  ",
+              "description": "Warum der Fußball von Politik und Wirtschaft geliebt wird, was der Fussball dem Publikum bietet und wie sich gesellschaftliche Fragen wie Integration und Probleme wie Diskriminierung auf den Fussball auswirken.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/medien-und-sport/bundesliga/163852/spiel-des-lebens-der-fussball-und-seine-gesellschaftliche-bedeutung-",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7d66eab5-63d6-4ddc-84af-366f94db1e9c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "eb6c5bfc-77cf-404f-bd42-ee1a5815d41d",
+              "title": "Chronik: Vom 13. Juni bis 11. September 2012",
+              "description": "Chronologie der Ereignisse vom 13. Juni bis 11. September 2012.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/internationales/europa/ukraine/144405/chronik-vom-13-juni-bis-11-september-2012",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=eb6c5bfc-77cf-404f-bd42-ee1a5815d41d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675963985-78cf",
+          "name": "Balltechnik Übungsmaterial",
+          "material_type": "Übungsmaterial",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/sport/fussball-wm-2006/73727/presseschau-vom-14-06-2006",
+          "search_query": "Balltechnik",
+          "wlo_metadata": [
+            {
+              "nodeId": "cc6f734f-2c41-423b-8973-99b489390b18",
+              "title": "bpb.de - Themen - Fußball-WM",
+              "description": "Heute in der Presseschau: Das bevorstehende Spiel Deutschlands gegen Polen. Außerdem Jürgen Klopp macht beim ZDF eine gute Figur. Und: David Beckham im Porträt. ",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/sport/fussball-wm-2006/73727/presseschau-vom-14-06-2006",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=cc6f734f-2c41-423b-8973-99b489390b18&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675972575-z3z4",
+          "name": "Reflexionsrunde Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.bpb.de/lernen/formate/planspiele/266002/bausteine-fuer-die-gruppenreflexion",
+          "search_query": "Reflexionsrunde",
+          "wlo_metadata": [
+            {
+              "nodeId": "a4fe8deb-b048-4c79-8add-810e38c3d427",
+              "title": "Aktuelle Schulungsmaterialien - Bausteine für eine Gruppenreflexion rund um Demokratie in DBAW",
+              "description": "Die Reflexion beinhaltet die Zusammenführung der verschiedenen Blickwinkel aller Beteiligten auf das Spielgeschehen. Wenn man über politische Bildung und insbesondere Demokratie redet, ist die Reflexion eines Planspieltages der zentrale Baustein, in ",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/formate/planspiele/266002/bausteine-fuer-die-gruppenreflexion",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a4fe8deb-b048-4c79-8add-810e38c3d427&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "4bdd5c2d-49bf-4b87-8d73-fee214bea5c5",
+              "title": "Workshop mit Marcel-André Casasola-Merkle",
+              "description": "Im Workshop mit dem Spieleentwickler setzten sich die Teilnehmenden mit den Grundelementen der Spieleentwicklung Thema – Mechanik – Dynamik auseinander und entwickelten zwei Kartenspiele zu den Themen Netzneutralität und Fake News.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/kulturelle-bildung/269024/workshop-mit-marcel-andre-casasola-merkle",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4bdd5c2d-49bf-4b87-8d73-fee214bea5c5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675972025-ksz0",
+          "name": "Reflexionsbogen Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/a7d0eeb0",
+          "search_query": "Reflexionsbogen",
+          "wlo_metadata": [
+            {
+              "nodeId": "7de78028-a9ab-48a3-9767-e09854cdc91d",
+              "title": "Reflexionsbogen",
+              "description": "Arbeitsblatt - Reflexionsbogen - tutory.de [...]",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/a7d0eeb0",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7de78028-a9ab-48a3-9767-e09854cdc91d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "9c4ed824-6bdf-4fc5-87d8-0721ffbbbdb3",
+              "title": "Reflexionsbogen für die Teilnehmenden",
+              "description": "Dieses Dokument gehört zum Blended-Learning-Seminar (BLS) Mobile Medienproduktion. Das BLS ist entstanden im Rahmen des Verbundprojekts Qualität digital gestützter Lehre an bayerischen Hochschulen steigern (QUADIS).\n",
+              "subject": "",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Übungsmaterial",
+              "wwwUrl": "https://oer.vhb.org/edu-sharing/components/render/686e49b9-ba14-4cf3-be16-83338c3df853",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9c4ed824-6bdf-4fc5-87d8-0721ffbbbdb3&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675972256-l9xt",
+          "name": "Reflexionsrunde Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.bpb.de/lernen/formate/planspiele/266002/bausteine-fuer-die-gruppenreflexion",
+          "search_query": "Reflexionsrunde",
+          "wlo_metadata": [
+            {
+              "nodeId": "4bdd5c2d-49bf-4b87-8d73-fee214bea5c5",
+              "title": "Workshop mit Marcel-André Casasola-Merkle",
+              "description": "Im Workshop mit dem Spieleentwickler setzten sich die Teilnehmenden mit den Grundelementen der Spieleentwicklung Thema – Mechanik – Dynamik auseinander und entwickelten zwei Kartenspiele zu den Themen Netzneutralität und Fake News.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/kulturelle-bildung/269024/workshop-mit-marcel-andre-casasola-merkle",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4bdd5c2d-49bf-4b87-8d73-fee214bea5c5&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675972577-lip8",
+          "name": "Reflexionsbogen Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://www.twillo.de/edu-sharing/components/render/c6084c83-0fdf-4b4e-99bc-3aa1644f4d20",
+          "search_query": "Reflexionsbogen",
+          "wlo_metadata": [
+            {
+              "nodeId": "e19efab3-c235-4f77-b9ee-2bff69392b5c",
+              "title": "Vorlage Reflexion und Feedback",
+              "description": "Diese Vorlage ist für Reflexions- und Feedbackprozesse konzipiert.  \nDiese Vorlage gehört zum Templates Forschendes Lernen.\n",
+              "subject": "",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.twillo.de/edu-sharing/components/render/c6084c83-0fdf-4b4e-99bc-3aa1644f4d20",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e19efab3-c235-4f77-b9ee-2bff69392b5c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 98
+            },
+            {
+              "nodeId": "a57583b2-1091-44a7-bd70-75ab7fe7570a",
+              "title": "M 04.08 Reflexionsbogen",
+              "description": "In dem Reflexionsbogen werden die Eindrücke von der Projektgruppe über die Projektarbeit abgefragt und Überlegungen über die künftige Arbeit angestellt. ",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/grafstat/partizipation-vor-ort/142523/m-04-08-reflexionsbogen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a57583b2-1091-44a7-bd70-75ab7fe7570a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "8d9bce0f-0fd3-4d0e-9888-02a4d6d63d8a",
+              "title": "M 04.09 Zielscheibe zur Evaluation",
+              "description": "Mithilfe der Zielscheibe kann das Projekt im Hinblick auf die Zusammenarbeit in der Gruppe, das Ergebnis des Projekts und die Durchführung des Projekts evaluiert werden. ",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/lernen/grafstat/partizipation-vor-ort/142524/m-04-09-zielscheibe-zur-evaluation",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8d9bce0f-0fd3-4d0e-9888-02a4d6d63d8a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768675969183-56nr",
+          "name": "Reflexion Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "filter",
+          "access_link": "https://www.bpb.de/internationales/europa/russland/analysen/224538/dokumentation-opendemocracy-warum-wir-keine-artikel-ueber-putin-publizieren",
+          "search_query": "Reflexion"
+        },
+        {
+          "id": "ENV1-M1768675967355-yrq3",
+          "name": "Gefühlsbarometer Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.zebis.ch/unterrichtsmaterial/gefuehlsbarometer-basteln",
+          "search_query": "Gefühlsbarometer",
+          "wlo_metadata": [
+            {
+              "nodeId": "521ff58f-629e-4021-9ff5-8f629ed0218d",
+              "title": "Gefühlsbarometer basteln",
+              "description": "Um die eigenen Gefühle differenziert wahrzunehmen und zu bennen, wird ein Bilderbuch erzählt. Anschliessend basteln die Kinder einen Gefühlsbarometer. Ein passendes Versli beim täglichen Einstellen des aktuellen Gefühlzustands rundet die Planung ab.",
+              "subject": "Deutsch",
+              "educationalContext": [
+                "Elementarbereich",
+                "Primarstufe"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.zebis.ch/unterrichtsmaterial/gefuehlsbarometer-basteln",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=521ff58f-629e-4021-9ff5-8f629ed0218d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "5f4cc531-433b-44e6-ac3d-596c526380e3",
+              "title": "Gesetze sind für Menschen da – In Your Hands",
+              "description": "“Der Sabbat ist für den Menschen gemacht, nicht der Mensch für den Sabbat.” So diskutiert Jesus mit den Pharisäern seiner Zeit (Mk 2,27). Und Charlie Winston zeigt, wie Musik, Tanz und Pantomime den Paragraphen, Gesetzen und Richtlinien ihre Macht nehmen.Kernkompetenz: Ethische Entscheidungssituationen im individuellen und gesellschaftlichen Leben wahrnehmen, die christliche Grundlegung von Werten und Normen verstehen und begründet handeln können.Jahrgang: 7.-12.Arbeitsformen: Gefühlsbarometer, Textinterpretation, Gedächtnisprotokoll, pantomimische Übung",
+              "subject": "Religion",
+              "educationalContext": [
+                "Sekundarstufe II",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://material.rpi-virtuell.de/material/gesetze-sind-fuer-menschen-da-in-your-hands/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=5f4cc531-433b-44e6-ac3d-596c526380e3&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 38
+            }
+          ]
         }
       ],
       "tools": [
         {
           "id": "ENV1-T1",
-          "name": "Pfeifen",
-          "tool_type": "Sportgerät",
+          "name": "Pfeife",
+          "tool_type": "Signalgerät",
           "source": "manual",
           "access_link": ""
         },
         {
           "id": "ENV1-T2",
-          "name": "Uhr",
+          "name": "Stoppuhr",
           "tool_type": "Zeitmessung",
           "source": "manual",
           "access_link": ""
         }
       ],
-      "services": [
-        {
-          "id": "ENV1-S1",
-          "name": "Bewegungsanleitung",
-          "service_type": "Förderung",
-          "source": "manual",
-          "access_link": ""
-        }
-      ]
+      "services": []
+    },
+    {
+      "id": "ENV-DEFAULT",
+      "name": "Standard-Lernumgebung",
+      "description": "Digitale Lernumgebung für WLO-Inhalte",
+      "materials": [],
+      "tools": [],
+      "services": []
     }
   ]
 }

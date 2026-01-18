@@ -1,50 +1,56 @@
 {
   "metadata": {
-    "title": "Rechte und Pflichten im Ausbildungsvertrag - Ein interaktives Lernkonzept",
-    "description": "Dieses Unterrichtsmaterial bietet einen interaktiven Zugang zu den Rechten und Pflichten, die im Ausbildungsvertrag verankert sind. Es unterstützt die Schüler dabei, die Inhalte eines Ausbildungsvertrags zu verstehen und die rechtlichen Rahmenbedingungen ihrer Ausbildung zu erkennen.",
+    "title": "Rechte und Pflichten im Ausbildungsvertrag - Ein interaktives Lernkonzept (überarbeitet)",
+    "description": "Überarbeitetes, didaktisch erweitertes Unterrichtskonzept zu Rechten und Pflichten im Ausbildungsvertrag. Vollständige Rollenbeschreibung, Materialien (inkl. WLO-Suchvorschläge) und Zuordnungen zu Akteuren.",
     "keywords": [
       "Ausbildungsvertrag",
       "Rechte und Pflichten",
       "Berufsbildung",
-      "Rechtliche Grundlagen"
+      "WLO",
+      "Fallstudien"
     ],
-    "author": "Max Mustermann",
-    "version": "1.0"
+    "author": "Max Mustermann (überarbeitet)",
+    "version": "1.1",
+    "created": "2026-01-17T19:43:04.332Z"
   },
   "problem": {
-    "problem_description": "Schülerinnen und Schüler stehen vor der Herausforderung, die rechtlichen Aspekte ihres Ausbildungsvertrags zu verstehen. Oft sind sie unsicher, welche Rechte und Pflichten sie haben und was im Vertrag für sie wichtig ist. Dies führt zu Missverständnissen und Unsicherheiten im Ausbildungsalltag.",
+    "problem_description": "Schülerinnen und Schüler verstehen häufig die rechtlichen Inhalte eines Ausbildungsvertrags nicht vollständig. Unsicherheiten über Rechte und Pflichten führen zu Konflikten und Fehlinterpretationen im Ausbildungsalltag.",
+    "description": "Schülerinnen und Schüler verstehen häufig die rechtlichen Inhalte eines Ausbildungsvertrags nicht vollständig. Unsicherheiten über Rechte und Pflichten führen zu Konflikten und Fehlinterpretationen im Ausbildungsalltag.",
     "learning_goals": [
       "Verständnis der Rechte und Pflichten gemäß Ausbildungsvertrag",
-      "Fähigkeit zur Analyse von Vertragsinhalten",
-      "Kompetenz zur kritischen Auseinandersetzung mit rechtlichen Fragestellungen"
+      "Fähigkeit zur Analyse und Interpretation von Vertragsklauseln",
+      "Kompetenz, praktische Folgen rechtlicher Regelungen zu erkennen und zu diskutieren",
+      "Selbstsichere Präsentation von Ergebnissen in der Gruppe"
     ],
     "didactic_keywords": [
-      "Interaktive Lernmethoden",
+      "Handlungsorientiert",
       "Fallstudien",
-      "Gruppenarbeit",
-      "Kollaboratives Lernen"
-    ]
+      "Kooperative Lernformen",
+      "Digitale Ressourcen (WLO)"
+    ],
+    "challenges": []
   },
   "context": {
     "target_group": "Schülerinnen und Schüler der 9. und 10. Klasse",
     "subject": "Wirtschaft/Recht",
     "educational_level": "Sekundarstufe I",
-    "prerequisites": "Grundkenntnisse über Ausbildungsverträge und rechtliche Grundlagen",
+    "prerequisites": "Grundbegriffe Vertrag, Lesefähigkeiten, Basiswissen zu Ausbildungssystem",
     "time_frame": "2 Unterrichtsstunden (90 Minuten)"
   },
   "influence_factors": [
     {
       "factor": "Heterogene Lernvoraussetzungen",
-      "description": "Unterschiedliche Vorkenntnisse und Lernstile der Schülerinnen und Schüler erfordern differenzierte Ansätze."
+      "description": "Unterschiedliche Vorkenntnisse erfordern Differenzierung und unterstützende Materialien."
     },
     {
       "factor": "Digitale Kompetenzen",
-      "description": "Schülerinnen und Schüler bringen unterschiedliche Erfahrungen im Umgang mit digitalen Tools mit."
+      "description": "Teilweise unterschiedliche Erfahrung im Umgang mit digitalen Tools; einfache Anleitung nötig."
     }
   ],
   "solution": {
-    "solution_description": "Das Unterrichtskonzept beinhaltet interaktive Elemente wie Gruppenarbeiten, Fallstudien und digitale Tools, um den Schülerinnen und Schülern ein umfassendes Verständnis der Rechte und Pflichten im Ausbildungsvertrag zu vermitteln. Es bietet Raum für Diskussionen und Reflexionen über die Bedeutung der Inhalte für den Ausbildungsalltag.",
-    "didactic_approach": "Handlungsorientiertes Lernen mit interaktiven Elementen",
+    "solution_description": "Kombination aus Einstieg, kollaborativer Fallbearbeitung und Sicherung mit digitalen und analogen Materialien. Klare Rollen für Lehrkraft und Lernende, differenzierte Materialien und formative Assessments.",
+    "approach": "Kombination aus Einstieg, kollaborativer Fallbearbeitung und Sicherung mit digitalen und analogen Materialien. Klare Rollen für Lehrkraft und Lernende, differenzierte Materialien und formative Assessments.",
+    "didactic_approach": "Handlungsorientiertes und kooperatives Lernen mit multimodalen Lernressourcen (WLO-Empfehlungen)",
     "didactic_template": {
       "learning_sequences": [
         {
@@ -57,13 +63,56 @@
               "phase_id": "LS1-P1",
               "phase_name": "Einstieg",
               "time_frame": "10 Minuten",
-              "learning_goal": "Motivation und Vorwissen aktivieren durch eine kurze Einführung in das Thema.",
+              "learning_goal": "Motivation und Vorwissen aktivieren durch kurze Einführung und Sammeln von Erfahrungen.",
               "activities": [
                 {
                   "activity_id": "LS1-P1-A1",
                   "name": "Brainstorming",
-                  "description": "Die Schüler sammeln in Kleingruppen, was sie bereits über Ausbildungsverträge wissen.",
+                  "description": "Kleingruppen sammeln bekannte Begriffe und Situationen rund um Ausbildungsverträge auf einem Tafelplakat.",
                   "duration": 10,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert und begleitet das Brainstorming, gibt Impulse, protokolliert zentrale Begriffe und fasst Ergebnisse auf der Einstiegsfolie zusammen.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M5",
+                          "ENV1-M1768679071742-vypr",
+                          "ENV1-M1768679066186-5h0d"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Arbeitet in Kleingruppen, sammelt Begriffe und Situationen auf dem Brainstorming-Blatt und präsentiert die wichtigsten Stichworte kurz am Plakat.",
+                      "selected_differentiation": [
+                        "diff_A2_1768679059657_0",
+                        "diff_A2_1768679059657_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M2",
+                          "ENV1-M1768679069690-nkl7"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
                   "goal": "Aktivierung des Vorwissens und Interesse wecken",
                   "prerequisite_activity": null,
                   "transition_type": "sequential",
@@ -71,8 +120,14 @@
                   "next_activity": [],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Kurzbeobachtung der Gruppenarbeit",
+                      "Sammelplakat als Beobachtungsgrundlage"
+                    ],
+                    "criteria": [
+                      "Aktive Beteiligung aller Gruppen",
+                      "Relevanz der genannten Stichworte"
+                    ]
                   }
                 }
               ],
@@ -85,22 +140,74 @@
               "phase_id": "LS1-P2",
               "phase_name": "Erarbeitung",
               "time_frame": "25 Minuten",
-              "learning_goal": "Die Schülerinnen und Schüler erarbeiten die Rechte und Pflichten anhand von Fallbeispielen.",
+              "learning_goal": "Die Schülerinnen und Schüler erarbeiten Rechte und Pflichten anhand von Fallbeispielen und einem Mustervertrag.",
               "activities": [
                 {
                   "activity_id": "LS1-P2-A1",
                   "name": "Fallstudienanalyse",
-                  "description": "In Gruppen analysieren die Schüler verschiedene Fallstudien zu Ausbildungsverträgen.",
+                  "description": "Gruppenarbeit: Jede Gruppe erhält ein Fallbeispiel und einen Muster-Ausbildungsvertrag; sie identifizieren Rechte und Pflichten und notieren Handlungsempfehlungen.",
                   "duration": 25,
-                  "goal": "Verständnis für die Anwendung der Rechte und Pflichten im Alltag entwickeln",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Anleitung / Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Gibt Einführung in die Fallstudien, verteilt Muster-Ausbildungsverträge, begleitet die Gruppenarbeit und unterstützt bei Verständnisfragen mithilfe des Lehrerleitfadens.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M5",
+                          "ENV1-M4",
+                          "ENV1-M1768679070254-s4q8",
+                          "ENV1-M1768679064892-kqms"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Bearbeitung / Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Analysiert das zugewiesene Fallbeispiel und den Muster-Ausbildungsvertrag, identifiziert Rechte und Pflichten und notiert Handlungsempfehlungen auf den Fallstudien-Blättern.",
+                      "selected_differentiation": [
+                        "diff_A2_1768679059657_0",
+                        "diff_A2_1768679059657_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M4",
+                          "ENV1-M1768679070468-0yj0",
+                          "ENV1-M1768679066143-v17f"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Anwendung von Vertragswissen auf praktische Fälle; Entwicklung begründeter Handlungsempfehlungen.",
                   "prerequisite_activity": "LS1-P1-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Beobachtung",
+                      "Kurzraster zur Bewertung der Analyse (Lehrkraft)"
+                    ],
+                    "criteria": [
+                      "Erkennung relevanter Vertragsklauseln",
+                      "Begründete Handlungsempfehlung",
+                      "Teamarbeit und Aufgabenerfüllung"
+                    ]
                   }
                 }
               ],
@@ -113,22 +220,70 @@
               "phase_id": "LS1-P3",
               "phase_name": "Sicherung",
               "time_frame": "10 Minuten",
-              "learning_goal": "Die Schüler präsentieren ihre Ergebnisse und sichern das Gelernte.",
+              "learning_goal": "Ergebnissicherung durch Präsentation und kurze Reflexion.",
               "activities": [
                 {
                   "activity_id": "LS1-P3-A1",
                   "name": "Präsentation der Fallstudien",
-                  "description": "Die Gruppen präsentieren ihre Analyse der Fallstudien vor der Klasse.",
+                  "description": "Je Gruppe 2 Minuten Präsentation der Analyseergebnisse; gemeinsames Hervorheben zentraler Rechte und Pflichten.",
                   "duration": 10,
-                  "goal": "Ergebnissicherung und gemeinsame Reflexion",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Moderation / Sicherung",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Präsentationsrunde, nutzt die Sicherungsfolie zur Strukturierung der zentralen Rechte und Pflichten und ergänzt / kommentiert die Gruppenbeiträge.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M6",
+                          "ENV1-M5",
+                          "ENV1-M1768679074609-ggvg",
+                          "ENV1-M1768679066658-qtsq"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R2",
+                      "role_name": "Präsentierende Gruppe",
+                      "actor_id": "A2",
+                      "task_description": "Präsentiert die Analyseergebnisse der Fallstudie (max. 2 Minuten), hebt zentrale Rechte und Pflichten hervor und beantwortet Rückfragen.",
+                      "selected_differentiation": [
+                        "diff_A2_1768679059657_0",
+                        "diff_A2_1768679059657_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Gemeinsame Zusammenfassung und Reflexion der Erkenntnisse",
                   "prerequisite_activity": "LS1-P2-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Peer-Feedback (kurze Rückmeldung)",
+                      "Lehrkraftzusammenfassung"
+                    ],
+                    "criteria": [
+                      "Klarheit der Präsentation",
+                      "Relevanz der hervorgehobenen Punkte"
+                    ]
                   }
                 }
               ],
@@ -138,37 +293,85 @@
               "next_phase": null
             }
           ],
-          "prerequisite_learningsequences": [],
+          "prerequisite_sequence": null,
           "transition_type": "sequential",
           "condition_description": null,
-          "next_learningsequence": []
+          "next_sequence": null
         },
         {
           "sequence_id": "LS2",
-          "sequence_name": "Vertiefung der Kenntnisse",
+          "sequence_name": "Vertiefung der Kenntnisse und Selbsttest",
           "time_frame": "45 Minuten",
-          "learning_goal": "Die Schülerinnen und Schüler vertiefen ihr Wissen über spezifische Rechte und Pflichten.",
+          "learning_goal": "Vertiefung spezifischer Rechte und Pflichten sowie Überprüfung des eigenen Verständnisses durch Quiz und Präsentation.",
           "phases": [
             {
               "phase_id": "LS2-P1",
               "phase_name": "Reflexion",
               "time_frame": "10 Minuten",
-              "learning_goal": "Die Schüler reflektieren über das Gelernte und stellen Fragen.",
+              "learning_goal": "Klärung offener Fragen und Sammlung von Themen zur Vertiefung.",
               "activities": [
                 {
                   "activity_id": "LS2-P1-A1",
                   "name": "Fragenrunde",
-                  "description": "Offene Fragerunde zur Klärung von Unklarheiten.",
+                  "description": "Offene Fragerunde: Schüler notieren Unklarheiten, Lehrkraft sortiert Fragen nach Themen für die Gruppenarbeit.",
                   "duration": 10,
-                  "goal": "Klärung von Fragen und Unsicherheiten",
+                  "roles": [
+                    {
+                      "role_id": "LS2-P1-A1-R1",
+                      "role_name": "Moderation / Sortierung",
+                      "actor_id": "A1",
+                      "task_description": "Moderiert die offene Fragerunde, sammelt und sortiert Fragen nach Themenfeldern und bereitet sie für die anschließende Gruppenarbeit auf (Nutzung des Reflexionsbogens).",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M7",
+                          "ENV2-M1768679067191-ukev"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": [
+                          "ENV2-S1"
+                        ]
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P1-A1-R2",
+                      "role_name": "Fragensammlung / Reflexion",
+                      "actor_id": "A2",
+                      "task_description": "Notiert Unklarheiten auf dem Reflexionsblatt, priorisiert Fragen innerhalb der Gruppe und gibt Input für die Themenzuweisung.",
+                      "selected_differentiation": [
+                        "diff_A2_1768679059657_0",
+                        "diff_A2_1768679059657_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M7",
+                          "ENV2-M1768679070723-2ilu",
+                          "ENV2-M1768679071850-2lgo"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Identifikation von Vertiefungsbedarf",
                   "prerequisite_activity": null,
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Sammlung von Fragen als Indikator für Verständnislücken"
+                    ],
+                    "criteria": [
+                      "Relevanz und Präzision der Fragen"
+                    ]
                   }
                 }
               ],
@@ -181,22 +384,76 @@
               "phase_id": "LS2-P2",
               "phase_name": "Gruppenarbeit",
               "time_frame": "25 Minuten",
-              "learning_goal": "Die Schüler erarbeiten spezifische Rechte und Pflichten in Gruppen.",
+              "learning_goal": "Vertiefte Erarbeitung eines spezifischen Rechts- oder Pflichtenbereichs mit digitaler Unterstützung.",
               "activities": [
                 {
                   "activity_id": "LS2-P2-A1",
-                  "name": "Rechte und Pflichten",
-                  "description": "Jede Gruppe recherchiert zu einem spezifischen Recht oder einer Pflicht und bereitet eine kurze Präsentation vor.",
+                  "name": "Rechte und Pflichten Recherche",
+                  "description": "Gruppen recherchieren (digital/analog) zu einem zugewiesenen Thema, erstellen Steckbriefe und bereiten kurze Erklärungen vor.",
                   "duration": 25,
-                  "goal": "Vertiefung des Wissens über spezifische Aspekte des Ausbildungsvertrags",
+                  "roles": [
+                    {
+                      "role_id": "LS2-P2-A1-R1",
+                      "role_name": "Anleitung / Begleitung",
+                      "actor_id": "A1",
+                      "task_description": "Gibt Rechercheaufträge, stellt Hilfsmittel (Erklärvideo) bereit, moderiert die Recherchephase und unterstützt bei Quellenarbeit (WLO-Suche).",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M9",
+                          "ENV2-M7"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T2"
+                        ],
+                        "selected_services": [
+                          "ENV2-S1"
+                        ]
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P2-A1-R2",
+                      "role_name": "Recherche-Team",
+                      "actor_id": "A2",
+                      "task_description": "Recherchiert digital/analog zum zugewiesenen Thema, erstellt Steckbriefe auf dem Reflexionsblatt und bereitet kurze Erklärungen vor.",
+                      "selected_differentiation": [
+                        "diff_A2_1768679059657_0",
+                        "diff_A2_1768679059657_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M7",
+                          "ENV2-M9",
+                          "ENV2-M1768679071395-oes6",
+                          "ENV2-M1768679065207-44bh"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T2"
+                        ],
+                        "selected_services": [
+                          "ENV2-S1"
+                        ]
+                      }
+                    }
+                  ],
+                  "goal": "Vertiefung und Fähigkeit, Inhalte verständlich darzustellen",
                   "prerequisite_activity": "LS2-P1-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [],
                   "assessment": {
                     "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "methods": [
+                      "Checkliste für Steckbriefe",
+                      "Kurz-Feedback der Lehrkraft während der Recherche"
+                    ],
+                    "criteria": [
+                      "Sachliche Richtigkeit",
+                      "Vollständigkeit der Steckbriefe",
+                      "Nutzung digitaler Quellen"
+                    ]
                   }
                 }
               ],
@@ -209,22 +466,69 @@
               "phase_id": "LS2-P3",
               "phase_name": "Präsentation und Sicherung",
               "time_frame": "10 Minuten",
-              "learning_goal": "Sicherung der Inhalte durch Präsentation der Gruppenergebnisse.",
+              "learning_goal": "Sicherung der Inhalte durch kurze Präsentationen und Selbstüberprüfung mittels Quiz.",
               "activities": [
                 {
                   "activity_id": "LS2-P3-A1",
                   "name": "Gruppenergebnisse präsentieren",
-                  "description": "Die Gruppen präsentieren ihre Ergebnisse und diskutieren diese mit der Klasse.",
+                  "description": "Kurzpräsentationen der Steckbriefe (max. 2 Minuten pro Gruppe) und anschließendes kurzes Selbsttest-Quiz (digital).",
                   "duration": 10,
-                  "goal": "Ergebnissicherung und Diskussion",
+                  "roles": [
+                    {
+                      "role_id": "LS2-P3-A1-R1",
+                      "role_name": "Moderation / Quizleitung",
+                      "actor_id": "A1",
+                      "task_description": "Koordiniert die Kurzpräsentationen, startet und moderiert das anschließende Selbsttest-Quiz über das LMS und wertet die Ergebnisse kurz aus.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M7",
+                          "ENV2-M8"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS2-P3-A1-R2",
+                      "role_name": "Präsentierende / Teilnehmende",
+                      "actor_id": "A2",
+                      "task_description": "Präsentiert den Steckbrief (max. 2 Minuten) und nimmt anschließend am digitalen Selbsttest-Quiz teil, reflektiert die Ergebnisse.",
+                      "selected_differentiation": [
+                        "diff_A2_1768679059657_0",
+                        "diff_A2_1768679059657_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M8",
+                          "ENV2-M7"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Ergebnissicherung und Selbstüberprüfung des Lernerfolgs",
                   "prerequisite_activity": "LS2-P2-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [],
                   "assessment": {
-                    "type": "formative",
-                    "methods": [],
-                    "criteria": []
+                    "type": "summative/formative",
+                    "methods": [
+                      "Ergebnis des digitalen Quizzes (Kurzstatistik)",
+                      "Lehrkraftbeurteilung der Präsentation"
+                    ],
+                    "criteria": [
+                      "Quiz-Ergebnis (Selbsteinschätzung)",
+                      "Kohärenz und Verständlichkeit der Präsentation"
+                    ]
                   }
                 }
               ],
@@ -234,22 +538,40 @@
               "next_phase": null
             }
           ],
-          "prerequisite_learningsequences": [],
+          "prerequisite_sequence": null,
           "transition_type": "sequential",
           "condition_description": null,
-          "next_learningsequence": []
+          "next_sequence": null
         }
       ]
     }
   },
   "consequences": {
-    "advantages": [],
-    "disadvantages": []
+    "advantages": [
+      "Kombination aus praktischer Fallarbeit und digitaler Selbstkontrolle erhöht Motivation.",
+      "Klare Rollendefinitionen verbessern Unterrichtsorganisation.",
+      "WLO-Ressourcen unterstützen individuelles Lernen und Differenzierung."
+    ],
+    "disadvantages": [
+      "Abhängigkeit von digitaler Infrastruktur für den Selbsttest.",
+      "Zeitdruck bei strikter Einhaltung der Minutenangaben."
+    ]
   },
-  "implementation_notes": [],
-  "related_patterns": [],
+  "implementation_notes": [
+    "Vorbereitungszeit: Lehrkraft sollte Fallstudien und Lehrerleitfaden vorbereiten (ca. 30–45 Minuten).",
+    "Digitaler Zugang: Prüfen, ob alle Schüler Zugriff auf das digitale Quiz haben (Tablets/Computer).",
+    "Differenzierung: Stärkere Gruppen können Zusatzfragen bearbeiten; schwächere Gruppen erhalten vereinfachte Arbeitsblätter."
+  ],
+  "related_patterns": [
+    "Fallbasiertes Lernen",
+    "Kooperative Gruppenarbeit",
+    "Blended Learning"
+  ],
   "feedback": {
-    "comments": []
+    "comments": [
+      "Vorschlag: Bei heterogenen Klassen zusätzliche Sprachunterstützungsmaterialien (Glossar) bereitstellen.",
+      "Optional: Kontakt mit Ausbildungsbetrieben herstellen für Praxisbeispiele."
+    ]
   },
   "sources": [
     {
@@ -271,39 +593,70 @@
   ],
   "actors": [
     {
-      "id": "actor-1",
-      "name": "Lehrkraft",
+      "id": "A1",
+      "name": "Lehrperson",
       "type": "Einzelperson",
       "demographic_data": {
-        "ethnic_background": "unbekannt",
         "age": "40",
-        "gender": "Weiblich"
+        "age_range": "",
+        "gender": "weiblich",
+        "gender_distribution": "",
+        "ethnic_background": ""
       },
       "education": {
-        "education_level": "Hochschulabschluss",
-        "class_level": "",
-        "subject_focus": "Wirtschaft, Recht"
+        "education_level": "Lehramtsstudium / Hochschulabschluss",
+        "class_level": "9/10",
+        "subject_focus": "Wirtschaft / Recht"
       },
       "competencies": {
-        "subject_competencies": [],
-        "cognitive_competencies": [],
-        "methodical_competencies": [],
-        "affective_competencies": [],
-        "digital_competencies": [],
+        "subject_competencies": [
+          "Kenntnisse des Berufsbildungsgesetzes",
+          "Kenntnisse zu Ausbildungsverträgen"
+        ],
+        "cognitive_competencies": [
+          "Analytisches Erfassen rechtlicher Texte",
+          "Didaktische Aufbereitung von Inhalten"
+        ],
+        "methodical_competencies": [
+          "Moderation",
+          "Feedback geben",
+          "Differenzierung"
+        ],
+        "affective_competencies": [
+          "Fördernde Haltung",
+          "Motivationsfähigkeit"
+        ],
+        "digital_competencies": [
+          "Nutzung von LMS",
+          "Einrichten von digitalen Quizzes"
+        ],
         "language_skills": {
-          "languages": [],
-          "proficiency_levels": {}
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "C2"
+          }
         }
       },
-      "social_form": "",
+      "social_form": "Plenum, Gruppenbegleitung",
       "learning_requirements": {
-        "learning_preferences": [],
+        "learning_preferences": [
+          "Strukturierte Ablaufpläne"
+        ],
         "special_needs": [],
-        "technical_requirements": []
+        "technical_requirements": [
+          "Beamer/PC",
+          "Zugang zur WLO-Ressourcenliste"
+        ]
       },
       "interests_and_goals": {
-        "interests": [],
-        "goals": [],
+        "interests": [
+          "Praxisnahe Vermittlung rechtlicher Inhalte"
+        ],
+        "goals": [
+          "Sicheres Erkennen von Rechten und Pflichten bei Schülern"
+        ],
         "motivation": {
           "type": "intrinsic",
           "level": "high"
@@ -315,46 +668,67 @@
       }
     },
     {
-      "id": "actor-2",
+      "id": "A2",
       "name": "Schülerinnen und Schüler",
       "type": "Gruppe",
       "demographic_data": {
-        "ethnic_background": "unbekannt",
+        "age": 0,
         "age_range": "15-16",
-        "gender_distribution": "gemischt"
+        "gender": "",
+        "gender_distribution": "gemischt",
+        "ethnic_background": ""
       },
       "education": {
         "education_level": "Sekundarstufe I",
         "class_level": "9/10",
-        "subject_focus": "Allgemeinbildung"
+        "subject_focus": "Allgemeinbildung, Berufsorientierung"
       },
       "competencies": {
         "subject_competencies": [
-          "Verständnis der Rechte und Pflichten im Ausbildungsvertrag."
+          "Basisverständnis für Verträge",
+          "Erste Analysekompetenzen bei Texten"
         ],
         "cognitive_competencies": [
-          "Fähigkeit zur Analyse von rechtlichen Texten."
+          "Informationsentnahme",
+          "Reflexionsfähigkeit"
         ],
         "methodical_competencies": [
-          "Teamarbeit und Präsentationsfähigkeiten."
+          "Gruppenarbeit",
+          "Präsentation"
         ],
-        "affective_competencies": [],
-        "digital_competencies": [],
+        "affective_competencies": [
+          "Wertschätzung unterschiedlicher Meinungen"
+        ],
+        "digital_competencies": [
+          "Nutzung digitaler Quiz-Tools",
+          "Recherche in vorgegebenen Quellen"
+        ],
         "language_skills": {
-          "languages": [],
-          "proficiency_levels": {}
+          "languages": [
+            "Deutsch"
+          ],
+          "proficiency_levels": {
+            "Deutsch": "B2-C1 variierend"
+          }
         }
       },
-      "social_form": "",
+      "social_form": "Großgruppe und Kleingruppen",
       "learning_requirements": {
-        "learning_preferences": [],
+        "learning_preferences": [
+          "Aktive, handlungsorientierte Aufgaben"
+        ],
         "special_needs": [],
-        "technical_requirements": []
+        "technical_requirements": [
+          "Zugang zu Tablets/PCs für digitales Quiz"
+        ]
       },
       "interests_and_goals": {
-        "interests": [],
+        "interests": [
+          "Praxisrelevante Themen",
+          "Klare Handlungsanweisungen"
+        ],
         "goals": [
-          "Verständnis der rechtlichen Rahmenbedingungen."
+          "Sicheres Anwenden von Vertragswissen"
         ],
         "motivation": {
           "type": "mixed",
@@ -363,93 +737,686 @@
       },
       "social_structure": {
         "group_size": "24-28",
-        "heterogeneity": "n/a"
-      }
+        "heterogeneity": "heterogen (Leistungsniveau, Sprachkompetenz)"
+      },
+      "differentiation_options": [
+        {
+          "id": "diff_A2_1768679059657_0",
+          "label": "Erweiterung & Vertiefung",
+          "description": "Für leistungsstarke Schüler: Zusatzaufgaben und selbstständige Vertiefung von wirtschafts- und rechtlichen Fragestellungen.",
+          "hints": [
+            "Ergänzungsaufgaben mit komplexen Fallstudien aus der Praxis geben, die eine tiefergehende Analyse und begründete Handlungsempfehlungen erfordern.",
+            "Vergabe von Expertenrollen: Schüler bereiten ein kurzes Unterrichtsmodul oder ein Lernvideo zu einem Spezialthema vor und moderieren anschließende Diskussionen.",
+            "Forschungsauftrag mit Präsentation: Vergleich von Gesetzesänderungen oder Geschäftsmodellen inklusive Quellenrecherche und Handlungsempfehlungen für die Klasse."
+          ]
+        },
+        {
+          "id": "diff_A2_1768679059657_1",
+          "label": "Basisunterstützung",
+          "description": "Für Schüler, die mehr Zeit oder strukturierte Hilfen brauchen: kleinschrittige Anleitung und gezielte Partnerunterstützung.",
+          "hints": [
+            "Aufgaben in überschaubare Teilaufgaben mit klaren Bearbeitungsschritten und Erfolgskriterien gliedern, damit Lernende Schritt für Schritt vorgehen können.",
+            "Partner- oder Tandemarbeit einrichten, wobei stärkere Schüler als Erklärende fungieren und die Lehrkraft kurze, regelmäßige Check‑Ins anbietet.",
+            "Vorlagen und Musterlösungen bereitstellen (z. B. Analyse-Checkliste, Gliederungsblatt) sowie bei Bedarf Zeitverlängerungen für die Bearbeitung gewähren."
+          ]
+        }
+      ]
     }
   ],
   "environments": [
     {
       "id": "ENV1",
-      "name": "Klassenzimmer für Wirtschaft und Recht",
-      "description": "Ein Klassenzimmer mit digitalen und analogen Lernmaterialien für den Unterricht zu Wirtschaft und Recht.",
+      "name": "Klassenzimmer",
+      "description": "Präsenzunterricht im Klassenraum mit Tafel, Beamer und analogen Materialien.",
       "materials": [
         {
-          "id": "ENV1-M1",
-          "name": "Beispielausbildungsvertrag",
-          "material_type": "Dokument",
-          "source": "filter",
-          "access_link": "https://example.com/beispielausbildungsvertrag.pdf",
-          "filter_criteria": {
-            "cclom:title": "Ausbildungsvertrag",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/f1341358-3f91-449b-b6eb-f58636f756a0",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
-          }
+          "id": "M1",
+          "name": "Einstiegsfolie",
+          "material_type": "Präsentation",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Ausbildungsvertrag"
         },
         {
-          "id": "ENV1-M2",
-          "name": "Fallstudien zu Ausbildungsverträgen",
-          "material_type": "Schriftliches Material",
-          "source": "filter",
-          "access_link": "https://example.com/fallstudien.pdf",
-          "filter_criteria": {
-            "cclom:title": "Ausbildungsverträge",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/41eaccae-899b-4209-8a54-c793a3cdf538",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
-          }
+          "id": "M2",
+          "name": "Brainstorming Blatt",
+          "material_type": "Arbeitsblatt",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Ausbildung Brainstorming"
         },
         {
-          "id": "ENV1-M3",
-          "name": "Präsentation zu Rechten und Pflichten",
-          "material_type": "Digitale Präsentation",
-          "source": "filter",
-          "access_link": "https://example.com/praesentation-rechte-pflichten",
-          "filter_criteria": {
-            "cclom:title": "Rechte Pflichten",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/1e300ea3-a687-45a3-b215-9c240c1666dc",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
-          }
+          "id": "M3",
+          "name": "Fallstudien Verträge",
+          "material_type": "Arbeitsblatt",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Ausbildungsverträge Fallstudien"
+        },
+        {
+          "id": "M4",
+          "name": "Ausbildungsvertrag Muster",
+          "material_type": "Arbeitsblatt",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Ausbildungsvertrag"
+        },
+        {
+          "id": "M5",
+          "name": "Lehrerleitfaden",
+          "material_type": "Präsentation",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Ausbildungsvertrag Leitfaden"
+        },
+        {
+          "id": "M6",
+          "name": "Sicherung Folie",
+          "material_type": "Präsentation",
+          "source": "manual",
+          "access_link": "",
+          "search_query": "Rechte Pflichten Zusammenfassung"
+        },
+        {
+          "id": "ENV1-M1768679071742-vypr",
+          "name": "Ausbildungsvertrag Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/276439/interview-gefluechtete",
+          "search_query": "Ausbildungsvertrag",
+          "wlo_metadata": [
+            {
+              "nodeId": "36addfd8-eb9c-4f1b-8b38-3d681592a810",
+              "title": "Geflüchtete  in der Berufsausbildung ",
+              "description": "Mehr als die Hälfte der in den vergangenen Jahren zugewanderten Geflüchteten ist unter 25. Bei ihrer Integration kommt somit dem Bildungssystem eine zentrale Rolle zu. Dabei strebt ein Großteil der jungen Geflüchteten einen beruflichen Abschluss an. ",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/276439/interview-gefluechtete",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=36addfd8-eb9c-4f1b-8b38-3d681592a810&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "78cb0f15-00a1-45ac-b037-7a9ebeac1480",
+              "title": "Allgemeinbildende und berufliche Schulen",
+              "description": "Das Grundgesetz überlässt den Ländern im föderalen System die Gesetzgebungskompetenz für das Schulwesen. Im Rahmen ihrer Kulturhoheit gestalten die Länder ihr Bildungssystem entsprechend den regionalen Erfordernissen sowie den gesellschaftlichen und ",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/281512/datenreport-berufliche-schulen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=78cb0f15-00a1-45ac-b037-7a9ebeac1480&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "4efb6d45-c61f-4085-895b-80b7d3ba895e",
+              "title": "Lehrstellenmangel in Deutschland",
+              "description": "Die Lehrstellenlücke in Deutschland wächst. In diesem Jahr wollen rund 770.000 Jugendliche eine Lehre beginnen. 49.500 Jugendliche haben aber noch keinen Ausbildungsplatz gefunden. Viele von ihnen werden in diesem Jahr leer ausgehen, denn es stehen n",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/politik/hintergrund-aktuell/70093/lehrstellenmangel-12-10-2006",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4efb6d45-c61f-4085-895b-80b7d3ba895e&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768679066186-5h0d",
+          "name": "Vertragsbestandteile Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=gPManz0Ke1o",
+          "search_query": "Vertragsbestandteile",
+          "wlo_metadata": [
+            {
+              "nodeId": "861ac220-f543-4190-9ac2-20f5434190ec",
+              "title": "Was ist ein Vertrag? Angebot & Annahme einfach erklärt - Vertragsbestandteile & Prinzipien",
+              "description": "Was ist ein Vertrag? Angebot & Annahme einfach erklärt - Wesentliche Vertragsbestandteile & Prinzipien. Beispiel Kaufvertrag. Jura Grundlagen und Basics. Ein Vertrag besteht aus Angebot und Annahme. Das Angebot ist empfangsbedürftig und muss dabei die essentialia negotii enthalten. Das Angebot kann entweder als invitatio ad offerendum oder als offerte ad incertas personas abgegeben werden. Grundsätzlich besteht eine Bindungswirkung, kann jedoch ausgeschlossen werden oder erlöschen. Die Annahme ist ebenfalls empfangsbedürftig und wird erst mit Zugang beim Erklärungsempfänger wirksam.\nZUM VIDEO AUFBAU WILLENSERKLÄRUNG: http://bit.ly/AufbauWE\n\nZUM VIDEO AUSLEGUNG GESETZE: http://bit.ly/AuslGesetz\n\nZur Playlist BGB AT: http://bit.ly/BGBAT\n----------------------------------------------\n➡ KOSTENLOS ABONNIEREN:\nhttp://bit.ly/merkhilfewirtschaftabo\n\n➡ ALLE KANÄLE: \n- Nachhilfe & Wissen: https://www.youtube.com/DieMerkhilfe\n- Wirtschaft: https://www.youtube.com/DieMerkhilfeWirtschaft\n- Spanisch: https://www.youtube.com/DieMerkhilfeSpanisch\n\n➡ IHR FINDET UNS AUCH HIER!\n- Instagram: http://www.instagram.com/merkhilfe\n- Facebook: http://www.facebook.com/merkhilfe\n- Twitter: http://www.twitter.com/merkhilfe\n\n➡ WAS IST DIE MERKHILFE?\nWir sind der Meinung, dass Bildung jedem Menschen kostenlos zur Verfügung stehen soll! Daher findest du auf unseren YouTube-Kanälen moderne Nachhilfe- und Allgemeinwissensvideos für viele Fächer: Biologie, Deutsch, Englisch, Mathe, Geografie, Geschichte, Spanisch, Wirtschaft, Philosophie, Physik, Chemie, Religion, Informatik, Politik, Gesellschaft, Recht und Psychologie.\n\n➡ PRODUKTION DIESES VIDEOS:\nScript: Oliver\nVisuelle Konzeption: Sandra\nTon & Schnitt: Oliver\n\n➡ COOLE BUCHTIPPS ZUR BWL-PLAYLIST:\n* BWL kompakt: http://amzn.to/1UKZPpa\n* Grundlagen BWL: http://amzn.to/1UKZPFN\n* BWL Grundlagen + Beispiele: http://amzn.to/1UKZToW\n* Grundzüge der VWL: http://amzn.to/1UKZSBn\n* VWL Grundlagen: http://amzn.to/1UKZWkD\n* VWL anschaulich dargestellt: http://amzn.to/1UKZXoC\n* Leicht verständliche Wirtschaft: http://amzn.to/1gmRw1O\nDie mit einem * gekennzeichneten Links sind sogenannte Affiliate-Links. Sollte ein Kauf zustande kommen, erhalten wir eine kleine Provision von Amazon. Für dich entstehen keine Mehrkosten!",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=gPManz0Ke1o",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=861ac220-f543-4190-9ac2-20f5434190ec&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "284a13c1-f4be-4828-987d-b807cdb1b9b2",
+              "title": "World Trade Organization (WTO)",
+              "description": "Der Freihandel erlebte seine Blüte in den 1990er-Jahren. Einer der wichtigsten Schritte war die Gründung der W. im Jahre 1994. Die W.-Rechtsordnung besteht aus über 22.000 Seiten und ist damit eines der umfangreichsten Übereinkommen im Völkerrecht. E",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Nachschlagewerk",
+              "wwwUrl": "https://www.bpb.de/kurz-knapp/lexika/recht-a-z/324382/world-trade-organization-wto/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=284a13c1-f4be-4828-987d-b807cdb1b9b2&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768679069690-nkl7",
+          "name": "Ausbildungsvertrag Begriffe Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/276439/interview-gefluechtete",
+          "search_query": "Ausbildungsvertrag Begriffe",
+          "wlo_metadata": [
+            {
+              "nodeId": "36addfd8-eb9c-4f1b-8b38-3d681592a810",
+              "title": "Geflüchtete  in der Berufsausbildung ",
+              "description": "Mehr als die Hälfte der in den vergangenen Jahren zugewanderten Geflüchteten ist unter 25. Bei ihrer Integration kommt somit dem Bildungssystem eine zentrale Rolle zu. Dabei strebt ein Großteil der jungen Geflüchteten einen beruflichen Abschluss an. ",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/276439/interview-gefluechtete",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=36addfd8-eb9c-4f1b-8b38-3d681592a810&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "3c4fc8fb-350b-4159-b6da-bbf35fdcf3ac",
+              "title": "Berufsorientierung/Schule-Beruf",
+              "description": "Vor allem bei den Maßnahmen der Länder sind die Bezeichnungen nicht einheitlich.Deshalb ist es sinnvoll, Informationen auf den Internetseiten der zuständigen Schulaufsichtsbehörden oder der Fachstelle des Bundesinstituts für Berufsbildung einzuholen.Bei der Darlegung der einzelnen Bildungsgänge und Maßnahmen soll vor allem das Wesentliche herausgestellt werden, ohne zu sehr auf Besonderheiten und Ausnahmen einzugehen. Wo es aber möglich ist, findet eine Nennung der länderspezifischen Bezeichnungen statt.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Berufsorientierung/Schule-Beruf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=3c4fc8fb-350b-4159-b6da-bbf35fdcf3ac&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "690ade50-a1d4-4ecb-8ade-50a1d4decbce",
+              "title": "Gehalt in der Ausbildung – alle Infos",
+              "description": "In diesem Video bekommst du alle Infos rund ums Thema Gehalt in der Ausbildung – und nützliche Links!\n\n✅ Freie Stellen für 2020: 👉 https://bit.ly/35jgYQg \n✅ Die bestbezahlten Berufe: 👉 https://bit.ly/2LLTsnk \n✅ Alles zum Gehalt: 👉 https://bit.ly/38xbEeh \n✅ Schüler-BAföG & Co.: 👉 https://bit.ly/2Pxwt0g \n✅ Mach den Berufscheck: 👉 https://bit.ly/2qJulKA \n\n00:00 – Thema: Gehalt\n00:20 – Was verdiene ich in der Ausbildung?\n01:40 – Was bedeuten Gehalt, Ausbildungsvergütung und Lohn?\n02:55 – Was ist ein Tarifvertrag?\n03:52 – Was bedeutet brutto und netto? \n\n❓Wie viel Geld bekomme ich in der Ausbildung? ⬅\nDas ist natürlich eine sehr wichtige Frage – sie ist eine der Top-5-Gründe für Schüler, sich für oder gegen eine Ausbildung zu entscheiden. Wie hoch das Gehalt genau ist, hängt von einigen Faktoren ab. Zunächst einmal alleine davon, welchen Ausbildungsberuf zu dir aussuchst. Denn es gibt hunderte verschiedene Ausbildungsberufe und du möchtest selbstverständlich eine angemessene Vergütung. Die jeweiligen Ausbildungsberufe sind in verschiedenen Branchen angesiedelt, und hier finden sich erste große Unterschiede bei der Bezahlung. Einfluss darauf haben auch die Größe und Lage deines Ausbildungsunternehmens: Größere Betriebe zahlen meist mehr als kleinere und im Osten von Deutschland ist das Lohnniveau etwas niedriger als im Rest des Landes.\n\n❓Wo liegt der Unterschied zwischen Gehalt, Lohn und Ausbildungsvergütung? ⬅\nManchmal findest du in einer Stellenanzeige Lohn, manchmal Gehalt oder eben Ausbildungsvergütung als Begriffe. Wichtig für dich ist: Als Azubi bekommst du eine Ausbildungsvergütung, das bedeutet eigentlich nur, dass der monatliche Betrag, den du bekommst feststeht – dein Bruttolohn also. Im Laufe der Zeit wächst deine Vergütung dann an, das steht schon vom ersten Tag deiner Ausbildung bis zum Ende fest, wenn dein Betrieb nach Tarifvertrag bezahlt. Gibt es keinen Tarifvertrag, werden die Gehaltserhöhungen verhandelt. Das alles gilt auch für den Begriff Gehalt. Merk dir ganz einfach: Als Azubi nennt sich das Ganze Vergütung, später im Berufsleben eben Gehalt. Wenn dir deine Chefin einen Lohn zahlt, dann wirst du nach Stunden bezahlt. Arbeitest du mehr, bekommst du auch mehr – ganz einfach. In manchen Ausbildungen, zum Beispiel in der Industrie, fallen Extraschichten am Wochenende oder nachts an; in dem Fall bekommst du einen höheren Stundenlohn.\n\n❓Wie funktioniert ein Tarifvertrag? ⬅\nWenn du in deiner Ausbildung in deiner Branche nach Tarifvertrag bezahlt wirst, dann stehen einige wichtige Punkte schon von vornherein fest: dein monatliches Gehalt, dein Anspruch auf Urlaubstage und auch deine wöchentliche Stundenanzahl. Klar: Das gilt auch für alle anderen Azubis, wenn sie eine Ausbildung machen, in der es keinen Tarifvertrag gibt. Aber hier ist der Unterschied, dass sogenannte Gewerkschaften die Bedingungen für deinen Azubialltag verhandeln – und zwar mit einem Arbeitgeberverband. Aktiv brauchst du hier beim Thema Finanzen selbst gar nichts zu unternehmen, das passiert für dich alles automatisch. Übrigens verdienen Auszubildende mit Tarifvertrag in der Regel etwas mehr im Monat als Azubis ohne.\n\n❓Was ist der Unterschied zwischen brutto und netto? ⬅\nAuszubildende erhalten vom Ausbildungsbetrieb am Ende des Monats zunächst eine Bruttovergütung auf der Gehaltsabrechnung. Davon werden dann noch bestimmte Abgaben angezogen: zum Beispiel Steuern und deine Sozialversicherungen. Im Ausbildungsvertrag findest du deinen Bruttolohn.\n\nWeitere Tipps rund um deine Ausbildung findest du auf Ausbildung.de:\n✅ Branchen von A bis Z: 👉 https://bit.ly/2sgZx4v \n✅ Alle Berufe: 👉 https://bit.ly/36s0a9T \n✅ Berufe nach Themen: 👉 https://bit.ly/2PfPZiZ \n\n#ausbildung #ausbildungDE #howto\n\nAusbildung.de auf Social Media:\n✅ https://www.instagram.com/ausbildung/\n✅ https://www.tiktok.com/@ausbildung.de \n\n\nAusbildung.de GmbH\nGeschäftsführung:\nFelix von Zittwitz, Tim Schormann\nWittener Straße 87\nD – 44789 Bochum\nT +49 (0) 234 369 3720\nF +49 (0) 234 369 3769",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=JSfl_3yVbss",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=690ade50-a1d4-4ecb-8ade-50a1d4decbce&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768679070254-s4q8",
+          "name": "Ausbildungsvertrag Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/280840/berufsbildungsgesetz",
+          "search_query": "Ausbildungsvertrag",
+          "wlo_metadata": [
+            {
+              "nodeId": "5725c0cf-332e-4019-87f5-51e59dcd6fa2",
+              "title": "Verabschiedung des Berufsbildungsgesetzes (BBiG) von 1969 – Wendepunkt in der Geschichte beruflicher Bildung in der Bundesrepublik",
+              "description": "Das Berufsbildungsgesetz (BBiG)  hat für das in der Bundesrepublik nach wie vor dominante System der dualen Berufs(aus)bildung grundlegende Bedeutung. Die heutige betriebliche Berufsbildung ist ohne dieses Gesetz nicht mehr denkbar. Hierzulande ist e",
+              "subject": "Berufliche Bildung",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/280840/berufsbildungsgesetz",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=5725c0cf-332e-4019-87f5-51e59dcd6fa2&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "dac253f1-cef4-4cca-be63-b1712e38ee70",
+              "title": "Entstehung und Merkmale des dualen Ausbildungssystems",
+              "description": "Die Wurzeln der deutschen Berufsausbildung liegen im vorindustriellen Zeitalter. Dieser Beitrag informiert kurz und knapp über die historische Entwicklung des deutschen Ausbildungssystems und seine Besonderheiten im internationalen Vergleich. ",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/230376/duale-ausbildung",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=dac253f1-cef4-4cca-be63-b1712e38ee70&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "f96ad22d-2fc7-4483-9c3a-9dcdeb47a12e",
+              "title": "Deutschland: Migranten bei Berufsbildung weiter im Nachteil",
+              "description": "Am 18. Oktober diskutierte der Deutsche Bundestag den aktuellen Berufsbildungsbericht. Während die Bundesregierung eine positive Bilanz zog, kritisierte die Opposition fehlende Perspektiven für benachteiligte Jugendliche und forderte zusätzliche Ausb",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/gesellschaft/migration/newsletter/148817/migranten-bei-berufsbildung-im-nachteil",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f96ad22d-2fc7-4483-9c3a-9dcdeb47a12e&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768679064892-kqms",
+          "name": "Fallanalyse Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://www.tutory.de/bereitstellung/dokument/f2d55fcd-af0c-4d77-8eca-0d73209cf8d0",
+          "search_query": "Fallanalyse",
+          "wlo_metadata": [
+            {
+              "nodeId": "0a029fd8-97b4-4e93-a042-f03f05fc8e82",
+              "title": "Handel im Mittelalter - Handreichung",
+              "description": "Mit diesem Block lassen sich über zwei oder mehrere Schulstunden hinweg das Themengebiet  Handel im Mittelalter bearbeiten. Es kann dabei in der 6. Klasse eines Gymnasiums oder einer Oberschule verwendet werden. Mit Sachanalyse und Lernzielen.",
+              "subject": "Geschichte",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/f2d55fcd-af0c-4d77-8eca-0d73209cf8d0",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=0a029fd8-97b4-4e93-a042-f03f05fc8e82&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768679070468-0yj0",
+          "name": "Ausbildungsvertrag Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/rechte-und-pflichten",
+          "search_query": "Ausbildungsvertrag",
+          "wlo_metadata": [
+            {
+              "nodeId": "fad5be69-aaea-4519-9c22-d3e06fffbfb7",
+              "title": "Rechte und Pflichten",
+              "description": "Rechte und Pflichten\nViele wichtige Informationen zum Thema Ausbildung sind im Berufsbildungsgesetz\nenthalten. Welche Rechten und Pﬂichten gibt es für Azubis und Ausbilder? Wie muss ein\nAusbildungsvertrag aussehen?\nIhr Ausbildungsvertrag und ihr Ausbildungsverhältnis beruhen auf vier Rechtsgrundlagen.\n- Berufsbildungsgesetz (BBiG)\n- Ausbildungsordnung (AO)\n- Berufsausbildungsvertrag (Ausbildungsvertrag)\n- Jugendarbeitsschutzgesetz (JArbSchG)\nDie gesetzliche Grundlage für die Ausbildungsberufe im Dualen System ist das .\nDer ist eine schriftliche Vereinbarung zwischen\nAuszubildenden und Betrieb.\nZiel des ist es, werktätige\nMinderjährige vor Überbelastung und vor Gefahren am Arbeitsplatz zu schützen.\nIn der ist der bundeseinheitliche Standard für\ndie betriebliche Ausbildung in einem anerkannten Ausbildungsberuf festgelegt.\nAusbilung & Beruf - Rechte und Plfichten während der Berufsausbildungvom Bundesministerium für Bildung und Forschung\n- Maschen sie sich mit der Broschüre vertraut. Zugang bekommen sie über den nebenstehenden QR-Code.\n- sorgfältig - Ordnung – pﬂeglich - schriftlichen - Jahr - spätestens - Ausbildungsziels –\neinem - Berufsschule\nIm BBiG werden grundlegende Rechte und Pﬂichten von Ausbilderinnen, Ausbildern und\nAuszubildenden sowie Bestimmungen zur Vergütung, Probezeit und Beendigung von\nAusbildungsverhältnissen geregelt. Die Auszubildenden sind verpﬂichtet,\n• sich zu bemühen, die beruﬂiche Handlungsfähigkeit zu erwerben, die zum Erreichen\ndes erforderlich ist,\n• an dem Unterricht der teilzunehmen,\n• die ihnen übertragenen Arbeiten auszuführen,\n• den Weisungen der Ausbilder, Ausbilderinnen oder weisungsbefugten Personen zu\nfolgen,\n• die für den Betrieb geltende zu beachten,\n• alle Maschinen, Werkzeuge, Geräte und Instrumente zu\nbehandeln,\n• alle Betriebsgeheimnisse für sich zu behalten,\n• einen Ausbildungsnachweis (Berichtsheft) zu führen.\nDie Vergütung der Auszubildenden muss am letzten Arbeitstag des\nMonats gezahlt werden und sie muss jährlich steigen [...]",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/rechte-und-pflichten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=fad5be69-aaea-4519-9c22-d3e06fffbfb7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 98
+            },
+            {
+              "nodeId": "e2c758d9-199a-48f3-bd9e-8add4559435f",
+              "title": "Test - Rechte und Pflichten Arbeitnehmer und Arbeitgeber",
+              "description": "- Test - Rechte und Pflichten Arbeitnehmer und Arbeitgeber\n- anonym\n- 04.10.2020\n- Mathematik\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nTest - Rechte und Pflichten Arbeitnehmer und Arbeitgeber\n03.10.2020\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/test-rechte-und-pflichten-arbeitnehmer-und-arbeitgeber\nhttps://www.tutory.de/entdecken/dokument/test-rechte-und-pflichten-arbeitnehmer-und-arbeitgeber\nName:\nTest - Rechte und Pflichten Arbeitnehmer und Arbeitgeber\n03.10.2020\n1\nNenne je 6 innere und äußere Arbeitsbedingungen!\n12 / 12\n- Innere Arbeitsbedingungen:\n-\n-\n-\n-\n-\n-\n- äußere Arbeitsbedingungen:\n-\n-\n-\n-\n-\n-\n2\nPaula (16 Jahre) unterschreibt bei der Fa. Meyer ihren Ausbildungsvertrag und fühlt sich auch sofort wohl, da sie sich mit den Kollegen sehr gut versteht. Ihr Meister verlangt allerdings regelmäßig von ihr, dass sie nach ihrem 6 stündigen Berufsschulunterricht am Freitag noch in die Firma kommt und dort noch mindestens 4 Stunden arbeitet. Danach ist sie meist total fertig. Als sie das ihrer Freundin erzählte, meinte diese das das nicht rechtens sei. Paula stellte daraufhin ihren Meister zur Rede, der das als Quatsch bezeichnet und sie anweist weiter zu arbeiten. Paula ist wütend und weigert sich weiter zu arbeiten bis das geklärt ist. Da der Meister uneinsichtig ist geht sie einfach nach Hause. Ihr Meister kündigte sie darauf schriftlich, weigert sich aber ihr ein Zeugnis auszustellen.\nNimm Stellung zu diesem Fall und gehe auf alle Rechte und Pflichten der Arbeitnehmer und Arbeitgeber ein. Begründe deine Entscheidungen!\nNimm Stellung zu diesem Fall und gehe auf alle Rechte und Pflichten der Arbeitnehmer und Arbeitgeber ein. Begründe deine Entscheidungen!\n8 / 8\n/ 20\nNote\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument [...]",
+              "subject": "Mathematik",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/test-rechte-und-pflichten-arbeitnehmer-und-arbeitgeber",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e2c758d9-199a-48f3-bd9e-8add4559435f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            },
+            {
+              "nodeId": "bf937f71-4461-45db-929a-5cbfa1974a74",
+              "title": "Wirtschaft- und Sozialkunde Fragen",
+              "description": "- Wirtschaft- und Sozialkunde Fragen\n- David Eska\n- 03.12.2020\n- Beruf und Wirtschaft, Sachunterricht\n- 1. Ausbildungsjahr, 2. Ausbildungsjahr, 3. Ausbildungsjahr\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nWirtschaft- und Sozialkunde Fragen\n29.11.2020\n1\nWas ist beim eintragen der Ausbildungsvergütung in den Berufsausbildungsvertrag gesetzlich vorgeschrieben?\n2\nDas Hotel\nHübner GmbHist im Arbeitgeberverband DEHOGA. In welchem Gesetz/Vertrag gibt es Informationen zum Lohn?\n3\nWie lange darf die Probezeit für die Ausbildung maximal sein?\n4\nWer muss den Ausbildungsvertrag alles unterschreiben wenn der/die Auszubildende unter 18 Jahre alt ist?\n5\nWas bedeutet duale Ausbildung?\n6\nWarum muss ein Ausbildungsnachweisheft geführt werden?\n7\nDie Auszubildende Laura ist noch minderjährig und hat nur 6 Stunden Unterricht. Muss sie noch zur Arbeit?\n8\nDer Auszubildende Peter ist noch minderjährig und hat um 09:00 Uhr Dienstbeginn. Um welche Uhrzeit muss er die erste Pause machen?\n9\nDie Auszubildende Laura möchte sich über Tätigkeiten beschweren, da sie nicht ausbildungsrelevant sind. An welche Stelle kann sie sich melden?\n10\nDer Auszubildenden Lea wurde gekündigt und hält diese für aber für nicht gerechtfertigt. Zu welchen Gericht muss sie gehen?\n11\nDer Angestellten Servicekraft Laura wurde am 28.11. 2020 gekündigt. Sie ist seit einem Jahr im Hotel beschäftigt. Wann ist ihr letzter Arbeitstag?\n12\nDie Angestellte Restaurantfachfrau Marlen ist schwanger. Wie viele Wochen vorher beginnt der Mutterschutz?\n13\nWonach richtet sich die Steuerklasse der sie angehören?\n14\nSie sind gesetzlich rentenversichert. Welche Leistungen erbringt die gesetzliche Rentenversicherung?\n15\nIm Arbeitsverhältnis werden Beiträge zur gesetzlichen Arbeitslosenversicherung fällig. Wer bringt diese auf?\n16\nAuf ihrem Lohnstreifen sind keine Beiträge zur Unfallversicherung aufgeführt. Warum?\n17\nEin Arbeitgeber zahlt gesetzliche und freiwillige Leistungen. Nenne eine freiwil [...]",
+              "subject": "Sachunterricht",
+              "educationalContext": [
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/wirtschaft-und-sozialkunde-fragen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=bf937f71-4461-45db-929a-5cbfa1974a74&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 75
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768679066143-v17f",
+          "name": "Rechte und Pflichten Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/berufsbildung/allgemeinbildung/wiso-politik/arbeitsmaterial/am/quiz-fuer-auszubildende-rechte-und-pflichten-in-der-berufsausbildung/",
+          "search_query": "Rechte und Pflichten",
+          "wlo_metadata": [
+            {
+              "nodeId": "a60d96c9-2e08-4623-97a1-3254275dd418",
+              "title": "Quiz für Auszubildende: Rechte und Pflichten in der Berufsausbildung",
+              "description": "Wie lange ist die Probezeit in der Ausbildung? Welche tägliche Arbeitszeit ist bei jugendlichen Arbeitnehmern maximal möglich? Wie viel Urlaub steht Auszubildenden zu? Im ersten Teil des Quizzes rund um die Rechten und Pflichten während der Ausbildung testen die Lernenden ihr Wissen zu Arbeitszeiten, Schichtzeiten, Kündigung und dem Anspruch auf Urlaub.\n\nIm zweiten Teil werden verschiedene betriebliche Situationen beschrieben, auf die die Lernenden aus einer Vielzahl an Antwortmöglichkeiten die richtige beziehungsweise rechtmäßige Lösung wählen müssen. Neben Verletzungen am Arbeitsplatz handeln die Fälle von der Aufbesserung der Ausbildungsvergütung, der Auslegung der Ausbildungsordnung oder der Kündigung des Ausbildungsverhältnisses durch den Auszubildenden oder die Auszubildende.\n\nVon den vier Auswahlmöglichkeiten des Multiple-Choice-Quizzes ist jeweils nur eine Antwort richtig.\n\nDieses Quiz ist Teil der Unterrichtseinheit \"Rechte und Pflichten in der Berufsausbildung\", in der weitere Unterrichtsmaterialien zum Thema zur Verfügung stehen.",
+              "subject": "Politik",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/berufsbildung/allgemeinbildung/wiso-politik/arbeitsmaterial/am/quiz-fuer-auszubildende-rechte-und-pflichten-in-der-berufsausbildung/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a60d96c9-2e08-4623-97a1-3254275dd418&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768679074609-ggvg",
+          "name": "Rechte Pflichten Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/internationales/europa/russland/analysen/299367/analyse-gesellschaftliche-unternehmensverantwortung-abseits-der-gewohnten-pfade-wie-staat-und-wirtschaft-in-russland-zusammenarbeiten",
+          "search_query": "Rechte Pflichten",
+          "wlo_metadata": [
+            {
+              "nodeId": "f386cb3b-9b87-45e3-a5f6-f5b7c98c31f8",
+              "title": "Analyse: Gesellschaftliche Unternehmensverantwortung abseits der gewohnten Pfade: Wie Staat und Wirtschaft in Russland zusammenarbeiten",
+              "description": "Um die Klimaziele des Pariser Abkommens einzuhalten und sowohl umweltpolitisch als auch gesellschaftlich verantwortlich zu handeln, bedarf es einer engen Zusammenarbeit von Staat und Wirtschaft. Eine gegenseitige Abhängigkeit zeigt sich vor allem zwi",
+              "subject": "Nachhaltigkeit",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/internationales/europa/russland/analysen/299367/analyse-gesellschaftliche-unternehmensverantwortung-abseits-der-gewohnten-pfade-wie-staat-und-wirtschaft-in-russland-zusammenarbeiten",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f386cb3b-9b87-45e3-a5f6-f5b7c98c31f8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "4e8956f1-fcbf-4786-9ca7-da48f71f1a2c",
+              "title": "Chronik: Covid-19-Chronik, 6. – 19. Oktober 2020",
+              "description": "Die Ereignisse vom 6. bis zum 19. Oktober 2020 in der Covid-19-Chronik.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/internationales/europa/polen/317647/chronik-covid-19-chronik-6-19-oktober-2020",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=4e8956f1-fcbf-4786-9ca7-da48f71f1a2c&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "ae4d7c05-79a2-4fc2-830b-e45ecdebfdfa",
+              "title": "Organisationen und Institutionen",
+              "description": "Wie bereits erwähnt, delegiert der Staat Regulierungsfunktionen an korporatistische Verbände. Mitglieder der gemeinsamen Selbstverwaltung sind auf der Bundesebene: der Spitzenverband Bund der Krankenkassen, die Kassenärztliche Bundesvereinigung, die ",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/politik/innenpolitik/gesundheitspolitik/72733/organisationen-und-institutionen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ae4d7c05-79a2-4fc2-830b-e45ecdebfdfa&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768679066658-qtsq",
+          "name": "Fallanalyse Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.tutory.de/bereitstellung/dokument/f2d55fcd-af0c-4d77-8eca-0d73209cf8d0",
+          "search_query": "Fallanalyse",
+          "wlo_metadata": [
+            {
+              "nodeId": "0a029fd8-97b4-4e93-a042-f03f05fc8e82",
+              "title": "Handel im Mittelalter - Handreichung",
+              "description": "Mit diesem Block lassen sich über zwei oder mehrere Schulstunden hinweg das Themengebiet  Handel im Mittelalter bearbeiten. Es kann dabei in der 6. Klasse eines Gymnasiums oder einer Oberschule verwendet werden. Mit Sachanalyse und Lernzielen.",
+              "subject": "Geschichte",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/f2d55fcd-af0c-4d77-8eca-0d73209cf8d0",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=0a029fd8-97b4-4e93-a042-f03f05fc8e82&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "06527937-5621-40e1-b62b-ddb7e12f335f",
+              "title": "Industrialisierung - Unterrichtsentwurf mit Reihenplanung | tutory.de",
+              "description": "Hier findest du einen Unterrichtsentwurf zur Industriellen Revolution. Dieser ist eingebettet in eine komplette Reihenplanung und mit didaktischer Begründung ausgestattet.",
+              "subject": "Geschichte",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsidee",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/handreichung-industrialisierung",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=06527937-5621-40e1-b62b-ddb7e12f335f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
         }
       ],
       "tools": [
         {
           "id": "ENV1-T1",
           "name": "Beamer",
-          "tool_type": "Hardware",
-          "source": "filter",
-          "access_link": "",
-          "filter_criteria": {
-            "cclom:title": "Beamer",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/37a3ad9c-727f-4b74-bbab-27d59015c695",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
-          }
+          "tool_type": "Präsentationstechnik",
+          "source": "manual",
+          "access_link": ""
         },
         {
           "id": "ENV1-T2",
-          "name": "Computer mit Internetzugang",
-          "tool_type": "Hardware",
-          "source": "filter",
+          "name": "Tafel/Flipchart",
+          "tool_type": "Analoge Medien",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": []
+    },
+    {
+      "id": "ENV2",
+      "name": "Digitales Klassenzimmer",
+      "description": "Virtueller Raum mit Zugriff auf WLO-Ressourcen und digitalen Quiztools.",
+      "materials": [
+        {
+          "id": "M7",
+          "name": "Reflexionsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "WLO",
           "access_link": "",
-          "filter_criteria": {
-            "cclom:title": "Internetwirtschaft",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/55761ec6-0cd4-4677-86ee-6f395934dae7",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
-          }
+          "search_query": "Ausbildungsvertrag Reflexion"
+        },
+        {
+          "id": "M8",
+          "name": "Quiz Rechte Pflichten",
+          "material_type": "Interaktives Medium",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Rechte Pflichten Quiz"
+        },
+        {
+          "id": "M9",
+          "name": "Erklärvideo Vertrag",
+          "material_type": "Video",
+          "source": "WLO",
+          "access_link": "",
+          "search_query": "Ausbildungsvertrag Video"
+        },
+        {
+          "id": "ENV2-M1768679067191-ukev",
+          "name": "Moderationstechniken Methoden",
+          "material_type": "Methoden",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/Lernen%20durch%20Lehren%20im%20Englischunterricht",
+          "search_query": "Moderationstechniken",
+          "wlo_metadata": [
+            {
+              "nodeId": "3cda25ad-7480-4291-831c-726036a66ac1",
+              "title": "Lernen durch Lehren im Englischunterricht",
+              "description": "ist in allen Klassenstufen einsetzbar, vielfach erprobt und durch zunehmende Bedeutung des Faches Englisch in der globalisierten Welt von SchülerInnen und Eltern methodisch geradezu gefordert. Zu Beginn ist es ratsam, einen der Lerngruppe angemessenen classroom discourse einzuführen. Komplexität und Umfang der übertragenen fachdidaktischen Teilkompetenzen werden allmählich gesteigert: von einer fünfminütigen Leseübung bis zu einer kompletten Texteinführung. Auch Struktureinführung und Textinterpretation sind möglich, bei Bedarf erfolgt Wissenskonstruktion a posteriori.",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Lernen%20durch%20Lehren%20im%20Englischunterricht",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=3cda25ad-7480-4291-831c-726036a66ac1&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768679070723-2ilu",
+          "name": "Unklarheiten Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.zoerr.de/edu-sharing/components/render/1f4577b4-4857-40f5-9947-c37d78738e4c",
+          "search_query": "Unklarheiten",
+          "wlo_metadata": [
+            {
+              "nodeId": "fee7be71-6436-4ade-b141-a002d5a61318",
+              "title": "E11a Globale Verständnisfragen - Pythonkurs",
+              "description": "Globale Verständnisfragen Zum Abschluss dieses Lernmoduls wollen wir noch einmal die wichtigsten Erkenntnisse und Informationen, die Sie aus diesem Lernmodul mitnehmen sollen, mit einigen zusammenfassenden Fragen verschiedenen Typs abfragen und wiederholen. Sie können diese Fragen als \"inverted classroom\" verstehen, und damit als komplementär zu den vorgeschlagenen größeren Übungen im nächsten Abschnitt. Die Idee ist, dass Sie sich hier überlegen können, ob Sie die gestellten Fragen selbst beantworten können. Falls es noch Unklarheiten gibt, können Sie die entsprechenden Antworten nochmals direkt in den passenden Abschnitten des Lernmoduls rekapitulieren. Dementsprechend sind die Antworten auch absichtlich skizzenhaft. Bitte zögern Sie nicht, bei konkreten Fragen einen der Kanäle zur Hilfe zur Selbsthilfe zu nutzen.\n",
+              "subject": "Studienbereich Informatik",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://www.zoerr.de/edu-sharing/components/render/1f4577b4-4857-40f5-9947-c37d78738e4c",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=fee7be71-6436-4ade-b141-a002d5a61318&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "502c0a3c-e5ad-4cd7-82b2-aa8be9d9eea5",
+              "title": "D10a Globale Verständnisfragen - Pythonkurs",
+              "description": "Globale Verständnisfragen Zum Abschluss dieses Lernmoduls wollen wir noch einmal die wichtigsten Erkenntnisse und Informationen, die Sie aus diesem Lernmodul mitnehmen sollen, mit einigen zusammenfassenden Fragen verschiedenen Typs abfragen und wiederholen. Sie können diese Fragen als \"inverted classroom\" verstehen, und damit als komplementär zu den vorgeschlagenen größeren Übungen im nächsten Abschnitt. Die Idee ist, dass Sie sich hier überlegen können, ob Sie die gestellten Fragen selbst beantworten können. Falls es noch Unklarheiten gibt, können Sie die entsprechenden Antworten nochmals direkt in den passenden Abschnitten des Lernmoduls rekapitulieren. Dementsprechend sind die Antworten auch absichtlich skizzenhaft. Bitte zögern Sie nicht, bei konkreten Fragen einen der Kanäle zur Hilfe zur Selbsthilfe zu nutzen.\n",
+              "subject": "Studienbereich Informatik",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://www.zoerr.de/edu-sharing/components/render/4d17c7c7-9df1-4157-82fe-a0f50231263f",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=502c0a3c-e5ad-4cd7-82b2-aa8be9d9eea5&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "85adfcac-fd16-4709-a16d-882064c2f2f9",
+              "title": "C11a Globale Verständnisfragen - Pythonkurs",
+              "description": "Globale Verständnisfragen Zum Abschluss dieses Lernmoduls wollen wir noch einmal die wichtigsten Erkenntnisse und Informationen, die Sie aus diesem Lernmodul mitnehmen sollen, mit einigen zusammenfassenden Fragen verschiedenen Typs abfragen und wiederholen. Sie können diese Fragen als \"inverted classroom\" verstehen, und damit als komplementär zu den vorgeschlagenen größeren Übungen im nächsten Abschnitt. Die Idee ist, dass Sie sich hier überlegen können, ob Sie die gestellten Fragen selbst beantworten können. Falls es noch Unklarheiten gibt, können Sie die entsprechenden Antworten nochmals direkt in den passenden Abschnitten des Lernmoduls rekapitulieren. Dementsprechend sind die Antworten auch absichtlich skizzenhaft. Bitte zögern Sie nicht, bei konkreten Fragen einen der Kanäle zur Hilfe zur Selbsthilfe zu nutzen.\n",
+              "subject": "Studienbereich Informatik",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Tests / Fragebögen",
+              "wwwUrl": "https://www.zoerr.de/edu-sharing/components/render/b068c9e9-2d7b-42f8-9567-cf2bcb7372ac",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=85adfcac-fd16-4709-a16d-882064c2f2f9&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768679071850-2lgo",
+          "name": "Priorisierung Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.bpb.de/internationales/europa/russland/analysen/280523/analyse-russland-und-das-voelkerrecht-einige-widersprueche",
+          "search_query": "Priorisierung",
+          "wlo_metadata": [
+            {
+              "nodeId": "fe23e6bc-5c30-460a-b49a-1a2967be525f",
+              "title": "Analyse: Russland und das Völkerrecht: Einige Widersprüche",
+              "description": "Russlands Völkerrechtsverständnis ist widersprüchlich: Die Regierung beruft sich stets auf völkerrechtliche Prinzipien, wird jedoch in Ländern wie der Ukraine und Georgien als Verletzter eben dieser Normen wahrgenommen. Steht die Allgemeingültigkeit ",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/internationales/europa/russland/analysen/280523/analyse-russland-und-das-voelkerrecht-einige-widersprueche",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=fe23e6bc-5c30-460a-b49a-1a2967be525f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "31215fc4-1976-4279-9ef2-2f2339bc93b7",
+              "title": "Coronavirus - Geschichte im Ausnahmezustand",
+              "description": "Das Corona-geprägte Jahr 2020 „steht in einer künftigen Geschichtsschreibung für einen tiefgreifenden Wandel der politischen Kultur\", prognostiziert der Historiker Martin Sabrow.  Doch in welche Richtung? Nicht im staatlichen, sondern „im gesellschaf",
+              "subject": "Geschichte",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/geschichte/zeitgeschichte/deutschlandarchiv/308316/coronavirus-geschichte-im-ausnahmezustand",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=31215fc4-1976-4279-9ef2-2f2339bc93b7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "1c8e7cf8-ab07-4896-b593-69281a4350bb",
+              "title": "Der deutsche Ethikrat - Geschichte und Bedeutung bis heute",
+              "description": "Beihilfe zum Suizid, Forschung an Mensch-Tier-Mischwesen, Priorisierung bei Corona-Impfstoffen - im Ethikrat geht es oft um Fragen von Leben oder Tod. Es handelt sich aber keineswegs nur um einen illustren Gesprächskreis. Vielmehr ist es ein Gremium mit weitreichendem Einfluss.",
+              "subject": "Allgemein",
+              "educationalContext": [
+                "Primarstufe",
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Audio",
+              "wwwUrl": "https://www.br.de/mediathek/podcast/radiowissen/der-deutsche-ethikrat-geschichte-und-bedeutung-bis-heute/1940596",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1c8e7cf8-ab07-4896-b593-69281a4350bb&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768679071395-oes6",
+          "name": "Rechte und Pflichten Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/rechte-und-pflichten-im-arbeitsverhaeltnis-1",
+          "search_query": "Rechte und Pflichten",
+          "wlo_metadata": [
+            {
+              "nodeId": "f228e53f-0868-4a9f-88df-f2b6167d23ba",
+              "title": "Rechte und Pflichten im Arbeitsverhältnis",
+              "description": "- Rechte und Pflichten im Arbeitsverhältnis\n- stephan-koch\n- 19.12.2022\n- Beruf und Wirtschaft\n- 1. Ausbildungsjahr\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nRechte und Pflichten im Arbeitsverhältnis\n18.12.2022\nRechte und Pflichten im Arbeitsverhältnis\nRechtliche Grundlage:\n§611ff BGB (= Paragraph 611 für Folgende im Bürgerlichen Gesetzbuch)\nVgl. Rechte und Pflichten in der Ausbildung!\nPflichten der Arbeitgeber\n(= Rechte des Arbeitnehmers)\n(= Rechte des Arbeitnehmers)\nPflichten der Arbeitnehmer\n(= Rechte des Arbeitgebers)\n(= Rechte des Arbeitgebers)\n1\nFüllen Sie die Lücken\nVergütungsfpflicht\nBezahlung gemäß dem oder einem Tarifvertrag.\nBeschäftigungspflicht\nDer muss gemäß der Vereinbarung im Arbeitsvertrag beschäftigt werden.\nFürsorgepflicht\nEinhaltung der gesetzlichen Bestimmungen (Arbeitszeit, Unfallschutz ...).\nZeugnispflicht\nDer Arbeitgeber muss auf Wunsch ein ausstellen.\n2\nFüllen Sie die Lücke.\nArbeitspflicht\nDie vereinbarte Arbeitsleistung ist zu erbringen.\nGehorsamspflicht\nDen Weisungen des ist im Rahmen der Gesetzte und des Arbeitsvertrags Folge zu leisten.\nTreuepflicht\nZu ihr gehören\n- Sorgfaltsflicht\n- Schweigepflicht\n- Wettbewerbsverbot\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/rechte-und-pflichten-im-arbeitsverhaeltnis-1\nhttps://www.tutory.de/entdecken/dokument/rechte-und-pflichten-im-arbeitsverhaeltnis-1\nName:\nRechte und Pflichten im Arbeitsverhältnis\n18.12.2022\nÜbungen\n3\nOrdnen Sie zu!\n- Geld\n- Lernpflicht\n- Schweigepflicht\n- Fürsorgepflicht\n- Gesetzliche Bestimmungen\n- Datenschutz\n- Vergütungspflicht\n- Berufsausbildug\n4\nPaul Weiher, Maler, tapeziert in seiner Freizeit Wohnungen.\nGegen welche Pflicht verstößt er?\nGegen welche Pflicht verstößt er?\n5\nFriede Kuhn, Notfallsanitäterin, soll nach ihrem regulären Dienst (12 Stunden) noch weitere 3 Stunden arbeiten.\nGegen welche Pflicht verstößt ihr Chef?\nGegen [...]",
+              "subject": "",
+              "educationalContext": [
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/rechte-und-pflichten-im-arbeitsverhaeltnis-1",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f228e53f-0868-4a9f-88df-f2b6167d23ba&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "f281ec98-c20c-45d9-8afc-a44b9bed322a",
+              "title": "Rechte und Pflichten im Arbeitsverhältnis",
+              "description": "Arbeitsblatt - Rechte und Pflichten im Arbeitsverhältnis - Beruf und Wirtschaft - tutory.de [...]",
+              "subject": "",
+              "educationalContext": [
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/rechte-und-pflichten-im-arbeitsverhaeltnis",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f281ec98-c20c-45d9-8afc-a44b9bed322a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "c971a7d4-e83c-4793-9870-74448b4ac2ea",
+              "title": "Inklusiver Unterricht: Rechte und Pflichten in der Ausbildung",
+              "description": "Im Rahmen dieser Unterrichtssequenz zum Thema \"Rechte und Pflichten von Auszubildenden\" soll aufgezeigt werden, wie ausgehend von einem Erwartungshorizont Lernhilfen entwickelt werden können, die es ermöglichen, auch Lernende mit Förderbedarf zu integrieren und auf einem Mindestniveau zu qualifizieren. Die Schülerinnen und Schüler erhalten eine offene Aufgabenstellung, die bewusst provokant gehalten ist: Sie sollen sich mit der fiktiven Situation auseinandersetzen, aufgrund der schwierigen wirtschaftlichen Lage von ihrem Ausbildungsbetrieb darum gebeten zu werden, auf eine Ausbildungsvergütung zu verzichten und stattdessen eine monatliche Entschädigung in Höhe von 150 Euro für die dem Betrieb entstehenden Kosten zu zahlen. Die Lernenden sollen die gesetzlichen Hintergründe recherchieren und begründet entscheiden, ob die Forderungen rechtens sind.",
+              "subject": "Politik",
+              "educationalContext": [
+                "Berufliche Bildung"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/berufsbildung/allgemeinbildung/wiso-politik/unterrichtseinheit/ue/inklusiver-unterricht-rechte-und-pflichten-in-der-ausbildung/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=c971a7d4-e83c-4793-9870-74448b4ac2ea&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768679065207-44bh",
+          "name": "Rechte und Pflichten Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/berufsbildung/allgemeinbildung/wiso-politik/arbeitsmaterial/am/quiz-fuer-auszubildende-rechte-und-pflichten-in-der-berufsausbildung/",
+          "search_query": "Rechte und Pflichten",
+          "wlo_metadata": [
+            {
+              "nodeId": "a60d96c9-2e08-4623-97a1-3254275dd418",
+              "title": "Quiz für Auszubildende: Rechte und Pflichten in der Berufsausbildung",
+              "description": "Wie lange ist die Probezeit in der Ausbildung? Welche tägliche Arbeitszeit ist bei jugendlichen Arbeitnehmern maximal möglich? Wie viel Urlaub steht Auszubildenden zu? Im ersten Teil des Quizzes rund um die Rechten und Pflichten während der Ausbildung testen die Lernenden ihr Wissen zu Arbeitszeiten, Schichtzeiten, Kündigung und dem Anspruch auf Urlaub.\n\nIm zweiten Teil werden verschiedene betriebliche Situationen beschrieben, auf die die Lernenden aus einer Vielzahl an Antwortmöglichkeiten die richtige beziehungsweise rechtmäßige Lösung wählen müssen. Neben Verletzungen am Arbeitsplatz handeln die Fälle von der Aufbesserung der Ausbildungsvergütung, der Auslegung der Ausbildungsordnung oder der Kündigung des Ausbildungsverhältnisses durch den Auszubildenden oder die Auszubildende.\n\nVon den vier Auswahlmöglichkeiten des Multiple-Choice-Quizzes ist jeweils nur eine Antwort richtig.\n\nDieses Quiz ist Teil der Unterrichtseinheit \"Rechte und Pflichten in der Berufsausbildung\", in der weitere Unterrichtsmaterialien zum Thema zur Verfügung stehen.",
+              "subject": "Politik",
+              "educationalContext": [
+                "Berufliche Bildung",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/berufsbildung/allgemeinbildung/wiso-politik/arbeitsmaterial/am/quiz-fuer-auszubildende-rechte-und-pflichten-in-der-berufsausbildung/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a60d96c9-2e08-4623-97a1-3254275dd418&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV2-T1",
+          "name": "LMS / Quiztool",
+          "tool_type": "Service",
+          "source": "manual",
+          "access_link": ""
+        },
+        {
+          "id": "ENV2-T2",
+          "name": "Computerraum",
+          "tool_type": "Hardware",
+          "source": "manual",
+          "access_link": ""
         }
       ],
       "services": [
         {
-          "id": "ENV1-S1",
-          "name": "Digitale Lernplattform",
-          "service_type": "E-Learning",
-          "source": "filter",
-          "access_link": "https://example.com/digitale-lernplattform",
-          "filter_criteria": {
-            "cclom:title": "Wirtschaft",
-            "ccm:oeh_lrt_aggregated": "http://w3id.org/openeduhub/vocabs/new_lrt_aggregated/e10e9add-700e-4b57-a9c5-8f1088bb0545",
-            "ccm:taxonid": "http://w3id.org/openeduhub/vocabs/discipline/04013"
-          }
+          "id": "ENV2-S1",
+          "name": "WLO Suche",
+          "service_type": "Ressourcensuche",
+          "source": "WLO",
+          "access_link": "https://www.wirlernenonline.de/suche"
         }
       ]
+    },
+    {
+      "id": "ENV-DEFAULT",
+      "name": "Standard-Lernumgebung",
+      "description": "Digitale Lernumgebung für WLO-Inhalte",
+      "materials": [],
+      "tools": [],
+      "services": []
     }
   ]
 }

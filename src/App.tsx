@@ -11,6 +11,7 @@ import { Preview } from './pages/Preview';
 import AIFlowAgent from './pages/AIFlowAgent';
 import { Community } from './pages/Community';
 import { Settings } from './pages/Settings';
+import { MaterialGenerator } from './pages/MaterialGenerator';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
             <Route path="/shopping-cart" element={<ShoppingCart />} />
             <Route path="/course-flow" element={<CourseFlow />} />
             <Route path="/preview" element={<Preview />} />
+            <Route path="/material-generator" element={<MaterialGenerator />} />
             <Route path="/ai-flow-agent" element={<AIFlowAgent />} />
             <Route path="/community" element={<Community />} />
             <Route path="/settings" element={<Settings />} />

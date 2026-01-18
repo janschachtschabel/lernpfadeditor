@@ -1,106 +1,214 @@
 {
   "metadata": {
-    "title": "Stationenlernen: Salze und ihre Eigenschaften",
-    "description": "Ein interaktives Stationenlernen für die 10. Klasse, das die Eigenschaften von Salzen durch experimentelle und digitale Methoden vermittelt.",
+    "title": "Stationenlernen: Salze und ihre Eigenschaften (überarbeitet)",
+    "description": "Interaktives Stationenlernen für die 10. Klasse: Experimente, digitale Simulationen und Präsentationen zur Erforschung von Eigenschaften und Struktur von Salzen. Verbesserter Ablauf, präzisere Rollenbeschreibungen und ergänzte digitale WLO-Ressourcen.",
     "keywords": [
       "Salze",
       "Leitfähigkeit",
       "Sprödigkeit",
       "Kristallstruktur",
-      "Chemie"
+      "Chemie",
+      "WLO"
     ],
     "author": "Max Müller",
-    "version": "1.0"
+    "version": "1.1",
+    "created": "2026-01-17T23:53:25.047Z"
   },
   "problem": {
-    "problem_description": "Schüler sollen die Eigenschaften von Salzen verstehen und experimentell erfahren, wie Struktur und Eigenschaften zusammenhängen.",
+    "problem_description": "Schüler sollen die Eigenschaften von Salzen verstehen und experimentell erfahren, wie Kristallstruktur und Materialeigenschaften zusammenhängen. Unterschiedliche Vorkenntnisse und Sicherheitsaspekte sollen berücksichtigt werden.",
+    "description": "Schüler sollen die Eigenschaften von Salzen verstehen und experimentell erfahren, wie Kristallstruktur und Materialeigenschaften zusammenhängen. Unterschiedliche Vorkenntnisse und Sicherheitsaspekte sollen berücksichtigt werden.",
     "learning_goals": [
       "Verständnis der Leitfähigkeit von Salzen",
-      "Erkennung der Sprödigkeit von Salzen",
+      "Erkennen und Beschreiben der Sprödigkeit von Salzen",
       "Einordnung der Struktur-Eigenschaftsbeziehungen",
-      "Erarbeitung des Aufbaus von Salzkristallen"
+      "Erarbeitung des Aufbaus von Salzkristallen",
+      "Anwenden von Messmethoden und Protokollierung"
     ],
     "didactic_keywords": [
       "Experimentelles Lernen",
       "Schüleraktivierung",
-      "Interaktive Methoden",
-      "Differenzierung"
-    ]
+      "Digitale Ergänzung (WLO)",
+      "Differenzierung",
+      "Sicherheit im Labor"
+    ],
+    "challenges": []
   },
   "context": {
     "target_group": "Schüler der 10. Klasse",
     "subject": "Chemie",
     "educational_level": "Sekundarstufe II",
-    "prerequisites": "Grundkenntnisse in Chemie und Kristallographie",
+    "prerequisites": "Grundkenntnisse zu Ionenbindung und Kristallstruktur",
     "time_frame": "90 Minuten"
   },
   "influence_factors": [
     {
       "factor": "Vorkenntnisse der Schüler",
-      "description": "Unterschiedliche Vorkenntnisse erfordern differenzierte Aufgabenstellungen."
+      "description": "Unterschiedliche Vorkenntnisse erfordern gezielte Differenzierung (Zusatzaufgaben, Hilfsmaterialien)."
     },
     {
       "factor": "Materialverfügbarkeit",
-      "description": "Verfügbarkeit von Laborgeräten und Chemikalien beeinflusst die Durchführung der Experimente."
+      "description": "Verfügbarkeit von Messgeräten und digitalen Endgeräten beeinflusst die Materialzuweisung."
+    },
+    {
+      "factor": "Sicherheitsanforderungen",
+      "description": "Aufsicht und Sicherheitsinstruktionen sind zwingend für Experimente mit Chemikalien."
     },
     {
       "factor": "Gruppendynamik",
-      "description": "Die Zusammenarbeit in den Gruppen kann den Lernerfolg beeinflussen."
+      "description": "Klare Rollen in Gruppen (Experimentator, Protokollant, Moderator) fördern Zusammenarbeit."
     }
   ],
   "solution": {
-    "solution_description": "Durchführung eines Stationenlernens, bei dem die Schüler verschiedene Aspekte der Eigenschaften von Salzen an unterschiedlichen Stationen erforschen.",
-    "didactic_approach": "Handlungsorientiertes Lernen in Gruppen mit Feedback- und Reflexionsphasen.",
+    "solution_description": "Stationenlernen mit drei Phasen: Einführung (inkl. kurzem Video), Durchführung an drei Stationen (Leitfähigkeit, Sprödigkeit, Kristallaufbau) mit digitalen Ergänzungen und abschließender Sicherung durch Präsentation und Reflexion.",
+    "approach": "Stationenlernen mit drei Phasen: Einführung (inkl. kurzem Video), Durchführung an drei Stationen (Leitfähigkeit, Sprödigkeit, Kristallaufbau) mit digitalen Ergänzungen und abschließender Sicherung durch Präsentation und Reflexion.",
+    "didactic_approach": "Handlungsorientiertes und kooperatives Lernen, unterstützt durch digitale Ressourcen (WLO) und klare Lehrerunterstützung (Differenzierung, Sicherheit, formative Rückmeldung).",
     "didactic_template": {
       "learning_sequences": [
         {
           "sequence_id": "LS1",
           "sequence_name": "Stationenlernen zu Salzen",
           "time_frame": "90 Minuten",
-          "learning_goal": "Verständnis der Eigenschaften von Salzen und ihrer Anwendungen",
+          "learning_goal": "Verständnis der Eigenschaften von Salzen, ihre Struktur-Eigenschaftsbeziehungen und die Anwendung einfacher Messverfahren",
           "phases": [
             {
               "phase_id": "LS1-P1",
               "phase_name": "Einführung",
               "time_frame": "15 Minuten",
-              "learning_goal": "Einführung in das Thema Salze und deren Eigenschaften",
+              "learning_goal": "Vorwissen aktivieren, Interesse wecken und Sicherheitsregeln klären",
               "activities": [
                 {
                   "activity_id": "LS1-P1-A1",
-                  "name": "Präsentation der Grundlagen",
-                  "description": "Kurze Präsentation über Salze, ihre Eigenschaften und Anwendungen.",
-                  "duration": 15,
-                  "goal": "Vorwissen aktivieren und Interesse wecken",
+                  "name": "Einstiegsvideo",
+                  "description": "Kurzes Erklärvideo zu Salzen: typische Eigenschaften und Alltagsbeispiele ansehen.",
+                  "duration": 5,
+                  "roles": [
+                    {
+                      "role_id": "LS1-P1-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet das Einstiegsvideo ein, stellt Lernziele vor, pausiert bei Bedarf für Erläuterungen und leitet die anschließende kurze Diskussion.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M1",
+                          "ENV2-M1768694092986-vnxu",
+                          "ENV2-M1768694093533-gxqp"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A1-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Sieht das Video aufmerksam, notiert Alltagsbeispiele und typische Eigenschaften von Salzen und beantwortet Verständnisfragen im Plenum.",
+                      "selected_differentiation": [
+                        "diff_A2_1768694081317_0",
+                        "diff_A2_1768694081317_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M1",
+                          "ENV2-M3",
+                          "ENV2-M1768694086673-f587",
+                          "ENV2-M1768694091449-hhd2"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Kompakter inhaltlicher Einstieg und Aktivierung von Vorwissen",
                   "prerequisite_activity": null,
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [
-                    "LS1-P2"
+                    "LS1-P1-A2"
                   ],
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Fragen zur Aktivierung"
+                      "Kurzfragen nach dem Video"
                     ],
                     "criteria": [
-                      "Aktive Teilnahme",
-                      "Interesse"
+                      "Verständnis grundlegender Eigenschaften",
+                      "Aufmerksamkeit"
                     ]
-                  },
+                  }
+                },
+                {
+                  "activity_id": "LS1-P1-A2",
+                  "name": "Kurzinput & Sicherheitsbriefing",
+                  "description": "Lehrperson gibt kompakten Fachinput und erklärt Sicherheitsregeln für die Stationen; Gruppeneinteilung und Rollenklärung.",
+                  "duration": 10,
                   "roles": [
                     {
-                      "role_id": "LS1-P1-A1-R1",
-                      "role_name": "Lehrer",
+                      "role_id": "LS1-P1-A2-R1",
+                      "role_name": "Moderation",
                       "actor_id": "A1",
-                      "task_description": "Präsentiert die Informationen zu Salzen.",
+                      "task_description": "Gibt kompakten Fachinput zu den wichtigsten Merkmalen der Stationen, erklärt die Sicherheitsregeln und teilt die Gruppen und Rollen ein.",
+                      "selected_differentiation": [],
                       "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M6",
+                          "ENV2-M5",
+                          "ENV2-M1768694087617-govk",
+                          "ENV2-M1768694093906-3e1h"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P1-A2-R2",
+                      "role_name": "Aktive Teilnahme",
+                      "actor_id": "A2",
+                      "task_description": "Hört dem Kurzinput zu, notiert die Sicherheitsregeln, übernimmt zugewiesene Rollen innerhalb der Gruppe und bereitet sich anhand eines Arbeitsblatts auf die Stationen vor.",
+                      "selected_differentiation": [
+                        "diff_A2_1768694081317_0",
+                        "diff_A2_1768694081317_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M4",
+                          "ENV2-M1768694088645-k21m",
+                          "ENV2-M1768694095563-wl32"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
                         "selected_services": []
                       }
                     }
-                  ]
+                  ],
+                  "goal": "Sicherheitsbewusstsein schaffen und Gruppenarbeit vorbereiten",
+                  "prerequisite_activity": "LS1-P1-A1",
+                  "transition_type": "sequential",
+                  "condition_description": null,
+                  "next_activity": [
+                    "LS1-P2-A1"
+                  ],
+                  "assessment": {
+                    "type": "formative",
+                    "methods": [
+                      "Kurzabfrage (Handzeichen / 1-2 Fragen)"
+                    ],
+                    "criteria": [
+                      "Sicherheitsverständnis",
+                      "Verständnis der Gruppenrollen"
+                    ]
+                  }
                 }
               ],
               "prerequisite_phase": null,
@@ -112,14 +220,61 @@
               "phase_id": "LS1-P2",
               "phase_name": "Durchführung der Stationen",
               "time_frame": "60 Minuten",
-              "learning_goal": "Erforschung der Eigenschaften von Salzen an verschiedenen Stationen",
+              "learning_goal": "Erforschung der Eigenschaften von Salzen an verschiedenen Stationen mit dokumentierten Messungen",
               "activities": [
                 {
                   "activity_id": "LS1-P2-A1",
                   "name": "Station 1: Leitfähigkeit",
-                  "description": "Messung der Leitfähigkeit von verschiedenen Salzlösungen.",
+                  "description": "Messung der Leitfähigkeit verschiedener Salzlösungen; Einsatz einer digitalen Simulation als Ergänzung zur Interpretation der Messwerte.",
                   "duration": 20,
-                  "goal": "Verständnis der Leitfähigkeit von Salzen",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A1-R1",
+                      "role_name": "Anleitung",
+                      "actor_id": "A1",
+                      "task_description": "Erklärt Messaufbau und -verfahren, überwacht sichere Handhabung des Leitfähigkeitsmessgeräts, unterstützt bei Messproblemen und hilft bei der Interpretation der Messwerte.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2",
+                          "ENV1-M1768694093580-wet7",
+                          "ENV1-M1768694094456-bdt5"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1",
+                          "ENV1-T2"
+                        ],
+                        "selected_services": [
+                          "ENV1-S1"
+                        ]
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A1-R2",
+                      "role_name": "Durchführung",
+                      "actor_id": "A2",
+                      "task_description": "Führt die Leitfähigkeitsmessungen an verschiedenen Salzlösungen durch, protokolliert die Messwerte und vergleicht Ergebnisse innerhalb der Gruppe.",
+                      "selected_differentiation": [
+                        "diff_A2_1768694081317_0",
+                        "diff_A2_1768694081317_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M1",
+                          "ENV1-M2",
+                          "ENV1-M1768694086743-yuu0"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Verständnis der elektrischen Leitfähigkeit von Salzlösungen und Zusammenhang mit Ionenbewegung",
                   "prerequisite_activity": null,
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -129,39 +284,64 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Beobachtung"
+                      "Beobachtung",
+                      "Protokollprüfung"
                     ],
                     "criteria": [
                       "Messgenauigkeit",
+                      "Sauberes Protokoll",
                       "Zusammenarbeit"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P2-A1-R1",
-                      "role_name": "Experimentator",
-                      "actor_id": "A2",
-                      "task_description": "Führt die Messungen durch und dokumentiert die Ergebnisse.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [
-                          "ENV1-M1",
-                          "ENV1-M2"
-                        ],
-                        "selected_tools": [
-                          "ENV1-T1"
-                        ],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 },
                 {
                   "activity_id": "LS1-P2-A2",
                   "name": "Station 2: Sprödigkeit",
-                  "description": "Test der Sprödigkeit verschiedener Salzkristalle.",
+                  "description": "Untersuchung der mechanischen Eigenschaften: Sprödigkeitstest an Salzkristallen, Beobachtung und Diskussion mikroskopischer Bruchbilder.",
                   "duration": 20,
-                  "goal": "Verständnis der Sprödigkeit von Salzen",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A2-R1",
+                      "role_name": "Anleitung",
+                      "actor_id": "A1",
+                      "task_description": "Demonstriert den Sprödigkeitstest an Musterkristallen, erklärt Sicherheitsaspekte beim Umgang mit Bruchstücken und interpretiert mikroskopische Bruchbilder gemeinsam mit der Klasse.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3",
+                          "ENV1-M1768694087141-krdb"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": [
+                          "ENV1-S1"
+                        ]
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A2-R2",
+                      "role_name": "Durchführung",
+                      "actor_id": "A2",
+                      "task_description": "Führt vorsichtig Sprödigkeitstests an Salzkristallen durch, dokumentiert Bruchmuster und diskutiert Beobachtungen im Hinblick auf mechanische Eigenschaften.",
+                      "selected_differentiation": [
+                        "diff_A2_1768694081317_0",
+                        "diff_A2_1768694081317_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M3"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Verstehen der mechanischen Eigenschaften (Sprödigkeit) und deren Erklärung durch Kristallstruktur",
                   "prerequisite_activity": "LS1-P2-A1",
                   "transition_type": "sequential",
                   "condition_description": null,
@@ -171,68 +351,84 @@
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Beobachtung"
+                      "Beobachtung",
+                      "Kurzprotokoll"
                     ],
                     "criteria": [
                       "Sorgfalt",
+                      "Beobachtungsgabe",
                       "Dokumentation"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P2-A2-R1",
-                      "role_name": "Experimentator",
-                      "actor_id": "A2",
-                      "task_description": "Führt den Sprödigkeitstest durch.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [
-                          "ENV1-M3"
-                        ],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 },
                 {
                   "activity_id": "LS1-P2-A3",
                   "name": "Station 3: Kristallaufbau",
-                  "description": "Bau von Salzkristallen aus Modellmaterial.",
+                  "description": "Bau von Modellen zur Darstellung von Kristallgittern und Diskussion des Zusammenhangs zwischen Struktur und Eigenschaften; ergänzende Arbeitsblätter zur Vertiefung.",
                   "duration": 20,
-                  "goal": "Verständnis des Aufbaus von Salzkristallen",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P2-A3-R1",
+                      "role_name": "Anleitung",
+                      "actor_id": "A1",
+                      "task_description": "Gibt Hinweise zum Aufbau von Kristallgittern mit Modellmaterial, erklärt den Zusammenhang zwischen Struktur und Eigenschaften und unterstützt bei Modellbau und Diskussion.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4",
+                          "ENV1-M1768694095883-g2nb",
+                          "ENV1-M1768694095532-al2r"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": [
+                          "ENV1-S1"
+                        ]
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P2-A3-R2",
+                      "role_name": "Bearbeitung",
+                      "actor_id": "A2",
+                      "task_description": "Baut ein Modell eines Kristallgitters, füllt ergänzende Arbeitsblätter zur Struktur aus und diskutiert in der Gruppe, wie Struktur Eigenschaften beeinflusst.",
+                      "selected_differentiation": [
+                        "diff_A2_1768694081317_0",
+                        "diff_A2_1768694081317_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV1",
+                        "selected_materials": [
+                          "ENV1-M4",
+                          "ENV1-M1768694088417-91eg"
+                        ],
+                        "selected_tools": [
+                          "ENV1-T2"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Verständnis des Kristallaufbaus und Transfer auf Materialeigenschaften",
                   "prerequisite_activity": "LS1-P2-A2",
                   "transition_type": "sequential",
                   "condition_description": null,
                   "next_activity": [
-                    "LS1-P3"
+                    "LS1-P3-A1"
                   ],
                   "assessment": {
                     "type": "formative",
                     "methods": [
-                      "Präsentation der Modelle"
+                      "Präsentation der Modelle",
+                      "Arbeitsblattbewertung"
                     ],
                     "criteria": [
                       "Kreativität",
-                      "Wissenschaftliche Genauigkeit"
+                      "Wissenschaftliche Genauigkeit",
+                      "Teamarbeit"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P2-A3-R1",
-                      "role_name": "Modellbauer",
-                      "actor_id": "A2",
-                      "task_description": "Baut einen Salzkristall aus bereitgestellten Materialien.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [
-                          "ENV1-M4"
-                        ],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS1-P1",
@@ -244,14 +440,55 @@
               "phase_id": "LS1-P3",
               "phase_name": "Sicherung",
               "time_frame": "15 Minuten",
-              "learning_goal": "Reflexion und Sicherung der Erkenntnisse",
+              "learning_goal": "Reflexion, Ergebnispräsentation und Transfer auf Alltag/Kontext",
               "activities": [
                 {
                   "activity_id": "LS1-P3-A1",
                   "name": "Präsentation der Ergebnisse",
-                  "description": "Jede Gruppe präsentiert ihre Ergebnisse und lernt von den anderen.",
+                  "description": "Gruppen präsentieren kurz ihre wichtigsten Ergebnisse und Erkenntnisse; Lehrperson fasst zusammen und gibt Feedback.",
                   "duration": 15,
-                  "goal": "Gemeinsame Reflexion der Lernergebnisse",
+                  "roles": [
+                    {
+                      "role_id": "LS1-P3-A1-R1",
+                      "role_name": "Moderation",
+                      "actor_id": "A1",
+                      "task_description": "Leitet die Präsentationsrunde, fasst zentrale Erkenntnisse zusammen, stellt Reflexionsfragen und gibt gezieltes Feedback.",
+                      "selected_differentiation": [],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M5",
+                          "ENV2-M6"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    },
+                    {
+                      "role_id": "LS1-P3-A1-R2",
+                      "role_name": "Präsentation",
+                      "actor_id": "A2",
+                      "task_description": "Präsentiert die wichtigsten Ergebnisse und Erkenntnisse der Stationen kurz vor der Klasse und beantwortet Rückfragen.",
+                      "selected_differentiation": [
+                        "diff_A2_1768694081317_0",
+                        "diff_A2_1768694081317_1"
+                      ],
+                      "learning_environment": {
+                        "environment_id": "ENV2",
+                        "selected_materials": [
+                          "ENV2-M5",
+                          "ENV2-M3"
+                        ],
+                        "selected_tools": [
+                          "ENV2-T1"
+                        ],
+                        "selected_services": []
+                      }
+                    }
+                  ],
+                  "goal": "Gemeinsame Sicherung und Reflexion der Lernergebnisse",
                   "prerequisite_activity": null,
                   "transition_type": "feedback_loops",
                   "condition_description": null,
@@ -259,28 +496,16 @@
                   "assessment": {
                     "type": "summative",
                     "methods": [
+                      "Präsentation",
                       "Diskussionsbeteiligung",
-                      "Präsentation"
+                      "Kurzquiz"
                     ],
                     "criteria": [
                       "Verständnis",
-                      "Kommunikationsfähigkeit"
+                      "Kommunikationsfähigkeit",
+                      "Anwendungsfähigkeit"
                     ]
-                  },
-                  "roles": [
-                    {
-                      "role_id": "LS1-P3-A1-R1",
-                      "role_name": "Präsentierender",
-                      "actor_id": "A2",
-                      "task_description": "Stellt die Ergebnisse der Gruppe vor.",
-                      "learning_environment": {
-                        "environment_id": "ENV1",
-                        "selected_materials": [],
-                        "selected_tools": [],
-                        "selected_services": []
-                      }
-                    }
-                  ]
+                  }
                 }
               ],
               "prerequisite_phase": "LS1-P2",
@@ -289,10 +514,10 @@
               "next_phase": null
             }
           ],
-          "prerequisite_learningsequences": [],
+          "prerequisite_sequence": null,
           "transition_type": "sequential",
           "condition_description": null,
-          "next_learningsequence": []
+          "next_sequence": null
         }
       ]
     }
@@ -300,44 +525,50 @@
   "consequences": {
     "advantages": [
       "Fördert aktives und selbstgesteuertes Lernen",
-      "Interdisziplinäre Betrachtung der Eigenschaften von Salzen",
-      "Stärkung der Teamarbeit und kommunikativen Fähigkeiten"
+      "Verknüpft Experimente mit digitalen Simulationen zur Vertiefung",
+      "Stärkt Teamarbeit, Kommunikation und wissenschaftliche Arbeitsweisen",
+      "Klare Sicherheitsinstruktionen und differenzierte Unterstützung"
     ],
     "disadvantages": [
-      "Benötigt umfangreiche Materialien und Vorbereitungszeit",
-      "Heterogene Lerngruppen können zu unterschiedlichen Lernerfolgen führen"
+      "Benötigt Laborgeräte, Modelle und digitale Endgeräte",
+      "Vorbereitungsaufwand für Lehrperson (Materialien, Differenzierung)"
     ]
   },
   "implementation_notes": [
     {
       "note_id": "Note1",
-      "description": "Sicherheitsvorkehrungen für chemische Experimente beachten."
+      "description": "Sicherheitsvorkehrungen für chemische Experimente beachten; Schutzbrille und Handschuhe bereithalten."
     },
     {
       "note_id": "Note2",
-      "description": "Materialien und Geräte vorab bereitstellen."
+      "description": "Materialien und Geräte vorab prüfen und in Gruppen-Sets bereitstellen."
     },
     {
       "note_id": "Note3",
-      "description": "Klare Anweisungen für jede Station geben."
+      "description": "Klare Arbeitsaufträge an jeder Station anbringen (Checkliste)."
+    },
+    {
+      "note_id": "Note4",
+      "description": "Digitalen Zugang (Tablets/Laptops) prüfen und ggf. Offline-Alternativen bereitstellen."
     }
   ],
   "related_patterns": [
     "Experimentelles Lernen",
     "Kooperatives Lernen",
-    "Forschendes Lernen"
+    "Forschendes Lernen",
+    "Blended Learning"
   ],
   "feedback": {
     "comments": [
       {
         "date": "2024-03-10",
         "name": "Dr. Müller",
-        "comment": "Innovatives Konzept mit starkem Fokus auf Schüleraktivierung."
+        "comment": "Überarbeiteter Ablauf ist klarer; gute Ergänzung durch digitale Ressourcen."
       },
       {
         "date": "2024-03-11",
         "name": "Prof. Schmidt",
-        "comment": "Gute Balance zwischen Theorie und Praxis."
+        "comment": "Differenzierung und Sicherheitsfokus wurden sinnvoll ergänzt."
       }
     ]
   },
@@ -349,16 +580,26 @@
       "year": 2021,
       "publisher": "Schulbuchverlag",
       "url": "https://example.com/chemie-fuer-schueler"
+    },
+    {
+      "source_id": "S2",
+      "title": "WLO - WirLernenOnline (Beispielsammlung)",
+      "author": "WirLernenOnline",
+      "year": 2023,
+      "publisher": "wirlernenonline.de",
+      "url": "https://wirlernenonline.de"
     }
   ],
   "actors": [
     {
       "id": "A1",
-      "name": "Max Müller",
+      "name": "Lehrperson",
       "type": "Einzelperson",
       "demographic_data": {
         "age": 30,
+        "age_range": "",
         "gender": "männlich",
+        "gender_distribution": "",
         "ethnic_background": "deutsch"
       },
       "education": {
@@ -368,24 +609,24 @@
       },
       "competencies": {
         "subject_competencies": [
-          "Chemie",
-          "Biologie"
+          "Anorganische Chemie",
+          "Experimentelle Analytik"
         ],
         "cognitive_competencies": [
           "Analytisches Denken",
-          "Problemlösung"
+          "Didaktische Planung"
         ],
         "methodical_competencies": [
           "Differenzierte Unterrichtsgestaltung",
-          "Experimentelle Methoden"
+          "Leitung von Experimenten"
         ],
         "affective_competencies": [
           "Empathie",
           "Geduld"
         ],
         "digital_competencies": [
-          "Digitale Medien",
-          "Online-Lernplattformen"
+          "Einsatz digitaler Lernressourcen",
+          "Moderation von Online-Tools"
         ],
         "language_skills": {
           "languages": [
@@ -434,7 +675,9 @@
       "name": "Schülergruppe 10. Klasse",
       "type": "Gruppe",
       "demographic_data": {
+        "age": 0,
         "age_range": "15-16",
+        "gender": "",
         "gender_distribution": "gemischt",
         "ethnic_background": "diverse"
       },
@@ -446,21 +689,23 @@
       "competencies": {
         "subject_competencies": [
           "Chemische Reaktionen",
-          "Kristallstruktur"
+          "Grundlagen Kristallstruktur"
         ],
         "cognitive_competencies": [
-          "Logisches Denken",
+          "Analytisches Denken",
           "Experimentelles Arbeiten"
         ],
         "methodical_competencies": [
           "Gruppenarbeit",
-          "Selbstorganisation"
+          "Protokollierung"
         ],
         "affective_competencies": [
-          "Teamfähigkeit"
+          "Teamfähigkeit",
+          "Selbstorganisation"
         ],
         "digital_competencies": [
-          "Grundlegende PC-Kenntnisse"
+          "Grundlegende PC-Kenntnisse",
+          "Bedienung einfacher Simulationen"
         ],
         "language_skills": {
           "languages": [
@@ -475,21 +720,23 @@
       "learning_requirements": {
         "learning_preferences": [
           "Praktische Übungen",
-          "Visuelle Darstellungen"
+          "Visuelle Darstellungen",
+          "Kurze digitale Einheiten"
         ],
         "special_needs": [],
         "technical_requirements": [
-          "Laborgeräte"
+          "Laborgeräte",
+          "Zugriff auf digitale Endgeräte"
         ]
       },
       "interests_and_goals": {
         "interests": [
-          "Chemie",
-          "Experimentieren"
+          "Experimentieren",
+          "Materialeigenschaften"
         ],
         "goals": [
           "Verständnis der Salze",
-          "Experimentelle Fähigkeiten"
+          "Entwicklung experimenteller Kompetenzen"
         ],
         "motivation": {
           "type": "mixed",
@@ -499,42 +746,352 @@
       "social_structure": {
         "group_size": 25,
         "heterogeneity": "hoch"
-      }
+      },
+      "differentiation_options": [
+        {
+          "id": "diff_A2_1768694081317_0",
+          "label": "Erweiterung & Vertiefung",
+          "description": "Angebote für leistungsstarke SuS zur inhaltlichen Vertiefung, selbstständigen Anwendung und Erweiterung des Chemiewissens.",
+          "hints": [
+            "Stellen Sie Zusatzaufgaben mit erhöhtem Anspruch bereit (z. B. komplexe Stöchiometrieaufgaben mit Prozentausbeute, Reaktionskinetik-Berechnungen oder Fehlerrechnung), die eigenständiges Rechnen und Argumentieren fordern.",
+            "Vergeben Sie Expertenrollen (z. B. Energetik, Säure-Base-Puffer, Elektrochemie) und lassen Sie kurze Lehreinheiten, Poster oder Erklärvideos für die Klasse erstellen.",
+            "Bieten Sie Forschungsaufträge oder Projektarbeit an (Versuchsplanung, Literaturrecherche, Simulationen, Datenanalyse) und fordern Sie eine Präsentation oder ein erweitertes Protokoll ein."
+          ]
+        },
+        {
+          "id": "diff_A2_1768694081317_1",
+          "label": "Basisunterstützung",
+          "description": "Gezielte Hilfen für SuS der Hauptgruppe, die mehr Zeit, Struktur oder unterstützende Erklärungen beim Erarbeiten der Inhalte benötigen.",
+          "hints": [
+            "Arbeiten Sie mit schritt‑weisen Arbeitsblättern und Teilaufgaben; fügen Sie ein vollständig vorgerechnetes Beispiel pro Aufgabentyp bei, damit Erfolgsschritte sichtbar werden.",
+            "Organisieren Sie Partner- oder Tandemarbeit mit klaren Rollen (Erklärer/Prüfer) und führen Sie kurze, regelmäßige Lehrkraft-Check‑ins für gezielte Rückfragen durch.",
+            "Stellen Sie ein kompaktes Formelblatt und ein Glossar wichtiger Begriffe bereit, gewähren bei Bedarf mehr Zeit und reduzieren die Aufgabenzahl für Übungs‑ und Testphasen."
+          ]
+        }
+      ]
     }
   ],
   "environments": [
     {
       "id": "ENV1",
       "name": "Chemielabor",
-      "description": "Labor für chemische Experimente mit verschiedenen Stationen zu Salzen.",
+      "description": "Labor für chemische Experimente mit Stationen zu Salzen.",
       "materials": [
         {
           "id": "ENV1-M1",
           "name": "Leitfähigkeitsmessgerät",
           "material_type": "Gerät",
           "source": "manual",
-          "access_link": ""
+          "access_link": "",
+          "search_query": ""
         },
         {
           "id": "ENV1-M2",
           "name": "Salzlösungen",
-          "material_type": "Chemikalie",
+          "material_type": "Proben",
           "source": "manual",
-          "access_link": ""
+          "access_link": "",
+          "search_query": ""
         },
         {
           "id": "ENV1-M3",
           "name": "Salzkristalle",
           "material_type": "Proben",
           "source": "manual",
-          "access_link": ""
+          "access_link": "",
+          "search_query": ""
         },
         {
           "id": "ENV1-M4",
-          "name": "Modellmaterial für Kristalle",
+          "name": "Modellmaterial",
           "material_type": "Bastelmaterial",
           "source": "manual",
-          "access_link": ""
+          "access_link": "",
+          "search_query": ""
+        },
+        {
+          "id": "ENV1-M1768694093580-wet7",
+          "name": "Leitfähigkeit Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://av.tib.eu/media/40358",
+          "search_query": "Leitfähigkeit",
+          "wlo_metadata": [
+            {
+              "nodeId": "56015ee1-b7ec-49b3-948e-676af23699a7",
+              "title": "Wie bewegen sich Ionen in Elektrolyten?: Leitfähigkeit, Beweglichkeit und Driftgeschwindigkeit (PhysChemBasics#11)",
+              "description": "Zur Beschreibung eines Elektrolyten benötigen wir dessen elektrochemische Wertigkeit, dessen Ionenstärke und dessen Aktivität. Neben der klassischen elektrischen Leitfähigkeit kappa wurde für Elektrolyte die Äquivalentleitfähigkeit lambda eingeführt. Diese setzt sich aus dem Anionen- und Kationenanteil zusammen; die Anteile können mittels der Überführungszahlen quantifiziert werden.",
+              "subject": "Studienbereich Chemie",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://av.tib.eu/media/40358",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=56015ee1-b7ec-49b3-948e-676af23699a7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "49950974-c668-488d-8d34-2604ca7bf111",
+              "title": "Ionenaustauscher: Herstellung von dest. H2O →Leitfähigkeit",
+              "description": "Das Video zeigt ein Experiment, in dem destilliertes Wasser hergestellt wird, was die Leitfähigkeit beeinflusst.\n",
+              "subject": "Ingenieurwissenschaften",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.zoerr.de/edu-sharing/components/render/2a16342d-fe9c-4749-9a4f-7983d8308e5d",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=49950974-c668-488d-8d34-2604ca7bf111&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "89874fdf-cd84-4ace-983f-9d2870175552",
+              "title": "Leitet Glas Strom?",
+              "description": "Die elektrische Leitfähigkeit von Glas wird experimentell überprüft. \nDazu wird ein Glasrohr mit 4mm Durchmesser auf die Elektroden gesteckt.\nWird der offene Stromkreis geschlossen? \nWie wirkt sich das Erhitzen des Glasrohres mit dem Teclubrenner aus?\nDie Beobachtungen machen Aussagen zum Aufbau des Glases möglich.\nDer Vergleich der elektrischen Leitfähigkeit von anderen Stoffen (z.B. Zucker und Salz https://youtu.be/MHghmVmb4rQ) bestärkt die Vermutungen.\n\nViel Spaß 😊\nDirk Unkauf\n\nMusik\nNot Impossible von The 126ers\n\nSchmelze, leitfähig, Brenner, Propeller, Leitfähigkeitsprüfer, Salz, Ionen, Moleküle, Experiment, Versuch",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=PiKwYqBVadw",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=89874fdf-cd84-4ace-983f-9d2870175552&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768694094456-bdt5",
+          "name": "Salzlösungen Unterrichtsplan",
+          "material_type": "Unterrichtsplan",
+          "source": "database",
+          "access_link": "https://unterrichten.zum.de/wiki/Wir%20erforschen%20den%20Boden/Wir%20messen%20die%20Bodenversauerung%20elektrometrisch",
+          "search_query": "Salzlösungen",
+          "wlo_metadata": [
+            {
+              "nodeId": "00a129f4-df35-48cd-be7a-720f1a752a05",
+              "title": "Wir erforschen den Boden/Wir messen die Bodenversauerung elektrometrisch",
+              "description": "Der pH-Wert eines Bodens kann (entsprechend&#160; der angewandten Methode) verschieden aus. Daher muss die Art seiner Bestimmung stets angegeben werden. Dazu gehören:",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Wir%20erforschen%20den%20Boden/Wir%20messen%20die%20Bodenversauerung%20elektrometrisch",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=00a129f4-df35-48cd-be7a-720f1a752a05&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "864d32de-4278-496d-ba2e-5fab6b5f53b5",
+              "title": "34 - Redoxreaktionen I",
+              "description": "",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://mediathek.hhu.de/watch/abed4f17-2dd1-4a39-a9f3-99a0f706fe61",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=864d32de-4278-496d-ba2e-5fab6b5f53b5&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "7e70256c-09c1-4183-9704-922b0226a253",
+              "title": "Oberstufen-Chemiebuch Kontextorientiert/Alltags-Kunststoffe - Kohlenstoff-Ketten in viele Variationen",
+              "description": "Nachdem wir uns auf der vorherigen Seite vor allem mit den Prinzipien der Kunststoffchemie beschäftigt haben, soll es nun um konkrete Typen von Kunststoffen gehen mit verschiedenen Monomeren und Polymeren. Dabei werden wir dann die Theorie nutzen, um die Eigenschaften der Stoffe erklären bzw. selber bestimmen können.",
+              "subject": "Chemie",
+              "educationalContext": [],
+              "resourceType": "Wiki",
+              "wwwUrl": "https://unterrichten.zum.de/wiki/Oberstufen-Chemiebuch%20Kontextorientiert/Alltags-Kunststoffe%20-%20Kohlenstoff-Ketten%20in%20viele%20Variationen",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7e70256c-09c1-4183-9704-922b0226a253&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768694086743-yuu0",
+          "name": "Leitfähigkeit Elektrolyte Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://av.tib.eu/media/40358",
+          "search_query": "Leitfähigkeit Elektrolyte",
+          "wlo_metadata": [
+            {
+              "nodeId": "56015ee1-b7ec-49b3-948e-676af23699a7",
+              "title": "Wie bewegen sich Ionen in Elektrolyten?: Leitfähigkeit, Beweglichkeit und Driftgeschwindigkeit (PhysChemBasics#11)",
+              "description": "Zur Beschreibung eines Elektrolyten benötigen wir dessen elektrochemische Wertigkeit, dessen Ionenstärke und dessen Aktivität. Neben der klassischen elektrischen Leitfähigkeit kappa wurde für Elektrolyte die Äquivalentleitfähigkeit lambda eingeführt. Diese setzt sich aus dem Anionen- und Kationenanteil zusammen; die Anteile können mittels der Überführungszahlen quantifiziert werden.",
+              "subject": "Studienbereich Chemie",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://av.tib.eu/media/40358",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=56015ee1-b7ec-49b3-948e-676af23699a7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "673fa9c5-d0a9-490d-8abf-e88f94247a12",
+              "title": "Bioremediation im Unterricht",
+              "description": "Der Artikel „Bioremediation im Unterricht“ auf *Science in School* zeigt, wie Schüler die wasserreinigenden Eigenschaften des Wasserfarns Azolla untersuchen können. Die Pflanze absorbiert Schwermetalle aus verunreinigtem Wasser und dient als Beispiel für Phytoremediation. Das interdisziplinäre Projekt fördert wissenschaftliches Arbeiten, wie die Formulierung von Hypothesen und die Auswertung von Ergebnissen. Die Schüler lernen dabei auch über Symbiose und ökologische Bedeutung von Azolla.\n\nIm Unterricht könnte dieses Experiment zur Vermittlung von Umweltschutz, Biologie und Chemie verwendet werden, insbesondere zur Untersuchung von Schadstoffabbauprozessen.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Artikel",
+              "wwwUrl": "https://www.scienceinschool.org/de/article/2012/azolla-de/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=673fa9c5-d0a9-490d-8abf-e88f94247a12&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768694087141-krdb",
+          "name": "Sprödigkeit Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.bpb.de/themen/zeit-kulturgeschichte/geteilte-geschichte/342321/die-floete-alfred-lichtensteins/",
+          "search_query": "Sprödigkeit",
+          "wlo_metadata": [
+            {
+              "nodeId": "7fc409a9-5d61-4135-bd7b-0158595398aa",
+              "title": "Die Flöte Alfred Lichtensteins",
+              "description": "Gemeinsam mit anderen jüdischen Künstlern wurde Alfred Lichtenstein nach dem Machtantritt der Nazis von den meisten deutschen Bühnen verbannt, doch eine bemerkenswerte Selbsthilfeorganisation, der Jüdische Kulturbund, sorgte dafür, dass die Musik wei",
+              "subject": "Politik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.bpb.de/themen/zeit-kulturgeschichte/geteilte-geschichte/342321/die-floete-alfred-lichtensteins/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=7fc409a9-5d61-4135-bd7b-0158595398aa&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "0928258b-bbad-4250-a715-6965cd354e87",
+              "title": "Kontextorientierte Unterrichtseinheit: Kartoffel",
+              "description": "In dieser Bachelorarbeit wird aufbauend auf fachdidaktischen Modellen eine kontextorientierte, inklusive Unterrichtseinheit für den Sachunterricht am Beispiel der Kartoffel entwickelt. Die dabei entstandenen Materialien stehen hier zum Nachnutzen bereit.",
+              "subject": "Sachunterricht",
+              "educationalContext": [
+                "Primarstufe"
+              ],
+              "resourceType": "Unterrichtsplan",
+              "wwwUrl": "https://redaktion.openeduhub.net/edu-sharing/components/render/0928258b-bbad-4250-a715-6965cd354e87",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=0928258b-bbad-4250-a715-6965cd354e87&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768694095883-g2nb",
+          "name": "Kristallgitter Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.geogebra.org/m/cWDvMurE",
+          "search_query": "Kristallgitter",
+          "wlo_metadata": [
+            {
+              "nodeId": "91eb7ec2-473e-4274-9a97-0292828c7cd6",
+              "title": "Kristallgitter",
+              "description": "",
+              "subject": "",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.geogebra.org/m/cWDvMurE",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=91eb7ec2-473e-4274-9a97-0292828c7cd6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "de957150-7f42-4ad8-b681-c20bb5d12fb6",
+              "title": "Ionenanordnungen im Kristallgitter",
+              "description": "Übersicht der Gittertypen der Salze; Cäsiumchlorid-Gittertyp, Zinksulfid-Gittertyp und Natriumhlorid-Gittertyp.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Bild",
+              "wwwUrl": "https://media.sodis.de/open/melt/4602000_ab_ionenanordnungen.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=de957150-7f42-4ad8-b681-c20bb5d12fb6&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "6917f529-7140-44f9-a302-88547e7a988e",
+              "title": "Silizium (Diamant-)gitter",
+              "description": "Die Simulation zeigt den prinzipiellen Aufbau des Kristallgitters von Silizium - einem Halbmetall.",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.geogebra.org/m/nQpW7agR",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6917f529-7140-44f9-a302-88547e7a988e&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 88
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768694095532-al2r",
+          "name": "Kristallstruktur Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.youtube.com/watch?v=XoSnCm5lAG4",
+          "search_query": "Kristallstruktur",
+          "wlo_metadata": [
+            {
+              "nodeId": "36448e67-078c-4066-a983-df49a729b2a8",
+              "title": "Wissenschaftler entdecken einen neuen Materie Zustand I Suprasolidität",
+              "description": "Wissenschaftler entdecken einen neuen Materie Zustand \nPhysiker haben die erste zweidimensionale Materie in einem Suprasoliden Zustand geschaffen – ein bizarrer quantenmechanischer Zustand der Materie, der gleichzeitig sowohl Eigenschaften fester als auch suprafluider Körper zeigt.\n\n♦ Podcast: https://linktr.ee/JourneyDE\n\nSuprasolide sind Materialien, deren Atome in einer regelmäßigen, sich wiederholenden Kristallstruktur angeordnet sind, aber auch ewig fließen können, ohne jemals kinetische Energie zu verlieren. Es scheint fast wie etliche Eigenenschaften, die viele der bekannten Gesetze der Physik zu verletzen scheinen, Dieser Zustand wurde bereits 1969 sowohl von David J. Thouless als auch von Alexander Andrejew und Ilja Michailowitsch Lifschitz vorausgesagt.\n\nHat dir das Video gefallen? Dann würde ich mich sehr über einen Daumen nach oben freuen! Es kostet euch nichts und lässt Youtube wissen, dass euch das Video gefällt! Und empfehlt es weiter, an genau so neugierige Entropies die hier noch nicht abonniert haben! Abonniere jetzt die Entropy, um keines der coolen & interessanten Episoden zu verpassen! Das unterstützt mich natürlich und hilft mir meinen Content zu verbessern und zu erweitern! \n\nHier abonnieren: \nhttps://www.youtube.com/channel/UC5dBZm6ztKizdUnN7Puz3QQ?sub_confirmation=1\n\n♦ PATREON: https://www.patreon.com/entropy_wse\n♦ TWITTER: https://twitter.com/Entropy_channel\n♦ INSTAGRAMM:  https://www.instagram.com/roma_perezogin/\n♦ INSTAGRAMM: https://www.instagram.com/entropy_channel/\n♦ Discord Channel: https://discord.gg/BuFWeC84Pw\n\nCoole Designs und Merch entdecken: https://www.redbubble.com/de/people/JourneyDE/explore?asc=u&page=1&sortOrder=recent\n\nPlaylist: https://www.youtube.com/watch?v=0b5E3rBxLWM&list=PL5pEJVbCtsEhsgnu9RHT86sdxcYJdqlpF\n\nErfahre mehr (Quellen):\nhttps://www.nature.com/articles/s41586-021-03725-7.epdf?sharing_token=m97BWoieNs9HVlGOTRlHONRgN0jAjWel9jnR3ZoTv0NNrO8FMTaGdAu3I9TZbM2uGhPjGIzFkCWsKcyV493ZMGTp2PntzQlUSRDPrUGc-K9F9qGRrvF5ppAFWfhaS6lLTVArAdSvVaIBgZcjx1YIIs7xcTbGZRxm1nzEnWYd2KEMF-x9Zenan_DaKvmzr0kRYotQVLAMxkT1tEY1K-thiS2PsB_7EctMl2GPWvvY0y5Z1kUPPb-GiCFN0W9CoQpX&tracking_referrer=www.space.com",
+              "subject": "Physik",
+              "educationalContext": [],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.youtube.com/watch?v=XoSnCm5lAG4",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=36448e67-078c-4066-a983-df49a729b2a8&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "68f62742-5c29-487d-9954-749dc4492964",
+              "title": "Kristallstrukturanalyse - Die Bragg-Bedingung und ein experimentelles Beispiel",
+              "description": "Das Prinzip der Kristallstrukturanalyse mit Röntgenstrahlung und die Bragg-Bedingung werden erläutert. Die zugrunde liegende Physik der Interferenz von Wellen an den Atomebenen wird mithilfe von Animationen erklärt. Illustiert wird die Theorie durch ein Experiment, bei dem die Röntgen- durch Mikrowellenstrahlung und der Kristall durch regelmäßig angeordnete Stahlkugeln ersetzt ist.\n",
+              "subject": "",
+              "educationalContext": [
+                "Hochschule"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://oer.vhb.org/edu-sharing/components/render/67e45074-2c0a-4d89-9971-2a379bed6487",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=68f62742-5c29-487d-9954-749dc4492964&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "e38f507c-a851-4402-80f0-84f36dbbc4be",
+              "title": "BRAGG-Reflexion",
+              "description": "Im Jahr 1912 entdeckte der deutsche Physiker Max von LAUE (1879 - 1960) zusammen mit Walter FRIEDRICH (1883 - 1968) und Paul KNIPPING (1883 - 1935), dass RÖNTGEN-Strahlung beim Auftreffen auf Kristalle teilweise reflektiert wird. Für seine Arbeit erhielt von LAUE 1914 den Nobelpreis für…",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/bragg-reflexion",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e38f507c-a851-4402-80f0-84f36dbbc4be&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV1-M1768694088417-91eg",
+          "name": "Kristallgitter Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://www.geogebra.org/m/nQpW7agR",
+          "search_query": "Kristallgitter",
+          "wlo_metadata": [
+            {
+              "nodeId": "6917f529-7140-44f9-a302-88547e7a988e",
+              "title": "Silizium (Diamant-)gitter",
+              "description": "Die Simulation zeigt den prinzipiellen Aufbau des Kristallgitters von Silizium - einem Halbmetall.",
+              "subject": "Physik",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Interaktives Medium",
+              "wwwUrl": "https://www.geogebra.org/m/nQpW7agR",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=6917f529-7140-44f9-a302-88547e7a988e&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
         }
       ],
       "tools": [
@@ -547,10 +1104,10 @@
         },
         {
           "id": "ENV1-T2",
-          "name": "Digitale Präsentationssoftware",
-          "tool_type": "Software",
+          "name": "Beamer",
+          "tool_type": "Präsentationstechnik",
           "source": "manual",
-          "access_link": "https://example.com/praesentation-software"
+          "access_link": ""
         }
       ],
       "services": [
@@ -562,6 +1119,398 @@
           "access_link": ""
         }
       ]
+    },
+    {
+      "id": "ENV2",
+      "name": "Digitales Klassenzimmer",
+      "description": "Virtueller Raum für Videos, Simulationen, Quiz und Präsentationen (WLO-Materialien).",
+      "materials": [
+        {
+          "id": "ENV2-M1",
+          "name": "Salze Einführung",
+          "material_type": "Video",
+          "source": "WLO",
+          "access_link": "https://wirlernenonline.de/search?query=Salze",
+          "search_query": "Salze"
+        },
+        {
+          "id": "ENV2-M2",
+          "name": "Leitfähigkeit Simulation",
+          "material_type": "Interaktives Medium",
+          "source": "WLO",
+          "access_link": "https://wirlernenonline.de/search?query=Leitfähigkeit",
+          "search_query": "Leitfähigkeit"
+        },
+        {
+          "id": "ENV2-M3",
+          "name": "Salze Quiz",
+          "material_type": "Lernspiel",
+          "source": "WLO",
+          "access_link": "https://wirlernenonline.de/search?query=Salze",
+          "search_query": "Salze"
+        },
+        {
+          "id": "ENV2-M4",
+          "name": "Kristallbau Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "WLO",
+          "access_link": "https://wirlernenonline.de/search?query=Kristallstruktur",
+          "search_query": "Kristallstruktur"
+        },
+        {
+          "id": "ENV2-M5",
+          "name": "Salze Präsentation",
+          "material_type": "Präsentation",
+          "source": "WLO",
+          "access_link": "https://wirlernenonline.de/search?query=Salze",
+          "search_query": "Salze"
+        },
+        {
+          "id": "ENV2-M6",
+          "name": "Lehrerleitfaden Salze",
+          "material_type": "Arbeitsblatt",
+          "source": "manual",
+          "access_link": "",
+          "search_query": ""
+        },
+        {
+          "id": "ENV2-M1768694092986-vnxu",
+          "name": "Salze Eigenschaften Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/chemie/unterrichtseinheit/ue/der-aufbau-von-kochsalzkristallen/",
+          "search_query": "Salze Eigenschaften",
+          "wlo_metadata": [
+            {
+              "nodeId": "ad2c3cae-5823-46a3-9ad3-ed6a05b61480",
+              "title": "Der Aufbau von Kochsalzkristallen",
+              "description": "Die in die Folie eingebundenen Aufgabenstellungen und Informationen können von den Lernenden auch in Partnerarbeit im Computerraum oder am heimischen Rechner bearbeitet und genutzt werden. Der Aufbau von Salzkristallen wird auf zwei Ebenen betrachtet: Zum einen werden die Eigenschaften realer Kochsalzkristalle anhand eines Fotos ausgemessen und berechnet (Größe und Masse der Kristalle, Anzahl der Teilchen in einem Kristall), zum anderen wird der Kristallaufbau mithilfe eines Teilchenmodells betrachtet (Anordnung der Ionen, geometrische Eigenschaften).",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/chemie/unterrichtseinheit/ue/der-aufbau-von-kochsalzkristallen/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ad2c3cae-5823-46a3-9ad3-ed6a05b61480&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "e5fa68d7-988f-4cc0-8f9d-9fa683bcc86e",
+              "title": "Eigenschaften von Salzen",
+              "description": "Arbeitsblatt zu den Eigenschaften von Salz: Salze sind fest und spröde, wasserlöslich, schmelzbar, und als Schmelze stromleitend. Vier Fragenkomplexe, darunter beinhaltet eine einen Versuch.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://media.sodis.de/open/melt/4602000_ab_eigenschaftensalz.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e5fa68d7-988f-4cc0-8f9d-9fa683bcc86e&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "dd785d59-5ce0-4bfc-b85d-595ce06bfc3e",
+              "title": "Salze & Ionen - zebis.digital",
+              "description": "Salze sind nicht nur die weissen Kristalle, die wir auf unseren Tellern finden, sondern spielen eine entscheidende Rolle in vielen chemischen Prozessen, von der Medizin bis zur Industrie. Dieser Lernpfad behandelt den Aufbau und die Eigenschaften von Salzen. Ausserdem werden verschiedene Experimente mit Salz angeleitet.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Webseite",
+              "wwwUrl": "https://www.zebis.ch/unterrichtsmaterial/salze-ionen-zebisdigital",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=dd785d59-5ce0-4bfc-b85d-595ce06bfc3e&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768694093533-gxqp",
+          "name": "Salze Alltag Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.scienceinschool.org/de/article/2012/caesar-de/",
+          "search_query": "Salze Alltag",
+          "wlo_metadata": [
+            {
+              "nodeId": "e29e66ea-f3db-4859-908f-f80b1c4320a9",
+              "title": "Duften wie Julius Caesar: die Herstellung antiker Parfüms im Labor",
+              "description": " Der Artikel \"Caesar und die Salze: Chemie im alten Rom\" auf \"scienceinschool.org\" untersucht die chemischen Kenntnisse und Anwendungen im antiken Rom, insbesondere die Rolle der Salze. Die Römer nutzten Salz (Natriumchlorid) zur Konservierung von Lebensmitteln und als Zahlungsmittel. Andere Salze wie Alaun (Kaliumaluminiumsulfat) wurden in der Textilindustrie und Lederherstellung verwendet, während Bleizucker (Blei(II)-acetat) in der Medizin eingesetzt wurde, trotz seiner Toxizität. Natron (Natriumcarbonat) spielte eine wichtige Rolle in der Glasherstellung. Der Artikel zeigt, wie die chemischen Kenntnisse der Römer ihren Alltag beeinflussten und zur Entwicklung der modernen Chemie beitrugen.\n\nSogar alltägliche Düfte können uns auf eine Zeitreise zu fast vergessenen Erinnerungen mitnehmen. Mit Hilfe von Gianluca Farusi kannst du deine Schüler:innen 2000 Jahre in die Vergangenheit mitnehmen, indem sie Julius Caesars Parfüm herstellen.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe II",
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Artikel",
+              "wwwUrl": "https://www.scienceinschool.org/de/article/2012/caesar-de/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e29e66ea-f3db-4859-908f-f80b1c4320a9&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "1470fee7-0421-4ba8-ab50-b1896dcab62f",
+              "title": "Warum sind Bodenschätze wertvoll?",
+              "description": "Autofahren, Strom, Handys und Computer: Für all dies verwenden die Menschen Bodenschätze. In einem kurzen Spiel lernen die Schüler/-innen, welche Rohstoffe unter der Erde lagern und was daraus hergestellt wird. Spielerisch vollziehen sie nach, wie wichtig Bodenschätze sind – und dass wir sie verantwortungsvoll verwenden müssen.",
+              "subject": "Ethik",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.umwelt-im-unterricht.de/unterrichtsvorschlaege/warum-sind-bodenschaetze-wertvoll/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=1470fee7-0421-4ba8-ab50-b1896dcab62f&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "3b5f5787-069a-4c6a-831f-b93c666d593d",
+              "title": "Übungen Salz - Gruppe A",
+              "description": "- Übungen Salz - Gruppe A\n- SarahClart\n- 26.07.2021\nUm die Lizenzinformationen zu sehen, klicken Sie bitte den gewünschten Inhalt an.\nName:\nÜbungen Salz - Gruppe A\n15.03.2021\n1\nSalz kann natürlich nicht nur in Salzlagerstätten gefunden werden, sondern auch im Meereswasser. Beschreibe den Vorgang der Salzgewinnung aus dem Meer.\nInformationen dazu kannst du zum Beispiel in dem verlinkten Video finden.\nInformationen dazu kannst du zum Beispiel in dem verlinkten Video finden.\n2\nWenn man an Salze denkt, ist der erste Gedanke normalerweise Kochsalz. Es gibt jedoch viele andere Salze die im Alltag verwendet werden. Wähle ein beliebiges Salz abgesehen von Natriumchlorid aus. Erstelle zu deinem gewählten Salz einen Steckbrief nach dem gleichen Muster wie dein Steckbrief zu Kochsalz. Zusätzlich sollten Verwendungsmöglichkeiten hinzugefügt werden.\nDu kannst dir selbst ein Salz aussuchen oder eines der folgenden Vorschläge nehmen:\nCalciumchlorid, Natriumfluorid, Magnesiumchlorid, Aluminiumchlorid, Kaliumbromid\nDu kannst dir selbst ein Salz aussuchen oder eines der folgenden Vorschläge nehmen:\nCalciumchlorid, Natriumfluorid, Magnesiumchlorid, Aluminiumchlorid, Kaliumbromid\nAngaben zu den Urhebern und Lizenzbedingungen der einzelnen Bestandteile dieses Dokuments finden Sie unter\nhttps://www.tutory.de/entdecken/dokument/ubungen-salz-gruppe-a\nhttps://www.tutory.de/entdecken/dokument/ubungen-salz-gruppe-a [...]",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/ubungen-salz-gruppe-a",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=3b5f5787-069a-4c6a-831f-b93c666d593d&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768694086673-f587",
+          "name": "Salze Eigenschaften Video",
+          "material_type": "Video",
+          "source": "database",
+          "access_link": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/chemie/unterrichtseinheit/ue/der-aufbau-von-kochsalzkristallen/",
+          "search_query": "Salze Eigenschaften",
+          "wlo_metadata": [
+            {
+              "nodeId": "ad2c3cae-5823-46a3-9ad3-ed6a05b61480",
+              "title": "Der Aufbau von Kochsalzkristallen",
+              "description": "Die in die Folie eingebundenen Aufgabenstellungen und Informationen können von den Lernenden auch in Partnerarbeit im Computerraum oder am heimischen Rechner bearbeitet und genutzt werden. Der Aufbau von Salzkristallen wird auf zwei Ebenen betrachtet: Zum einen werden die Eigenschaften realer Kochsalzkristalle anhand eines Fotos ausgemessen und berechnet (Größe und Masse der Kristalle, Anzahl der Teilchen in einem Kristall), zum anderen wird der Kristallaufbau mithilfe eines Teilchenmodells betrachtet (Anordnung der Ionen, geometrische Eigenschaften).",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.lehrer-online.de/unterricht/sekundarstufen/naturwissenschaften/chemie/unterrichtseinheit/ue/der-aufbau-von-kochsalzkristallen/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=ad2c3cae-5823-46a3-9ad3-ed6a05b61480&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            },
+            {
+              "nodeId": "e5fa68d7-988f-4cc0-8f9d-9fa683bcc86e",
+              "title": "Eigenschaften von Salzen",
+              "description": "Arbeitsblatt zu den Eigenschaften von Salz: Salze sind fest und spröde, wasserlöslich, schmelzbar, und als Schmelze stromleitend. Vier Fragenkomplexe, darunter beinhaltet eine einen Versuch.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://media.sodis.de/open/melt/4602000_ab_eigenschaftensalz.pdf",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e5fa68d7-988f-4cc0-8f9d-9fa683bcc86e&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768694091449-hhd2",
+          "name": "Salze Arbeitsblatt Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.tutory.de/entdecken/dokument/9b5d1628",
+          "search_query": "Salze Arbeitsblatt",
+          "wlo_metadata": [
+            {
+              "nodeId": "f356895e-25ef-47c6-be10-98471d28f61a",
+              "title": "Rückschau: Protolysereaktionen",
+              "description": "Am Ende der Unterrichtseinheit zu Protolysereaktionen lohnt sich ein zusammenfassender Rückblick. Dieses Arbeitsblatt strukturiert den Rückblick und ermöglicht das eigenständige Üben!",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/9b5d1628",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=f356895e-25ef-47c6-be10-98471d28f61a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "019766d8-f032-420a-aa75-9c774559b249",
+              "title": "Löslichkeit von Salz in Wasser",
+              "description": "Dieses Arbeitsblatt ist Teil einer umfassenderen Stationenarbeit zum Thema Salze. In dieser Station wird die Löslichkeit von Salz in Wasser genauer untersucht.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.tutory.de/bereitstellung/dokument/f61329e0-1119-417d-8cf6-c314822a048a",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=019766d8-f032-420a-aa75-9c774559b249&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            },
+            {
+              "nodeId": "e469376e-f1ae-43fe-86ef-2f3903e2c12a",
+              "title": "Stationenarbeit Salze - Salze schmelzen",
+              "description": "Dieses Arbeitsblatt ist Teil einer umfassenderen Stationenarbeit zum Thema Salze. In dieser Station wird das Verhalten von Salzen beim Erhitzen genauer untersucht.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Unterrichtsbaustein/-reihe",
+              "wwwUrl": "https://www.tutory.de/entdecken/dokument/c3abb520",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=e469376e-f1ae-43fe-86ef-2f3903e2c12a&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 70
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768694087617-govk",
+          "name": "Laborsicherheit Präsentation",
+          "material_type": "Präsentation",
+          "source": "database",
+          "access_link": "https://www.zebis.ch/unterrichtsmaterial/didaktik-der-naturwissenschaften",
+          "search_query": "Laborsicherheit",
+          "wlo_metadata": [
+            {
+              "nodeId": "8470f569-b5f2-45b5-b0f5-69b5f2b5b5d7",
+              "title": "Didaktik der Naturwissenschaften",
+              "description": "Diese Homepage ist eine grosse Fundgrube für Medien aller Art für den Chemieunterricht. Beschrieb: Auf der Homepage gibt es eine Vielzahl chemischer Unterrichtsmaterialien zu entdecken. Darunter Arbeitblätter, Filme zu gefährlichen und alltäglichen Experimenten, Folien oder Präsentationen. Weiter können der Homepage hilfreiche Informationen zum aktuellsten Stand der Laborsicherheit entnommen werden.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.zebis.ch/unterrichtsmaterial/didaktik-der-naturwissenschaften",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8470f569-b5f2-45b5-b0f5-69b5f2b5b5d7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768694093906-3e1h",
+          "name": "Chemie-Stationen Unterrichtsidee",
+          "material_type": "Unterrichtsidee",
+          "source": "database",
+          "access_link": "https://www.dilertube.de/technik/oer-video/grundlagendesloetensteil1loetkolbenloetstation.html",
+          "search_query": "Chemie-Stationen",
+          "wlo_metadata": [
+            {
+              "nodeId": "9017d631-53e3-46cc-8241-67ce060a0100",
+              "title": "GrundlagenDesLoetensTeil1LoetkolbenLoetstation",
+              "description": "Teil 1 der achtteiligen Reihe Grundlagen des Lötens. In diesem Kurzclip werden Lötkolben und -stationen gezeigt.",
+              "subject": "Arbeitslehre",
+              "educationalContext": [],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.dilertube.de/technik/oer-video/grundlagendesloetensteil1loetkolbenloetstation.html",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9017d631-53e3-46cc-8241-67ce060a0100&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 95
+            },
+            {
+              "nodeId": "cd91bea9-5163-4b4e-9aea-77672ed65b75",
+              "title": "QR-Code Rallye Benennung verzweigter Alkane (Organische Chemie)",
+              "description": "Dieser Unterrichtsbaustein dient zur Festigung des Wissens der Schüler_innen zu der homologen Reihe der Alkane und der darauf aufbauenden Benennung verzweigter Alkane nach den IUPAC Regeln durch Stationen mit zugehörigen QR-Code.",
+              "subject": "Chemie",
+              "educationalContext": [],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://plattform.fobizz.com/unterrichtsmaterialien/2542-qr-code-rallye-benennung-verzweigter-alkane-organische-chemie",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=cd91bea9-5163-4b4e-9aea-77672ed65b75&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 90
+            },
+            {
+              "nodeId": "d7544166-6e60-4715-a141-255c4c2817ac",
+              "title": "#mitmischen – Wie geht Politik im Netz?",
+              "description": "Im Rahmen einer Stationenarbeit setzen sich die Schüler/-innen mit verschiedenen Möglichkeiten des Online-Engagements auseinander. Sie untersuchen die unterschiedlichen Instrumente und stellen Vermutungen über ihre Wirksamkeit an.",
+              "subject": "Politik",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Lernressource",
+              "wwwUrl": "https://www.umwelt-im-unterricht.de/unterrichtsvorschlaege/mitmischen-wie-geht-politik-im-netz/",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=d7544166-6e60-4715-a141-255c4c2817ac&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 85
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768694088645-k21m",
+          "name": "Laborsicherheit Arbeitsblatt",
+          "material_type": "Arbeitsblatt",
+          "source": "database",
+          "access_link": "https://www.zebis.ch/unterrichtsmaterial/didaktik-der-naturwissenschaften",
+          "search_query": "Laborsicherheit",
+          "wlo_metadata": [
+            {
+              "nodeId": "8470f569-b5f2-45b5-b0f5-69b5f2b5b5d7",
+              "title": "Didaktik der Naturwissenschaften",
+              "description": "Diese Homepage ist eine grosse Fundgrube für Medien aller Art für den Chemieunterricht. Beschrieb: Auf der Homepage gibt es eine Vielzahl chemischer Unterrichtsmaterialien zu entdecken. Darunter Arbeitblätter, Filme zu gefährlichen und alltäglichen Experimenten, Folien oder Präsentationen. Weiter können der Homepage hilfreiche Informationen zum aktuellsten Stand der Laborsicherheit entnommen werden.",
+              "subject": "Chemie",
+              "educationalContext": [
+                "Sekundarstufe I"
+              ],
+              "resourceType": "Video",
+              "wwwUrl": "https://www.zebis.ch/unterrichtsmaterial/didaktik-der-naturwissenschaften",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=8470f569-b5f2-45b5-b0f5-69b5f2b5b5d7&storeProtocol=workspace&storeId=SpacesStore",
+              "relevanceScore": 80
+            }
+          ]
+        },
+        {
+          "id": "ENV2-M1768694095563-wl32",
+          "name": "Gefahrensymbole Interaktives Medium",
+          "material_type": "Interaktives Medium",
+          "source": "database",
+          "access_link": "https://123chemie.iprendo.de/public/demo/d6df719646a6465f6f340c4c4ab8d5f0927a93ec",
+          "search_query": "Gefahrensymbole",
+          "wlo_metadata": [
+            {
+              "nodeId": "9f794735-f100-4451-9919-83b8a341c079",
+              "title": "Gefahrensymbole",
+              "description": "Unterschiedliche Symbole werden genutzt, um auf gefährliche Stoffe hinzuweisen. Diese Gefahr kann nicht nur giftig, sondern auch von reizender, ätzender, explosionsgefährlicher, brandfördernder oder erbgutverändernder Art sein. Beim Umgang mit Chemikalien sind Schutzmaßnahmen zu beachten, um sich sicher beim Experimentieren in der Schule zu verhalten und um gefährliche Situationen zu verhindern.",
+              "subject": "",
+              "educationalContext": [
+                "Sekundarstufe I",
+                "Sekundarstufe II"
+              ],
+              "resourceType": "Kurs",
+              "wwwUrl": "https://123chemie.iprendo.de/public/demo/d6df719646a6465f6f340c4c4ab8d5f0927a93ec",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=9f794735-f100-4451-9919-83b8a341c079&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "a75be70a-aa6c-4d06-8ff8-c581c47bdcec",
+              "title": "ARBEITSBLATT Chemie zu Hause suchen und finden.pdf",
+              "description": "",
+              "subject": "Chemie",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://cloud.schulcampus-rlp.de/edu-sharing/components/render/3fc13307-57b8-4374-82bb-10e119419bd6",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=a75be70a-aa6c-4d06-8ff8-c581c47bdcec&storeProtocol=workspace&storeId=SpacesStore"
+            },
+            {
+              "nodeId": "2c09c9a6-5a7e-4653-a981-fb8f2279d6d9",
+              "title": "ARBEITSBLATT Etiketten von Gefahrstoffen untersuchen.odt",
+              "description": "",
+              "subject": "Chemie",
+              "educationalContext": [],
+              "resourceType": "Arbeitsblatt",
+              "wwwUrl": "https://cloud.schulcampus-rlp.de/edu-sharing/components/render/23b96aa2-7223-488e-9744-23a71839a466",
+              "previewUrl": "https://redaktion.openeduhub.net/edu-sharing/preview?nodeId=2c09c9a6-5a7e-4653-a981-fb8f2279d6d9&storeProtocol=workspace&storeId=SpacesStore"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "id": "ENV2-T1",
+          "name": "Klassen-Laptop/Beamer",
+          "tool_type": "Präsentationstechnik",
+          "source": "manual",
+          "access_link": ""
+        }
+      ],
+      "services": []
+    },
+    {
+      "id": "ENV-DEFAULT",
+      "name": "Standard-Lernumgebung",
+      "description": "Digitale Lernumgebung für WLO-Inhalte",
+      "materials": [],
+      "tools": [],
+      "services": []
     }
   ]
 }
